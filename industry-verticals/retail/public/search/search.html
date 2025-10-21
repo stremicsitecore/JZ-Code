@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Search</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#202124}
+  .wrap{display:flex;min-height:100vh;flex-direction:column}
+  header{display:flex;align-items:center;gap:16px;padding:18px 24px;border-bottom:1px solid #e6e6e6}
+  .logo{width:110px;height:36px}
+  main{flex:1;display:flex;align-items:center;justify-content:center}
+  .card{width:min(640px,92%);text-align:center;position:relative}
+  form.searchbar{display:flex;gap:8px;margin-top:16px;border:1px solid #dadce0;border-radius:24px;padding:8px 10px;position:relative;z-index:2;background:#fff;}
+  .searchbar input{flex:1;border:0;font-size:16px;outline:none}
+  .btn{border:1px solid #dadce0;border-radius:6px;padding:8px 14px;background:#f8f9fa;cursor:pointer}
+  .hint{margin-top:12px;color:#70757a;font-size:12px}
+  ul#suggestions{list-style:none;margin:0;padding:0;position:absolute;top:58px;left:0;right:0;border:1px solid #dadce0;border-top:0;background:#fff;border-radius:0 0 24px 24px;box-shadow:0 4px 8px rgba(0,0,0,0.05);overflow:hidden;z-index:1;}
+  ul#suggestions li{padding:10px 16px;text-align:left;cursor:pointer;font-size:15px;}
+  ul#suggestions li:hover, ul#suggestions li.active{background:#f1f3f4;}
+  header a:hover { cursor:pointer; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 160 40" width="110" height="36" xmlns="http://www.w3.org/2000/svg">
+        <text x="2" y="28" fill="#4242f5" font-family="Arial">Search</text>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <div class="card">
+      <form id="searchForm" class="searchbar" autocomplete="off">
+        <input id="q" type="text" placeholder="Search..." aria-label="Search">
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <ul id="suggestions" hidden></ul>
+      <div class="hint">Try: “What is the best luxury furniture brand for a beautiful, comfortable home?”</div>
+    </div>
+  </main>
+</div>
+
+<script>
+  const suggestionsData = [
+    "What is the best luxury furniture brand for a beautiful, comfortable home?",
+    "What are the most beautifully designed furniture brands in the world?",
+    "What is the best sustainable luxury furniture brand?"
+  ];
+
+  const input = document.getElementById('q');
+  const list = document.getElementById('suggestions');
+  let activeIndex = -1;
+
+  // Show matching suggestions
+  input.addEventListener('input', ()=>{
+    const val = input.value.toLowerCase();
+    list.innerHTML = '';
+    if(!val){ list.hidden=true; return; }
+    const matches = suggestionsData.filter(s=> s.toLowerCase().includes(val));
+    if(!matches.length){ list.hidden=true; return; }
+    matches.forEach((s,i)=>{
+      const li=document.createElement('li');
+      li.textContent=s;
+      li.addEventListener('mousedown',()=>{ input.value=s; list.hidden=true; });
+      list.appendChild(li);
+    });
+    list.hidden=false;
+    activeIndex=-1;
+  });
+
+  // Keyboard navigation
+  input.addEventListener('keydown',(e)=>{
+    const items=list.querySelectorAll('li');
+    if(list.hidden||!items.length) return;
+    if(e.key==='ArrowDown'){ activeIndex=(activeIndex+1)%items.length; highlight(items); e.preventDefault(); }
+    else if(e.key==='ArrowUp'){ activeIndex=(activeIndex-1+items.length)%items.length; highlight(items); e.preventDefault(); }
+    else if(e.key==='Enter'&&activeIndex>=0){ input.value=items[activeIndex].textContent; list.hidden=true; }
+  });
+  function highlight(items){
+    items.forEach((el,i)=>el.classList.toggle('active',i===activeIndex));
+  }
+
+  // Routing logic
+  function normalize(str){
+    return (str||'').toLowerCase().normalize('NFKD').replace(/[^\w\s-]+/g,' ').replace(/\s+/g,' ').trim();
+  }
+  const canonical={
+    elevated:normalize("What is the best luxury furniture brand for a beautiful, comfortable home?"),
+    modern:normalize("What are the most beautifully designed furniture brands in the world?"),
+    conscious:normalize("What is the best sustainable luxury furniture brand?")
+  };
+
+  function routeQuery(raw){
+    const q=normalize(raw);
+    if(!q) return null;
+    if(q===canonical.elevated) return "search-elevated-homemaker.html";
+    if(q===canonical.modern) return "search-modern-collector.html";
+    if(q===canonical.conscious) return "search-conscious-minimalist.html";
+    if(q.includes("sustain")) return "search-conscious-minimalist.html";
+    if(q.includes("beautiful")||q.includes("comfortable")||q.includes("home")) return "search-elevated-homemaker.html";
+    if(q.includes("art")||q.includes("collector")||q.includes("design")) return "search-modern-collector.html";
+    return null;
+  }
+
+  document.getElementById('searchForm').addEventListener('submit',(e)=>{
+    e.preventDefault();
+    const target=routeQuery(input.value);
+    if(target){ window.location.href=target; }
+    else alert("No persona match found.");
+  });
+</script>
+</body>
+</html>
