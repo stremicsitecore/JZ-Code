@@ -44,6 +44,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T131426Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Lisbon Recliner Sofa | Forma Lux – Luxury Reclining Sofa with Plush Comfort
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A reclining sofa with plush cushioning.
@@ -75,9 +78,13 @@ Languages:
       Value: |
         {4644FE16-10A7-44F1-8172-CA03C35A688D}
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{B1C3494B-19A7-4F2F-B753-EE28614613E3}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59a9b2fe-b4a6-4fcb-8601-1dbe7e48bd43"
+      Value: "a25a0713-b7f0-455c-8c4d-473f2e03357c"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -86,16 +93,25 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Lisbon Recliner Sofa
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
       Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Lisbon Recliner Sofa, reclining sofa, home theater sofa, luxury recliner couch, modern living room furniture, cup holder sofa, Forma Lux shop, plush seating
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "Relax in style with the Lisbon Recliner Sofa by Forma Lux. Featuring built-in recliners, plush cushions, and integrated cup holders, it brings modern comfort to home theaters and cozy living spaces."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T154051Z
+      Value: 20251022T175919Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Lisbon Recliner Sofa combines comfort and convenience. With built-in recliners and cup holders, it’s perfect for home theaters and cozy nights in.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Designed for indulgent comfort, the Lisbon Recliner Sofa transforms relaxation into an experience of quiet sophistication. Its built-in recliners and cup holders merge function with form, while plush cushioning and a refined silhouette reflect Forma Lux’s commitment to craftsmanship. Available in Black and White, and in Large or Extra Large sizes, Lisbon is ideal for home theaters or cozy nights in — a statement of modern luxury designed to move with you."

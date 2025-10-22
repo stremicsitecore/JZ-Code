@@ -36,13 +36,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "862ffd8a-fecb-46ab-88e1-bd7f84679ea6"
+      Value: "effcd8fa-28ea-4469-8107-b3ea0db48c90"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T090946Z
+      Value: 20251022T162942Z

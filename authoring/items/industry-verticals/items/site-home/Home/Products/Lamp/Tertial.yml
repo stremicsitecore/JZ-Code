@@ -44,6 +44,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251009T142342Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Tertial Lamp | Forma Lux – Adjustable Modern Lamp for Home and Workspace
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: Illuminate your space with Tertial, the versatile and stylish lamp designed for modern living. Perfect for any room, Tertial provides adjustable lighting to suit your needs and enhance your home's ambiance.
@@ -72,23 +75,36 @@ Languages:
       Value: |
         {4644FE16-10A7-44F1-8172-CA03C35A688D}
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{BB7B4B43-7E13-4E4C-830D-6E2A1B7FEA5F}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf6e706e-8e63-40d1-ab21-47018c5d4f18"
+      Value: "43b7b3de-7634-462d-8d2b-437b6e70e973"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Tertial
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
       Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Tertial Lamp, adjustable lamp, modern desk lamp, reading light, minimalist lighting, home office lamp, Forma Lux shop, versatile lighting
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Discover the Tertial Lamp by Forma Lux — a modern adjustable lamp with a sleek silhouette, designed for precision lighting and timeless style in any room.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T101924Z
+      Value: 20251022T174156Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
         <div class="ck-content"><p>Illuminate your space with the Tertial Lamp, a perfect blend of functionality and modern design that brings a warm, inviting atmosphere to any room. Crafted meticulously from high-quality materials, Tertial features an adjustable arm and head, allowing you to direct light precisely where you need it. Its sleek silhouette and minimalist aesthetic make it a versatile addition to both contemporary and classic interiors. Whether placed on your work desk, beside your reading chair, or on your bedside table, Tertial enhances your environment with its efficient lighting and elegant charm. With the Tertial Lamp, personalization meets practicality. Designed with ease in mind, the intuitive adjustment mechanism lets you seamlessly modify the lamp's height and angle to suit your activities, from focused work sessions to cozy reading evenings. The robust base ensures stability on any surface, while the energy-efficient bulb provides long-lasting, eco-friendly illumination that enhances your room's ambiance. Experience lighting that combines innovative engineering with timeless style—experience Tertial.</p></div>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "The Tertial Lamp embodies Forma Lux’s commitment to intelligent design and effortless functionality. With its adjustable arm and pivoting head, Tertial adapts seamlessly from focused work to relaxed reading. Its minimalist frame, available in Black or White, complements both modern and classic interiors, while the energy-efficient bulb delivers warm, consistent light. Built from durable materials and finished with refined precision, Tertial transforms illumination into an act of design — where every movement meets purpose and beauty."

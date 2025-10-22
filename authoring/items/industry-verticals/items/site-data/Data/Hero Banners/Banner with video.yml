@@ -11,10 +11,10 @@ SharedFields:
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: |
-    <file mediaid="{92E6B3A9-D96B-4453-9F06-0D8C519DC4F9}" src="-/media/92E6B3A9D96B44539F060D8C519DC4F9.ashx" />
+    <file mediaid="92e6b3a9-d96b-4453-9f06-0d8c519dc4f9" src="-/media/92E6B3A9D96B44539F060D8C519DC4F9.ashx"/>
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8e536d11-d6a9-4e3d-a6b5-bb035535b7b0"
+  Value: "7ee2c9fe-5a2e-472f-bb55-4a7a6b430598"
 Languages:
 - Language: en
   Versions:
@@ -40,17 +40,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bcc83e4e-a04d-496b-878a-1fd70c049e7d"
+      Value: "4b3c6b1a-9387-4433-95b6-dc7ae1111792"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Discover Design
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T110357Z
+      Value: 20251022T183525Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

@@ -138,10 +138,380 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6F31A773-DFBF-4730-A1E3-6E1CB04F850A}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{33AFFDE8-1BF8-42C2-A2E5-BBC8D2D4C346}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="E09F4993FE374D3DA6BACBDF92E75579"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="CEDEC7E0DBE34C999407AB144D578284"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{21A5DD41-F265-4DAB-BCED-E77B0949E058}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="1E84F1582DB8411990E8587D1E182C4D"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{466BC246-C977-404B-BFE8-38FE5EEB0106}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="d3a49cf1-acdd-4a2e-b9fc-6182d2eec3ee" />
+                      <action
+                        uid="{191A95BA-E4AB-4DC3-A874-0DC13830CE6B}"
+                        s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                        s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7BB8F669C4-5BCA-4194-86E5-E81B26A07E57%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="264D13EE58A94ECD9453CE28C53E3A3E"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{335D3948-776E-4A8D-B9AC-60E7FE730DC9}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{FC56D1F8-45D4-4B7B-B4DB-843B704A3DD5}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="4A4A4815E10341D5ADFB8AA62E42B6BF"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="24F0063F7075432E8D2B8639E9C4BD9B"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{AB8C25BB-CF3A-4AEE-BCEE-BA79251C30AD}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="6FDED2ECF9A24B9A8858E0518BBA302A"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="AE02D46C5ACC478FB6159361808607FA"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{057FBBA5-8AA0-4F72-8B50-DEEF266C2E07}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{FF06996C-9C33-483B-A0EE-0322988222FC}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="1E0F299108F44DCB916F33A12D8C42DB"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="0E055BCD02B64302BCF55F243176A318"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{D362D8F7-42C9-488A-BE41-4E79A8C3868A}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{20D0322E-CD5D-4676-88AB-AC1BA639B3C2}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="020AF2ADA4394FB1974C56FC964A7AB7"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="54C10805686D406095A43137D3E2DF31"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{7E4A255E-D757-405E-9D70-15FFF45C1AAA}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{C8E19B62-F28C-43AE-A5AD-91B41209F69E}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="F0D11D883CF440AA8383140BC545F682"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="A127461151DC420A98238F2F74D208CE"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{1B086346-531C-4C41-BC73-5CF1F0CFF9D0}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{BE870A34-949A-42E7-8506-E016597298DB}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="2B4676BB231F41F7B7ED03937983196C"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="B497BFAFF2554AAC8F0B4AFAE3E5983D"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{992CC2E9-6AEB-47DB-B026-D34EFC1B70FE}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{473F4307-83EF-4068-8EF6-5BDED92DAA9E}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="07666E1D3C22474D826EC7BEC1307784"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="4C2CD2956BF14D21AB2C097AC75CBD3B"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{F827819F-D3D3-4FBD-8BAF-87D769468B06}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{B73D7617-8766-46A7-AD9C-2F07CE271497}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="FD59CD0882DD4F47946CFD594554A353"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="F96720652E48407182FF584B5F6D074A"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{D208AC42-DFB1-49D3-87F4-DDF7006DAA69}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{9F73F0EA-E266-47B5-A2D4-C178B44004D9}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="0AD506CC2781413D999BF2C156253C77"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="9AEACE44CAB34E689E639A2F153D57BA"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{C30C0496-2855-442E-B969-F057DE7492E9}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{4E503295-3CBF-4016-BA28-6424F0314762}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="2DBE3AA565AC45419623A52703963E01"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E07BFA0776BE43BF890079CCF2913B72"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{F57656C8-E3F9-4BFC-87A9-EA4FF7627A02}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{E430BEE4-82DA-42C9-8620-BCB59F48B29E}"
+                    s:name="8d898823a58046a7a33301b8c9807a0c">
+                    <conditions>
+                      <condition
+                        uid="C8A378DEF2924B34A89928A527D75167"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8d898823a58046a7a33301b8c9807a0c" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="870F7585359D4BE298E053952300B2CB"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250820T091624Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Home
@@ -159,16 +529,25 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\neli.kostadinova@sitecore.com
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Forma Lux – Handcrafted Luxury Furniture Collections
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c41332a5-9a22-47aa-a486-aca3a0adfa18"
+      Value: "7ba3239a-53aa-49cd-8d30-c3db71bbf3c3"
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: luxury furniture, handcrafted modular sofa, sustainable furniture, modern design
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T114217Z
+      Value: 20251022T193329Z
 - Language: "es-ES"
   Versions:
   - Version: 1

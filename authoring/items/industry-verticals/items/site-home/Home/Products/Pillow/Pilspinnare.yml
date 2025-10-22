@@ -70,6 +70,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T091111Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Pilspinnare Pillow | Forma Lux – Soft Cotton Feather Pillow for Restful Sleep
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A soft cotton pillow with a perfectly plump 90% feather filling. The materials allow air to circulate, so you get a comfortable sleeping environment. The low loft is comfiest for stomach sleepers.
@@ -96,9 +99,13 @@ Languages:
     - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
       Hint: Color
       Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{3B49401C-F84F-47F0-BFB4-CD33F13722CB}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "74457c49-c65e-4b19-bcc0-b7a9186f1fbd"
+      Value: "afd48254-8d03-48bb-9664-039eb3d002dc"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -108,19 +115,28 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Pilspinnare
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
       Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Pilspinnare pillow, feather pillow, cotton pillow, breathable bedding, luxury pillow, stomach sleeper pillow, Forma Lux home decor, sleep comfort
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Experience pure comfort with the Pilspinnare Pillow by Forma Lux — a soft cotton design with 90% feather filling for gentle support, breathability, and an ideal night’s rest.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T101946Z
+      Value: 20251022T174312Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Discover unparalleled comfort with our premium soft cotton pillow. Each pillow is meticulously crafted with a generous filling composed of 90% high-quality feathers, designed to gently contour to the unique shape of your head and neck. This ensures that you achieve a genuinely restful and uninterrupted sleep.&nbsp;</p><p>The use of breathable materials in its design guarantees exceptional air circulation, keeping the pillow cool and offering a refreshing sleep environment all night long. Tailored with a low loft, this pillow provides ideal support, particularly for stomach sleepers who seek maximum comfort without any added strain on their neck or spine.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Engineered for comfort and crafted with care, the Pilspinnare Pillow elevates everyday rest to an experience of quiet luxury. Its soft cotton shell and 90% feather filling offer a perfect balance of plushness and breathability, maintaining a cool, refreshing sleep climate. Designed with a low loft to support stomach sleepers, Pilspinnare reflects Forma Lux’s philosophy of mindful design — where materials, craftsmanship, and comfort converge to create true rest. Available in White, and in Small, Medium, and Large sizes, it’s the finishing touch for a serene modern bedroom.
 - Language: "es-ES"
   Versions:
   - Version: 1

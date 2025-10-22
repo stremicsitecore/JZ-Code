@@ -44,6 +44,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T131147Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Florence Velvet Sofa | Forma Lux – Luxurious Chesterfield-Inspired Velvet Sofa"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A luxurious velvet sofa with deep button tufting.
@@ -73,9 +76,13 @@ Languages:
     - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
       Hint: Color
       Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{1C61DD7F-3F6B-4AEF-B89D-A1F26C77E446}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3c66bb5e-2864-4773-b250-730bdbdcb806"
+      Value: "6c6bb848-23a0-403f-a35d-38076aadbdc8"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: |
@@ -84,16 +91,25 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Florence Velvet Sofa
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
       Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Florence Velvet Sofa, velvet sofa, Chesterfield sofa, tufted couch, luxury living room furniture, hardwood frame, Forma Lux shop, modern classic design
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: The Florence Velvet Sofa by Forma Lux brings refined luxury to modern interiors. Featuring deep tufting, rolled arms, and rich velvet upholstery, it’s a timeless statement of comfort and sophistication.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T153905Z
+      Value: 20251022T175818Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Florence Velvet Sofa exudes sophistication with its Chesterfield-inspired design. Upholstered in rich velvet, it features rolled arms, deep tufting, and a sturdy hardwood frame.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Elegant, sculptural, and undeniably classic, the Florence Velvet Sofa embodies Forma Lux’s philosophy of modern heritage design. Inspired by the Chesterfield tradition, Florence pairs deep button tufting and rolled arms with a solid hardwood frame and sumptuous velvet upholstery. Available in Indigo and in Medium or Large sizes, it anchors the room with presence and texture — a symbol of craftsmanship and comfort that transforms living spaces into enduring expressions of style.

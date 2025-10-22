@@ -44,6 +44,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T131324Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Brooklyn Sleeper Sofa | Forma Lux – Convertible Sofa Bed for Modern Living
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: A convertible sofa that doubles as a bed.
@@ -73,25 +76,38 @@ Languages:
     - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
       Hint: Color
       Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{7143CE2D-5FA6-4C30-BCD3-AC5375185602}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8cdde3e1-8970-443d-956f-1c5ed2784068"
+      Value: "1cfe0706-e784-40d5-82bf-66f9486761bb"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
       Value: "{C593AA0B-B143-4FD4-B8F6-C8950FB744B0}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Brooklyn Sleeper Sofa
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
       Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Brooklyn Sleeper Sofa, convertible sofa bed, sleeper sofa, modern furniture, compact living, durable upholstery, Forma Lux shop, multifunctional furniture
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "The Brooklyn Sleeper Sofa by Forma Lux combines comfort and versatility. Its simple pull-out design transforms from a stylish sofa into a cozy bed — perfect for overnight guests and compact spaces."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251017T153556Z
+      Value: 20251022T175613Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Designed for flexibility without compromise, the Brooklyn Sleeper Sofa reflects Forma Lux’s philosophy of purposeful design. With a smooth pull-out mechanism and soft, durable upholstery, it transitions effortlessly from daytime lounging to nighttime comfort. Ideal for apartments and guest rooms, Brooklyn balances practicality with refined aesthetics. Available in Indigo and Large size, it’s the perfect union of form, function, and quiet luxury — a true testament to how modern furniture can adapt beautifully to contemporary living."

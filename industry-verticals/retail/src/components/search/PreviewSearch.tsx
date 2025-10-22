@@ -84,7 +84,7 @@ export const PreviewSearchComponent = ({
           className="w-full rounded-md border border-gray-300 px-4 py-3 text-lg focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
           onChange={keyphraseHandler}
           autoComplete="off"
-          placeholder="Search content, grid status..."
+          placeholder="Search content, products..."
         />
       </form>
       <PreviewSearch.Content className="flex h-[400px] w-[var(--radix-popover-trigger-width)] justify-center bg-gray-100 pt-0 shadow-[2px_5px_5px_5px_rgba(0,0,0,0.3)] transition-opacity dark:bg-gray-800">

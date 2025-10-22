@@ -63,6 +63,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250919T111219Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Discover Forma Lux articles on interiors, materials, and modern craftsmanship.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Articles
@@ -77,16 +80,25 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Forma Lux Journal – Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "31a92e77-dc8b-4201-a642-dca0443055c9"
+      Value: "b356056f-1c4e-491f-b3a5-1863743f1050"
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Ideas and inspiration from the Forma Lux Journal—on design, materials, and living well.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: journal, articles, interiors, design, craftsmanship
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T131053Z
+      Value: 20251022T171321Z
 - Language: "es-ES"
   Versions:
   - Version: 1

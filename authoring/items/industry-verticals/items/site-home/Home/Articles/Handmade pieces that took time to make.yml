@@ -62,6 +62,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250917T090300Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: Explore how patience and precision define Handmade Pieces That Took Time to Make. Forma Lux celebrates slow design—crafted furniture and home décor where every curve, texture, and finish reflects human touch.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Handmade pieces that took time to make
@@ -77,6 +80,10 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{A7429293-A627-42E3-8093-0963E6C079D8}" />
     - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
       Hint: PublishedDate
       Value: 20250927T000000Z
@@ -85,19 +92,28 @@ Languages:
       Value: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
         
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: Handmade Pieces That Took Time to Make | Forma Lux Journal – The Beauty of Patience in Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "818d20d6-dd09-4c11-8513-79d0af1919a3"
+      Value: "b6f9050e-226a-4d4a-8d0e-16502d45c7f7"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Handmade pieces that took time to make
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: "At Forma Lux, time is a material in itself. Handmade Pieces That Took Time to Make reflects the art of slow creation—each piece shaped by deliberate rhythm and care. Iron, driftwood, and hand-thrown pottery coexist in perfect balance, forming interiors rich with authenticity and quiet luxury. The result is more than décor; it’s an experience of craft, patience, and permanence in an age of speed."
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T155322Z
+      Value: 20251022T172053Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: handmade furniture, artisan craftsmanship, slow design, home decor, sustainable interiors, Forma Lux journal, timeless design, wood furniture
     - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
       Hint: Category
       Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"

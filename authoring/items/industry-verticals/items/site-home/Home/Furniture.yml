@@ -27,7 +27,19 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0BFC926C-25C7-4974-9C46-294A976A8C9D}"
+              s:ds="b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+              s:id="{C29D8AEC-AD95-44E5-BCF9-B0D98C933345}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay=1&amp;Loop=1&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250821T083005Z
@@ -42,14 +54,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cead031f-fd6f-4b8f-bc89-b1ace0934154"
+      Value: "8af707fa-c13e-43bb-827a-5c9a1797635a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T111546Z
+      Value: 20251022T180333Z
 - Language: "es-ES"
   Versions:
   - Version: 1

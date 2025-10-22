@@ -77,6 +77,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250828T111343Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Get in touch with Forma Lux for design consultations, custom furniture solutions or to explore our collections and dealers.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Contact
@@ -87,16 +90,22 @@ Languages:
       Hint: Content
       Value: |
         <p style="text-align:center;"><meta charset="utf-8" /><span style="white-space:pre-wrap;">Contact us to publish your content and show ads </span></p><p style="text-align:center;"><span style="white-space:pre-wrap;">to our website and get a good reach.</span></p><p style="text-align:center;">&nbsp;</p>
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Contact Forma Lux – Luxury Furniture Inquiries
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ae414a2-615a-408f-a3ad-e53cee40f578"
+      Value: "49a4a35c-5a54-48e0-8a6e-41ed0396a638"
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: Forma Lux contact, luxury furniture enquiries, designer furniture retailer
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251009T131946Z
+      Value: 20251022T165536Z
 - Language: "es-ES"
   Versions:
   - Version: 1

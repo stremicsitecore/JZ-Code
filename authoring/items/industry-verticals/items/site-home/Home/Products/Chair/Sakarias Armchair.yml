@@ -63,6 +63,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T091111Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Sakarias Armchair | Forma Lux – Elegant Armchair with Plush Cushions
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
       Value: Discover the perfect blend of comfort and style with the Sakarias Armchair. This elegant piece features a sleek design with plush cushions, offering an inviting seat for relaxation. Ideal for any living space, the Sakarias Armchair adds a touch of sophistication to your home decor.
@@ -94,28 +97,41 @@ Languages:
       Value: |
         {4644FE16-10A7-44F1-8172-CA03C35A688D}
         {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{82B66367-0640-42FA-AC54-164898C35B94}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "053ec7eb-398b-4220-ba83-56e443990402"
+      Value: "7de62c65-e9d5-484d-83b3-eba18e875a0d"
     - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
       Hint: Size
-      Value: Extra Small
+      Value: "{1B4E7409-FAF1-4CFF-B06D-BE77ED1A74A1}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Sakarias Armchair
     - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
       Hint: Category
       Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Sakarias Armchair, luxury armchair, modern accent chair, upholstered armchair, living room furniture, comfortable seating, Forma Lux shop, contemporary decor
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: The Sakarias Armchair by Forma Lux combines contemporary design with plush comfort. Its sleek silhouette, premium upholstery, and sturdy frame create a sophisticated seating experience for any home.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T081723Z
+      Value: 20251022T181302Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>Introducing the Sakarias Armchair, a perfect blend of style and comfort that elevates any living space. Crafted with precision, this armchair features a sleek design that complements both modern and traditional decor. Its sturdy frame and plush cushioning provide exceptional support and relaxation, making it the ideal spot for unwinding after a long day.</p><p>&nbsp;Experience unparalleled luxury with the Sakarias Armchair’s premium upholstery, available in a range of colors to match your personal style. Whether you're enjoying a quiet moment with a book or entertaining guests, this armchair not only meets but exceeds expectations for durability and elegance. The Sakarias Armchair is truly an exquisite addition to any home, offering both aesthetic appeal and practical comfort.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Refined yet welcoming, the Sakarias Armchair embodies Forma Lux’s pursuit of beauty through comfort. Designed with plush cushioning, premium upholstery, and a sleek, supportive frame, it delivers both visual elegance and everyday relaxation. Ideal for modern or traditional interiors, Sakarias transforms any corner into a retreat of calm sophistication. Available in Black and White, and in Extra Small size, it’s an essential piece for those who appreciate craftsmanship, durability, and quiet luxury.
 - Language: "es-ES"
   Versions:
   - Version: 1
