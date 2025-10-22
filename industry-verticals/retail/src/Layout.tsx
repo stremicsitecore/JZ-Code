@@ -1,7 +1,7 @@
 /**
  * This Layout is needed for Starter Kit.
  */
-import React, { JSX } from 'react';
+import React, { JSX, useState, useEffect } from 'react';
 import Head from 'next/head';
 import { ImageField, Placeholder, Field, DesignLibrary, Page } from '@sitecore-content-sdk/nextjs';
 import Scripts from 'src/Scripts';
@@ -27,6 +27,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const mainClassPageEditing = mode.isEditing ? 'editing-mode' : 'prod-mode';
   const importMapDynamic = () => import('.sitecore/import-map');
+  const [currentUrl, setCurrentUrl] = useState('');
 
   const metaDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
@@ -35,6 +36,12 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogImage = fields?.ogImage?.value?.src;
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCurrentUrl(window.location.href);
+    }
+  }, []);
 
   return (
     <>
@@ -49,6 +56,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image " content={ogImage} />}
+        <meta property="og:url" content={currentUrl} />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
