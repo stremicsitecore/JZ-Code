@@ -105,8 +105,11 @@
   }
 
   document.getElementById('searchForm').addEventListener('submit',(e)=>{
+    alert ('entering submit');
     e.preventDefault();
+    alert ('preventing default');
     const target=routeQuery(input.value);
+    alert ('fouund target: ' + target);
     if(target){ window.location.href=target; }
     else alert("No persona match found.");
   });
