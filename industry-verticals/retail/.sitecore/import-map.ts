@@ -10,12 +10,12 @@ import {
   RichText,
   NextImage,
   Placeholder,
-  Image,
+  Image as Image_8a80e63291fea86e0744df19113dc44bec187216,
   CdpHelper,
   withDatasourceCheck,
   DateField,
 } from '@sitecore-content-sdk/nextjs';
-import { useState, useEffect, useMemo, useId, useRef, useCallback } from 'react';
+import { useCallback, useState, useEffect, useMemo, useId, useRef } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
 import {
@@ -35,6 +35,17 @@ import {
 } from '@/assets/icons/social/social';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
+import { useRouter } from 'next/navigation';
+import {
+  usePreviewSearchActions,
+  WidgetDataType,
+  usePreviewSearch,
+  widget,
+} from '@sitecore-search/react';
+import { PreviewSearch, ArticleCard } from '@sitecore-search/ui';
+import Image from 'next/image';
+import Spinner from 'src/components/search/Spinner';
+import SuggestionBlock from 'src/components/search/SuggestionBlock';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, A11y, Keyboard } from 'swiper/modules';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
@@ -97,6 +108,7 @@ import { ButtonType } from '@/types/enums';
 import ShortArrow from '@/assets/icons/arrow-short/ArrowShort';
 import { Popover, PopoverContent, PopoverTrigger } from '@/shadcn/components/ui/popover';
 import { MiniCart } from 'src/components/non-sitecore/MiniCart';
+import PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 from 'src/components/search/PreviewSearch';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
@@ -108,7 +120,7 @@ import {
   isNavRootItem,
   prepareFields,
 } from '@/helpers/navHelpers';
-import { useRouter } from 'next/router';
+import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
 import {
   Select,
   SelectContent,
@@ -121,7 +133,6 @@ import { ExploreLink } from 'src/components/non-sitecore/ExploreLink';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
-import Image_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
@@ -140,7 +151,7 @@ const importMap = [
       { name: 'RichText', value: RichText },
       { name: 'NextImage', value: NextImage },
       { name: 'Placeholder', value: Placeholder },
-      { name: 'Image', value: Image },
+      { name: 'Image', value: Image_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'DateField', value: DateField },
@@ -149,12 +160,12 @@ const importMap = [
   {
     module: 'react',
     exports: [
+      { name: 'useCallback', value: useCallback },
       { name: 'useState', value: useState },
       { name: 'useEffect', value: useEffect },
       { name: 'useMemo', value: useMemo },
       { name: 'useId', value: useId },
       { name: 'useRef', value: useRef },
-      { name: 'useCallback', value: useCallback },
       { name: 'default', value: React },
     ],
   },
@@ -193,6 +204,38 @@ const importMap = [
   {
     module: '@/helpers/isParamEnabled',
     exports: [{ name: 'isParamEnabled', value: isParamEnabled }],
+  },
+  {
+    module: 'next/navigation',
+    exports: [{ name: 'useRouter', value: useRouter }],
+  },
+  {
+    module: '@sitecore-search/react',
+    exports: [
+      { name: 'usePreviewSearchActions', value: usePreviewSearchActions },
+      { name: 'WidgetDataType', value: WidgetDataType },
+      { name: 'usePreviewSearch', value: usePreviewSearch },
+      { name: 'widget', value: widget },
+    ],
+  },
+  {
+    module: '@sitecore-search/ui',
+    exports: [
+      { name: 'PreviewSearch', value: PreviewSearch },
+      { name: 'ArticleCard', value: ArticleCard },
+    ],
+  },
+  {
+    module: 'next/image',
+    exports: [{ name: 'default', value: Image }],
+  },
+  {
+    module: 'src/components/search/Spinner',
+    exports: [{ name: 'default', value: Spinner }],
+  },
+  {
+    module: 'src/components/search/SuggestionBlock',
+    exports: [{ name: 'default', value: SuggestionBlock }],
   },
   {
     module: 'swiper/react',
@@ -378,6 +421,10 @@ const importMap = [
     exports: [{ name: 'MiniCart', value: MiniCart }],
   },
   {
+    module: 'src/components/search/PreviewSearch',
+    exports: [{ name: 'default', value: PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 }],
+  },
+  {
     module: '@/components/non-sitecore/HamburgerIcon',
     exports: [{ name: 'default', value: HamburgerIcon }],
   },
@@ -405,7 +452,7 @@ const importMap = [
   },
   {
     module: 'next/router',
-    exports: [{ name: 'useRouter', value: useRouter }],
+    exports: [{ name: 'useRouter', value: useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be }],
   },
   {
     module: 'src/shadcn/components/ui/select',
@@ -436,10 +483,6 @@ const importMap = [
   {
     module: 'lib/sitecore-client',
     exports: [{ name: 'default', value: client }],
-  },
-  {
-    module: 'next/image',
-    exports: [{ name: 'default', value: Image_5d8ce56058442d94361877e28c501c951a554a6a }],
   },
   {
     module: '@sitecore-feaas/clientside/react',
