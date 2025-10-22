@@ -190,9 +190,9 @@ Languages:
                         s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
                         s:DataSource="d3a49cf1-acdd-4a2e-b9fc-6182d2eec3ee" />
                       <action
-                        uid="{191A95BA-E4AB-4DC3-A874-0DC13830CE6B}"
+                        uid="{22C4BABD-09AA-4980-8C80-62103D2B1E0C}"
                         s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
-                        s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7BB8F669C4-5BCA-4194-86E5-E81B26A07E57%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+                        s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout=1&amp;HideGradientOverlay&amp;FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;Styles=%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D%7C%7BD7433F05-153F-4F22-AD40-86D7EE8D0EA5%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
                     </actions>
                   </rule>
                   <rule
@@ -534,7 +534,7 @@ Languages:
       Value: Forma Lux – Handcrafted Luxury Furniture Collections
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7ba3239a-53aa-49cd-8d30-c3db71bbf3c3"
+      Value: "7b0c946c-546b-42de-a867-4accfd0be44d"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
@@ -547,7 +547,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T193329Z
+      Value: 20251022T210816Z
 - Language: "es-ES"
   Versions:
   - Version: 1
