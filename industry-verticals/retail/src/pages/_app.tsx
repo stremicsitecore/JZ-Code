@@ -5,7 +5,7 @@ import Bootstrap from 'src/Bootstrap';
 import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import scConfig from 'sitecore.config';
 import 'assets/main.css';
-import { WidgetsProvider } from '@sitecore-search/react';
+import { PageController, WidgetsProvider } from '@sitecore-search/react';
 
 const SEARCH_CONFIG = {
   env: process.env.NEXT_PUBLIC_SEARCH_ENV as any,
@@ -15,6 +15,14 @@ const SEARCH_CONFIG = {
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
+  const lang = pageProps.page?.locale || scConfig.defaultLanguage;
+
+  PageController.getContext().setLocaleLanguage(lang);
+  if (lang == 'en') {
+    PageController.getContext().setLocaleCountry('us');
+  } else {
+    PageController.getContext().setLocaleCountry(lang.split('-')[1]);
+  }
 
   return (
     <>
