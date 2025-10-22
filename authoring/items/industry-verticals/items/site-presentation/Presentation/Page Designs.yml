@@ -10,7 +10,7 @@ SharedFields:
   Value: "%7b98E60957-0783-4A9A-85CC-77DAD30E9711%7d%3d%257B41E4B543-B8BC-42E6-82F0-1715DC47A6BA%257D%26%7b412BF445-B1A6-4AFF-8054-0B21A1FEBC47%7d%3d%257B3C928B1A-BC2F-46DB-9554-4D3FF67770FA%257D%26%7bF6E44A9E-074A-4865-987E-0C2DC00B7AF5%7d%3d%257B1D3CCB5E-CA96-4974-9506-2FFC69CB5814%257D%26%7b4D2B49E6-1130-444A-B22C-5C7E25D01B56%7d%3d%257BA0499ED8-EB40-4C56-A459-409E4DC028D3%257D"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f3651c2d-5672-49b7-a061-8eca2e6a9317"
+  Value: "c358a992-2d80-424a-a2ba-ca868de8f796"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -32,11 +32,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9b4ebcc4-1bfc-4e93-8145-894492193090"
+      Value: "c1424261-6bb1-42f0-900a-9ee2a70bd996"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T154257Z
+      Value: 20251022T135648Z

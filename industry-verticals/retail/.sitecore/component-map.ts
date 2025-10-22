@@ -9,6 +9,9 @@ import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
 import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
+import * as SuggestionBlock from 'src/components/search/SuggestionBlock';
+import * as Spinner from 'src/components/search/Spinner';
+import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as ReviewsCarousel from 'src/components/reviews-carousel/ReviewsCarousel';
@@ -48,6 +51,9 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SocialFollow', SocialFollow],
   ['SocialFeed', SocialFeed],
   ['SectionWrapper', SectionWrapper],
+  ['SuggestionBlock', SuggestionBlock],
+  ['Spinner', Spinner],
+  ['PreviewSearch', PreviewSearch],
   ['RowSplitter', RowSplitter],
   ['RichText', RichText],
   ['ReviewsCarousel', ReviewsCarousel],
