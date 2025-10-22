@@ -591,19 +591,21 @@
     conscious:normalize("What is the best sustainable luxury furniture brand?")
   };
   function routeQuery(raw){
-    const q = normalize(raw);
-    if(!q) return null;
-    if(q===canonical.elevated)  return "search-elevated-homemaker.html";
-    if(q===canonical.modern)    return "search-modern-collector.html";
-    if(q===canonical.conscious) return "search-conscious-minimalist.html";
-    if(q.includes("sustain")) return "search-conscious-minimalist.html";
-    if(q.includes("beautiful")||q.includes("comfortable")||q.includes("home"))
-      return "search-elevated-homemaker.html";
-    if(q.includes("art")||q.includes("collector")||q.includes("design"))
-      return "search-modern-collector.html";
-	if (q.includes("trending modern sofas"))
 	  return "search-results.html"
-    return null;
+
+    // const q = normalize(raw);
+    // if(!q) return null;
+    // if(q===canonical.elevated)  return "search-elevated-homemaker.html";
+    // if(q===canonical.modern)    return "search-modern-collector.html";
+    // if(q===canonical.conscious) return "search-conscious-minimalist.html";
+    // if(q.includes("sustain")) return "search-conscious-minimalist.html";
+    // if(q.includes("beautiful")||q.includes("comfortable")||q.includes("home"))
+    //   return "search-elevated-homemaker.html";
+    // if(q.includes("art")||q.includes("collector")||q.includes("design"))
+    //   return "search-modern-collector.html";
+	// if (q.includes("trending modern sofas"))
+	//   return "search-results.html"
+    // return null;
   }
 
   // ---------- NUKE NATIVE SUBMITS (BELT & SUSPENDERS) ----------
