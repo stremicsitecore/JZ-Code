@@ -11,10 +11,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image mediaid="43b33814-de9f-41ae-8c2f-5a0aa05db8d7" alt="A photo of a modern living room featuring the lumina sofa"/>
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/66633-HomepagePromoCTAs-1100x740?v=46cbf58e" dam-id="jyjFB-hOSvefNrzGwYnaFA" width="1100" height="740" alt="TheLuminaSofa.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66633/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d4edf923-3a21-4d09-a782-d108d83db6d1"
+  Value: "56f254b0-ab76-4606-b1c9-aa68c36311bc"
 Languages:
 - Language: en
   Versions:
@@ -46,14 +46,14 @@ Languages:
       Value: Experience Comfort Reimagined
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b23b9748-b84f-4737-b45e-b7919e8af3f9"
+      Value: "d0926bf7-06b3-49cc-99dd-c6cee15cb56e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T205354Z
+      Value: 20251022T235506Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: The Lumina Sofa

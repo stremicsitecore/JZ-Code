@@ -1,20 +1,20 @@
 ﻿---
-ID: "d3a49cf1-acdd-4a2e-b9fc-6182d2eec3ee"
+ID: "f7887ac4-f6d6-4bba-8d5e-6b161f42ae43"
 Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
 Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
-Path: "/sitecore/content/retail/forma-lux/Data/Hero Banners/The Lumina Sofa"
+Path: "/sitecore/content/retail/forma-lux/Data/Hero Banners/The Lumina Collection"
 SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/66633-HomepagePromoCTAs-1100x740?v=46cbf58e" dam-id="jyjFB-hOSvefNrzGwYnaFA" width="1100" height="740" alt="A luxury sofa called the Lumina Sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66633/thumbnail" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c08a67c1d58741059a280a4eee1230a9?v=781aa45e" dam-id="TYFjDC9gS4Cwoe4qaDKQyA" width="1024" height="661" alt="TheLuminaCollection.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68155/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: |
     <file mediaid="29603c43-1c27-4539-9b72-b962ebd7444a" src="-/media/29603C431C2745399B72B962EBD7444A.ashx"/>
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5b5ad532-247b-4c1b-8b08-15fd33fae2f4"
+  Value: "975b12b8-ed86-4e97-8cc4-57ee0f99b62e"
 Languages:
 - Language: en
   Versions:
@@ -26,7 +26,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p style="text-align:center;"><span style="color:hsl(0, 0%, 100%);">A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</span></p></div>
+        <div class="ck-content"><p style="text-align:center;"><span style="color:hsl(0, 0%, 30%);">A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</span></p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251022T183553Z
@@ -40,7 +40,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66f5d6d7-627c-433f-8dd2-3e0e3a7952bc"
+      Value: "3eb02968-1270-47b7-8541-5395bff8ee3b"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Experience Comfort Reimagined
@@ -50,7 +50,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T233405Z
+      Value: 20251022T234441Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

@@ -26,14 +26,14 @@ Languages:
             <r
               uid="{F2682644-25BD-4845-B294-7CA5C2833A9B}"
               p:before="*"
-              s:ds="d3a49cf1-acdd-4a2e-b9fc-6182d2eec3ee"
+              s:ds="f7887ac4-f6d6-4bba-8d5e-6b161f42ae43"
               s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
               s:ph="headless-main" />
             <r
               uid="{674C5F22-C48D-47B7-B67E-CC2C9F8F643C}"
               p:after="r[@uid='{F2682644-25BD-4845-B294-7CA5C2833A9B}']"
-              s:ds="f5ca1159-e1f0-402c-bde3-6f51523db1d7"
+              s:ds="d9143de0-bbd6-4021-ad4f-b79af802e80e"
               s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="headless-main" />
@@ -42,7 +42,7 @@ Languages:
               p:after="r[@uid='{674C5F22-C48D-47B7-B67E-CC2C9F8F643C}']"
               s:ds="1fbe873a-e4cc-4f4a-baa6-d305fdff0933"
               s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages=1&amp;HideCurveLine&amp;HideShapes&amp;HideShadows&amp;HideQuote&amp;FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages&amp;HideCurveLine=1&amp;HideShapes=1&amp;HideShadows&amp;HideQuote&amp;FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
               s:ph="headless-main" />
             <r
               uid="{334E940A-8175-480B-8113-7FC3EF95066C}"
@@ -82,11 +82,11 @@ Languages:
       Value: The Lumina Collection
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "523926b8-2181-44bd-84fa-362b6f4703ae"
+      Value: "33976488-7138-4fe1-aa1b-a8188c01d367"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T205547Z
+      Value: 20251022T235918Z
