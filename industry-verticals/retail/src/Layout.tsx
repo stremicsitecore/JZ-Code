@@ -55,7 +55,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
-        <meta property="og:url" content={fullUrl} />
+        <meta property="og:url" content={fullUrl} key="og:url" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
