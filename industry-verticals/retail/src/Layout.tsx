@@ -39,8 +39,6 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
 
   const router = useRouter();
   const fullUrl = `https://formalux.dev${router.asPath}`;
-  console.log('full url: ' + fullUrl);
-  console.log('asPath: ' + router.asPath);
 
   return (
     <>
@@ -55,7 +53,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
-        <meta property="og:url" content={fullUrl} key="og:url" />
+        <meta property="og:url" content={fullUrl.replace('_site_forma-lux', '')} key="og:url" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
