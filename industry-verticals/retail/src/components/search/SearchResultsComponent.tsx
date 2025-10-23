@@ -16,6 +16,8 @@ import QueryResultsSummary from './QueryResultsSummary';
 import { Filter } from 'lucide-react';
 import CardViewSwitcher from './CardViewSwitcher';
 
+export const dynamic = 'force-dynamic';
+
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
 };
@@ -118,7 +120,6 @@ export const SearchResultsComponent = ({
                   )}
                   <div className="gap flex items-center gap-x-7">
                     <ResultsPerPage defaultItemsPerPage={defaultItemsPerPage} />
-                    <SearchPagination currentPage={page} totalPages={totalPages} />
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-center">
                     <CardViewSwitcher
