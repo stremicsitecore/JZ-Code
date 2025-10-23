@@ -83,7 +83,7 @@ Languages:
     - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
       Hint: ogImage
       Value: |
-        <image mediaid="{A7429293-A627-42E3-8093-0963E6C079D8}" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67023-HomepagePromoCTAs-1100x740?v=bfad9901" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="1100" height="740" alt="Rectangle 68 (2).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
     - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
       Hint: PublishedDate
       Value: 20250927T000000Z
@@ -97,7 +97,7 @@ Languages:
       Value: Handmade Pieces That Took Time to Make | Forma Lux Journal – The Beauty of Patience in Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6f9050e-226a-4d4a-8d0e-16502d45c7f7"
+      Value: "94419545-87fd-43a7-a1d9-4bce5a5e97ac"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Handmade pieces that took time to make
@@ -107,10 +107,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T172053Z
+      Value: 20251023T222402Z
     - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
       Hint: metadataKeywords
       Value: handmade furniture, artisan craftsmanship, slow design, home decor, sustainable interiors, Forma Lux journal, timeless design, wood furniture

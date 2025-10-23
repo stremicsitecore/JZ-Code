@@ -1,6 +1,4 @@
-'use client';
 import { useState } from 'react';
-
 import { GridIcon, ListBulletIcon } from '@radix-ui/react-icons';
 import type { SearchResultsInitialState, SearchResultsStoreState } from '@sitecore-search/react';
 import { WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
@@ -48,7 +46,6 @@ export const SearchResultsComponent = ({
   defaultKeyphrase = '',
   defaultItemsPerPage = 10,
 }: ArticleSearchResultsProps) => {
-  console.log(`got passed in keyphrase: ${defaultKeyphrase}`);
   const {
     actions: { onItemClick },
     state: { sortType, page, itemsPerPage },

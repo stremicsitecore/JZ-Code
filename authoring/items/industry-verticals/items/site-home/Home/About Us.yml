@@ -103,12 +103,16 @@ Languages:
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: "<p>At Forma Lux, we blend timeless design with modern expression to create interiors that reflect individuality and elegance. Guided by a passion for curated living, we design furnishings that go beyond trend — crafted for those who live boldly and style deeply. Our philosophy is rooted in balance: between form and function, subtlety and statement, simplicity and richness.</p>"
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/15c6113c2e7049e49872c5f7f67211ef?v=9da7068d" dam-id="I-ZnxLkUSgy0XuLg9Lbsow" width="1100" height="733" alt="GettyImages-1487035786.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/38731/thumbnail" />
     - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
       Hint: metadataTitle
       Value: About Forma Lux – Heritage & Modern Craftsmanship
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "918d65bf-2d9b-4e56-9027-57c4e25677b1"
+      Value: "ff4aa1b0-01fc-449f-8e01-5f3c2555f50d"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: Our heritage, materials, and design ethos—Forma Lux is where tradition meets modernity for pieces that last.
@@ -118,10 +122,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T171242Z
+      Value: 20251023T221712Z
 - Language: "es-ES"
   Versions:
   - Version: 1

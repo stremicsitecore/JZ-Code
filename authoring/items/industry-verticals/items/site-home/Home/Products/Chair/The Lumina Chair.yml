@@ -55,9 +55,13 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\zach.escabedo@sitecore.com
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/2845a8e5b9994f59a07a3d3075507a35?v=2dd0ba8c" dam-id="_6HhKmO1SFWVcvVHiNnphg" width="1024" height="1024" alt="TheLuminaChair.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68204/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a366b57d-a455-40b2-91c4-fcd6ca632cd9"
+      Value: "c079e2a9-911c-44bf-8d76-e1af44761a19"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -77,7 +81,7 @@ Languages:
         Introducing "The Lumina Chair" by Forma Lux, where timeless elegance meets sophisticated craftsmanship. This chair embodies the brand's ethos of shaping tranquil spaces with soul and substance, seamlessly integrating modern European design with sustainable practices. The Lumina Chair transforms any room into a serene haven, providing a refined experience that resonates with the elegance and authenticity of Forma Lux.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T012755Z
+      Value: 20251023T213651Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |

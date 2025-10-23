@@ -39,9 +39,16 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "03fc223a-9983-4cc1-b51f-db969bfcb89c"
+      Hint: thumbnailImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T091044Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Explore Forma Lux’s full range of sustainable furniture collections — timeless sofas, chairs, and tables crafted with precision, natural materials, and enduring elegance. Designed to bring warmth, balance, and sophistication to every space.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Products
@@ -56,16 +63,29 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Products | Browse all of our products
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "21a0f5df-e67f-49a7-bafa-37b5aa56612a"
+      Value: "18bb551d-43e6-49ed-a63d-63ce9bf22765"
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Forma Lux offers a curated selection of sustainable luxury furniture designed to elevate modern living. Each collection — from modular sofas to sculptural tables — reflects a commitment to craftsmanship, quality, and intentional design. Every piece is made to endure, bringing refined simplicity and lasting beauty to the spaces people call home.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: "Forma Lux, luxury furniture, sustainable furniture, modern furniture collections, handcrafted sofas, minimalist chairs, oak tables, timeless design, eco-friendly furniture, modular seating"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155322Z
+      Value: 20251023T215151Z
 - Language: "es-ES"
   Versions:
   - Version: 1

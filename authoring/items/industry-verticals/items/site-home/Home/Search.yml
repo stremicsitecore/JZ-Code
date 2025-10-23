@@ -41,9 +41,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251023T205512Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Explore the Forma Lux collection and find the perfect piece for your home. Search our range of handcrafted, sustainable furniture designed to bring warmth, balance, and timeless beauty to every space.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Search
@@ -58,16 +64,26 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/66627-HomepagePromoCTAs-1100x740?v=c0b556ae" dam-id="Oa_b1yC2RG6fhK7gFMdmyQ" width="1100" height="740" alt="ShowroomLayout.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66627/thumbnail" />
     - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
       Hint: metadataTitle
-      Value: Search
+      Value: Search | Forma Lux Furniture and Home Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33a7aa81-17bf-422d-9510-b2dc82e5e664"
+      Value: "8635dea1-4e80-4391-a796-9ec824eb98a7"
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: The Forma Lux Search page helps you discover our curated selection of modern, sustainable furniture. Whether you’re looking for a modular sofa, an accent chair, or a refined table design, every piece reflects Forma Lux’s philosophy of intentional living and enduring craftsmanship.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: Search
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T205606Z
+      Value: 20251023T223300Z

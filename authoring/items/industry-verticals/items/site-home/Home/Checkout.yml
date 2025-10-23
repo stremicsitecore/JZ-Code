@@ -65,13 +65,17 @@ Languages:
       Hint: Content
       Value: |
         <p style="text-align:center;">This page is part of a demo experience.&nbsp;</p><p style="text-align:center;">Right now, the website isn’t connected to a live e-commerce system — but it can be fully integrated with one.&nbsp;</p><p style="text-align:center;">When it is, this is where your visitors will land to review their selected products and complete their purchase.</p><p style="text-align:center;">&nbsp;</p>
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/66627-HomepagePromoCTAs-1100x740?v=c0b556ae" dam-id="Oa_b1yC2RG6fhK7gFMdmyQ" width="1100" height="740" alt="ShowroomLayout.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66627/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f6a08fc-3c61-47b3-bb1c-b89a49e9b770"
+      Value: "570f2cd4-8743-4877-833d-796a8635b168"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T123710Z
+      Value: 20251023T215253Z

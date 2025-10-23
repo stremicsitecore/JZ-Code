@@ -52,16 +52,23 @@ Languages:
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: 
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6c37c1314d0c46eab0ed75b6a0fe3846?v=80fe73d2" dam-id="k-hmRE27ToCbzJNiVjoqOQ" width="370" height="403" alt="image 22.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66878/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Furniture
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8af707fa-c13e-43bb-827a-5c9a1797635a"
+      Value: "113498ab-9881-4d04-a44e-8dd68dea4268"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T180333Z
+      Value: 20251023T221607Z
 - Language: "es-ES"
   Versions:
   - Version: 1

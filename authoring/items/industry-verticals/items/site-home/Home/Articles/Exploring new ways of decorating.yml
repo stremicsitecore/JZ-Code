@@ -83,7 +83,7 @@ Languages:
     - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
       Hint: ogImage
       Value: |
-        <image mediaid="{F4DDDCE5-F225-4CF9-AAD1-CD12808A7952}" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67032-HomepagePromoCTAs-1100x740?v=e14e44d4" dam-id="NsFpWqd3RVKMXignC81wqA" width="1100" height="740" alt="Rectangle 68.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67032/thumbnail" />
     - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
       Hint: PublishedDate
       Value: 20250901T000000Z
@@ -95,7 +95,7 @@ Languages:
       Value: Exploring New Ways of Decorating | Forma Lux Journal – Modern Perspectives on Interior Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bc44b6e5-231d-4155-9421-eec557e728e7"
+      Value: "61146229-2d5f-4469-a8e8-97460f3e0942"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Exploring new ways of decorating
@@ -105,10 +105,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T172214Z
+      Value: 20251023T222435Z
     - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
       Hint: metadataKeywords
       Value: interior design, modern home decor, furniture styling, contemporary interiors, Forma Lux journal, design inspiration, artisan craftsmanship, home trends

@@ -80,12 +80,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68637-HomePageHero-2000x800?v=0bffde3a" dam-id="MhuteHaWQhqxszU1uGk22g" width="2000" height="800" alt="CircularLivingCollectionGuide.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68637/thumbnail" />
     - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
       Hint: metadataTitle
       Value: Forma Lux Journal – Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b356056f-1c4e-491f-b3a5-1863743f1050"
+      Value: "83ea3918-ca7b-4d26-a27a-fc6dab360e4d"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: Ideas and inspiration from the Forma Lux Journal—on design, materials, and living well.
@@ -95,10 +99,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T171321Z
+      Value: 20251023T221923Z
 - Language: "es-ES"
   Versions:
   - Version: 1

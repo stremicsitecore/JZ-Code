@@ -41,16 +41,23 @@ Languages:
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Contact us
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67032-HomepagePromoCTAs-1100x740?v=e14e44d4" dam-id="NsFpWqd3RVKMXignC81wqA" width="1100" height="740" alt="Rectangle 68.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67032/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Decor
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "42fd1aa1-01cc-41f6-ac01-b71f00e2f161"
+      Value: "edbf0114-a7b3-4864-b25c-5c2b0d55b7d9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T100358Z
+      Value: 20251023T221557Z
 - Language: "es-ES"
   Versions:
   - Version: 1
