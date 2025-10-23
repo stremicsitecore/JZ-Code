@@ -158,10 +158,11 @@ export const SearchResultsComponent = ({
                   ))}
                 </div>
               )}
+
+              <div className="flex flex-col md:flex-row md:justify-between">
+                <SearchPagination currentPage={page} totalPages={totalPages} />
+              </div>
             </section>
-            <div className="flex flex-col md:flex-row md:justify-between">
-              <SearchPagination currentPage={page} totalPages={totalPages} />
-            </div>
           </React.Fragment>
         )}
         {totalItems <= 0 && !isFetching && (

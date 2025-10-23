@@ -8,6 +8,8 @@ export type SearchResultsProps = ComponentProps & {
   params: { [key: string]: string };
 };
 
+export const dynamic = 'force-dynamic';
+
 const SearchResults = (props: SearchResultsProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
   const searchParams = useSearchParams();

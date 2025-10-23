@@ -6,13 +6,13 @@ Path: /sitecore/templates/Project/retail/Pages/ProductCategoryPage/Metadata/ogIm
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2e8ae4e0-3db1-499a-9762-6dcdbed2397d"
+  Value: "82dd0ad2-914a-4fa7-84e5-3a5149d2d03f"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +31,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ed1922ac-702a-4436-aab0-72c9d5423444"
+      Value: "19972a02-e047-479e-b5d7-6f5b4f2b6e92"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T231937Z
+      Value: 20251023T234315Z

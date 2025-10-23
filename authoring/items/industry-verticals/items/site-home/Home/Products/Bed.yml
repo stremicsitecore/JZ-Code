@@ -4,6 +4,9 @@ Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
 Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
 Path: "/sitecore/content/retail/forma-lux/Home/Products/Bed"
 SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "luxury beds, modern bed frames, minimalist bed design, sustainable furniture, wooden bed, handcrafted furniture, bedroom design, timeless comfort, eco-friendly furniture"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -13,12 +16,22 @@ SharedFields:
     <image mediaid="{D7EFEC39-0118-4288-9D44-84ACBC6DFD2E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4122f101-af38-4b8f-92a2-4c910bfefbb2"
+  Value: "6a63663d-a6e2-4538-98cd-8a2fbf62ede2"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0b03000bbe0642109f9315e99c8eb565?v=52ee1c03" dam-id="y9eaS3oRSLCy7JKBixa3jw" width="1100" height="733" alt="A beautiful bedroom with a king size bed and designer headboard" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: The bed collection transforms the bedroom into a calm, restorative space. Built with natural materials and clean lines, each design emphasizes comfort, balance, and the quiet sophistication of timeless craftsmanship.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T155045Z
@@ -33,16 +46,25 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: "luxury beds, modern bed frames, minimalist bed design, sustainable furniture, wooden bed, handcrafted furniture, bedroom design, timeless comfort, eco-friendly furniture"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "818aaa20-c3f9-49e2-b7ba-6f39dee0b902"
+      Value: "266c9dc4-5178-477c-a712-1ae418eb8cb4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Luxury Beds
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251016T155113Z
+      Value: 20251023T234506Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
       Value: Bed
