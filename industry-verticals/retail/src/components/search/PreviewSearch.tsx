@@ -68,11 +68,16 @@ export const PreviewSearchComponent = ({
     [onKeyphraseChange]
   );
   const handleSubmit = (e: SyntheticEvent): void => {
+    alert('handling click');
     e.preventDefault();
+    alert('setting isOpen to false');
     if (isOpen) setIsSearchOpen(false);
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    const target = e.target.query as HTMLInputElement;
+    alert('finding the target');
+    const target = e.target as HTMLInputElement;
+    alert('target: ' + target);
+    alert(`pushing to: /search?q=${target.value}`);
     router.push(`/search?q=${target.value}`);
     target.value = '';
   };
