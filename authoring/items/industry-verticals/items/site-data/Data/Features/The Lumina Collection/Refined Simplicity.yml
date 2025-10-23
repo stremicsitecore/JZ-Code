@@ -31,14 +31,14 @@ Languages:
     - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
       Hint: FeatureLink
       Value: |
-        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="Understand How" title=""/>
+        <link linktype="internal" id="0906cd3b443f43c68b9fad38d8d7495d" anchor="" querystring="" target="" class="" text="Understand How" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5705e363-1951-4f5c-9a82-7ad02b437936"
+      Value: "914a0719-5330-4bd9-b04d-236c30bbb9d8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T235131Z
+      Value: 20251023T155532Z

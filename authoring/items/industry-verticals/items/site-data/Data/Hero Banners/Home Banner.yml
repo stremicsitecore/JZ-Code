@@ -39,21 +39,21 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb593dd3-6018-4e7b-a3c7-57dae4cacf32"
+      Value: "167afad8-5018-479a-9674-1ce7a10bdb8e"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Discover Design That Speaks to You
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T084257Z
+      Value: 20251023T155808Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
-        <link linktype="internal" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" querystring="" target="" class="" text="See what's new" title=""/>
+        <link linktype="internal" id="6c709ab198964fbd919c546fe1637784" anchor="" querystring="" target="" class="" text="See what's new" title=""/>
 - Language: "es-ES"
   Versions:
   - Version: 1

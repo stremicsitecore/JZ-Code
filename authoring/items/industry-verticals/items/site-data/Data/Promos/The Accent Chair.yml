@@ -29,7 +29,7 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link linktype="internal" id="{6c709ab1-9896-4fbd-919c-546fe1637784}" anchor="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" target="" class="" text="See More" title=""/>
+        <link linktype="internal" id="0906cd3b443f43c68b9fad38d8d7495d" anchor="" querystring="sc_lang=en" target="" class="" text="See More" title=""/>
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
@@ -47,14 +47,14 @@ Languages:
       Value: Elegance in every detail
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2d14d3e1-22ce-4636-939b-0c1245b1db80"
+      Value: "71774cb5-f4b0-43ed-8d6f-e369a22e6c99"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T004321Z
+      Value: 20251023T155635Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: The Nesting Tables

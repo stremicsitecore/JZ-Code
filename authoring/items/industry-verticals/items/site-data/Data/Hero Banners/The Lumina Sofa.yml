@@ -25,7 +25,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p style="text-align:center;"><span style="color:hsl(0,0%,0%);">A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</span></p></div>
+        <div class="ck-content"><p style="text-align:center;"><span style="color:hsl(0,0%,0%);">A signature new offering, The Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</span></p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251022T183553Z
@@ -39,7 +39,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66234fab-48d3-45dc-8277-f8ae7801c7c1"
+      Value: "292054e7-7cb0-40bb-87c3-f907f722eb15"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Experience Comfort Reimagined
@@ -49,8 +49,8 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T011048Z
+      Value: 20251023T155055Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
-        <link id="{683a4c94-17a8-4c36-93ae-cdd2c60b1fb2}" text="Explore The Lumina Sofa" title="Explore The Lumina Sofa" querystring="sc_lang=en&amp;sc_site=Forma+Lux" anchor="" target="" linktype="internal"/>
+        <link linktype="internal" id="6c709ab198964fbd919c546fe1637784" anchor="" querystring="sc_lang=en" target="" class="" text="Explore The Lumina Collection" title="Explore The Lumina Sofa"/>

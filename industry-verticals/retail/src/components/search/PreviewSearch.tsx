@@ -111,7 +111,7 @@ export const PreviewSearchComponent = ({
                   {!loading &&
                     articles.map((article) => (
                       <PreviewSearch.Item key={article.id} asChild>
-                        <PreviewSearch.ItemLink
+                        <a
                           href={article.url}
                           className="box-border flex w-full text-black no-underline focus:shadow-md"
                         >
@@ -129,7 +129,7 @@ export const PreviewSearchComponent = ({
                               {article.name}
                             </ArticleCard.Title>
                           </ArticleCard.Root>
-                        </PreviewSearch.ItemLink>
+                        </a>
                       </PreviewSearch.Item>
                     ))}
                 </PreviewSearch.Items>

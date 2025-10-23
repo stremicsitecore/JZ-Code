@@ -29,7 +29,7 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link id="{6c709ab1-9896-4fbd-919c-546fe1637784}" text="Explore The Lumina Sofa" title="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" anchor="" target="" linktype="internal"/>
+        <link linktype="internal" id="595b3b539a8340d3ac025d73d63e52a9" anchor="" querystring="sc_lang=en" target="" class="" text="Explore The Lumina Sofa" title=""/>
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: <p>A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</p>
@@ -46,14 +46,14 @@ Languages:
       Value: Experience Comfort Reimagined
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "52597137-11ae-4aa7-89bf-6f0f4155d6f0"
+      Value: "e1563468-d1c8-4d70-ab7a-1f1caf020e1f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T010513Z
+      Value: 20251023T155547Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: The Lumina Sofa
