@@ -38,7 +38,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
 
   const router = useRouter();
-  const fullUrl = `'https://formalux.dev'${router.asPath}`;
+  const fullUrl = `'https://formalux.dev${router.asPath}`;
   console.log('full url: ' + fullUrl);
   console.log('asPath: ' + router.asPath);
 
