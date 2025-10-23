@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{DE026F8D-3962-4F4D-8509-AD945EC1785C}" />
+    <image mediaid="{1004BDA5-0021-4375-B775-E73655B72C4F}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "6a89156b-3169-4fa0-9e3b-a39ce64e2a98"
@@ -110,14 +110,6 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{9A339F4B-1777-4B78-9764-AFFF7BB42B37}">
-              <p:d />
-            </r>
-            <r
-              uid="{BD02C866-1659-4ED9-8B91-C96C6194E6F3}">
-              <p:d />
-            </r>
-            <r
               uid="{AA415AE0-946D-4EE2-BED7-EF778B1751BE}">
               <p:d />
             </r>
@@ -185,11 +177,11 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6da7d13-a6ba-419d-9644-c64e533ae307"
+      Value: "85b63414-8452-49dd-8a08-ad5582f3124e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251003T120524Z
+      Value: 20251023T003637Z

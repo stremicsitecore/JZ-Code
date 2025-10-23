@@ -1,8 +1,8 @@
 ﻿---
-ID: "1fbe873a-e4cc-4f4a-baa6-d305fdff0933"
+ID: "32a95f5f-2063-47ff-81d2-db78d6e20279"
 Parent: "d7bee783-0ed9-4fb5-9cf2-6c7fef0b2f86"
 Template: "08213afb-9cb4-4c1f-a5da-865b9a095601"
-Path: "/sitecore/content/retail/forma-lux/Data/Promos/The Lumina Sofa"
+Path: "/sitecore/content/retail/forma-lux/Data/Promos/The Accent Chair"
 SharedFields:
 - ID: "0d9bfa5d-ac4d-4dca-8477-78801227cf5c"
   Hint: PromoImageTwo
@@ -11,10 +11,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/66633-HomepagePromoCTAs-1100x740?v=46cbf58e" dam-id="jyjFB-hOSvefNrzGwYnaFA" width="1100" height="740" alt="TheLuminaSofa.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66633/thumbnail" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9d719edeb8b4469c8d2e93df495508ae?v=c28cb346" dam-id="LWoIqxe9QSqPH0hhbIYzbw" width="804" height="570" alt="Tables.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68216/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "56f254b0-ab76-4606-b1c9-aa68c36311bc"
+  Value: "65d1ed51-62c3-46b6-ac36-75fc9ade0206"
 Languages:
 - Language: en
   Versions:
@@ -29,10 +29,11 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link id="{6c709ab1-9896-4fbd-919c-546fe1637784}" text="Explore The Lumina Sofa" title="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" anchor="" target="" linktype="internal"/>
+        <link linktype="internal" id="{6c709ab1-9896-4fbd-919c-546fe1637784}" anchor="" querystring="sc_lang=en&amp;sc_site=Forma+Lux" target="" class="" text="See More" title=""/>
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
-      Value: <p>A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</p>
+      Value: |
+        <div class="ck-content"><p data-start="628" data-end="855">A set of two nesting tables that complete the Lumina Collection, designed in natural oak with harmonious proportions and a refined matte finish. Versatile, balanced, and made to endure everyday living beautifully.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -43,17 +44,17 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
       Hint: PromoSubTitle
-      Value: Experience Comfort Reimagined
+      Value: Elegance in every detail
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0926bf7-06b3-49cc-99dd-c6cee15cb56e"
+      Value: "2d14d3e1-22ce-4636-939b-0c1245b1db80"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T235506Z
+      Value: 20251023T004321Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: The Lumina Sofa
+      Value: The Nesting Tables
