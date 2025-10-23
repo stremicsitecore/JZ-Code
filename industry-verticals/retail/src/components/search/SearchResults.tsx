@@ -12,6 +12,8 @@ const SearchResults = (props: SearchResultsProps): JSX.Element => {
   const searchParams = useSearchParams();
   const query = searchParams?.get('q') || '';
 
+  console.log(`grabbed keyword from querystring: ${query}`);
+
   return (
     <div className={`${sxaStyles}`}>
       {/* <QuestionsAnswers

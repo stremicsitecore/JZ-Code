@@ -48,6 +48,7 @@ export const SearchResultsComponent = ({
   defaultKeyphrase = '',
   defaultItemsPerPage = 10,
 }: ArticleSearchResultsProps) => {
+  console.log(`got passed in keyphrase: ${defaultKeyphrase}`);
   const {
     actions: { onItemClick },
     state: { sortType, page, itemsPerPage },
