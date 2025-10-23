@@ -81,7 +81,6 @@ export const SearchResultsComponent = ({
   const defaultCardView = 'list';
   const [dir, setDir] = useState(defaultCardView);
   const onToggle = (value = defaultCardView) => setDir(value);
-  console.log('DEFAULT ', defaultKeyphrase);
 
   if (isLoading) {
     return (
