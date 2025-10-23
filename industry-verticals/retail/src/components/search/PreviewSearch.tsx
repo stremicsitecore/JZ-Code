@@ -1,7 +1,12 @@
 import type { ChangeEvent, SyntheticEvent } from 'react';
 import { useCallback } from 'react';
 import type { PreviewSearchInitialState } from '@sitecore-search/react';
-import { WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
+import {
+  WidgetDataType,
+  usePreviewSearch,
+  usePreviewSearchActions,
+  widget,
+} from '@sitecore-search/react';
 import { ArticleCard, PreviewSearch } from '@sitecore-search/ui';
 import React from 'react';
 import Image from 'next/image';
@@ -76,6 +81,8 @@ export const PreviewSearchComponent = ({
     router.push(`/search?q=${target.value}`);
     target.value = '';
   };
+  const { onResultClick } = usePreviewSearchActions();
+
   return (
     <PreviewSearch.Root>
       <form onSubmit={handleSubmit} className="flex-1">
@@ -111,7 +118,16 @@ export const PreviewSearchComponent = ({
                   {!loading &&
                     articles.map((article) => (
                       <PreviewSearch.Item key={article.id} asChild>
-                        <a
+                        <PreviewSearch.ItemLink
+                          onClick={() => {
+                            onResultClick({
+                              name: article.name,
+                              title: article.title,
+                              value: article.name,
+                              displayName: article.name,
+                            });
+                            router.push(article.url);
+                          }}
                           href={article.url}
                           className="box-border flex w-full text-black no-underline focus:shadow-md"
                         >
@@ -129,7 +145,7 @@ export const PreviewSearchComponent = ({
                               {article.name}
                             </ArticleCard.Title>
                           </ArticleCard.Root>
-                        </a>
+                        </PreviewSearch.ItemLink>
                       </PreviewSearch.Item>
                     ))}
                 </PreviewSearch.Items>
