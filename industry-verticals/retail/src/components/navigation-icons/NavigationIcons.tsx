@@ -93,7 +93,7 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
           <div className="mx-auto max-w-7xl px-4 py-4">
             <div className="flex items-center gap-2">
               <PreviewSearch
-                rfkId="rfkid_6"
+                rfkId="formalux_preview_search"
                 isOpen={isSearchOpen}
                 setIsSearchOpen={setIsSearchOpen}
               />
