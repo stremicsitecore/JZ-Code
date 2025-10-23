@@ -8,6 +8,9 @@ SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{41E4B543-B8BC-42E6-82F0-1715DC47A6BA}"
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: luxury furniture, handcrafted modular sofa, sustainable furniture, modern design
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -17,7 +20,7 @@ SharedFields:
     <image mediaid="{1265691C-6EE9-49B3-8131-FDEA5E9EE0F7}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "30e419e9-ac73-4416-98c6-a4fc2a1f2f94"
+  Value: "29f0cf6c-a03a-4549-aa76-e83698043d26"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -538,7 +541,7 @@ Languages:
       Value: Forma Lux – Handcrafted Luxury Furniture Collections
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "854da7c8-a321-4ad8-9e21-c99dfba509a8"
+      Value: "ab0dcd1d-142e-4924-a977-93280955518d"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
@@ -551,7 +554,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T221351Z
+      Value: 20251023T224455Z
 - Language: "es-ES"
   Versions:
   - Version: 1

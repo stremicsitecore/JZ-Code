@@ -2,6 +2,7 @@ import React, { JSX } from 'react';
 import { ComponentProps } from 'lib/component-props';
 import SearchResultsWidget from './SearchResultsComponent';
 import { useSearchParams } from 'next/navigation';
+import QuestionsAnswers from './QuestionsAnswers';
 
 export type SearchResultsProps = ComponentProps & {
   params: { [key: string]: string };
@@ -16,12 +17,12 @@ const SearchResults = (props: SearchResultsProps): JSX.Element => {
 
   return (
     <div className={`${sxaStyles}`}>
-      {/* <QuestionsAnswers
+      <QuestionsAnswers
         key={`${query}-questions`}
         rfkId="rfkid_qa"
         defaultKeyphrase={query}
         defaultRelatedQuestions={3}
-      /> */}
+      />
       <SearchResultsWidget rfkId="formalux_search_results" defaultKeyphrase={query} />
     </div>
   );

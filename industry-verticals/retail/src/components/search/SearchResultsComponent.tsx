@@ -126,6 +126,11 @@ export const SearchResultsComponent = ({
                 </div>
               </section>
 
+              <div className="bg-background-accent flex flex-col text-xs md:flex-row md:justify-between">
+                <ResultsPerPage defaultItemsPerPage={defaultItemsPerPage} />
+                <SearchPagination currentPage={page} totalPages={totalPages} />
+              </div>
+
               {/* Results */}
               {dir === 'grid' ? (
                 <div className="grid grid-cols-2 gap-x-3 gap-y-3 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 xl:gap-x-6 xl:gap-y-4">
@@ -151,11 +156,6 @@ export const SearchResultsComponent = ({
                   ))}
                 </div>
               )}
-
-              <div className="flex flex-col text-xs md:flex-row md:justify-between">
-                <ResultsPerPage defaultItemsPerPage={defaultItemsPerPage} />
-                <SearchPagination currentPage={page} totalPages={totalPages} />
-              </div>
             </section>
           </React.Fragment>
         )}
