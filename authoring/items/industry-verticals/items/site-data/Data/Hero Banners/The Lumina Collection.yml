@@ -7,14 +7,14 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c08a67c1d58741059a280a4eee1230a9?v=781aa45e" dam-id="TYFjDC9gS4Cwoe4qaDKQyA" width="1024" height="661" alt="TheLuminaCollection.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68155/thumbnail" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/66633-HomepagePromoCTAs-1100x740?v=46cbf58e" dam-id="jyjFB-hOSvefNrzGwYnaFA" width="1100" height="740" alt="TheLuminaSofa.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66633/thumbnail" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: |
-    <file mediaid="29603c43-1c27-4539-9b72-b962ebd7444a" src="-/media/29603C431C2745399B72B962EBD7444A.ashx"/>
+    <file src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ede27ae4311146cc8df04b6fb774517b?v=49ded25b" title="TheLuminaSofa.mp4" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "975b12b8-ed86-4e97-8cc4-57ee0f99b62e"
+  Value: "fc112c30-e7b2-44c0-a798-2860fe221b17"
 Languages:
 - Language: en
   Versions:
@@ -26,7 +26,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p style="text-align:center;"><span style="color:hsl(0, 0%, 30%);">A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</span></p></div>
+        <div class="ck-content"><p style="text-align:center;"><span style="color:hsl(0, 0%, 100%);">A signature piece from the Lumina Collection, crafted to embody timeless design, modular versatility, and sustainable sophistication.</span></p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251022T183553Z
@@ -40,7 +40,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3eb02968-1270-47b7-8541-5395bff8ee3b"
+      Value: "b83247f5-e471-49b8-a413-000f58b9946f"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
       Value: Experience Comfort Reimagined
@@ -50,7 +50,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T234441Z
+      Value: 20251023T010443Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |

@@ -28,7 +28,7 @@ Languages:
               p:before="*"
               s:ds="f7887ac4-f6d6-4bba-8d5e-6b161f42ae43"
               s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
               s:ph="headless-main" />
             <r
               uid="{674C5F22-C48D-47B7-B67E-CC2C9F8F643C}"
@@ -89,11 +89,11 @@ Languages:
       Value: The Lumina Collection
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "609c36e0-0f76-43f6-8f80-3de85fe14b44"
+      Value: "c0afd82f-f22e-4fe5-89b6-8ad0d5c5615a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T002439Z
+      Value: 20251023T010429Z

@@ -41,6 +41,11 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const baseUrl = 'https://formalux.dev';
   const fullUrl = `${baseUrl}${router.asPath}`;
 
+  console.log('asPath: ' + router.asPath);
+  console.log('basePath: ' + router.basePath);
+  console.log('pathname: ' + router.pathname);
+  console.log('route: ' + router.route);
+
   return (
     <>
       <Scripts />
@@ -53,7 +58,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         <link rel="icon" href="/favicon.ico" />
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
-        {ogImage && <meta property="og:image " content={ogImage} />}
+        {ogImage && <meta property="og:image" content={ogImage} />}
         <meta property="og:url" content={fullUrl} />
       </Head>
 
