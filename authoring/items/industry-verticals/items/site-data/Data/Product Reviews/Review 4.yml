@@ -7,14 +7,14 @@ SharedFields:
 - ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
   Hint: ReviewImage
   Value: |
-    <image mediaid="{E6B176E0-831B-40E5-8825-98584F41209A}" />
+    <image mediaid="{E6B176E0-831B-40E5-8825-98584F41209A}" alt="A photo of a modern dining room or entry way"/>
 - ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
   Hint: Avatar
   Value: |
-    <image mediaid="{9B5D4CA0-573C-4081-AC20-EB5F24E8E6D4}" />
+    <image mediaid="{9B5D4CA0-573C-4081-AC20-EB5F24E8E6D4}" alt="a woman with a bright orange shirt on and lush beautiful hair"/>
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f3ac1a47-7479-460a-b366-818fcfbe8581"
+  Value: "c688c06e-b966-4531-ba3e-c6518f1e9dec"
 Languages:
 - Language: en
   Versions:
@@ -42,14 +42,14 @@ Languages:
       Value: “Forma Lux helped me express myself through my space. It’s not just furniture — it’s a lifestyle, curated with care and bold taste.”
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0ba3fded-1f74-4dea-8a5c-18addae07b68"
+      Value: "ccf72dde-ba3c-43a5-a805-1fe0af4eba65"
     - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
       Hint: ReviewerName
       Value: Ava L.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T101157Z
+      Value: 20251023T230541Z

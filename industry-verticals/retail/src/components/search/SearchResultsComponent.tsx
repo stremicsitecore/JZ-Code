@@ -89,7 +89,7 @@ export const SearchResultsComponent = ({
   }
   return (
     <div>
-      <div className="text-opacity-75 relative flex max-w-full px-4 text-black dark:text-gray-100">
+      <div className="relative flex max-w-full px-4">
         {isFetching && (
           <div className="fixed top-0 right-0 bottom-0 left-0 z-30 h-full w-full bg-white opacity-50 dark:bg-gray-800">
             <div className="absolute top-[50%] left-[50%] z-40 flex -translate-x-[50%] -translate-y-[50%] flex-col items-center justify-center">
@@ -106,30 +106,31 @@ export const SearchResultsComponent = ({
             </section>
             <section className="flex flex-[4_1_0%] flex-col">
               {/* Sort Select */}
-              <section className="flex justify-between text-xs">
-                {totalItems > 0 && (
-                  <QueryResultsSummary
-                    currentPage={page}
-                    itemsPerPage={itemsPerPage}
-                    totalItems={totalItems}
-                    totalItemsReturned={articles.length}
-                  />
-                )}
-                <div>
-                  <CardViewSwitcher
-                    onToggle={onToggle}
-                    defaultCardView={defaultCardView}
-                    GridIcon={GridIcon}
-                    ListIcon={ListBulletIcon}
-                  />
-                  <SortOrder options={sortChoices} selected={sortType} />
+              <section className="bg-background-accent flex justify-between">
+                <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
+                  {totalItems > 0 && (
+                    <QueryResultsSummary
+                      currentPage={page}
+                      itemsPerPage={itemsPerPage}
+                      totalItems={totalItems}
+                      totalItemsReturned={articles.length}
+                    />
+                  )}
+                  <div className="gap flex items-center gap-x-7">
+                    <ResultsPerPage defaultItemsPerPage={defaultItemsPerPage} />
+                    <SearchPagination currentPage={page} totalPages={totalPages} />
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-center">
+                    <CardViewSwitcher
+                      onToggle={onToggle}
+                      defaultCardView={defaultCardView}
+                      GridIcon={GridIcon}
+                      ListIcon={ListBulletIcon}
+                    />
+                    <SortOrder options={sortChoices} selected={sortType} />
+                  </div>
                 </div>
               </section>
-
-              <div className="bg-background-accent flex flex-col text-xs md:flex-row md:justify-between">
-                <ResultsPerPage defaultItemsPerPage={defaultItemsPerPage} />
-                <SearchPagination currentPage={page} totalPages={totalPages} />
-              </div>
 
               {/* Results */}
               {dir === 'grid' ? (
@@ -157,6 +158,9 @@ export const SearchResultsComponent = ({
                 </div>
               )}
             </section>
+            <div className="flex flex-col md:flex-row md:justify-between">
+              <SearchPagination currentPage={page} totalPages={totalPages} />
+            </div>
           </React.Fragment>
         )}
         {totalItems <= 0 && !isFetching && (

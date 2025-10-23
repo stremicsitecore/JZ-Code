@@ -7,14 +7,14 @@ SharedFields:
 - ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
   Hint: ReviewImage
   Value: |
-    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
+    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" alt="An image of a beautiful sofa"/>
 - ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
   Hint: Avatar
   Value: |
-    <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" />
+    <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" alt="A woman in a black and white photo"/>
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c29e11ca-3029-41ff-8fe4-d4ca305bd7a2"
+  Value: "db9952c9-00c7-45bd-9db6-23747de719ea"
 Languages:
 - Language: en
   Versions:
@@ -42,14 +42,14 @@ Languages:
       Value: “Every corner of my apartment now tells a story of sophistication and design. Forma Lux brought art, light, and balance into my everyday life.”
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fa872c27-c7e4-4649-83a4-11d29d74f247"
+      Value: "ffe9d75c-3425-4625-a284-137282eac845"
     - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
       Hint: ReviewerName
       Value: Marc Delacroix
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251021T080905Z
+      Value: 20251023T230601Z

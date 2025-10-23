@@ -7,18 +7,18 @@ SharedFields:
 - ID: "0d9bfa5d-ac4d-4dca-8477-78801227cf5c"
   Hint: PromoImageTwo
   Value: |
-    <image mediaid="f042434f-637a-4470-957d-9caa7dcc9b30" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6fdb0748ffef4dd8a5afaa4539e98aad?v=34ed2a7b" dam-id="JA9QQeILQn-0KFOEs0mmYA" width="2500" height="1667" alt="A modern office with designer furniture and a lot of natural light" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67132/thumbnail" />
 - ID: "3565b3f1-77de-4192-b1ca-e11c6e60c206"
   Hint: PromoImageThree
   Value: |
-    <image mediaid="e0919f62-e847-41fb-985c-0d298789d1b3" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/8612e40dd9424f7a9de8a627f81bf24d?v=1c489c05" dam-id="uaz18NNCQNaAJavpPqm2xg" width="1100" height="815" alt="A beautifully designed room with a marble coffee table, a linen sofa, and a teal wall" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67123/thumbnail" />
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="36b5664c-9e04-43bb-aeed-a25b83d329bd" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67106-HomepagePromoCTAs-1100x740?v=adb967ee" dam-id="O9R-vEgER8GZHbOh0UNb7g" width="1100" height="740" alt="A modern kitchen table made with natural oak" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67106/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5cd8af5c-f9e4-4e16-8c93-5d52e0953e9a"
+  Value: "fa29e501-72da-44b4-9ed3-31e4c659712f"
 Languages:
 - Language: en
   Versions:
@@ -51,14 +51,14 @@ Languages:
       Value: Materials
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "da83b75b-9903-473a-9572-e58f85f6c00a"
+      Value: "156b3996-54e7-46da-a48e-7bb8e31146d2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251009T140424Z
+      Value: 20251023T230042Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Our Promise  to furniture 

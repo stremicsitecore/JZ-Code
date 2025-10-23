@@ -7,7 +7,7 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="a7429293-a627-42e3-8093-0963e6c079d8" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d8817fe6f48842e39e81c0c84ff8b1ee?v=40c2097e" dam-id="NuPqTaaSRP2KkZ6K1sMv9g" width="652" height="619" alt="A simple sitting area with a designer chair and shelves for decor with an arched inlay cabinet" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67023/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{E65E4578-2747-482C-B25A-E1C1CF6760EF}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c62776f0-c540-4030-a392-0f9181fa3d5d"
+  Value: "8932071c-a4c5-44dd-afd8-f33a014541ba"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -97,7 +97,7 @@ Languages:
       Value: Handmade Pieces That Took Time to Make | Forma Lux Journal – The Beauty of Patience in Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94419545-87fd-43a7-a1d9-4bce5a5e97ac"
+      Value: "3d2d8f91-0a71-4f4b-82dc-7952f95e1057"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Handmade pieces that took time to make
@@ -110,7 +110,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T222402Z
+      Value: 20251023T225629Z
     - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
       Hint: metadataKeywords
       Value: handmade furniture, artisan craftsmanship, slow design, home decor, sustainable interiors, Forma Lux journal, timeless design, wood furniture

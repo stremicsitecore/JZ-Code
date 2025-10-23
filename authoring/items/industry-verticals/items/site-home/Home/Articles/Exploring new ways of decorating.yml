@@ -7,7 +7,7 @@ SharedFields:
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <image mediaid="f4dddce5-f225-4cf9-aad1-cd12808a7952" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67032-HomepagePromoCTAs-1100x740?v=e14e44d4" dam-id="NsFpWqd3RVKMXignC81wqA" width="1100" height="740" alt="A beautiful home with extravagant finishes " dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67032/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 75
@@ -17,7 +17,7 @@ SharedFields:
     <image mediaid="{CA876165-A479-43B2-B49A-87A39308EA66}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "26b394d2-cd3d-4155-9a0b-17b69e34c68b"
+  Value: "176b8a93-b98a-4b0a-9979-108b9f7f9282"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -95,7 +95,7 @@ Languages:
       Value: Exploring New Ways of Decorating | Forma Lux Journal – Modern Perspectives on Interior Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "61146229-2d5f-4469-a8e8-97460f3e0942"
+      Value: "08726ef6-561c-4611-a715-38f28622997b"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: Exploring new ways of decorating
@@ -108,7 +108,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T222435Z
+      Value: 20251023T225717Z
     - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
       Hint: metadataKeywords
       Value: interior design, modern home decor, furniture styling, contemporary interiors, Forma Lux journal, design inspiration, artisan craftsmanship, home trends

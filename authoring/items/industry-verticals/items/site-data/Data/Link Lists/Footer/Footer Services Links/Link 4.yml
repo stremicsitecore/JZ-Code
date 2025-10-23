@@ -32,14 +32,14 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="internal" id="1c69a4cb-a950-4f89-b4d2-0787d84421fc" anchor="" querystring="" target="" class="" text="" title=""/>
+        <link linktype="internal" id="1c69a4cb-a950-4f89-b4d2-0787d84421fc" anchor="" querystring="" target="" class="" text="Landing Pages" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3306708f-1a1e-4365-95ac-ce2e19c699ad"
+      Value: "c57a5431-d652-49b5-b1a2-6395aabc8796"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T003637Z
+      Value: 20251023T232131Z

@@ -7,14 +7,14 @@ SharedFields:
 - ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
   Hint: ReviewImage
   Value: |
-    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" />
+    <image mediaid="{D6114837-C32B-42C4-B574-A3B3ECAFC459}" alt="A relaxing lounge chair in an apartment that is modern"/>
 - ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
   Hint: Avatar
   Value: |
-    <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" />
+    <image mediaid="{EB918E1B-4A73-439D-9E1F-F820DDA124CD}" alt="a woman in a black and white photo"/>
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c29e11ca-3029-41ff-8fe4-d4ca305bd7a2"
+  Value: "cbab6716-86d8-4248-997a-cbcebfa09624"
 Languages:
 - Language: en
   Versions:
@@ -42,14 +42,14 @@ Languages:
       Value: “There’s a quiet confidence in Forma Lux design. It’s minimalism with personality — understated, but impossible to ignore.”
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8a00cfaf-f8da-4abb-938c-1039fc3adb94"
+      Value: "2db40801-9c20-4eff-b63f-63c12a289f39"
     - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
       Hint: ReviewerName
       Value: Sophia R.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251020T100948Z
+      Value: 20251023T230444Z

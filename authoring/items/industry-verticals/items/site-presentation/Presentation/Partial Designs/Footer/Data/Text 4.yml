@@ -25,17 +25,17 @@ Languages:
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
-        <div class="ck-content"><figure class="image"><img style="aspect-ratio:162/48;" src="-/media/AAA800816F654646B55056DE51FEDF49.ashx" alt="" width="162" height="48" /></figure></div>
+        <div class="ck-content"><figure class="image"><img style="aspect-ratio:162/48;" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/fb52e7bfedfc4f9c883e4ffb8ac0ec08?v=2fc0b85c" alt="" width="162" height="48" /></figure></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "211fc1dc-4ac1-4d26-b292-0528c456de6c"
+      Value: "5261bb57-5ae4-47b9-b3e3-7645cab9a1fe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T090503Z
+      Value: 20251023T232104Z
 - Language: "es-ES"
   Versions:
   - Version: 1

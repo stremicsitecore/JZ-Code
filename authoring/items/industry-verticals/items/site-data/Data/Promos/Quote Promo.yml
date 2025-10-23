@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="20296978-3a4b-4102-90b2-f7940605817e" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6484e7dd219a4d25af5f59fe1493f44f?v=8020f8c6" dam-id="Om3jE8pITxu0OqX66hyewA" width="3000" height="1345" alt="a modern gray sofa with a transparent background" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66902/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "096fc92c-ae3f-4f8c-9a6e-4b088e7bc13e"
+  Value: "4cf2cf1c-9216-4fb5-9222-ca1f815ad891"
 Languages:
 - Language: en
   Versions:
@@ -39,14 +39,14 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "86ee019f-36f3-404e-a79a-df309ca95407"
+      Value: "c4386302-004a-4004-8401-c77591423d81"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251001T065802Z
+      Value: 20251023T231242Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Our Promise To You
