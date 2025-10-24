@@ -13,12 +13,6 @@
   "deployItems": {
     "modules": ["Project.retail"]
   },
-  "transforms": [
-    {
-        "xdtPath": "/app_data/xdts/web.config.xdt",
-        "targetPath": "/web.config"
-    }
-  ],
   "postActions": {
     "actions": {
       "scsModules": {
