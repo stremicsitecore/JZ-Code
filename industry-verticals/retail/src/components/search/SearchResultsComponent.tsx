@@ -13,7 +13,6 @@ import SearchPagination from './SearchPagination';
 import SearchFacets from './SearchFacets';
 import ResultsPerPage from './ResultsPerPage';
 import QueryResultsSummary from './QueryResultsSummary';
-import { Filter } from 'lucide-react';
 import CardViewSwitcher from './CardViewSwitcher';
 
 const SEARCH_CONFIG = {
@@ -100,8 +99,6 @@ export const SearchResultsComponent = ({
         {totalItems > 0 && (
           <React.Fragment key="1">
             <section className="relative mt-4 mr-8 flex w-[25%] flex-none flex-col">
-              <Filter />
-
               <SearchFacets facets={facets} />
             </section>
             <section className="flex flex-[4_1_0%] flex-col">

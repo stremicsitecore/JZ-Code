@@ -7,11 +7,15 @@ SharedFields:
 - ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
   Hint: Image2
   Value: |
-    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/311ed4e2c8e94db288e50cf9d3c1ffee?v=346ade5c" dam-id="Sib5AQyjRM6kHfTwzABMWA" width="968" height="936" alt="close up of the leg of the lumina sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68170/thumbnail" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c3cbf50210d94ff594ca13dd95f6a917?v=4d93eeaf" dam-id="fIGW0YgPSpyimDa20I6XCw" width="1024" height="1024" alt="The Lumina Sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
+- ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
+  Hint: Image4
+  Value: |
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5ea75437f4794ed4aade351169d4dcfc?v=5ac22ce7" dam-id="6j9rvqKQR4ig63SxxYr-Mg" width="992" height="910" alt="Close up of the linen material" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68168/thumbnail" />
 - ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
   Hint: Image1
   Value: |
-    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4944d71554034b85b7d7287647b67230?v=121fadde" dam-id="fIGW0YgPSpyimDa20I6XCw" width="1024" height="1024" alt="The Lumina Sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0c5a5218ec714d1393be10b1eed1db72?v=e9e028e4" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="The Lumina Sofa with a transparent background" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -19,10 +23,10 @@ SharedFields:
 - ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
   Hint: Image3
   Value: |
-    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9f757e18a3354139b900f5e667d6eaef?v=9530cc02" dam-id="6j9rvqKQR4ig63SxxYr-Mg" width="992" height="910" alt="Close up of the linen material" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68168/thumbnail" />
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d5f08cd5db1b4852ae1a7c7475f509eb?v=21f5e432" dam-id="Sib5AQyjRM6kHfTwzABMWA" width="968" height="936" alt="close up of the leg of the lumina sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68170/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "621a11a5-55d5-453c-84f7-e58e0319e31d"
+  Value: "93ffa671-3182-4246-90fa-23c04ed9da6b"
 Languages:
 - Language: en
   Versions:
@@ -66,7 +70,7 @@ Languages:
         <image width="1024" height="1024" dam-id="fIGW0YgPSpyimDa20I6XCw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4944d71554034b85b7d7287647b67230?v=121fadde" alt="The signature sofa in a modern living room" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5653ba2c-ad2f-4f16-babe-587df3d52253"
+      Value: "7b6b9893-49f3-441b-88eb-fb7a4790291c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -85,7 +89,7 @@ Languages:
       Value: Experience The Lumina Sofa from Forma Lux — a signature modular piece that redefines modern comfort through timeless design and sustainable craftsmanship. Handcrafted from natural materials, built to endure, and designed to evolve with your space.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T213540Z
+      Value: 20251024T011813Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
