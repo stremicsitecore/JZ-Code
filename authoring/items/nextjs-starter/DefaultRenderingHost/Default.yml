@@ -26,3 +26,6 @@ Languages:
 - Language: "fr-CA"
   Versions:
   - Version: 1
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
