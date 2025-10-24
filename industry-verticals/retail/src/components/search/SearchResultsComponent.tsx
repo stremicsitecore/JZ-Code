@@ -101,7 +101,7 @@ export const SearchResultsComponent = ({
             <section className="relative mt-4 mr-8 flex w-[25%] flex-none flex-col">
               <SearchFacets facets={facets} />
             </section>
-            <section className="flex flex-[4_1_0%] flex-col">
+            <section className="mt-4 flex flex-[4_1_0%] flex-col">
               {/* Sort Select */}
               <section className="bg-background-accent flex justify-between">
                 <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
