@@ -4,11 +4,12 @@ import SearchResultsWidget from './SearchResultsComponent';
 import { useSearchParams } from 'next/navigation';
 import QuestionsAnswers from './QuestionsAnswers';
 
+export const dynamic = 'force-dynamic';
+export const fetchCache = 'force-no-store';
+
 export type SearchResultsProps = ComponentProps & {
   params: { [key: string]: string };
 };
-
-export const dynamic = 'force-dynamic';
 
 export const SearchResults = (props: SearchResultsProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
@@ -18,7 +19,7 @@ export const SearchResults = (props: SearchResultsProps): JSX.Element => {
   console.log(`grabbed keyword from querystring: ${query}`);
 
   return (
-    <div className={`${sxaStyles}`}>
+    <div key={query} className={`${sxaStyles}`}>
       <QuestionsAnswers
         key={`${query}-questions`}
         rfkId="rfkid_qa"

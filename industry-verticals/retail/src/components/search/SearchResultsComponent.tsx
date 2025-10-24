@@ -16,8 +16,6 @@ import QueryResultsSummary from './QueryResultsSummary';
 import { Filter } from 'lucide-react';
 import CardViewSwitcher from './CardViewSwitcher';
 
-export const dynamic = 'force-dynamic';
-
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
 };
