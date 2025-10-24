@@ -54,16 +54,20 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\zach.escabedo@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6060756d300b4d4a8b1481f6ca1b43f4?v=f5ccac5c" dam-id="AVpY-JC7QqqwkAwTv8kZuQ" width="1024" height="1024" alt="A collage of minimalist design decor" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66647/thumbnail" />
     - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
       Hint: metadataTitle
-      Value: Landing Pages
+      Value: Browse our latest and greatest campaigns and content
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8bb0d631-5882-40a5-9d02-efef6241adc9"
+      Value: "9997e221-1239-4264-9aab-782a41142ee5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T155225Z
+      Value: 20251024T185055Z

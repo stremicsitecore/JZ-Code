@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <location path="sitecore">
+        <system.webServer>
+            <httpProtocol>
+                <customHeaders>	                            
+                    <add xdt:Transform="RemoveAll" />
+
+                    <add xdt:Transform="Insert"
+                        name="Content-Security-Policy"
+                        value="frame-ancestors 'self' pages-dev.sitecore-staging.cloud pages-qa.sitecore-staging.cloud pages-staging.sitecore-staging.cloud symphony-dev.sitecore-staging.cloud symphony-qa.sitecore-staging.cloud symphony-staging.sitecore-staging.cloud components-staging.sitecore-staging.cloud components-dev.sitecore-staging.cloud components-qa.sitecore-staging.cloud explorer-staging.sitecore-staging.cloud explorer-staging-blue.sitecore-staging.cloud http://localhost:5000 http://localhost:3000 https://localhost:5001 https://designlibrary-staging.sitecore-staging.cloud https://designlibrary-dev.sitecore-staging.cloud https://pages-staging.sitecore-staging.cloud" />
+
+                    <add xdt:Transform="Insert"
+                        name="Content-Security-Policy"
+                        value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net https://web-sdk-eu.aptrinsic.com https://esp-eu.aptrinsic.com; img-src 'self' data: https://s.gravatar.com https://*.wp.com/cdn.auth0.com/avatars https://cdn.auth0.com/avatars; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://web-sdk-eu.aptrinsic.com; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com; frame-src 'self' https://*.sitecore-staging.cloud/auth https://*.sitecorecloud.io/auth https://starter-verticals.sitecoresandbox.cloud https://*.sitecoresandbox.cloud; block-all-mixed-content;" />
+                          </customHeaders>
+            </httpProtocol>
+        </system.webServer>
+    </location>
+</configuration>
