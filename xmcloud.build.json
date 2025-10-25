@@ -20,7 +20,7 @@
     }
   },
   "deployItems": {
-    "modules": ["Project.retail"]
+    "modules": ["Project.retail", "skywings"]
   },
   "postActions": {
     "actions": {
