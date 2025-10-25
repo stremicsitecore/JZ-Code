@@ -1,8 +1,8 @@
 ﻿---
 ID: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
-Parent: "1ce1e72e-06d8-4441-b66c-6f18b0f48980"
+Parent: "0e9fc3f7-01cd-4a5c-974e-257ee5bedd74"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Global/Navigation Link
+Path: "/sitecore/templates/Project/travel-hospitality/Navigation Link"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -34,11 +34,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "70e3af33-c49c-4963-b4e3-f1e6c2a73f3e"
+      Value: "e39eaf72-dd58-4246-ae2a-cbd85a0e7912"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T215148Z
+      Value: 20251025T210326Z

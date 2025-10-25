@@ -15,6 +15,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T171318Z
@@ -29,14 +32,18 @@ Languages:
         </ul>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f2dfa568-f26b-4563-8178-32dc10d0185d"
+      Value: "627ea8b6-5f37-4470-a9b8-c1f7f8bc0cf9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T171331Z
+      Value: 20251025T203746Z
     - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
       Hint: Title
       Value: Economy Class
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9be8c1b8910247729ab802407e646f8d?v=3dcc5f89" dam-id="xLWu2TkUSceFv_4ZCfRouw" width="500" height="349" alt="ff44b4cad08048979b6b715868b99108" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68822/thumbnail" />

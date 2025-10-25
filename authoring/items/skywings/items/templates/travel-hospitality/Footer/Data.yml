@@ -1,8 +1,8 @@
 ﻿---
-ID: "07abc1a9-8f2c-41b0-9656-b60af64cbecd"
-Parent: "77f2631e-497d-4e31-97f1-d72b0691254d"
-Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
-Path: /sitecore/layout/Renderings/Project/global/Metadata
+ID: "7a370b8e-2d67-4c0a-bb2f-ec3c7166f95b"
+Parent: "4dc88d14-f1ca-48bd-808b-94a69555a9ff"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/Project/travel-hospitality/Footer/Data"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250812T225343Z
+      Value: 20250728T215100Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e3994d54-1a6c-4d5c-8baa-54b46104b330"
+      Value: "dd97f4d7-570f-4bd7-b3f9-d353015c9c4d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250812T225343Z
+      Value: 20250728T215101Z

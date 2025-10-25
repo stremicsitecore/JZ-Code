@@ -1,18 +1,18 @@
 ﻿---
-ID: "461095f3-8bb6-48dc-8ad7-5b0fc378d233"
-Parent: "9bcf9b4a-e936-4a57-a7c8-9f60f465b133"
-Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/global/Search/ArticleRecommender
+ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+Parent: "58261093-70ef-4103-aad1-2c243615f432"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: "/sitecore/templates/Project/travel-hospitality/Footer/Contact Info/Email"
 SharedFields:
-- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
-  Hint: componentName
-  Value: ArticleRecommender
-- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
-  Hint: Parameters Template
-  Value: "{4763AC27-E932-4AA4-99A4-4D1F1CAD1C54}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "04d1ec05-598e-4523-bac4-d9cf0f68bc73"
+  Value: "e0671e6f-e889-4a56-aefb-0906b99e9346"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250925T223943Z
+      Value: 20250728T215102Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +31,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11c65c12-cc40-4014-bf48-582a473ba21d"
+      Value: "0867b6fb-ae63-4cbc-95d5-2a72993aa899"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250926T202039Z
+      Value: 20250728T215102Z

@@ -13,6 +13,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
       Hint: Price
       Value: from $499
@@ -36,7 +39,7 @@ Languages:
       Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "53ed28a3-660c-4b02-ae67-f60ed46e169e"
+      Value: "d5234575-b6af-4ed4-92df-aa3cd847bdaf"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: New York
@@ -46,6 +49,10 @@ Languages:
     - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
       Hint: SuggestedDuration
       Value: "4-8 days"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
     - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
       Hint: Highlights
       Value: |
@@ -65,7 +72,7 @@ Languages:
         {CF86A6EF-9130-4A98-9214-E1879B99A59F}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250731T161918Z
+      Value: 20251025T203322Z
     - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
       Hint: ExpectedTemps
       Value: "5-26C"

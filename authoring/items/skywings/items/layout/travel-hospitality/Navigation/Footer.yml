@@ -2,7 +2,7 @@
 ID: "2715af11-f3fe-4b7d-be27-62213b20d520"
 Parent: "52686231-dc43-4a89-b205-152a8d719465"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/global/Navigation/Footer
+Path: "/sitecore/layout/Renderings/Project/travel-hospitality/Navigation/Footer"
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName

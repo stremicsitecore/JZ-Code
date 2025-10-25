@@ -2,7 +2,7 @@
 ID: "a9fd6c50-af6b-46cd-9370-293e95741a1c"
 Parent: "52686231-dc43-4a89-b205-152a8d719465"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/global/Navigation/Header
+Path: "/sitecore/layout/Renderings/Project/travel-hospitality/Navigation/Header"
 SharedFields:
 - ID: "003a72cd-4cd6-4392-9862-41d4159929cd"
   Hint: Data source

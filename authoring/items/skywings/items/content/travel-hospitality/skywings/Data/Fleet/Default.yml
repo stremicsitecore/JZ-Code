@@ -8,6 +8,13 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "204465fc-ca72-4bdd-bd33-a9bc027c65aa"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/33ae440e846549b1a785859efed4d7d3?v=11d523d1" dam-id="5mMgYiSMTi-TQ60HTyOWyA" width="750" height="563" alt="aircraft-exterior.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68800/thumbnail" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T171454Z
@@ -27,7 +34,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66f34ec9-8439-4d06-a4f3-2c344a3257c1"
+      Value: "936a9d22-b13f-4805-9232-c88bce5532f0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -37,7 +44,7 @@ Languages:
       Value: Modern aircraft and luxurious cabins designed for your comfort
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T171511Z
+      Value: 20251025T203530Z
     - ID: "ebdfeb03-eadb-4c41-9551-994de5104a26"
       Hint: Title
       Value: Our Fleet & Experience
