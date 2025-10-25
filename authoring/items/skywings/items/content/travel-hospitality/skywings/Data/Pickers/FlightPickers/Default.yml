@@ -1,0 +1,40 @@
+﻿---
+ID: "8700c7d7-b539-4aca-af0e-9abadb7ab2ec"
+Parent: "24413c20-82f5-4206-8fd2-5a178766b7f7"
+Template: "e47f7c43-2e53-4de9-a593-dd15e0b8118d"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Pickers/FlightPickers/Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0794e9e1-b642-4d67-bae0-ac1554f4ded7"
+      Hint: ButtonText
+      Value: Search
+    - ID: "15b686d2-708b-4737-a55d-63456cad1394"
+      Hint: Title
+      Value: Fly to Your Dreams
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T142005Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7180c14b-bbae-46b5-adec-e3d1bb35e822"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T142058Z
+    - ID: "e3115ab3-d8de-404a-b5a0-e6dc8b696ce1"
+      Hint: Slogan
+      Value: Discover the world with SkyWings. Book your next adventure today.

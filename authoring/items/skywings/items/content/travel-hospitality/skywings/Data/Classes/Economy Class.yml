@@ -1,0 +1,42 @@
+﻿---
+ID: "57450a7f-792d-4621-8070-2f97b445e8bd"
+Parent: "ef66bb96-9edb-414a-bc6a-327334013142"
+Template: "68c7edf6-35ad-449a-8aa1-6c185c6808bf"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Classes/Economy Class"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8224bde2-7e02-488c-95ba-f6985a9c14d0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171318Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Comfortable travel with modern amenities, entertainment, and quality service</p>
+        <ul>
+            <li>Ergonomic seats with extra legroom</li>
+            <li>Complimentary WiFi</li>
+            <li>Personal entertainment screen</li>
+        </ul>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2dfa568-f26b-4563-8178-32dc10d0185d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T171331Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: Economy Class

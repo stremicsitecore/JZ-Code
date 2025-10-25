@@ -1,0 +1,71 @@
+﻿---
+ID: "08f5f1a7-348a-47c6-b6b1-ef92d9139d30"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Paris"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{53EB29CA-24AD-42E2-A730-F24506401409}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: from $599
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160826Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.8
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{CAF0C612-116C-43FC-B8A6-77AD1ACBB737}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "Apr-Jun, Sep-Oct"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Paris
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0bbadd6-e7b8-48b3-8156-de97ba87f256"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Paris
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: "<span>The City of Light enchants with its iconic landmarks, world-class museums, and romantic atmosphere.</span>"
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7 Days"
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {01DDEFE1-AF6C-4894-8C15-1C1D80DE047F}
+        {5EB22892-064C-49C7-96F4-1893E9439A5B}
+        {2D9438C6-FAC6-4525-8A40-A1B9783DE168}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {DABC5BE0-1223-4C2B-A63E-C1571154FDA9}
+        {39946E0E-4A4E-4D40-A6FD-5DA2F6DFD328}
+        {CF86A6EF-9130-4A98-9214-E1879B99A59F}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250731T161804Z
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "15-25C"

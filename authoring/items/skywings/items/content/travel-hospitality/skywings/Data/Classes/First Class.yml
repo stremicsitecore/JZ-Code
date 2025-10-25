@@ -1,0 +1,35 @@
+﻿---
+ID: "a0fa0e91-2bb5-4240-be6b-3e466f4907ae"
+Parent: "ef66bb96-9edb-414a-bc6a-327334013142"
+Template: "68c7edf6-35ad-449a-8aa1-6c185c6808bf"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Classes/First Class"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171254Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Ultimate luxury with private suites, gourmet dining, and personalized service</p>
+        <ul>
+            <li>Private suite with lie-flat bed</li>
+            <li>Chef-curated meals</li>
+            <li>Premium entertainment system</li>
+        </ul>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e586aee6-5ea2-4c1a-8fbc-885128165f25"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T171306Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: First Class

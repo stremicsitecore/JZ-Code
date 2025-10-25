@@ -1,0 +1,75 @@
+﻿---
+ID: "fc46ff87-8f70-47f3-a6e2-f219f2327336"
+Parent: "58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+Template: "33724dcb-6159-4d19-9ba7-04b604fc05b6"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Blogs/Hidden Gems of Southeast Assia"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B2CBA246-15DD-4276-B8CD-E70E4F9AFAF4}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T180844Z
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 8 min read
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Destinations
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Hidden Gems of Southeast Assia
+    - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
+      Hint: Excerpt
+      Value: <div><span>From secret beaches in the Philippines to ancient temples in Cambodia, discover breathtaking hidden destinations.</span></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75b92cb9-683d-4113-ae01-557eed33689e"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: "Hidden Gems of Southeast Asia: 10 Destinations You Haven't Discovered Yet"
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <p>Southeast Asia has long been a haven for travelers seeking vibrant cultures, pristine beaches, and mouthwatering cuisine. While places like Bali, Bangkok, and Halong Bay have earned global fame, the region is brimming with lesser-known destinations that offer equally captivating experiences&mdash;minus the crowds. Here are ten hidden gems across Southeast Asia you probably haven&rsquo;t discovered yet, but absolutely should.</p>
+        <h3>1. <strong>Batanes, Philippines</strong></h3>
+        <p>Located at the northernmost tip of the Philippines, Batanes is a serene province known for its rolling hills, stone houses, and windswept coastlines. Its isolation has preserved both its natural beauty and its unique Ivatan culture. Think of it as the Ireland of Southeast Asia&mdash;without the tourist buses.</p>
+        <h3>2. <strong>Kep, Cambodia</strong></h3>
+        <p>Overshadowed by its bigger neighbor Sihanoukville, the sleepy town of Kep is a coastal retreat with French colonial ruins, quiet beaches, and famous crab markets. Visit the nearby Kep National Park for peaceful jungle hikes and panoramic sea views.</p>
+        <h3>3. <strong>Khao Sok National Park, Thailand</strong></h3>
+        <p>While tourists flock to the beaches of Phuket and Krabi, few venture inland to Khao Sok. This lush rainforest boasts towering limestone cliffs, emerald lakes, and rare wildlife. Stay overnight in a floating bungalow on Cheow Lan Lake for an unforgettable experience.</p>
+        <h3>4. <strong>Con Dao Islands, Vietnam</strong></h3>
+        <p>Once known primarily for their colonial prison, the Con Dao Islands are now celebrated for their untouched beaches and coral reefs. The archipelago remains largely off the beaten track, making it ideal for diving, snorkeling, and exploring nature in solitude.</p>
+        <h3>5. <strong>Sumba Island, Indonesia</strong></h3>
+        <p>Located east of Bali, Sumba is a cultural and natural treasure trove with thatched villages, sacred megaliths, and world-class surf. Its landscapes range from waterfalls and savannas to unspoiled beaches&mdash;ideal for those craving authenticity and adventure.</p>
+        <h3>6. <strong>Tana Toraja, Indonesia</strong></h3>
+        <p>Deep in the highlands of Sulawesi, Tana Toraja is renowned for its elaborate funeral rites and stunning ancestral architecture. Visitors are drawn by the region&rsquo;s dramatic scenery and the chance to witness one of Southeast Asia&rsquo;s most unique and spiritual cultures.</p>
+        <h3>7. <strong>Luang Namtha, Laos</strong></h3>
+        <p>For those looking to veer off the backpacker trail, Luang Namtha in northern Laos offers remote trekking experiences through ethnic hill tribe villages and dense forest. It&rsquo;s also a great hub for eco-tourism and community-based travel.</p>
+        <h3>8. <strong>Trang Province, Thailand</strong></h3>
+        <p>Skip the crowds in Krabi and head south to Trang, a province of tranquil islands, limestone caves, and sapphire waters. Highlights include the Tham Morakot (Emerald Cave), traditional longtail boat rides, and some of Thailand&rsquo;s best undiscovered beaches.</p>
+        <h3>9. <strong>Mrauk U, Myanmar</strong></h3>
+        <p>Mrauk U, an ancient city in western Myanmar, is home to hundreds of stone temples nestled among rolling hills. It&rsquo;s often compared to Bagan&mdash;but with a fraction of the tourists. Getting there requires effort, but the reward is a glimpse into an ancient civilization untouched by time.</p>
+        <h3>10. <strong>Belitung Island, Indonesia</strong></h3>
+        <p>Known for its surreal granite rock formations, Belitung boasts clear waters, white sands, and a relaxed island vibe. It&rsquo;s an emerging destination for Indonesians and an ideal off-radar alternative to the better-known Gili Islands or Bali.</p>
+        <h3>Final Thoughts</h3>
+        <p>Southeast Asia is full of well-worn paths, but adventure often lies just beyond them. Whether you're seeking cultural immersion, untouched nature, or simple serenity, these hidden gems promise something unique and unforgettable. So grab your backpack (or suitcase), and set your sights on the road less traveled.</p>
+    - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
+      Hint: Author
+      Value: "{962D97E3-1F0F-44A3-A446-DA120CE78BDA}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T183538Z
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250730T000000Z
