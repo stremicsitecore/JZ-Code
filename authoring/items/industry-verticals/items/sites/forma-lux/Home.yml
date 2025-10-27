@@ -597,7 +597,8 @@ Languages:
               </rls>
             </r>
             <r
-              uid="{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}">
+              uid="{AE225B7C-0876-4FAE-A959-B3AFC8E0E91B}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B96409BF2-9023-4CE1-8EF3-AA01ED5D1F3A%7D&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1&amp;screenLayer">
               <rls>
                 <ruleset
                   s:pet="true">
@@ -964,7 +965,7 @@ Languages:
       Value: Forma Lux – Handcrafted Luxury Furniture Collections
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ab0dcd1d-142e-4924-a977-93280955518d"
+      Value: "3073f76e-9b8c-4fa4-bcab-bc5dd528ebd5"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
@@ -974,10 +975,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T224455Z
+      Value: 20251027T185453Z
 - Language: "es-ES"
   Versions:
   - Version: 1

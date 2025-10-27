@@ -9,10 +9,10 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "14b3ab32-e39c-47c5-b765-986255c9c392"
+  Value: "a0a5bd70-e960-43aa-bed9-fb8f8ac8a179"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +31,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5fce50b1-2008-4071-9dac-3ab5b2b894d5"
+      Value: "49f76bd8-d59d-4906-820b-9e83d2b9f418"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T140843Z
+      Value: 20251027T184049Z

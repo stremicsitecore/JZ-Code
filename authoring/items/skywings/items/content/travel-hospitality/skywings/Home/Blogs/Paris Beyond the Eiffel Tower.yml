@@ -13,9 +13,18 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value:  Paris nightlife guide, Paris after dark, Montmartre evening stroll, jazz clubs Paris, Le Marais art walk, Paris bistro dining, Paris itinerary, romantic Paris nights
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T181122Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: Experience Paris after dark — from Montmartre’s alleys to jazz clubs along the Seine. Dine al fresco and savor the city’s sultry rhythm.
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 6 min read
@@ -28,9 +37,12 @@ Languages:
     - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
       Hint: Excerpt
       Value: <div><span>Discover the authentic Paris that locals love, from hidden caf&eacute;s to secret gardens.</span></div>
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "Paris Beyond the Eiffel Tower: Local Secrets Revealed"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b36699ab-add4-4a3a-be50-671e750604b1"
+      Value: "e4d3b6aa-ea96-4ec8-847d-41156c032b1e"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Paris Beyond the Eiffel Tower: Local Secrets Revealed"
@@ -73,16 +85,27 @@ Languages:
         <p>Paris rewards curiosity. Its true magic lies not just in the iconic landmarks, but in the small caf&eacute;s with no English menus, the winding alleys that lead to nowhere (and everywhere), and the rhythm of daily life tucked between the headlines.</p>
         <p>So the next time you're in Paris, go beyond the Eiffel Tower. Let your feet wander. Your stomach&mdash;and your soul&mdash;will thank you.</p>
         <p><strong>Bon voyage, and bon app&eacute;tit!</strong></p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b81dc04595934b3290b99f0adf95b723?v=ff48f429" dam-id="WuLvY57HS3eSVeCurvl1lw" width="360" height="360" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
     - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
       Hint: Author
       Value: "{79462B68-4C7C-4584-87C1-A3AB12AC5145}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Experience Paris after dark — from Montmartre’s alleys to jazz clubs along the Seine. Dine al fresco and savor the city’s sultry rhythm.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T183523Z
+      Value: 20251027T185506Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b81dc04595934b3290b99f0adf95b723?v=ff48f429" dam-id="WuLvY57HS3eSVeCurvl1lw" width="360" height="360" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250702T000000Z

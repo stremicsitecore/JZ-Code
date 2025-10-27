@@ -139,7 +139,7 @@ Languages:
               p:before="*"
               s:ds="f7887ac4-f6d6-4bba-8d5e-6b161f42ae43"
               s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7C%7B8CD18CE9-CDDC-4FD0-988D-DC9E41EF026F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5&amp;screenLayer=1"
               s:ph="headless-main" />
             <r
               uid="{674C5F22-C48D-47B7-B67E-CC2C9F8F643C}"
@@ -209,7 +209,7 @@ Languages:
       Value: The Lumina Collection | Timeless, Sustainable Furniture by Forma Lux
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b8b7db6-d965-4071-89e6-8564b92904e9"
+      Value: "a1368f17-60d3-4de7-83df-f2fc171be350"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: |
@@ -224,10 +224,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T215830Z
+      Value: 20251027T185315Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -13,6 +13,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T180844Z
@@ -30,7 +33,7 @@ Languages:
       Value: <div><span>From secret beaches in the Philippines to ancient temples in Cambodia, discover breathtaking hidden destinations.</span></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75b92cb9-683d-4113-ae01-557eed33689e"
+      Value: "040b48a3-4e7f-4d7a-ad4b-74cabba9e5e6"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Hidden Gems of Southeast Asia: 10 Destinations You Haven't Discovered Yet"
@@ -60,16 +63,20 @@ Languages:
         <p>Known for its surreal granite rock formations, Belitung boasts clear waters, white sands, and a relaxed island vibe. It&rsquo;s an emerging destination for Indonesians and an ideal off-radar alternative to the better-known Gili Islands or Bali.</p>
         <h3>Final Thoughts</h3>
         <p>Southeast Asia is full of well-worn paths, but adventure often lies just beyond them. Whether you're seeking cultural immersion, untouched nature, or simple serenity, these hidden gems promise something unique and unforgettable. So grab your backpack (or suitcase), and set your sights on the road less traveled.</p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d79a8124d1444510862c19e6932e83b2?v=6ac13a66" dam-id="lq1CnsbAT6Cq6_DV5Yb1Bg" width="8256" height="5504" alt="GettyImages-1609110061.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/38519/thumbnail" />
     - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
       Hint: Author
       Value: "{962D97E3-1F0F-44A3-A446-DA120CE78BDA}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T183538Z
+      Value: 20251027T185300Z
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250730T000000Z
