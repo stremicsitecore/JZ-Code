@@ -37,7 +37,8 @@ export const Default = ({ params, fields }: ProductCarouselProps) => {
   }, [productItems, allProductsCategory]);
 
   const filteredProducts = useMemo(() => {
-    if (selectedCategory === allProductsCategory) return productItems.sort(() => 0.5 - Math.random());
+    if (selectedCategory === allProductsCategory)
+      return productItems.sort(() => 0.5 - Math.random());
     return productItems.filter(
       (item) => item.fields.Category?.fields?.CategoryName?.value === selectedCategory
     );
