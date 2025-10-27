@@ -3,7 +3,7 @@ import { GridIcon, ListBulletIcon } from '@radix-ui/react-icons';
 import type { SearchResultsInitialState, SearchResultsStoreState } from '@sitecore-search/react';
 import { WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
 import React from 'react';
-import { HIGHLIGHTED_ARTICLES_RFKID } from '@/_data/customizations';
+import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID } from '@/_data/customizations';
 import HomeHighlighted from './HomeHighlighted';
 import Spinner from './Spinner';
 import ArticleItemCard from './ArticleCard';
@@ -14,6 +14,7 @@ import SearchFacets from './SearchFacets';
 import ResultsPerPage from './ResultsPerPage';
 import QueryResultsSummary from './QueryResultsSummary';
 import CardViewSwitcher from './CardViewSwitcher';
+import { handleSearch } from './HandleSearch';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -25,7 +26,7 @@ export type ArticleModel = {
   title?: string;
   name?: string;
   subtitle?: string;
-  url?: string;
+  url: string;
   description?: string;
   content_text?: string;
   image_url?: string;
@@ -46,7 +47,6 @@ export const SearchResultsComponent = ({
   defaultItemsPerPage = 10,
 }: ArticleSearchResultsProps) => {
   const {
-    actions: { onItemClick },
     state: { sortType, page, itemsPerPage },
     queryResult: {
       isLoading,
@@ -136,7 +136,17 @@ export const SearchResultsComponent = ({
                       key={a.id}
                       article={a}
                       index={index}
-                      onItemClick={onItemClick}
+                      onItemClick={(e) => {
+                        handleSearch(
+                          e,
+                          a.url,
+                          SEARCH_WIDGET_ID,
+                          'content',
+                          ['EntityPageView', 'SearchClickEvent'],
+                          a.id,
+                          index
+                        );
+                      }}
                     />
                   ))}
                 </div>
@@ -147,7 +157,17 @@ export const SearchResultsComponent = ({
                       key={a.id}
                       article={a as ArticleModel}
                       index={index}
-                      onItemClick={onItemClick}
+                      onItemClick={(e) => {
+                        handleSearch(
+                          e,
+                          a.url,
+                          SEARCH_WIDGET_ID,
+                          'content',
+                          ['EntityPageView', 'SearchClickEvent'],
+                          a.id,
+                          index
+                        );
+                      }}
                       displayText={true}
                     />
                   ))}

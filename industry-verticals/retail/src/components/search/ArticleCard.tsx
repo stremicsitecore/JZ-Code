@@ -2,13 +2,13 @@ import { ArticleCard } from '@sitecore-search/ui';
 import Link from 'next/link';
 import Image from 'next/image';
 import { DEFAULT_IMG_URL } from '@/_data/customizations';
-import { ActionProp, EntityModel, ItemClickedAction } from '@sitecore-search/react';
+import { EntityModel } from '@sitecore-search/react';
 
 type ArticleItemCardProps = {
   className?: string;
   article: EntityModel;
   index: number;
-  onItemClick?: ActionProp<ItemClickedAction>;
+  onItemClick?: React.MouseEventHandler<HTMLAnchorElement>;
 };
 
 const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {

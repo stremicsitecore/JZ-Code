@@ -9,17 +9,11 @@ import { useRouter } from 'next/navigation';
 import Spinner from './Spinner';
 import SuggestionBlock from './SuggestionBlock';
 import { PREVIEW_WIDGET_ID } from '@/_data/customizations';
-import { trackEntityPageViewEvent, trackPreviewSearchClickEvent } from '@sitecore-search/react';
+import { handleSearch } from './HandleSearch';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
 };
-
-export type Events =
-  | 'PageViewEvent'
-  | 'EntityPageView'
-  | 'PreviewSearchClickEvent'
-  | 'PreviewSearchSuggestionClickEvent';
 
 type ArticleModel = {
   id: string;
@@ -84,31 +78,6 @@ export const PreviewSearchComponent = ({
     router.push(`/search?q=${target.value}`);
     target.value = '';
   };
-  function handleSearchEvent(
-    e: React.MouseEvent<HTMLAnchorElement>,
-    href: string,
-    widgetId: string,
-    entityType: string,
-    events: Events[],
-    entityId: string,
-    itemIndex: number
-  ) {
-    e.preventDefault();
-    events?.forEach((event) => {
-      if (event == 'EntityPageView' && entityType && entityId) {
-        trackEntityPageViewEvent(entityType, { items: [{ id: entityId }] });
-      }
-
-      if (event == 'PreviewSearchClickEvent') {
-        trackPreviewSearchClickEvent(widgetId, entityType, {
-          index: itemIndex,
-          items: [{ id: entityId }],
-        });
-      }
-
-      router.push(href);
-    });
-  }
 
   return (
     <PreviewSearch.Root>
@@ -147,7 +116,7 @@ export const PreviewSearchComponent = ({
                       <PreviewSearch.Item key={article.id} asChild>
                         <PreviewSearch.ItemLink
                           onClick={(e) => {
-                            handleSearchEvent(
+                            handleSearch(
                               e,
                               article.url,
                               PREVIEW_WIDGET_ID,

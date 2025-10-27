@@ -1,30 +1,22 @@
-import type { ActionProp, ItemClickedAction } from '@sitecore-search/react';
 import { ArticleCard } from '@sitecore-search/ui';
 import Image from 'next/image';
 import { DEFAULT_IMG_URL } from '@/_data/customizations';
-import { useRouter } from 'next/navigation';
 
 type ArticleCardItemCardProps = {
   className?: string;
   displayText?: boolean;
   article: any;
-  onItemClick: ActionProp<ItemClickedAction>;
+  onItemClick: React.MouseEventHandler<HTMLAnchorElement>;
   index: number;
 };
 
-const ArticleHorizontalItemCard = ({
-  className = '',
-  article,
-  onItemClick,
-  index,
-}: ArticleCardItemCardProps) => {
+const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemCardProps) => {
   let validImageUrl = article.image_url?.trim() ? article.image_url : DEFAULT_IMG_URL;
 
   if (validImageUrl.includes('filters:no_upscale')) {
     validImageUrl = undefined;
   }
 
-  const router = useRouter();
   return (
     <ArticleCard.Root
       key={article.id}
@@ -42,19 +34,7 @@ const ArticleHorizontalItemCard = ({
         </div>
       )}
       <div className="grow flex-col pl-4">
-        <a
-          className="focus:outline-indigo-500"
-          href={article.url}
-          onClick={(event) => {
-            event.preventDefault();
-            onItemClick({
-              id: article.id,
-              index,
-              sourceId: article.source_id,
-            });
-            router.push(article.url);
-          }}
-        >
+        <a className="focus:outline-indigo-500" href={article.url}>
           <span aria-hidden="true" className="absolute inset-0"></span>
           <ArticleCard.Title className="mb-2 text-lg font-semibold text-gray-900">
             {article.name || article.title}
