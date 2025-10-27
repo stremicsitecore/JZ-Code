@@ -88,6 +88,8 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const reverseLayout = isParamEnabled(params.ReverseLayout);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
+  const screenLayer = isParamEnabled(params.screenLayer);
+
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
       {/* Content Container */}
@@ -97,6 +99,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
             className={`flex min-h-238 w-full py-10 lg:w-1/2 lg:items-center ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
           >
             <div className="max-w-182">
+              <div className={!screenLayer ?  'shim' : ''}>
               {/* Title */}
               <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
                 <ContentSdkText field={fields.Title} />
@@ -119,6 +122,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                   <ExploreLink linkText={fields.CtaLink} />
                 )}
               </div>
+              </div>
             </div>
           </div>
         </div>
@@ -133,6 +137,8 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const reverseLayout = isParamEnabled(params.ReverseLayout);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
+  const screenLayer = isParamEnabled(params.screenLayer);
+
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
       {/* Content Container */}
@@ -141,6 +147,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
           <div
             className={`flex flex-col items-center py-10 lg:py-44 ${reverseLayout ? 'justify-end' : 'justify-start'}`}
           >
+            <div className={!screenLayer ?  'shim' : ''}>
             {/* Title */}
             <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] xl:text-[80px]">
               <ContentSdkText field={fields.Title} />
@@ -159,6 +166,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
               ) : (
                 <ExploreLink linkText={fields.CtaLink} />
               )}
+            </div>
             </div>
           </div>
         </div>
