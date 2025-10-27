@@ -34,11 +34,15 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0cf5397c-d48b-4bca-8d2c-17d4a29c2944"
+      Value: "184ba847-b834-4c45-a6bf-a8ecf83b5dd8"
+    - ID: "969b132e-3dc2-4526-8f8d-61e3ea742df6"
+      Hint: link
+      Value: |
+        <link text="Request a quote" anchor="" linktype="internal" class="" title="Request a quote" target="_blank" querystring="" id="{3C97800F-BE11-4CB9-AC8B-B45959A920A4}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T204842Z
+      Value: 20251027T211206Z
