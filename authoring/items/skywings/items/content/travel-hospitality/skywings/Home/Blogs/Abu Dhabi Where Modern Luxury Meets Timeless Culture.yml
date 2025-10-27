@@ -23,9 +23,15 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Abu Dhabi travel, Sheikh Zayed Grand Mosque, Louvre Abu Dhabi, Abu Dhabi luxury tourism, UAE cultural destinations, Abu Dhabi desert safari, Arabian architecture, Abu Dhabi Corniche, art and culture in Abu Dhabi, Abu Dhabi white sand beaches
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251027T192303Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: Explore Abu Dhabi, a city where modern luxury meets timeless Arabian culture. Discover iconic landmarks like Sheikh Zayed Grand Mosque, the Louvre Abu Dhabi, and golden desert adventures.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: New page
@@ -37,16 +43,34 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\angela.gustafson@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Abu Dhabi – Where Modern Luxury Meets Timeless Culture
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5abd4455-51b2-4793-9fa6-75302b30e1f2"
+      Value: "dd956237-8a56-4347-a3b8-b582d6dee8c5"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Abu Dhabi – Where Modern Luxury Meets Timeless Culture
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="404" data-end="490">Discover the art, adventure, and Arabian elegance of the UAE’s capital.</p><p data-start="492" data-end="854">From the gleaming skyscrapers that define its skyline to the serene stretches of white sand beaches, Abu Dhabi is a city that effortlessly blends tradition and modernity. Begin your journey at the majestic <strong data-start="698" data-end="727">Sheikh Zayed Grand Mosque</strong>, a masterpiece of Islamic architecture where sparkling marble and intricate mosaics tell stories of faith and craftsmanship.</p><p data-start="856" data-end="1140">For art enthusiasts, the <strong data-start="881" data-end="901">Louvre Abu Dhabi</strong> is a must-visit, offering a world-class collection that bridges cultures and centuries. Adventure seekers can head to <strong data-start="1020" data-end="1037">Ferrari World</strong> for heart-pounding rides, or take a desert safari to experience the golden dunes in all their glory.</p><p data-start="1142" data-end="1402">When the sun sets, Abu Dhabi’s Corniche comes alive with waterfront dining, buzzing cafes, and walking paths perfect for a leisurely stroll. With its mix of luxury, culture, and adventure, Abu Dhabi is a destination that promises memories to last a lifetime.</p></div>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69497-HomePageHero-2000x800?v=5240eaab" dam-id="vNVEM63SQ3i1yjRrsZfb6g" width="2000" height="800" alt="david-rodrigo-kZ1zThg6G40-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69497/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Explore Abu Dhabi, a city where modern luxury meets timeless Arabian culture. Discover iconic landmarks like Sheikh Zayed Grand Mosque, the Louvre Abu Dhabi, and golden desert adventures.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192533Z
+      Value: 20251027T193747Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69497-HomePageHero-2000x800?v=5240eaab" dam-id="vNVEM63SQ3i1yjRrsZfb6g" width="2000" height="800" alt="david-rodrigo-kZ1zThg6G40-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69497/thumbnail" />
