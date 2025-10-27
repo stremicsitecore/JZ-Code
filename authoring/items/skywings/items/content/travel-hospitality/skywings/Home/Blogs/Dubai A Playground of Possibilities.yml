@@ -32,6 +32,12 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value: Uncover the magic of Dubai—from the towering Burj Khalifa and vibrant souks to thrilling skydives and luxurious beaches. A city of endless adventure and unforgettable experiences.
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Destinations
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: New page
@@ -48,7 +54,7 @@ Languages:
       Value: Dubai – A Playground of Possibilities
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4eb23c1a-86a4-465c-a7a9-ff902853ac64"
+      Value: "eef3738a-8a15-4d36-93fe-5c366c0d2462"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Dubai – A Playground of Possibilities
@@ -69,8 +75,11 @@ Languages:
       Value: Uncover the magic of Dubai—from the towering Burj Khalifa and vibrant souks to thrilling skydives and luxurious beaches. A city of endless adventure and unforgettable experiences.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T194014Z
+      Value: 20251027T195208Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69498-LandingPageHero-2000x600?v=ebb3875e" dam-id="YUWJYg6jRlCphPFA1YWwQA" width="2000" height="600" alt="zq-lee-VbDjv8-8ibc-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69498/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250727T000000Z

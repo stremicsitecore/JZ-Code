@@ -29,6 +29,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251027T191841Z
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 6 min
     - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
       Hint: Category
       Value: New York
@@ -48,7 +51,7 @@ Languages:
       Value: "New York, New Energy: Rediscovering the City That Never Sleeps"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bdc1b84e-37ad-4827-8a1c-8b0d99065625"
+      Value: "d002d7ee-daea-43b6-952a-4e41830a0e66"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "New York, New Energy: Rediscovering the City That Never Sleeps"
@@ -69,8 +72,11 @@ Languages:
       Value:  Explore NYC’s iconic landmarks and fresh stories — from Central Park mornings to Broadway nights and Brooklyn art walks.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192224Z
+      Value: 20251027T195026Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20251004T000000Z

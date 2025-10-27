@@ -32,6 +32,9 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value: Explore Patagonia’s raw beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness.
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 3 min
     - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
       Hint: Category
       Value: Patagonia
@@ -51,7 +54,7 @@ Languages:
       Value: "Patagonia: Where Earth Feels Infinite"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dc955c6d-7b66-485b-8f7e-fe80895713a1"
+      Value: "aa6dbd06-1d0d-4811-9a09-f598ab8b946e"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Patagonia: Where Earth Feels Infinite"
@@ -72,8 +75,11 @@ Languages:
       Value:  Explore Patagonia’s raw beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192230Z
+      Value: 20251027T195048Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c06f86fbed8747a280601109ecfe36e8?v=81e2f84d" dam-id="tfJxGXytQ1qXZ_Pw2EZwsA" width="1800" height="1111" alt="shutterstock_2239225875_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48444/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250602T000000Z

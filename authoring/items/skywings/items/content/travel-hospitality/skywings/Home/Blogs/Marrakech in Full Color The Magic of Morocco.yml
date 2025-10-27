@@ -32,6 +32,9 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value: Dive into Marrakech’s sensory wonder — spice markets, Jardin Majorelle, and rooftop mint tea. A city alive with scent, sound, and soul.
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 8 min
     - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
       Hint: Category
       Value: Morocoo
@@ -51,7 +54,7 @@ Languages:
       Value: "Marrakech in Full Color: The Magic of Morocco"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6f806b19-371d-4659-86f9-885db5638c37"
+      Value: "c85d6923-4480-413d-b54b-7ac49d871072"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Marrakech in Full Color: The Magic of Morocco"
@@ -72,8 +75,11 @@ Languages:
       Value: Dive into Marrakech’s sensory wonder — spice markets, Jardin Majorelle, and rooftop mint tea. A city alive with scent, sound, and soul.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192217Z
+      Value: 20251027T195003Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68940-LandingPageHero-2000x600?v=5b203e41" dam-id="boia4WutSPSbefjk4ACQBA" width="2000" height="600" alt="61986-HomePageHero-2000x800" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68940/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20251106T000000Z

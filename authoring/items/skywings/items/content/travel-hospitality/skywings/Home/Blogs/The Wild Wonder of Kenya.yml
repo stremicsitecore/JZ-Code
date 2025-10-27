@@ -32,6 +32,9 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value: Witness Kenya’s Masai Mara magic — elephants at dawn, lions beneath acacias, and the Great Migration thundering across the plains.
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 7 min
     - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
       Hint: Category
       Value: Destination
@@ -51,7 +54,7 @@ Languages:
       Value: Witness nature’s greatest show where the savannah meets the sky.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f2503291-8e28-4b0d-8241-3b319840a652"
+      Value: "688c87a5-a074-456a-80b2-234d3bc81afa"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Safari Soul: The Wild Wonder of Kenya"
@@ -69,8 +72,11 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192244Z
+      Value: 20251027T195146Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a4344930ccb8478698a7e69f8bb99657?v=718b4764" dam-id="uBBMGKpyTTavZbL1Fw1Nxg" width="3024" height="4032" alt="Hammock.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49435/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250203T000000Z

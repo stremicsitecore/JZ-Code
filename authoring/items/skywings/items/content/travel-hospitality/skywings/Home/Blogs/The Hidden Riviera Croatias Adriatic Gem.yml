@@ -32,6 +32,9 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value:  Discover Croatia’s medieval towns, turquoise waters, and coastal charm. From Dubrovnik to Split, explore history wrapped in sunshine.
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 2 min
     - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
       Hint: Category
       Value: Beaches
@@ -51,7 +54,7 @@ Languages:
       Value: "The Hidden Riviera: Croatia’s Adriatic Gem"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c016650-a973-4e65-be8d-468baf66eb57"
+      Value: "108a9dc7-6d1a-47f3-99ba-2a9a0abedc2f"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "The Hidden Riviera: Croatia’s Adriatic Gem"
@@ -72,8 +75,11 @@ Languages:
       Value:  Discover Croatia’s medieval towns, turquoise waters, and coastal charm. From Dubrovnik to Split, explore history wrapped in sunshine.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192238Z
+      Value: 20251027T195125Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5a1db89d10ca4b33a83e81a5bbfb8fbd?v=30e57b13" dam-id="hHJbs8raRii880XrxKWmWg" width="3376" height="6000" alt="InfinityPool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49437/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250227T000000Z
