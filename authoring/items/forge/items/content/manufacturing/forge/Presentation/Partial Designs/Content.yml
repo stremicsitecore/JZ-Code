@@ -1,19 +1,19 @@
 ﻿---
-ID: "5abadd55-9a4d-4e30-b575-6a2fa0a9485a"
+ID: "ccf7e272-e1c8-4518-a537-afb5d3e8f988"
 Parent: "e54a0100-abc5-494f-9eea-ab28ab2a309f"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
-Path: /sitecore/content/manufacturing/forge/Presentation/Partial Designs/Footer
+Path: /sitecore/content/manufacturing/forge/Presentation/Partial Designs/Content
 SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
-  Value: footer
+  Value: content
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{B6950827-6BAD-4650-8212-616AFEBB3079}" />
+    <image mediaid="{BB2C1CE9-824B-4DB1-9D47-32DF5CACB2A6}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "68e09957-26af-4620-a018-0e11954f80c6"
+  Value: "ba4e0d3e-f13d-4f65-8bd8-021856c67040"
 Languages:
 - Language: en
   Versions:
@@ -30,16 +30,15 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{B1F3E4F8-BD87-41BA-88B4-30B54FD8437A}"
-              s:ds="local:/Data/New Global Footer"
-              s:id="{1648D90C-709E-4FD1-92C1-A37BDF08F1FF}"
-              s:par="FieldNames&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              uid="{97C33906-CF9A-4D50-ACAB-D23CC86D2C29}"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
               s:ph="headless-header" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251027T210013Z
+      Value: 20251027T213731Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,11 +49,11 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fa96f0c8-08e5-4f4c-8d44-1d0ff6fbdf1f"
+      Value: "50f4970e-fb8a-45c6-8028-a25e70a53bf4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T213827Z
+      Value: 20251027T213753Z

@@ -1,23 +1,26 @@
 ﻿---
-ID: "79e3d516-fc23-464d-9f73-6ae53d53428d"
-Parent: "91a560b1-8d28-4430-a74b-4596659e5f17"
-Template: "f24978e9-cab5-4a7f-a836-d423ff20b830"
-Path: /sitecore/content/manufacturing/forge/Presentation/Partial Designs/Footer/Data/New Global Footer/LinkedIn
+ID: "6b6be1ad-2da2-42ed-8388-ac15344549b2"
+Parent: "a41927a6-2066-45ce-98b9-8e6f2b0d631f"
+Template: "ae018465-4e68-4a49-8b15-9702274fa75a"
+Path: /sitecore/content/manufacturing/forge/Home/Data/New content item
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{A053ED9F-4099-4682-9411-2B4C98E481E4}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6f269853-1246-4717-bf37-41ad02bc2d2d"
+  Value: "1ab09460-7005-49b6-a1b1-9172595fbf08"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251027T212257Z
+      Value: 20251027T213953Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{12FFAC4C-565F-4C9A-B63E-7F77E96B4D1F}"
@@ -31,15 +34,18 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fc23017a-4c1d-4efa-8907-b251349da640"
+      Value: "f1fe1a2e-f1e5-4f4e-a813-58bad6a728b3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
+    - ID: "c65eb2cc-503f-48cd-ba69-42c29df106c1"
+      Hint: image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68309-HomePageHero-2000x800?v=b3ff0bdf" dam-id="HU0M_xR-TT2f8uuk0IfEXw" width="2000" height="800" alt="hero-forge-min.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68309/thumbnail" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T212925Z
-    - ID: "e11f29f8-4940-4273-962a-5c598a9dc6bf"
-      Hint: socialIcon
-      Value: |
-        <image mediaid="{910BE4F5-7D3E-4481-A0DB-10C9DF1A36E6}" />
+      Value: 20251027T214442Z
+    - ID: "e5e059ce-66e3-4039-887b-0086e7764f09"
+      Hint: title
+      Value: Build to Power What's Next.

@@ -15,12 +15,27 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1a6354fb-e81d-4152-93d3-92fb79207821"
+      Hint: footerSocialLinks
+      Value: |
+        {82E4BEE8-E4B5-42B4-93BC-752ED8BA36BE}
+        {79E3D516-FC23-464D-9F73-6AE53D53428D}
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251027T212101Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{12FFAC4C-565F-4C9A-B63E-7F77E96B4D1F}"
+      Value: "{4460E76C-87E9-4859-9DE6-DE122774937F}"
+    - ID: "409a02fd-b023-472b-9f9c-772f59adebda"
+      Hint: footerLogo
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68314-HomePageHero-2000x800?v=102b8b51" dam-id="sPDmcZxoTDG2IaVmKKJFXw" width="2000" height="800" alt="forge-logo.svg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68314/thumbnail" />
+    - ID: "42460973-3c52-4b54-8ee5-6b335f256705"
+      Hint: tagline
+      Value: Forge 
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +46,17 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ef902267-14ae-4091-8f79-ebae8c4959e8"
+      Value: "59035f85-18fe-4905-b582-9bfafb905047"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
+    - ID: "d03f6255-b87d-4205-b10d-f3c1ee56aa14"
+      Hint: footerCopyright
+      Value: © Forge. All rights reserved.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T212249Z
+      Value: 20251027T213827Z
+    - ID: "f76bf9b9-3dfe-4cea-ac52-a87f3043911b"
+      Hint: emailSubscriptionTitle
+      Value: Get news now

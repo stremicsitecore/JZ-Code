@@ -53,6 +53,7 @@ export const PreviewSearchComponent = ({
     },
     query: (query): any => {
       if (SEARCH_CONFIG.source !== '') {
+        console.log(`Source: ${SEARCH_CONFIG.source}`);
         const sources = SEARCH_CONFIG.source.split('|');
         sources.forEach((source) => {
           query.getRequest().addSource(source.trim());
