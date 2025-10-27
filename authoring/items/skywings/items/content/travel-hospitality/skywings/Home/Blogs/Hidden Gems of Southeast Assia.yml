@@ -16,9 +16,15 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: "Batanes, Belitung Island, Cambodia, Con Dao Islands, Emerald Cave, French colonial ruins, Indonesia, Ivatan culture, Kep, Khao Sok National Park, Laos, Luang Namtha, Mrauk U, Myanmar, Philippines, Southeast Asia, Sulawesi, Sumba Island, Tana Toraja, Thailand, Trang Province, Vietnam, ancestral architecture, ancient civilization, coastal retreat, community-based travel, coral reefs, crab markets, cultural immersion, diving, dramatic scenery, eco-tourism, elaborate funeral rites, emerald lakes, floating bungalow, granite rock formations, hidden gems, hill tribe villages, jungle hikes, limestone caves, limestone cliffs, longtail boat rides, mouthwatering cuisine, off-radar destinations, pristine beaches, quiet beaches, rare wildlife, relaxed island vibe, remote trekking, rolling hills, sacred megaliths, sapphire waters, savannas, simple serenity, snorkeling, spiritual cultures, stone houses, stone temples, thatched villages, untouched beaches, untouched nature, vibrant cultures, waterfalls, white sands, windswept coastlines, world-class surf"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T180844Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "Southeast Asia has long been a haven for travelers seeking vibrant cultures, pristine beaches, and mouthwatering cuisine. While places like Bali, Bangkok, and Halong Bay have earned global fame, the region is brimming with lesser-known destinations that offer equally captivating experiences—minus the crowds. "
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 8 min read
@@ -31,9 +37,12 @@ Languages:
     - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
       Hint: Excerpt
       Value: <div><span>From secret beaches in the Philippines to ancient temples in Cambodia, discover breathtaking hidden destinations.</span></div>
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Hidden Gems of Southeast Asia
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "040b48a3-4e7f-4d7a-ad4b-74cabba9e5e6"
+      Value: "9d006580-c522-44ab-a809-63c139233f52"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Hidden Gems of Southeast Asia: 10 Destinations You Haven't Discovered Yet"
@@ -74,9 +83,16 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Southeast Asia has long been a haven for travelers seeking vibrant cultures, pristine beaches, and mouthwatering cuisine. While places like Bali, Bangkok, and Halong Bay have earned global fame, the region is brimming with lesser-known destinations that offer equally captivating experiences—minus the crowds. "
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T185300Z
+      Value: 20251027T185849Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d79a8124d1444510862c19e6932e83b2?v=6ac13a66" dam-id="lq1CnsbAT6Cq6_DV5Yb1Bg" width="8256" height="5504" alt="GettyImages-1609110061.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/38519/thumbnail" />
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250730T000000Z

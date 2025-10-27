@@ -13,9 +13,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T181038Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "When the sun sets over Tokyo, the neon lights flicker to life and the city transforms into a food lover’s paradise. Beyond the glitzy bars and Michelin-starred restaurants lies a delicious undercurrent of culinary culture: night markets and late-night street food stalls where locals and savvy travelers gather to eat, drink, and soak up the city’s after-hours energy."
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 5 min read
@@ -28,9 +34,12 @@ Languages:
     - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
       Hint: Excerpt
       Value: <div><span>Explore Tokyo's vibrant night food scene, from street vendors to hidden izakayas.</span></div>
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c9aeb7fe-f0f5-4c10-96a1-5bd7c34a5060"
+      Value: "c3947148-fe91-4423-ac4d-07874dc50d8b"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
@@ -167,16 +176,23 @@ Languages:
         <h3><strong>Final Bite</strong></h3>
         <p>Tokyo after dark is a whole different flavor of adventure. Whether you're wandering through smoky alleyways or perched at a lively izakaya counter, the city&rsquo;s night markets offer a sensory journey into Japan&rsquo;s culinary heart. So skip the chain restaurants, follow the scent of grilled meats, and dive mouth-first into the late-night magic of Tokyo&rsquo;s street food scene.</p>
         <p><strong>Kanpai, and happy eating!</strong></p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/3c06a0966ee94c4c95242851b335d8a5?v=e672b4f4" dam-id="K3vo00urT8O5imm_DYrvEQ" width="360" height="270" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68761/thumbnail" />
     - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
       Hint: Author
       Value: "{996F17E2-FF05-4581-B310-60E12A67BA70}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "When the sun sets over Tokyo, the neon lights flicker to life and the city transforms into a food lover’s paradise. Beyond the glitzy bars and Michelin-starred restaurants lies a delicious undercurrent of culinary culture: night markets and late-night street food stalls where locals and savvy travelers gather to eat, drink, and soak up the city’s after-hours energy."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T183529Z
+      Value: 20251027T190352Z
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250718T000000Z

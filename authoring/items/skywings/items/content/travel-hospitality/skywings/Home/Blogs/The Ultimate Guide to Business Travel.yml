@@ -13,9 +13,18 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: "access, airport, always, apps, avoid, before, between, boarding, book, business, carry-on, check, choose, corporate, credit, flights, flyers, frequent, healthy, hotel, hotels, keep, laptop, loyalty, pack, points, productive, programs, schedule, seasoned, security, smart, stay, tech, time, tools, travel, traveling, trip, use, wear"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T180947Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "Business travel can be exciting, productive, and at times, exhausting. Between time zone changes, packed itineraries, and living out of a suitcase, even seasoned professionals can feel the wear. That’s why we’ve gathered insider tips from frequent flyers—road warriors who know how to work smarter, travel lighter, and stay sane on the go. Whether you’re a first-time business traveler or a corporate travel veteran, this guide will help you make the most of your time in the air and on the ground."
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 6 min read
@@ -28,9 +37,12 @@ Languages:
     - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
       Hint: Excerpt
       Value: <div><span>Master the art of business travel with insider tips on maximizing comfort and productivity.</span></div>
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "The Ultimate Guide to Business Travel: Tips from Frequent Flyers"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8fb762b4-57a1-44c6-a5c2-dbaed945a428"
+      Value: "2332103a-1aa3-4d49-8894-f2bffd07bf02"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "The Ultimate Guide to Business Travel: Tips from Frequent Flyers"
@@ -141,16 +153,27 @@ Languages:
         </ul>
         <h3>Final Boarding Call</h3>
         <p>Business travel doesn&rsquo;t have to be a grind. With smart planning, the right tools, and a few seasoned habits, you can turn every trip into a seamless, productive&mdash;and even enjoyable&mdash;experience. As the frequent flyers say: Travel smart, not just often.</p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68937-HomePageHero-2000x800?v=1ca22869" dam-id="7aQ5_5K4T4mzkARSq2KkVQ" width="2000" height="800" alt="christina-spoerer-IDihFjpf3-g-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68937/thumbnail" />
     - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
       Hint: Author
       Value: "{00743C32-7766-48FF-8F35-8F34D8FAC732}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Business travel can be exciting, productive, and at times, exhausting. Between time zone changes, packed itineraries, and living out of a suitcase, even seasoned professionals can feel the wear. That’s why we’ve gathered insider tips from frequent flyers—road warriors who know how to work smarter, travel lighter, and stay sane on the go. Whether you’re a first-time business traveler or a corporate travel veteran, this guide will help you make the most of your time in the air and on the ground."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T183534Z
+      Value: 20251027T190112Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68937-HomePageHero-2000x800?v=1ca22869" dam-id="7aQ5_5K4T4mzkARSq2KkVQ" width="2000" height="800" alt="christina-spoerer-IDihFjpf3-g-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68937/thumbnail" />
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250722T000000Z
