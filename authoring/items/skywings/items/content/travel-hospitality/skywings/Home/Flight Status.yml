@@ -4,10 +4,16 @@ Parent: "57fdf201-2d56-4f6e-9085-6056c5f1f8f5"
 Template: "cb9ed0fb-3fed-4701-ad64-2ac447c52370"
 Path: "/sitecore/content/travel-hospitality/skywings/Home/Flight Status"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{F6476BBB-F338-4E4D-877C-9002AC95426A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "176599b8-1433-48d1-9170-85b10677a829"
 Languages:
 - Language: en
   Versions:
@@ -21,17 +27,17 @@ Languages:
       Value: Flight Status
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e9c28b9f-0f7a-4642-960c-4b3b00f0274a"
+      Value: "a5e5d6f1-cb99-4f97-841e-3bff0c721452"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Flight Status
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T202858Z
+      Value: 20251027T192117Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

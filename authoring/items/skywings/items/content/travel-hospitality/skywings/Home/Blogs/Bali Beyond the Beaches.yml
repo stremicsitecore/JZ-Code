@@ -41,6 +41,9 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{57CC7DCE-E6B1-4564-9581-0E5850B8BDF2}"
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Bali
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: test
@@ -49,7 +52,7 @@ Languages:
       Value: "The Art of Island Time: Bali Beyond the Beaches"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb0cdb64-a3d3-4b92-b76a-5c8a7132823e"
+      Value: "547d7c2a-5f00-4071-bc8c-acbe2d64bc31"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "The Art of Island Time: Bali Beyond the Beaches"
@@ -70,7 +73,7 @@ Languages:
       Value: Discover Bali’s spiritual calm and creative pulse. Explore rice terraces, temples, art markets, and sunset views from Uluwatu’s cliffs.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T184720Z
+      Value: 20251027T192210Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

@@ -32,6 +32,9 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value: Discover Santorini’s whitewashed charm, cobalt seas, and golden sunsets. Explore Oia, volcanic beaches, and cliffside dining for the ultimate romantic getaway.
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Beaches
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: New page
@@ -48,7 +51,7 @@ Languages:
       Value: "Sunrise in Santorini: Greece’s Most Romantic Escape"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b1887f40-bea1-4d61-842a-a95db334ce4b"
+      Value: "de200e5c-0beb-49fe-a0c8-cfd1bdab6164"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Sunrise in Santorini: Greece’s Most Romantic Escape"
@@ -69,7 +72,7 @@ Languages:
       Value: Discover Santorini’s whitewashed charm, cobalt seas, and golden sunsets. Explore Oia, volcanic beaches, and cliffside dining for the ultimate romantic getaway.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T184312Z
+      Value: 20251027T192234Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

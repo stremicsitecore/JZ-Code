@@ -4,10 +4,16 @@ Parent: "57fdf201-2d56-4f6e-9085-6056c5f1f8f5"
 Template: "cb9ed0fb-3fed-4701-ad64-2ac447c52370"
 Path: "/sitecore/content/travel-hospitality/skywings/Home/My Trips"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{2D70D560-4165-4430-AF65-E5EF4B088877}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8b83a9c4-a215-4c7d-a35a-ac8d717e5a04"
 Languages:
 - Language: en
   Versions:
@@ -21,17 +27,17 @@ Languages:
       Value: My Trips
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e19a84ef-d46a-4ab9-ad6c-f22a41a5d4f0"
+      Value: "5b752534-7ff7-445a-a49b-015646d00b65"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: My Trips
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T202845Z
+      Value: 20251027T192117Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

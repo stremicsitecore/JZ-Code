@@ -4,10 +4,16 @@ Parent: "57fdf201-2d56-4f6e-9085-6056c5f1f8f5"
 Template: "cb9ed0fb-3fed-4701-ad64-2ac447c52370"
 Path: "/sitecore/content/travel-hospitality/skywings/Home/Check In"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{352D3CC0-452D-4D95-9073-01B929CBAAFE}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bbea257d-ef6b-42a3-843d-ad24b24bbcd1"
 Languages:
 - Language: en
   Versions:
@@ -21,17 +27,17 @@ Languages:
       Value: Check In
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "139a15a9-5150-4269-bb6e-282451f48411"
+      Value: "8d4a5591-e426-4216-9900-0a65b736ec6c"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Check In
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T202837Z
+      Value: 20251027T192116Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

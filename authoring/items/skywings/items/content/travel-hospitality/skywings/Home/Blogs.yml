@@ -7,13 +7,16 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{33724DCB-6159-4D19-9BA7-04B604FC05B6}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{8CBF1DDF-A319-4C00-B4E9-5DE83DA72F37}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "adf3fd4a-6aa4-40c5-ac68-de7765a47ea7"
+  Value: "e470fd8f-35bd-4f70-9c73-7a47863866a0"
 Languages:
 - Language: en
   Versions:
@@ -53,17 +56,17 @@ Languages:
       Value: Blogs
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b1dad6fd-f4b1-4782-a5e6-5caaca73c032"
+      Value: "cb01d65d-bdab-4ce2-8a2e-8e8a2751ebf3"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Blogs
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T195745Z
+      Value: 20251027T192116Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

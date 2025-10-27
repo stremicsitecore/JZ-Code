@@ -32,6 +32,9 @@ Languages:
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
       Value: Explore Patagonia’s raw beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness.
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Patagonia
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: New page
@@ -48,7 +51,7 @@ Languages:
       Value: "Patagonia: Where Earth Feels Infinite"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e3661cdc-5e8d-4f78-8040-4478e0008014"
+      Value: "dc955c6d-7b66-485b-8f7e-fe80895713a1"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Patagonia: Where Earth Feels Infinite"
@@ -69,7 +72,7 @@ Languages:
       Value:  Explore Patagonia’s raw beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T185051Z
+      Value: 20251027T192230Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

@@ -16,6 +16,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: "Ameya-Yokocho, Ebisu, Ebisu Yokocho, Japan, Japanese craft beer, Japanese-style curry, Michelin-starred restaurants, Nakano, Nakano Broadway, Okachimachi, Okinawan-style tacos, Omoide Yokocho, Pasmo, Shimokitazawa, Shinjuku, Suica, Sun Mall, Tokyo, Tsukiji, Tsukiji Outer Market, Ueno, after-hours energy, authentic flavor, bohemian streets, craft cocktails, culinary culture, gluten-free options, grilled scallops, gyoza, horumon, izakaya, karaage, kushikatsu, lantern-lit alleyways, late-night bites, matcha soft serve, miso ramen, night markets, open container laws, ramen, retro vibe, sake, salarymen, sashimi, shochu, slurping etiquette, solo travelers, street food, takoyaki, tamagoyaki, tuna sushi, uni-don, vegan options, wagyu beef, yakitori"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T181038Z
@@ -39,7 +42,7 @@ Languages:
       Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3947148-fe91-4423-ac4d-07874dc50d8b"
+      Value: "165f6cef-a65e-462f-936f-1680edf18232"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
@@ -192,7 +195,11 @@ Languages:
       Value: "When the sun sets over Tokyo, the neon lights flicker to life and the city transforms into a food lover’s paradise. Beyond the glitzy bars and Michelin-starred restaurants lies a delicious undercurrent of culinary culture: night markets and late-night street food stalls where locals and savvy travelers gather to eat, drink, and soak up the city’s after-hours energy."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T190352Z
+      Value: 20251027T190509Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/3c06a0966ee94c4c95242851b335d8a5?v=e672b4f4" dam-id="K3vo00urT8O5imm_DYrvEQ" width="360" height="270" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68761/thumbnail" />
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250718T000000Z

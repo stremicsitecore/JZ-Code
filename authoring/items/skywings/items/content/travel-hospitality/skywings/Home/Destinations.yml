@@ -7,13 +7,16 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{0D71CB45-0E21-42FA-AABD-C8CACA561163}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{B746BBA2-0ACF-4220-BDC8-C5264CF2767C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "328d2b01-50df-4bba-8547-e1787e8b52a7"
+  Value: "e7727b4e-ec80-4c15-8e9f-4b41cc2f95ce"
 Languages:
 - Language: en
   Versions:
@@ -53,17 +56,17 @@ Languages:
       Value: Destinations
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bebd40aa-967f-4367-9c4c-19046855e376"
+      Value: "ceedd9cb-5664-4097-bed1-7d7f00df30c6"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Destinations
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250731T160416Z
+      Value: 20251027T192116Z
 - Language: "ja-JP"
   Versions:
   - Version: 1
