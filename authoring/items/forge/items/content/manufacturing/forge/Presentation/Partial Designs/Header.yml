@@ -30,10 +30,10 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{DD9330A4-3958-4D64-85CB-D3C99FC98745}"
-              s:ds="e0378c05-9248-4f14-9bbf-4867c1fd2333"
+              uid="{5EBC7CE1-8AEC-433C-918E-090F52FC4DB9}"
+              s:ds="local:/Data/New Global Header"
               s:id="{77447DA8-09CF-4067-86DA-F87505E0A156}"
-              s:par=""
+              s:par="Styles=%7B73F300CA-CA34-4319-ACBF-F97BFCCAE6C0%7D%7C%7B6A8F24AC-ADB6-4E1C-B29E-31E1865BC167%7D"
               s:ph="headless-header" />
           </d>
         </r>
@@ -50,11 +50,11 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "60eefcbc-8192-4d6b-8e7e-e3e09aac1a11"
+      Value: "5b6158cd-c916-44ff-abe4-7df0fc54124a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T202642Z
+      Value: 20251027T205241Z

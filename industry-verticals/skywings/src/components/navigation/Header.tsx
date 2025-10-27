@@ -5,7 +5,6 @@ import { useI18n } from 'next-localization';
 import {
   Plane,
 } from "lucide-react"
-import PreviewSearch from '../search/PreviewSearch';
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -70,34 +69,30 @@ export const Header = (props: HeaderProps): JSX.Element => {
             </Link>
           </div>
         </div>
-      </div>
-      {isSearchOpen && (
-        <div className="absolute top-full right-0 left-0 z-50 border-b border-gray-200 bg-white shadow-lg">
-          <div className="mx-auto max-w-7xl px-4 py-4">
-            <div className="flex items-center gap-2">
-              <PreviewSearch
-                rfkId="formalux_preview_search"
-                isOpen={isSearchOpen}
-                setIsSearchOpen={setIsSearchOpen}
-              />
+        {isSearchOpen && (
+          <div className="absolute top-full right-0 left-0 z-50 border-b border-gray-200 bg-white shadow-lg">
+            <div className="mx-auto max-w-7xl px-4 py-4">
+              <div className="flex items-center gap-2">
+                PREVIEW SEARCH HERE
 
-              <button
-                onClick={() => setIsSearchOpen(false)}
-                className="p-3 text-gray-500 transition-colors hover:text-gray-700"
-              >
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </button>
+                <button
+                  onClick={() => setIsSearchOpen(false)}
+                  className="p-3 text-gray-500 transition-colors hover:text-gray-700"
+                >
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </header>
   );
 };
