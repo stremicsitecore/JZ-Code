@@ -28,11 +28,21 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "25273bcd-dd05-4932-ad73-24f96c26086b"
+      Value: "933d3529-cd4e-46ee-a46f-42b6ca4e71c9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T205201Z
+      Value: 20251027T210943Z
+    - ID: "e3289100-a242-4fc7-814f-0ffef0ffe8bd"
+      Hint: headerContact
+      Value: |
+        <link linktype="external" url="www.google.com" target="" text="Connect Today" title="" class=""/>
+    - ID: "f073d52d-022c-4560-90c2-71fc674cf8bf"
+      Hint: primaryNavigationLinks
+      Value: |
+        {64530934-5A53-4D2F-A8EE-3EA4D2CD8FAB}
+        {C3CD3EA0-0A3C-43D7-AC1E-E3047D9E7A1D}
+        {31799360-9CE9-493F-80A1-2B072374030F}

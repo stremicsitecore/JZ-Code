@@ -5,6 +5,7 @@ import { useI18n } from 'next-localization';
 import {
   Plane,
 } from "lucide-react"
+import PreviewSearch from '../search/PreviewSearch';
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -73,7 +74,11 @@ export const Header = (props: HeaderProps): JSX.Element => {
           <div className="absolute top-full right-0 left-0 z-50 border-b border-gray-200 bg-white shadow-lg">
             <div className="mx-auto max-w-7xl px-4 py-4">
               <div className="flex items-center gap-2">
-                PREVIEW SEARCH HERE
+                <PreviewSearch
+                  rfkId="skywings_preview_search"
+                  isOpen={isSearchOpen}
+                  setIsSearchOpen={setIsSearchOpen}
+                />
 
                 <button
                   onClick={() => setIsSearchOpen(false)}

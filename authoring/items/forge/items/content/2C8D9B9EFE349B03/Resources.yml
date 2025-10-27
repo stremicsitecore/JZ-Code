@@ -31,11 +31,15 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7279aa5c-39c8-434c-9061-f729520f3e38"
+      Value: "fb35ca01-a615-4d38-983f-7bacfa17025a"
+    - ID: "969b132e-3dc2-4526-8f8d-61e3ea742df6"
+      Hint: link
+      Value: |
+        <link text="Resources" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C1AD8D5C-65C9-423E-95AC-CD6A717CF528}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T204813Z
+      Value: 20251027T210404Z
