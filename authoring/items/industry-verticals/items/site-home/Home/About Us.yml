@@ -78,6 +78,62 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250821T102854Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Erfahren Sie, wie Forma Lux handwerkliches Können, hochwertige Materialien und moderne Designphilosophie vereint, um zeitlose Möbel zu schaffen.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Über uns
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Räume mit Seele und Substanz gestalten
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: "<p>Bei Forma Lux verbinden wir zeitloses Design mit modernem Ausdruck, um Innenräume zu schaffen, die Individualität und Eleganz widerspiegeln. Geleitet von einer Leidenschaft für kuratiertes Wohnen entwerfen wir Möbel, die über Trends hinausgehen – gefertigt für diejenigen, die mutig leben und stilvoll gestalten. Unsere Philosophie ist in Balance verwurzelt: zwischen Form und Funktion, Zurückhaltung und Aussage, Einfachheit und Reichtum.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/15c6113c2e7049e49872c5f7f67211ef?v=9da7068d" dam-id="I-ZnxLkUSgy0XuLg9Lbsow" width="1100" height="733" alt="GettyImages-1487035786.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/38731/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Über Forma Lux – Erbe & moderne Handwerkskunst
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "185c94b6-d594-491a-9cab-72e2bb5976c1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Unser Erbe, Materialien und Designethos – Forma Lux ist dort, wo Tradition auf Moderne trifft, für Stücke, die Bestand haben.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: Forma Lux Geschichte, Luxusmöbelmarke, Handwerkserbe, nachhaltige Materialien
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072744Z
 - Language: en
   Versions:
   - Version: 1
@@ -160,6 +216,62 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250918T062316Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250821T102854Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Découvrez comment Forma Lux allie artisanat, matériaux de qualité supérieure et philosophie de design moderne pour créer des meubles intemporels.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: À propos de nous
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Façonner des Espaces avec Âme et Substance
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: "<p>Chez Forma Lux, nous mélangeons un design intemporel avec une expression moderne pour créer des intérieurs qui reflètent l'individualité et l'élégance. Guidés par une passion pour un mode de vie soigné, nous concevons des meubles qui vont au-delà des tendances — conçus pour ceux qui vivent avec audace et style. Notre philosophie est ancrée dans l'équilibre : entre forme et fonction, subtilité et déclaration, simplicité et richesse.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/15c6113c2e7049e49872c5f7f67211ef?v=9da7068d" dam-id="I-ZnxLkUSgy0XuLg9Lbsow" width="1100" height="733" alt="GettyImages-1487035786.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/38731/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: À propos de Forma Lux – Héritage et Artisanat Moderne
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa37d650-a57a-41a2-a074-b5cee44d5349"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Notre héritage, nos matériaux et notre éthique de conception—Forma Lux est là où la tradition rencontre la modernité pour des pièces qui durent.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: Histoire de Forma Lux, marque de meubles de luxe, héritage de l'artisanat, matériaux durables
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070216Z
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

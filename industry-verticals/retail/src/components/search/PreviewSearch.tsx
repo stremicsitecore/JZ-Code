@@ -1,22 +1,25 @@
 import type { ChangeEvent, SyntheticEvent } from 'react';
 import { useCallback } from 'react';
 import type { PreviewSearchInitialState } from '@sitecore-search/react';
-import {
-  WidgetDataType,
-  usePreviewSearch,
-  usePreviewSearchActions,
-  widget,
-} from '@sitecore-search/react';
+import { WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
 import { ArticleCard, PreviewSearch } from '@sitecore-search/ui';
 import React from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import Spinner from './Spinner';
 import SuggestionBlock from './SuggestionBlock';
+import { PREVIEW_WIDGET_ID } from '@/_data/customizations';
+import { trackEntityPageViewEvent, trackPreviewSearchClickEvent } from '@sitecore-search/react';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
 };
+
+export type Events =
+  | 'PageViewEvent'
+  | 'EntityPageView'
+  | 'PreviewSearchClickEvent'
+  | 'PreviewSearchSuggestionClickEvent';
 
 type ArticleModel = {
   id: string;
@@ -81,7 +84,31 @@ export const PreviewSearchComponent = ({
     router.push(`/search?q=${target.value}`);
     target.value = '';
   };
-  const { onResultClick } = usePreviewSearchActions();
+  function handleSearchEvent(
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string,
+    widgetId: string,
+    entityType: string,
+    events: Events[],
+    entityId: string,
+    itemIndex: number
+  ) {
+    e.preventDefault();
+    events?.forEach((event) => {
+      if (event == 'EntityPageView' && entityType && entityId) {
+        trackEntityPageViewEvent(entityType, { items: [{ id: entityId }] });
+      }
+
+      if (event == 'PreviewSearchClickEvent') {
+        trackPreviewSearchClickEvent(widgetId, entityType, {
+          index: itemIndex,
+          items: [{ id: entityId }],
+        });
+      }
+
+      router.push(href);
+    });
+  }
 
   return (
     <PreviewSearch.Root>
@@ -116,17 +143,19 @@ export const PreviewSearchComponent = ({
                 >
                   <Spinner loading={loading} />
                   {!loading &&
-                    articles.map((article) => (
+                    articles.map((article, index) => (
                       <PreviewSearch.Item key={article.id} asChild>
                         <PreviewSearch.ItemLink
-                          onClick={() => {
-                            onResultClick({
-                              name: article.name,
-                              title: article.title,
-                              value: article.name,
-                              displayName: article.name,
-                            });
-                            router.push(article.url);
+                          onClick={(e) => {
+                            handleSearchEvent(
+                              e,
+                              article.url,
+                              PREVIEW_WIDGET_ID,
+                              'content',
+                              ['EntityPageView', 'PreviewSearchClickEvent'],
+                              article.id,
+                              index
+                            );
                           }}
                           href={article.url}
                           className="box-border flex w-full text-black no-underline focus:shadow-md"

@@ -34,6 +34,90 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "225b4b4f-7a9b-4436-905d-ca97b2057cff"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Das Herz des Raumes: Kamin & Lounge"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+      Hint: Author
+      Value: "{9B44F7C4-472E-4F20-8957-8D9D482E692F}"
+    - ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+      Hint: Tags
+      Value: |
+        {06F27D49-7A05-45B4-BE35-67A7C7D9E5D0}
+        {EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250911T094732Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: "Entdecken Sie, wie Handwerkskunst und Komfort im Herz des Raumes: Kamin & Lounge zusammenkommen. Natürliches Holz, wiedergewonnene Eiche und handwerkliche Details schaffen einen Raum, in dem rustikale Wärme auf moderne Raffinesse trifft."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Das Herz des Raumes: Kamin"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement-Stücke, die Gespräche anregen</h3><p>Ein hängendes Eisenlicht zieht die Blicke auf sich und schwebt über einem niedrigen Couchtisch aus Treibholz. In der Nähe hält ein skulpturaler Bücherregal eine kuratierte Mischung aus Kunst, Pflanzen und Keramik und bietet sowohl Funktion als auch Flair.</p><p>Es ist ein durchdachtes Layout, das das Auge natürlich durch den Raum führt. Jedes Designelement – ob strukturell oder dekorativ – wirkt absichtsvoll und trägt zur harmonischen Atmosphäre des Raumes bei. Eine neutrale Farbpalette dominiert, aber Akzente in Terrakotta und Marineblau verleihen Persönlichkeit, ohne die Sinne zu überwältigen. Handwerkliche Details, wie handgefertigte Keramik und strukturierte Wandpaneele, verleihen Wärme und Authentizität.</p><p>Es ist ein durchdachtes Layout, das das Auge natürlich durch den Raum führt. Jedes Designelement – ob strukturell oder dekorativ – wirkt absichtsvoll und trägt zur harmonischen Atmosphäre des Raumes bei. Eine neutrale Farbpalette dominiert, aber Akzente in Terrakotta und Marineblau verleihen Persönlichkeit, ohne die Sinne zu überwältigen. Handwerkliche Details, wie handgefertigte Keramik und strukturierte Wandpaneele, verleihen Wärme und Authentizität.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <image height="733" dam-content-type="Image" alt="Rechteck 43.png" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" dam-id="y9eaS3oRSLCy7JKBixa3jw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0b03000bbe0642109f9315e99c8eb565?v=52ee1c03" />
+    - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+      Hint: PublishedDate
+      Value: 20260422T000000Z
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Dieses Wohnzimmer verbindet rustikalen Charme mit moderner Raffinesse. Natürliche Holzbalken erstrecken sich über die Decke und kontrastieren mit eleganten Betonböden für ein geerdetes, aber zeitgemäßes Gefühl.
+        
+        Rohe Leinenvorhänge rahmen große Fenster ein und lassen goldenes Licht auf Möbel aus wiedergewonnenem Eichenholz fallen. Ein Wollteppich verankert den Sitzbereich, während weiche Kissen und geschichtete Decken dazu einladen, sich hineinzusinken und eine Weile zu bleiben.
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: "Das Herz des Raumes: Kamin & Lounge | Forma Lux Journal – Handgefertigtes Design mit Wärme & Handwerk"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6672126e-3137-4e10-9504-1d116afdd955"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Das Herz des Raumes: Kamin"
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: "Eine Studie in Balance und Absicht, Das Herz des Raumes: Kamin & Lounge fängt die handgefertigte Designphilosophie von Forma Lux ein – wo jeder Balken, jedes Textil und jede Kurve zu einem harmonischen Ganzen beiträgt. Die Geschichte entfaltet sich in Texturen: wiedergewonnene Eiche und Eisen, Wolle und Leinen, Beton und Licht. Dieses Stück feiert, wie Handwerkskunst rohe Materialien in stillem Luxus verwandelt und Wärme, Authentizität und zeitlosen Komfort hervorruft."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072748Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: handgefertigte Möbel, rustikal modernes Wohnzimmer, Holzdesign, Kaminlounge, Forma Lux Innenräume, nachhaltige Materialien, handwerkliches Können, zeitgenössische Wohnkultur
+    - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+      Hint: Category
+      Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -153,3 +237,88 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T081242Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c0e07d2f-6ca0-4f75-94b1-d548a5b856bd"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Le cœur de la pièce : Cheminée & Lounge"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+      Hint: Author
+      Value: "{9B44F7C4-472E-4F20-8957-8D9D482E692F}"
+    - ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+      Hint: Tags
+      Value: |
+        {06F27D49-7A05-45B4-BE35-67A7C7D9E5D0}
+        {EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250911T094732Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: "Découvrez comment l'artisanat et le confort convergent dans Le cœur de la pièce : Cheminée & Lounge. Bois naturel, chêne récupéré et détails artisanaux créent un espace où la chaleur rustique rencontre la sophistication moderne."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Le cœur de la pièce : Cheminée"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces maîtresses qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire le regard, flottant au-dessus d'une table basse profilée fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale contient un mélange de l'art, de plantes et de céramiques, offrant à la fois fonctionnalité et flair.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de designqu'il soit structurel ou décoratifsemble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement le regard à travers la pièce. Chaque élément de designqu'il soit structurel ou décoratifsemble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0b03000bbe0642109f9315e99c8eb565?v=52ee1c03" dam-id="y9eaS3oRSLCy7JKBixa3jw" width="1100" height="733" alt="Rectangle 43.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" />
+    - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+      Hint: PublishedDate
+      Value: 20260422T000000Z
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Ce salon combine le charme rustique avec la sophistication moderne. Des poutres en bois naturel s'étendent sur le plafond, contrastant avec des sols en béton élégants pour une ambiance à la fois ancrée et contemporaine.
+        
+        Des rideaux en lin brut encadrent de grandes fenêtres, permettant à la lumière dorée de se répandre sur des meubles en chêne récupéré. Un tapis en laine ancre la zone de sièges, tandis que des coussins doux et des jetés superposés vous invitent à vous installer et à rester un moment.
+        
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: "Le cœur de la pièce : Cheminée & Lounge | Journal Forma Lux  Design fait main avec chaleur & artisanat"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba1d0dbd-f20d-4e4c-bf39-1bcdfbced301"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Le cœur de la pièce : Cheminée"
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: "Une étude en équilibre et intention, Le cœur de la pièce : Cheminée & Lounge capture la philosophie de design fait main de Forma Luxoù chaque poutre, textile et courbe contribue à un ensemble harmonieux. L'histoire se déroule en textures : chêne récupéré et fer, laine et lin, béton et lumière. Cette pièce célèbre comment l'artisanat transforme les matières premières en luxe discret, évoquant chaleur, authenticité et confort intemporel."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: meubles faits main, salon moderne rustique, design en bois, lounge cheminée, intérieurs Forma Lux, matériaux durables, artisanat, décoration contemporaine
+    - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+      Hint: Category
+      Value: "{53E47824-D8CD-4263-AAC6-A4358F7E5DB4}"

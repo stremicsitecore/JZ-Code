@@ -16,6 +16,47 @@ SharedFields:
   Hint: __Shared revision
   Value: "f1011650-28a2-4921-af5b-6487c03d7120"
 Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 4
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T100615Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Innenraum Stylistin, Paris
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: |
+        "Mein Raum fühlt sich dank Forma Lux wie eine lebendige Galerie an. Ihre Designs balancieren Kunst und Funktion auf die nahtloseste Weise."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2881a4b8-da7a-4499-bed7-c3f8fa75714f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Clara Moreau
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072754Z
 - Language: en
   Versions:
   - Version: 1
@@ -54,3 +95,44 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251023T230627Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 4
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T100615Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Styliste d'intérieur, Paris
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: |
+        "Mon espace ressemble à une galerie vivante grâce à Forma Lux. Leurs designs équilibrent l'art et la fonction de la manière la plus harmonieuse."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce04b6f6-c5a9-40ef-aa43-5cbf63500494"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Clara Moreau
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070228Z

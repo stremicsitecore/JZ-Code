@@ -34,6 +34,86 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T124722Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Oslo Lounge Chair | Forma Lux – Skandinavischer Loungesessel mit Eichenrahmen
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Ein skandinavisch inspirierter Loungesessel mit einem eleganten Holzrahmen und weichen Kissen.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 349.99
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Oslo Lounge Chair
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: CHR0006
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{9204E7BB-D14B-4489-BF04-9A869766E19F}" alt="oslo-lounge-chair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6af5cdeb-fdcd-4e70-998c-0fe4c9c691ca"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: "{B8B93775-E47C-46F2-9157-293AA8904883}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Oslo Lounge Chair
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Oslo Lounge Chair, skandinavischer Sessel, nordische Möbel, Eichen-Loungesessel, Leinenpolsterung, moderner Loungesessel, Forma Lux Shop, minimalistische Möbel"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Der Oslo Lounge Chair von Forma Lux kombiniert nordische Einfachheit mit erstklassigem Komfort. Mit einem Rahmen aus massivem Eichenholz und weichen Leinenkissen ist er eine zeitlose Ergänzung für moderne Innenräume.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072811Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Der Oslo Lounge Chair vereint minimalistisches nordisches Design mit modernem Komfort. Aus massivem Eichenholz gefertigt und mit hochwertigem Leinen bezogen, bietet er eine zeitlose Silhouette, die nahtlos in jeden Wohnraum passt. Seine ergonomische Rückenlehne und der tiefe Sitz machen ihn perfekt für lange Stunden der Entspannung.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Inspiriert von nordischer Gelassenheit, verkörpert der Oslo Lounge Chair Forma Lux' Hingabe an Handwerkskunst und ruhiges Design. Sein Rahmen aus massivem Eichenholz bietet skulpturale Stärke, während die hochwertige Leinenpolsterung einladende Weichheit hinzufügt. Mit einer ergonomischen Rückenlehne und einem tiefen Sitz ist Oslo perfekt für unbeschwerte Momente – ein Stück, das moderne Zurückhaltung mit organischer Wärme verbindet. Erhältlich in Schwarz und mittlerer Größe, verwandelt er jeden Raum in eine Oase skandinavisch inspirierter Komfort und Klarheit.
 - Language: en
   Versions:
   - Version: 1
@@ -111,3 +191,83 @@ Languages:
     - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
       Hint: pageSummary
       Value: "Inspired by Nordic serenity, the Oslo Lounge Chair captures Forma Lux’s devotion to craftsmanship and calm design. Its solid oak frame provides sculptural strength, while premium linen upholstery adds inviting softness. With an ergonomic backrest and deep seat, Oslo is perfect for unhurried moments — a piece that blends modern restraint with organic warmth. Available in Black and Medium size, it transforms any space into a haven of Scandinavian-inspired comfort and clarity."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T124722Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Fauteuil Oslo | Forma Lux – Fauteuil scandinave avec cadre en chêne
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un fauteuil inspiré du design scandinave avec un cadre en bois élégant et des coussins moelleux.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 349.99
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Fauteuil Oslo
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: CHR0006
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{9204E7BB-D14B-4489-BF04-9A869766E19F}" alt="oslo-lounge-chair-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bab4f618-2839-44f3-bfaa-1762983eb4aa"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: "{B8B93775-E47C-46F2-9157-293AA8904883}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Fauteuil Oslo
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Fauteuil Oslo, chaise scandinave, mobilier nordique, fauteuil en chêne, revêtement en lin, fauteuil moderne, boutique Forma Lux, mobilier minimaliste
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Le fauteuil Oslo de Forma Lux combine la simplicité nordique avec un confort premium. Doté d'un cadre en chêne massif et de coussins en lin moelleux, c'est un ajout intemporel aux intérieurs modernes.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070246Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le fauteuil Oslo allie le design nordique minimaliste au confort moderne. Fabriqué en chêne massif et recouvert de lin de qualité supérieure, il offre une silhouette intemporelle qui s'intègre parfaitement dans n'importe quel espace de vie. Son dossier ergonomique et son siège profond le rendent parfait pour de longues heures de détente.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Inspiré par la sérénité nordique, le fauteuil Oslo capture la dévotion de Forma Lux à l'artisanat et au design calme. Son cadre en chêne massif offre une force sculpturale, tandis que le revêtement en lin de qualité supérieure ajoute une douceur invitante. Avec un dossier ergonomique et un siège profond, Oslo est parfait pour des moments sans hâte — une pièce qui allie retenue moderne et chaleur organique. Disponible en noir et taille moyenne, il transforme n'importe quel espace en un havre de confort et de clarté inspiré du style scandinave.

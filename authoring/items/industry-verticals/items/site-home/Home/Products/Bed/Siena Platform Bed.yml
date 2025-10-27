@@ -34,6 +34,88 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Siena Plattformbett | Forma Lux – Minimalistisches niedriges Holz-Bett"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Ein minimalistisches Plattformbett mit einem niedrigen Profil
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Siena Plattformbett
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: BED0004
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{A22A8BAE-F510-47B6-9A55-24F9B6D7BB2F}" alt="siena-plattformbett" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5786f2f-dd12-480b-9e49-8d7b493dd91e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Siena Plattformbett
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{16807766-6013-4944-9550-EBC3216AD248}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Siena Plattformbett, minimalistisches Bett, niedriges Bett, Rahmen aus Massivholz, modernes Plattformbett, Bett mit Lattenbasis, zeitgenössische Schlafzimmermöbel, Forma Lux Shop
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Erleben Sie raffinierte Einfachheit mit dem Siena Plattformbett von Forma Lux. Gefertigt aus Massivholz, bietet sein minimalistisches Design mit niedrigem Profil und Lattenbasis zeitlose Form und dauerhafte Unterstützung.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072807Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Das Siena Plattformbett zeichnet sich durch klare Linien und einen Rahmen aus Massivholz aus, was es ideal für moderne Innenräume macht. Sein niedriges Profil macht einen Boxspring überflüssig, während die Lattenbasis hervorragende Unterstützung für die Matratze bietet.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Reine Form, ehrliche Materialien und dauerhafter Komfort definieren das Siena Plattformbett. Mit seiner niedrigen Silhouette und präzisen Geometrie spiegelt Siena die moderne Ästhetik von Forma Lux wider—erhöhte Einfachheit, die in Handwerkskunst verwurzelt ist. Der Rahmen aus Massivholz bietet strukturelle Integrität und Eleganz, während die Lattenbasis atmungsaktive Unterstützung gewährleistet. Erhältlich in Schwarz und in den Größen Klein, Mittel oder Groß, verwandelt Siena minimalistisches Design in ein tägliches Ritual der Ruhe und des Komforts.
 - Language: en
   Versions:
   - Version: 1
@@ -113,3 +195,85 @@ Languages:
     - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
       Hint: pageSummary
       Value: Pure form, honest materials, and enduring comfort define the Siena Platform Bed. With its low silhouette and precise geometry, Siena reflects Forma Lux’s modern aesthetic—elevated simplicity rooted in craftsmanship. The solid wood frame offers structural integrity and elegance, while the slatted base ensures breathable support. Available in Black and in Small, Medium, or Large sizes, Siena transforms minimalist design into a daily ritual of calm and comfort.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130117Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Lit Plateforme Siena | Forma Lux – Lit en bois minimaliste à profil bas
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un lit plateforme minimaliste avec un design à profil bas
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit Plateforme Siena
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: BED0004
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{A22A8BAE-F510-47B6-9A55-24F9B6D7BB2F}" alt="lit-plateforme-siena" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97a65235-70d7-4d12-b716-2df53b6f3229"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lit Plateforme Siena
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{16807766-6013-4944-9550-EBC3216AD248}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Lit Plateforme Siena, lit minimaliste, lit à profil bas, cadre en bois massif, lit plateforme moderne, lit à base à lattes, mobilier de chambre contemporain, boutique Forma Lux
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Découvrez la simplicité raffinée avec le Lit Plateforme Siena de Forma Lux. Fabriqué en bois massif, son design minimaliste à profil bas et sa base à lattes offrent une forme intemporelle et un soutien durable.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070243Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le Lit Plateforme Siena présente des lignes épurées et un cadre en bois massif, idéal pour les intérieurs modernes. Son design à profil bas élimine le besoin d'un sommier, tandis que la base à lattes offre un excellent soutien pour le matelas.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: La forme pure, les matériaux honnêtes et le confort durable définissent le Lit Plateforme Siena. Avec sa silhouette basse et sa géométrie précise, Siena reflète l'esthétique moderne de Forma Lux—une simplicité élevée enracinée dans l'artisanat. Le cadre en bois massif offre une intégrité structurelle et une élégance, tandis que la base à lattes assure un soutien respirant. Disponible en noir et en tailles petite, moyenne ou grande, Siena transforme le design minimaliste en un rituel quotidien de calme et de confort.

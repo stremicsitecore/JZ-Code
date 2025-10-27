@@ -34,6 +34,89 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f2132f01-d3ba-4d11-a2a5-42cb96433e44"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Neue Wege der Dekoration erkunden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+      Hint: Author
+      Value: "{EB1D93E4-2CAB-439C-9578-358D0A59FDE6}"
+    - ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+      Hint: Tags
+      Value: |
+        {7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}
+        {EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250917T090300Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: |
+        In "Neue Wege der Dekoration erkunden" stellt Forma Lux Innendesign durch Balance und Absicht neu vor - handgefertigte Möbel mit modernem Minimalismus zu kombinieren, um Räume zu schaffen, die kunstvoll und lebendig wirken.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Neue Wege der Dekoration erkunden
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design elementwhether structural or decorativefeels intentional, contributing to the rooms harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design elementwhether structural or decorativefeels intentional, contributing to the rooms harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design elementwhether structural or decorativefeels intentional, contributing to the rooms harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design elementwhether structural or decorativefeels intentional, contributing to the rooms harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <image height="740" dam-content-type="Image" alt="Rechteck 68.jpg" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67032/thumbnail" dam-id="NsFpWqd3RVKMXignC81wqA" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67032-HomepagePromoCTAs-1100x740?v=e14e44d4" />
+    - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+      Hint: PublishedDate
+      Value: 20250901T000000Z
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: Neue Wege der Dekoration erkunden | Forma Lux Journal – Moderne Perspektiven auf Innendesign
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1685069d-5ce8-43d0-a8ef-ea0b6cef0425"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Neue Wege der Dekoration erkunden
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: |
+        Forma Lux lädt Sie ein, neu zu überdenken, wie Räume zum Leben erweckt werden. "Neue Wege der Dekoration erkunden" untersucht Design als Gespräch - zwischen Struktur und Weichheit, Tradition und Innovation. Skulpturale Beleuchtung, Treibholztexturen und handwerkliche Keramik verankern den Raum in taktiler Schönheit, während durchdachte Zurückhaltung jedes Detail zweckmäßig hält. Dieser Artikel feiert Innenräume nicht als statische Displays, sondern als sich entwickelnde Ausdrucksformen von Handwerkskunst, Emotion und moderner Harmonie.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072749Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: "Innendesign, moderne Wohnkultur, Möbelstyling, zeitgenössische Innenräume, Forma Lux Journal, Design-Inspiration, handwerkliches Können, Wohntrends"
+    - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+      Hint: Category
+      Value: "{FA4802D9-66CA-4087-AC8A-59CE0283D1C5}"
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -143,3 +226,84 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251007T081036Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "1e71f330-fc3d-4896-8a28-4a8bc05ddb98"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Explorer de nouvelles façons de décorer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+      Hint: Author
+      Value: "{EB1D93E4-2CAB-439C-9578-358D0A59FDE6}"
+    - ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+      Hint: Tags
+      Value: |
+        {7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}
+        {EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250917T090300Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: "Dans Explorer de nouvelles façons de décorer, Forma Lux réinvente le design d'intérieur par l'équilibre et l'intention - associant des meubles faits à la main avec un minimalisme moderne pour créer des espaces qui semblent artistiques et vivants."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Explorer de nouvelles façons de décorer
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces de déclaration qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire l'œil, planant au-dessus d'une table basse profilée fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale contient un mélange de livres, de plantes et de céramiques, offrant à la fois fonction et flair.</p><p>C'est une disposition bien pensée qui guide naturellement l'œil à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement l'œil à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Pièces de déclaration qui suscitent la conversation</h3><p>Un luminaire en fer suspendu attire l'œil, planant au-dessus d'une table basse profilée fabriquée à partir de bois flotté. À proximité, une bibliothèque sculpturale contient un mélange de livres, de plantes et de céramiques, offrant à la fois fonction et flair.</p><p>C'est une disposition bien pensée qui guide naturellement l'œil à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p><p>C'est une disposition bien pensée qui guide naturellement l'œil à travers la pièce. Chaque élément de design, qu'il soit structurel ou décoratif, semble intentionnel, contribuant à l'ambiance harmonieuse de la pièce. Une palette neutre domine, mais des touches de terracotta et de marine ajoutent de la personnalité sans submerger les sens. Des détails artisanaux, comme la poterie faite à la main et les panneaux muraux texturés, insufflent chaleur et authenticité.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67032-HomepagePromoCTAs-1100x740?v=e14e44d4" dam-id="NsFpWqd3RVKMXignC81wqA" width="1100" height="740" alt="Rectangle 68.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67032/thumbnail" />
+    - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+      Hint: PublishedDate
+      Value: 20250901T000000Z
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: "Explorer de nouvelles façons de décorer | Forma Lux Journal - Perspectives modernes sur le design d'intérieur"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c95ac9a9-5502-4025-bf91-7d45be28deb5"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Explorer de nouvelles façons de décorer
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: "Forma Lux vous invite à repenser la façon dont les pièces prennent vie. Explorer de nouvelles façons de décorer examine le design comme une conversation - entre structure et douceur, héritage et innovation. L'éclairage sculptural, les textures de bois flotté et la poterie artisanale ancrent l'espace dans une beauté tactile, tandis qu'une retenue réfléchie garde chaque détail intentionnel. Cet article célèbre les intérieurs non pas comme des expositions statiques, mais comme des expressions évolutives de l'artisanat, de l'émotion et de l'harmonie moderne."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070224Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: design d'intérieur, décoration de maison moderne, style de mobilier, intérieurs contemporains, journal Forma Lux, inspiration de design, artisanat, tendances de la maison
+    - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+      Hint: Category
+      Value: "{FA4802D9-66CA-4087-AC8A-59CE0283D1C5}"

@@ -16,6 +16,46 @@ SharedFields:
   Hint: __Shared revision
   Value: "c28ddd1f-a313-4004-a30a-2b30d656cb14"
 Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 5
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T100956Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Kunstberaterin, Mailand
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: „Ich hätte nie gedacht, dass mein Zuhause so raffiniert aussehen könnte, ohne eine vollständige Renovierung. Forma Lux machte Luxus zugänglich und mühelos.“
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57e0bfc9-b311-4066-8743-fed29f62c235"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Elena D.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072754Z
 - Language: en
   Versions:
   - Version: 1
@@ -53,3 +93,43 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251023T230509Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 5
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T100956Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Consultante en art, Milan
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: « Je n'aurais jamais imaginé que ma maison puisse avoir l'air aussi raffinée sans une rénovation complète. Forma Lux a rendu le luxe accessible et sans effort. »
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a2d5982-db23-40a5-9336-4296e093209d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Elena D.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070228Z

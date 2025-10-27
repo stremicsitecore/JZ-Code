@@ -34,6 +34,86 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131920Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Capri Tischlampe | Forma Lux – Handglasierte Keramiklampe mit Leinenschirm
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Eine Keramiktischlampe mit einem Leinenschirm.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 129.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Capri Tischlampe
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: LMP0003
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{242EB51B-97AA-45EC-A103-EE881B93B790}" alt="capr-tischlampe-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e1b9396-7088-49a2-ad47-b6874b2acdba"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Capri Tischlampe
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Capri Tischlampe, Keramiktischlampe, Leinenschirm, handgefertigte Beleuchtung, moderne Wohnkultur, Nachttischlampe, Forma Lux Shop, handwerkliches Können
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Die Capri Tischlampe von Forma Lux verfügt über einen handglasierten Keramikfuß und einen neutralen Leinenschirm – ein vielseitiges Beleuchtungsstück, das jedem Raum Wärme und Eleganz verleiht.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072808Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Die Capri Tischlampe verleiht jedem Raum Wärme und Charme. Ihr handglasiertes Keramikfuß, gepaart mit einem neutralen Leinenschirm, macht sie vielseitig für Schlafzimmer und Wohnzimmer.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Die Capri Tischlampe fängt mühelos Textur und Ton ein und verkörpert Forma Lux' Ansatz zur handgefertigten Beleuchtung. Der Keramikfuß, mit einem reichhaltigen handglasierten Glanz versehen, verankert die Lampe mit organischem Charme, während der Leinenschirm ein weiches, natürliches Licht verbreitet. Erhältlich in Weiß, Indigo, Gold und Schwarz, ergänzt Capri sowohl moderne als auch klassische Innenräume – und verwandelt Schlafzimmer, Leseecken und Wohnräume in ruhige, leuchtende Rückzugsorte.
 - Language: en
   Versions:
   - Version: 1
@@ -111,3 +191,83 @@ Languages:
     - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
       Hint: pageSummary
       Value: "Effortlessly blending texture and tone, the Capri Table Lamp captures Forma Lux’s approach to handcrafted illumination. The ceramic base, finished in a rich hand-glazed sheen, anchors the lamp with organic charm, while the linen shade diffuses a soft, natural light. Available in White, Indigo, Gold, and Black, Capri complements both modern and classic interiors — transforming bedrooms, reading corners, and living spaces into calm, luminous retreats."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131920Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Lampe de table Capri | Forma Lux – Lampe en céramique émaillée à la main avec abat-jour en lin"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Une lampe de table en céramique avec un abat-jour en lin."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 129.5
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lampe de table Capri
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: LMP0003
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{242EB51B-97AA-45EC-A103-EE881B93B790}" alt="capr-table-lamp-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "821364a8-2dcc-4438-ae24-525d56d4efa2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Lampe de table Capri
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Lampe de table Capri, lampe de table en céramique, abat-jour en lin, éclairage fait main, décoration moderne, lampe de chevet, boutique Forma Lux, artisanat"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "La lampe de table Capri par Forma Lux présente un socle en céramique émaillé à la main et un abat-jour en lin neutre — une pièce d'éclairage polyvalente qui ajoute chaleur et élégance à toute pièce."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070244Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>La lampe de table Capri ajoute chaleur et charme à tout espace. Son socle en céramique émaillé à la main, associé à un abat-jour en lin neutre, la rend polyvalente pour les chambres et les salons.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Mariant texture et ton avec aisance, la lampe de table Capri incarne l'approche de Forma Lux en matière d'éclairage artisanal. Le socle en céramique, fini avec un riche éclat émaillé à la main, ancre la lampe avec un charme organique, tandis que l'abat-jour en lin diffuse une lumière douce et naturelle. Disponible en blanc, indigo, or et noir, Capri complète à la fois les intérieurs modernes et classiques — transformant chambres, coins lecture et espaces de vie en retraites calmes et lumineuses."

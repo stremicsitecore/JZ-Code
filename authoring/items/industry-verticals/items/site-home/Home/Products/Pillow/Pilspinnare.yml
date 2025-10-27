@@ -53,6 +53,93 @@ SharedFields:
       </d>
     </r>
 Languages:
+- Language: "de-CH"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "dda92c8c-c259-49c3-b0c1-6d88d269a49f"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pilspinnare
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091111Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Pilspinnare Kissen | Forma Lux  Weiches Baumwoll-Federkissen für erholsamen Schlaf"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Ein weiches Baumwollkissen mit einer perfekt prallen 90% Federfüllung. Die Materialien ermöglichen eine Luftzirkulation, sodass Sie eine komfortable Schlafumgebung erhalten. Die niedrige Höhe ist am bequemsten für Bauchschläfer.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: "{7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 15
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pilspinnare
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: PLW0001
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{3B49401C-F84F-47F0-BFB4-CD33F13722CB}" alt="pilspinnare-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a38b8605-6ca0-496f-985c-60c510b624af"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Pilspinnare
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Pilspinnare Kissen, Federkissen, Baumwollkissen, atmungsaktive Bettwäsche, Luxus-Kissen, Bauchschläfer-Kissen, Forma Lux Wohnkultur, Schlafkomfort"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "Erleben Sie puren Komfort mit dem Pilspinnare Kissen von Forma Lux  einem weichen Baumwoll-Design mit 90% Federfüllung für sanfte Unterstützung, Atmungsaktivität und eine ideale Nachtruhe."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072808Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Entdecken Sie unvergleichlichen Komfort mit unserem hochwertigen weichen Baumwollkissen. Jedes Kissen wird sorgfältig mit einer großzügigen Füllung aus 90% hochwertigen Federn gefertigt, die sich sanft an die einzigartige Form Ihres Kopfes und Nackens anpassen. Dies gewährleistet, dass Sie einen wirklich erholsamen und ungestörten Schlaf erreichen.&nbsp;</p><p>Die Verwendung atmungsaktiver Materialien in seinem Design garantiert außergewöhnliche Luftzirkulation, hält das Kissen kühl und bietet die ganze Nacht über eine erfrischende Schlafumgebung. Mit einer niedrigen Höhe maßgeschneidert, bietet dieses Kissen ideale Unterstützung, insbesondere für Bauchschläfer, die maximalen Komfort ohne zusätzliche Belastung für ihren Nacken oder ihre Wirbelsäule suchen.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Für Komfort entwickelt und mit Sorgfalt gefertigt, hebt das Pilspinnare Kissen die alltägliche Ruhe zu einem Erlebnis der stillen Luxus. Seine weiche Baumwollhülle und 90% Federfüllung bieten eine perfekte Balance aus Weichheit und Atmungsaktivität und sorgen für ein kühles, erfrischendes Schlafklima. Mit einer niedrigen Höhe für Bauchschläfer entworfen, spiegelt Pilspinnare die Philosophie von Forma Lux wider  wo Materialien, Handwerkskunst und Komfort zusammenkommen, um echte Ruhe zu schaffen. Erhältlich in Weiß und in den Größen Klein, Mittel und Groß, ist es das i-Tüpfelchen für ein ruhiges modernes Schlafzimmer."
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -177,6 +264,93 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250926T105505Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f40fbd31-4a6e-4022-81a5-d613c24f1157"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pilspinnare
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091111Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Oreiller Pilspinnare | Forma Lux  Oreiller en coton doux avec plumes pour un sommeil réparateur
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un oreiller en coton doux avec un rembourrage parfaitement gonflé de 90 % de plumes. Les matériaux permettent à l'air de circuler, offrant ainsi un environnement de sommeil confortable. Le faible loft est le plus confortable pour les dormeurs sur le ventre.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: "{7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 15
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pilspinnare
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: PLW0001
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{3B49401C-F84F-47F0-BFB4-CD33F13722CB}" alt="pilspinnare-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58eb24fb-a6ff-4184-8e26-d38fbe45b070"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+        {B214C2E5-3E1A-42B6-A0EE-CAB3CBC055E0}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Pilspinnare
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Oreiller Pilspinnare, oreiller en plumes, oreiller en coton, literie respirante, oreiller de luxe, oreiller pour dormeur sur le ventre, décoration intérieure Forma Lux, confort de sommeil
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Découvrez le confort pur avec l'oreiller Pilspinnare de Forma Lux  un design en coton doux avec un rembourrage de 90 % de plumes pour un soutien doux, une respirabilité et un repos idéal.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070244Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Découvrez un confort inégalé avec notre oreiller en coton doux de qualité supérieure. Chaque oreiller est méticuleusement fabriqué avec un généreux rembourrage composé de 90 % de plumes de haute qualité, conçu pour épouser délicatement la forme unique de votre tête et de votre cou. Cela garantit que vous obtenez un sommeil véritablement reposant et ininterrompu.&nbsp;</p><p>L'utilisation de matériaux respirants dans sa conception garantit une circulation d'air exceptionnelle, gardant l'oreiller frais et offrant un environnement de sommeil rafraîchissant toute la nuit. Conçu avec un faible loft, cet oreiller offre un soutien idéal, en particulier pour les dormeurs sur le ventre qui recherchent un confort maximal sans aucune tension supplémentaire sur leur cou ou leur colonne vertébrale.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Conçu pour le confort et fabriqué avec soin, l'oreiller Pilspinnare élève le repos quotidien à une expérience de luxe discret. Sa coque en coton doux et son rembourrage de 90 % de plumes offrent un équilibre parfait entre douceur et respirabilité, maintenant un climat de sommeil frais et rafraîchissant. Conçu avec un faible loft pour soutenir les dormeurs sur le ventre, Pilspinnare reflète la philosophie de Forma Lux en matière de design réfléchi  où les matériaux, l'artisanat et le confort convergent pour créer un véritable repos. Disponible en blanc, et en tailles petite, moyenne et grande, c'est la touche finale pour une chambre moderne et sereine.
 - Language: "fr-FR"
   Versions:
   - Version: 1
