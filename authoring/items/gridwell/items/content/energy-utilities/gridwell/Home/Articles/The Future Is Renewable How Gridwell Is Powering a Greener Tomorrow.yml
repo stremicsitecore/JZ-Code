@@ -20,12 +20,22 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T191055Z
+    - ID: "47d3d11e-afc4-449b-897b-3a8185f4d316"
+      Hint: MetaTitle
+      Value: The Future of Clean Energy | Gridwell Leading the Renewable Revolution
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: New page
+    - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/70022-HomepagePromoCTAs-1100x740?v=fc7ab804" dam-id="5tF2vCogSWuwzz0wl_eUJA" width="1100" height="740" alt="zbynek-burival-V4ZYJZJ3W4M-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70022/thumbnail" />
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,16 +44,26 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\angela.gustafson@sitecore.com
+    - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Clean energy isn’t just an idea—it’s a movement. And Gridwell is leading the charge.</p><p>&nbsp;</p><p>The world is shifting toward cleaner, more responsible energy sources, and Gridwell is proud to be at the forefront. Our mission is simple: make renewable energy reliable, affordable, and accessible for everyone. From wind farms that harness nature’s power to solar panels that capture every ray of sunshine, Gridwell is transforming how communities power their homes and businesses.</p></div>
+    - ID: "7beea914-9e36-43fd-b12d-bffcc0d72a16"
+      Hint: MetaKeywords
+      Value: renewable energy future, sustainable energy solutions, green power company, Gridwell clean energy
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b377f8bf-76c8-4991-99e9-3a13b23db9ed"
+      Value: "762b5f62-1ad0-45c7-b62c-c700570ea3d6"
+    - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
+      Hint: MetaDescription
+      Value: Discover how Gridwell is driving the renewable energy revolution with innovative solutions that make clean power reliable, affordable, and accessible.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T191119Z
+      Value: 20251028T191423Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
-      Value: New page
+      Value: "The Future Is Renewable: How Gridwell Is Powering a Greener Tomorrow"
