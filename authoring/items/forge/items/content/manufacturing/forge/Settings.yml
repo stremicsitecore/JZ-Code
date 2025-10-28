@@ -40,7 +40,7 @@ SharedFields:
   Value: "{3BCAB9EF-1E4F-4C23-B452-783BB82AA686}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 2000
+  Value: 600
 - ID: "c8d002f9-9518-4c5e-9baa-6617e13f0797"
   Hint: LayoutPath
   Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
@@ -49,7 +49,7 @@ SharedFields:
   Value: "{AF584191-45C9-4201-8740-5409F4CF8BDD}|{C9568B65-B1A8-4AF4-8FB1-B0CE6BC285B1}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9ffee1b1-9bcf-45a5-b99a-4aab06720d0f"
+  Value: "c061a926-5f00-4986-a543-f5d1ad6c1c48"
 - ID: "e8881464-38af-4655-be4a-ee10586578a2"
   Hint: Templates
   Value: "{69192C77-97BD-4EDC-B30B-01F6D99D2D23}"
@@ -77,11 +77,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d3e116cc-a6c6-4241-bd56-186b99f570be"
+      Value: "1096d88d-104a-4f99-b7f7-b35edf6a4693"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192401Z
+      Value: 20251028T174918Z

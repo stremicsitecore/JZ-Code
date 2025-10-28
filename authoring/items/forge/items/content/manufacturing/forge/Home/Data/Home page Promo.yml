@@ -44,15 +44,15 @@ Languages:
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68307-HomePageHero-2000x800?v=f7991629" dam-id="TyHwi7jmQ3GyLXM7Vg3Umw" width="2000" height="800" alt="manufacturing facility.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68307/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a97777f4-1819-47a9-b62b-aa6e8ab405b5"
+      Value: "1b5ed5a9-46e0-40e1-a0b6-ad928d3e0aa9"
     - ID: "8ec6e4b8-3a38-4115-a892-38051924f3f1"
       Hint: link
       Value: |
-        <link linktype="internal" id="48b28816-3a18-4e1d-8615-9b425ed8dbf2" anchor="" querystring="" target="" class="" text="Explore Solutions" title=""/>
+        <link class="" id="48b28816-3a18-4e1d-8615-9b425ed8dbf2" querystring="" anchor="" target="" title="" linktype="internal" text="Explore Solutions" url="/manufacturing/forge/Home/Products" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T151029Z
+      Value: 20251028T174922Z

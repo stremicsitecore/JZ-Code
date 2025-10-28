@@ -6,14 +6,14 @@ Path: /sitecore/content/manufacturing/forge/Home/Request a quote
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 400
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{5D3CE32B-BB26-42C1-A481-EBAFD71A7FD2}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6e8f0eb0-ddaf-4c50-87e8-55ecc4778043"
+  Value: "cc32160f-38b7-4e30-94b1-c7a2cc81b65a"
 Languages:
 - Language: en
   Versions:
@@ -35,7 +35,7 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43206a62-2aae-4b9d-b37e-df64d94c5b14"
+      Value: "d9413a80-4091-477b-b863-a97252d6a787"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -45,4 +45,4 @@ Languages:
       Value: Request a quote
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T211125Z
+      Value: 20251028T174901Z

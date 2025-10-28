@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/retail/Pages/ArticlePage/Content/Author
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Author Folder']/*"
+  Value: "{F193E63C-BE63-4AF6-A6DC-4A42DF0C74E9}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Droplink
@@ -15,7 +15,7 @@ SharedFields:
   Value: 6
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bcf70719-f66d-4849-a0b8-4e74492d67ac"
+  Value: "6d508062-2c7e-445b-89c3-1060b80633c4"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "58b894dd-e232-4bf7-b05a-8bc6255ae8cf"
+      Value: "fc118611-2643-4f4c-a76f-f916f6527acc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250923T113741Z
+      Value: 20251028T175451Z

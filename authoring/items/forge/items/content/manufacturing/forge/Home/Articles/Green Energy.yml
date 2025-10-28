@@ -16,6 +16,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T162958Z
+    - ID: "3e122dba-8fca-4f4e-8fac-9f7dc6095716"
+      Hint: Author
+      Value: "{3DD08CDF-F51C-4A24-8D6A-C209D4DB018D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Green Energy
@@ -29,14 +32,14 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f1591c1a-3fac-4e9c-8d14-787d5c918344"
+      Value: "0b2c9584-20af-4000-8469-724abb87127f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
       Hint: Title
       Value: Green Energy
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T162958Z
+      Value: 20251028T175604Z

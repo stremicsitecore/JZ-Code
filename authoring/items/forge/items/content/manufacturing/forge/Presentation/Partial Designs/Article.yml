@@ -24,7 +24,18 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BB6B6B5-D616-406B-9677-E6A896D0329B}"
+              s:id="{F0BCED33-AD51-426F-AA44-553458B604A6}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T170148Z
@@ -38,11 +49,11 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "67e312ad-8305-446a-b023-b789fdb81081"
+      Value: "c6be84c5-a291-4424-bf8d-bc4f4563c7da"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T173743Z
+      Value: 20251028T175233Z

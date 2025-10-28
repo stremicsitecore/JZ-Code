@@ -5,9 +5,12 @@ Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
 Path: /sitecore/content/manufacturing/forge/Media
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9a4303c3-309f-45c2-a69c-bb37cdf41465"
+  Value: "3b200236-fc24-466b-bd73-6188c50c1784"
 - ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
   Hint: AdditionalChildren
   Value: |
@@ -34,11 +37,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ff5f1485-375b-43aa-8686-c7bbc570439e"
+      Value: "3cf7ba14-057f-443e-9a67-c0d10db17d5d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192359Z
+      Value: 20251028T174918Z

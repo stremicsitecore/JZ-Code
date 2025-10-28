@@ -21,6 +21,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+      Hint: Author
+      Value: "{3DD08CDF-F51C-4A24-8D6A-C209D4DB018D}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250820T091612Z
@@ -37,7 +40,7 @@ Languages:
       Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1751200f-0d1c-4a78-9189-9f1e5daba958"
+      Value: "395113d5-f26b-4d8c-a2f0-46bce69c9b9a"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: $name
@@ -47,4 +50,4 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T171700Z
+      Value: 20251028T175501Z

@@ -6,14 +6,14 @@ Path: /sitecore/content/manufacturing/forge/Home/About Forge
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 500
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{A0F5BFE9-4B0C-4455-BA06-6CC87200195A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d3de750c-b048-45d6-9368-559acc6341b6"
+  Value: "e31ccb01-e859-459e-85e2-371c57ebb063"
 Languages:
 - Language: en
   Versions:
@@ -35,7 +35,7 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1858ab97-67a1-471e-b212-1e3e0d37bf12"
+      Value: "8b5e6f5c-48e5-4a30-83a1-a1cb2c0072e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -45,4 +45,4 @@ Languages:
       Value: About Forge
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T211228Z
+      Value: 20251028T174901Z

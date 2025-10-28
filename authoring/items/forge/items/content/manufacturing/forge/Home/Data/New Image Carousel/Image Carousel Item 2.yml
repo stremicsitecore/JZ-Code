@@ -44,15 +44,15 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4922f79b-8fb3-4ab0-97f7-c948ced1d409"
+      Value: "ecfd53e4-4590-4087-91bc-e7259495bddb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T154806Z
+      Value: 20251028T174922Z
     - ID: "f4e44a85-84c1-4f40-957d-49732e92706b"
       Hint: link
       Value: |
-        <link linktype="internal" id="48b28816-3a18-4e1d-8615-9b425ed8dbf2" anchor="" querystring="" target="" class="" text="Explore" title=""/>
+        <link class="" id="48b28816-3a18-4e1d-8615-9b425ed8dbf2" querystring="" anchor="" target="" title="" linktype="internal" text="Explore" url="/manufacturing/forge/Home/Products" />

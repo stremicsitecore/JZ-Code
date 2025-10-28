@@ -31,15 +31,15 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80a09882-bc8f-4e04-a501-a36bfe6062fe"
+      Value: "14eb79a8-2b50-430e-a756-3f4ae1c6be32"
     - ID: "969b132e-3dc2-4526-8f8d-61e3ea742df6"
       Hint: link
       Value: |
-        <link text="Products" anchor="" linktype="internal" class="" title="Products" target="" querystring="" id="{48B28816-3A18-4E1D-8615-9B425ED8DBF2}" />
+        <link class="" querystring="" id="{48B28816-3A18-4E1D-8615-9B425ED8DBF2}" anchor="" target="" title="Products" linktype="internal" text="Products" url="/manufacturing/forge/Home/Products" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T211033Z
+      Value: 20251028T174922Z

@@ -60,6 +60,8 @@ const ArticleDetail = (props: ArticleDetailProps): JSX.Element => {
   }
 
   const sxaStyles = `${props.params?.styles || ''}`;
+
+  console.log(props);
   return (
     <>
       <div className={`max-w-4xl mx-auto ${sxaStyles}`}>

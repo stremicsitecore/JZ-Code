@@ -7,13 +7,16 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{783AFC68-F107-4C79-9425-2EE6B6D70F32}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 163
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{9D8F39A4-F04A-49D6-BB34-11D0B7D515C8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7273711b-b56c-408a-9373-cf7d728ecce6"
+  Value: "ee916090-a7cd-4db7-9640-f25812c17cfe"
 Languages:
 - Language: en
   Fields:
@@ -34,7 +37,7 @@ Languages:
       Value: ARticles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9cdfd146-143b-46b7-8ce7-61119633fc1d"
+      Value: "1855c745-fef7-4661-92a6-819e1a7497f4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -44,4 +47,4 @@ Languages:
       Value: Articles
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T174002Z
+      Value: 20251028T174912Z
