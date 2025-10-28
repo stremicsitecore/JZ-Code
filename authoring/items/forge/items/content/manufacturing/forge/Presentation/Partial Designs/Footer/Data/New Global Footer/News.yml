@@ -15,6 +15,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251027T212214Z
@@ -31,15 +34,14 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "27d1a76c-130f-4f71-806c-6441f5f00d66"
+      Value: "f1e65192-e6f4-4319-91b1-f8b28ac83832"
     - ID: "969b132e-3dc2-4526-8f8d-61e3ea742df6"
       Hint: link
-      Value: |
-        <link text="News" linktype="external" url="http://www.google.com" anchor="" target="_blank" />
+      Value: 
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T212249Z
+      Value: 20251028T160640Z

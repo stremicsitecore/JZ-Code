@@ -1,0 +1,23 @@
+﻿---
+ID: "4d19b186-dcc7-42ef-8875-cb1b83f566da"
+Parent: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Template: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Path: /sitecore/templates/Project/manufacturing/Article Template/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T162842Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe9eead8-91c6-44fc-88b4-5c1baa5b7129"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T162842Z
