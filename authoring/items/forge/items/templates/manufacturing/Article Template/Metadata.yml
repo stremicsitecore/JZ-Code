@@ -1,21 +1,15 @@
 ﻿---
-ID: "3e122dba-8fca-4f4e-8fac-9f7dc6095716"
-Parent: "c8d376de-6603-4b5f-8ffc-833e628e9f83"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/manufacturing/Article Template/Content/Author
+ID: "fc503813-9270-411f-922f-040e783e7009"
+Parent: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/manufacturing/Article Template/Metadata
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: /sitecore/content/manufacturing/forge/Data/Authors
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 600
+  Value: 200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ddc1768e-c0ae-4838-8629-2ce82a39d279"
+  Value: "277ef677-dd6e-4e69-86d4-0ee84a8430fe"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f4f77537-9477-4c6c-8ab0-4ba27b5a7262"
+      Value: "ba952a9f-bb45-4c80-aedb-6112d9ee6084"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T195656Z
+      Value: 20251028T195657Z
