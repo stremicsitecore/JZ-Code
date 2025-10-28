@@ -45,7 +45,7 @@ Languages:
               p:after="r[@uid='{4C552E6B-BE9B-448B-BAF9-A7B7A4BB0ACA}']"
               s:ds="local:/Data/Home Text Banner"
               s:id="{E7B031D3-161F-4391-8B23-785FC8445D1E}"
-              s:par="FieldNames&amp;excludeTopMargin&amp;theme&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:par="FieldNames=%7B013204E2-D701-4E33-A65A-087570C68AAE%7D&amp;excludeTopMargin&amp;theme&amp;CSSStyles&amp;DynamicPlaceholderId=2&amp;Styles=%7B6A8F24AC-ADB6-4E1C-B29E-31E1865BC167%7D"
               s:ph="/headless-header/sxa-content/container-1" />
             <r
               uid="{6B6CAA0A-6A2D-4C0B-A6E5-4307C968922A}"
@@ -86,7 +86,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d99b215-d14c-430f-85f8-e4bdc7ea5c65"
+      Value: "bbbfaf73-4776-4b47-97b8-eab5c95c19e1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -96,4 +96,4 @@ Languages:
       Value: forge
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T174918Z
+      Value: 20251028T180503Z

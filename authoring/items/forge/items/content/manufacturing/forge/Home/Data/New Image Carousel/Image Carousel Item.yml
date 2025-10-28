@@ -30,7 +30,7 @@ Languages:
     - ID: "4d806366-a3b0-460d-b84f-87383453372e"
       Hint: image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68313-HomepagePromoCTAs-1100x740?v=24aae285" dam-id="RjLBdeoDRIq7me6bsY2Aaw" width="1100" height="740" alt="Turbine.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68313/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9fe0e39e9cb04da093c40eff7f3afe48?v=28dfe91e" dam-id="RjLBdeoDRIq7me6bsY2Aaw" width="1536" height="1024" alt="Turbine.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68313/thumbnail" />
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -44,14 +44,14 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6623b118-3413-4b46-8c3d-a79610bf945b"
+      Value: "259b3265-fc43-438b-8b3f-5552ad01d7c6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T174922Z
+      Value: 20251028T182229Z
     - ID: "f4e44a85-84c1-4f40-957d-49732e92706b"
       Hint: link
       Value: |

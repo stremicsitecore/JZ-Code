@@ -14,12 +14,11 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, Share2, ChevronLeft, User, Bookmark } from "lucide-react"
 import Link from "next/link"
 import { newsDateFormatter } from '../../helpers/DateHelper';
-import { Card, CardContent } from '@/components/ui/card';
 
 type ArticleDetailProps = ComponentProps & {
   fields: {
     Title: Field<string>;
-    Excerpt: Field<string>;
+    ShortDescription: Field<string>;
     Content: Field<string>;
     Author: {
       value: string;
@@ -29,11 +28,6 @@ type ArticleDetailProps = ComponentProps & {
         Title: Field<string>;
       }
     }
-    SxaTags: [{
-      fields: {
-        Title: Field<string>;
-      }
-    }]
     PublishDate: Field<string>;
     Image: ImageField;
   };
@@ -95,7 +89,7 @@ const ArticleDetail = (props: ArticleDetailProps): JSX.Element => {
               </div>
             </div>
 
-            <h1 className="text-4xl font-bold text-foreground text-balance"><Text field={props.fields.Title} /></h1>
+            <h1 className="text-4xl font-bold text-foreground text-balance"><Text field={props.fields?.Title} /></h1>
 
             <div className="flex items-center space-x-4">
               <Button variant="outline" size="sm">
@@ -123,19 +117,6 @@ const ArticleDetail = (props: ArticleDetailProps): JSX.Element => {
 
           <Placeholder name="article-detail" rendering={props.rendering} />
 
-          {/* Tags */}
-          <Card>
-            <CardContent className="py-6">
-              <h3 className="font-semibold text-foreground mb-4">Tags</h3>
-              <div className="flex flex-wrap gap-2">
-                {props.fields.SxaTags.map((tag, index) => (
-                  <Badge key={index} variant="secondary">
-                    <Text field={tag.fields.Title} />
-                  </Badge>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
         </article>
       </div>
     </>

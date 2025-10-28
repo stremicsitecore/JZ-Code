@@ -1,13 +1,8 @@
 ﻿---
-ID: "c1ad8d5c-65c9-423e-95ac-cd6a717cf528"
-Parent: "3b17f5a1-49e4-4089-8685-09a80e6cb667"
-Template: "cee4c74d-1e12-4e61-a7da-57775a325105"
-Path: /sitecore/content/manufacturing/forge/Home/Resources
-SharedFields:
-- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
-  Hint: __Thumbnail
-  Value: |
-    <image mediaid="{1C64907B-43BE-4CBE-AD68-93D902B672A7}" />
+ID: "45aa7e6e-b628-45a8-8615-e698929da99a"
+Parent: "0821e94b-7cf6-4487-a1f4-82050d87e0fd"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/manufacturing/forge/System/C/2/E
 Languages:
 - Language: en
   Versions:
@@ -15,10 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251027T210143Z
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: Resources
+      Value: 20251028T181025Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -29,14 +21,11 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6b41c462-1dcc-4718-ae93-2385cef14f72"
+      Value: "39ac0dde-51d5-4893-b576-3e2bd428205b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
-    - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
-      Hint: Title
-      Value: Resources
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T210143Z
+      Value: 20251028T181025Z
