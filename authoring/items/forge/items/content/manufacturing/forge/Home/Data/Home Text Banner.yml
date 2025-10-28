@@ -1,15 +1,15 @@
 ﻿---
-ID: "6b6be1ad-2da2-42ed-8388-ac15344549b2"
+ID: "14a0c1b8-e852-49f2-9a12-33df05fdbd65"
 Parent: "a41927a6-2066-45ce-98b9-8e6f2b0d631f"
-Template: "ae018465-4e68-4a49-8b15-9702274fa75a"
-Path: /sitecore/content/manufacturing/forge/Home/Data/New content item
+Template: "1313c346-ca98-4657-bb96-d89e35b2235f"
+Path: /sitecore/content/manufacturing/forge/Home/Data/Home Text Banner
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{A053ED9F-4099-4682-9411-2B4C98E481E4}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1ab09460-7005-49b6-a1b1-9172595fbf08"
+  Value: "70bb9900-424c-49d1-8889-618ed8df1acb"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +20,7 @@ Languages:
       Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251027T213953Z
+      Value: 20251028T144307Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{12FFAC4C-565F-4C9A-B63E-7F77E96B4D1F}"
@@ -34,18 +34,17 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f1fe1a2e-f1e5-4f4e-a813-58bad6a728b3"
+      Value: "8432eab4-1e4d-4fe4-86f8-33e9e4178023"
+    - ID: "b52480d8-082e-45b3-8c7c-1995592ca5f6"
+      Hint: heading
+      Value: Build Beyond Boundaries
+    - ID: "b60aa9f3-869e-4312-a810-c9f2f86a759b"
+      Hint: description
+      Value: "Experience precision-engineered solutions with Forge — where innovation fuels industrial progress."
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\angela.gustafson@sitecore.com
-    - ID: "c65eb2cc-503f-48cd-ba69-42c29df106c1"
-      Hint: image
-      Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68309-HomePageHero-2000x800?v=b3ff0bdf" dam-id="HU0M_xR-TT2f8uuk0IfEXw" width="2000" height="800" alt="hero-forge-min.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68309/thumbnail" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T214442Z
-    - ID: "e5e059ce-66e3-4039-887b-0086e7764f09"
-      Hint: title
-      Value: Build to Power What's Next.
+      Value: 20251028T144337Z

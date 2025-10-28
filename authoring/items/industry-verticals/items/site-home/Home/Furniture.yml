@@ -92,10 +92,32 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{0BFC926C-25C7-4974-9C46-294A976A8C9D}"
-              s:ds="b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
-              s:id="{C29D8AEC-AD95-44E5-BCF9-B0D98C933345}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay=1&amp;Loop=1&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              uid="{1BB6412C-7D3E-4CF2-AE29-719868944938}"
+              p:before="*"
+              s:ds="000998aa-0f75-4efd-88ae-ed4ad2dcea85"
+              s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay=1&amp;Loop=1&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="headless-main" />
+            <r
+              uid="{00BC0BF0-1EC2-4B14-B1FD-BD14DD914C45}"
+              p:after="r[@uid='{1BB6412C-7D3E-4CF2-AE29-719868944938}']"
+              s:ds="1fbe873a-e4cc-4f4a-baa6-d305fdff0933"
+              s:id="{CCD11802-22A3-462F-92FC-821515E2AEC8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages&amp;HideCurveLine&amp;HideShapes&amp;HideShadows&amp;HideQuote&amp;FieldNames=%7B4091EF1F-FB38-4E84-8776-076441E040BF%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{E2BE8066-8461-4A31-9715-068B20ED28DE}"
+              p:after="r[@uid='{00BC0BF0-1EC2-4B14-B1FD-BD14DD914C45}']"
+              s:ds="f5ca1159-e1f0-402c-bde3-6f51523db1d7"
+              s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BEEE3F67D-35F3-47C3-B4B1-EB65EB4ABE8B%7D&amp;Styles=%7C%7B00AE1E2D-24DF-476E-AC36-5BD62A6B44A5%7D&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{2210F713-0625-471B-9528-19C9827EB041}"
+              p:after="*[1=2]"
+              s:ds="600ef875-2d75-42cd-bb6e-73d0d90d50fd"
+              s:id="{96E7CF65-48A4-47BE-9BB7-DCE50CF7AEA1}"
+              s:par="Reversed&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
               s:ph="headless-main" />
           </d>
         </r>
@@ -120,14 +142,14 @@ Languages:
       Value: Furniture
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "113498ab-9881-4d04-a44e-8dd68dea4268"
+      Value: "b5ee0f59-c989-4058-9baf-90d2a06f69a0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251023T221607Z
+      Value: 20251028T143959Z
 - Language: "es-ES"
   Versions:
   - Version: 1

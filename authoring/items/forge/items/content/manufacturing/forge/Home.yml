@@ -29,9 +29,17 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{4C552E6B-BE9B-448B-BAF9-A7B7A4BB0ACA}"
+              p:before="*"
               s:ds="local:/Data/New content item"
               s:id="{6D0AAE4A-C2D1-4F3A-8285-705D13DE8244}"
               s:par="FieldNames&amp;textOrientation&amp;layout&amp;theme&amp;bannerHeight&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-header/sxa-content/container-1" />
+            <r
+              uid="{44CE6DC4-165F-440A-A47F-A5BD11DEDC34}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Home Text Banner"
+              s:id="{E7B031D3-161F-4391-8B23-785FC8445D1E}"
+              s:par="FieldNames&amp;excludeTopMargin&amp;theme&amp;CSSStyles&amp;DynamicPlaceholderId=2"
               s:ph="/headless-header/sxa-content/container-1" />
           </d>
         </r>
@@ -51,7 +59,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80701bb5-59cc-4ad4-8a44-930b23698d3a"
+      Value: "05480331-3a54-4883-96e3-21deee46b533"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,4 +69,4 @@ Languages:
       Value: forge
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T214001Z
+      Value: 20251028T144312Z

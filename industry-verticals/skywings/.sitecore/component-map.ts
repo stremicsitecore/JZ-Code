@@ -36,6 +36,7 @@ import * as FlightPicker from 'src/components/pickers/FlightPicker';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as SkywingsServices from 'src/components/page-content/SkywingsServices';
 import * as SkywingsFleet from 'src/components/page-content/SkywingsFleet';
+import * as Promo from 'src/components/page-content/Promo';
 import * as OfferBlock from 'src/components/page-content/OfferBlock';
 import * as BlogDetail from 'src/components/page-content/BlogDetail';
 import * as Author from 'src/components/page-content/Author';
@@ -86,6 +87,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['SkywingsServices', SkywingsServices],
   ['SkywingsFleet', SkywingsFleet],
+  ['Promo', Promo],
   ['OfferBlock', OfferBlock],
   ['BlogDetail', BlogDetail],
   ['Author', Author],

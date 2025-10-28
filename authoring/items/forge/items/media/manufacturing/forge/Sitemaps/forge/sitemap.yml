@@ -9,7 +9,7 @@ SharedFields:
   Value: People/32x32/cube_molecule.png
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
-  BlobID: "c54f6a60-e1d3-409b-9503-4dfc6ea1c8a6"
+  BlobID: "59954422-bdea-492e-9c8c-136fcd268454"
   Value: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8dXJsc2V0IHhtbG5zOnhodG1sPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB4bWxucz0iaHR0cDovL3d3dy5zaXRlbWFwcy5vcmcvc2NoZW1hcy9zaXRlbWFwLzAuOSI+DQogIDx1cmw+DQogICAgPGxvYz5odHRwczovL3htYy14bWFwcHNkZW1vbzJiMTMtZm9ybWFsdXg3MmJhLWRldjU4Yjctcy5zaXRlY29yZS1zdGFnaW5nLmNsb3VkLzwvbG9jPg0KICAgIDxsYXN0bW9kPjIwMjUtMTAtMjc8L2xhc3Rtb2Q+DQogICAgPGNoYW5nZWZyZXE+ZGFpbHk8L2NoYW5nZWZyZXE+DQogICAgPHByaW9yaXR5PjAuNTwvcHJpb3JpdHk+DQogIDwvdXJsPg0KICA8dXJsPg0KICAgIDxsb2M+aHR0cHM6Ly94bWMteG1hcHBzZGVtb28yYjEzLWZvcm1hbHV4NzJiYS1kZXY1OGI3LXMuc2l0ZWNvcmUtc3RhZ2luZy5jbG91ZC9Qcm9kdWN0czwvbG9jPg0KICAgIDxsYXN0bW9kPjIwMjUtMTAtMjc8L2xhc3Rtb2Q+DQogICAgPGNoYW5nZWZyZXE+ZGFpbHk8L2NoYW5nZWZyZXE+DQogICAgPHByaW9yaXR5PjAuNTwvcHJpb3JpdHk+DQogIDwvdXJsPg0KICA8dXJsPg0KICAgIDxsb2M+aHR0cHM6Ly94bWMteG1hcHBzZGVtb28yYjEzLWZvcm1hbHV4NzJiYS1kZXY1OGI3LXMuc2l0ZWNvcmUtc3RhZ2luZy5jbG91ZC9SZXNvdXJjZXM8L2xvYz4NCiAgICA8bGFzdG1vZD4yMDI1LTEwLTI3PC9sYXN0bW9kPg0KICAgIDxjaGFuZ2VmcmVxPmRhaWx5PC9jaGFuZ2VmcmVxPg0KICAgIDxwcmlvcml0eT4wLjU8L3ByaW9yaXR5Pg0KICA8L3VybD4NCiAgPHVybD4NCiAgICA8bG9jPmh0dHBzOi8veG1jLXhtYXBwc2RlbW9vMmIxMy1mb3JtYWx1eDcyYmEtZGV2NThiNy1zLnNpdGVjb3JlLXN0YWdpbmcuY2xvdWQvUmVxdWVzdC1hLXF1b3RlPC9sb2M+DQogICAgPGxhc3Rtb2Q+MjAyNS0xMC0yNzwvbGFzdG1vZD4NCiAgICA8Y2hhbmdlZnJlcT5kYWlseTwvY2hhbmdlZnJlcT4NCiAgICA8cHJpb3JpdHk+MC41PC9wcmlvcml0eT4NCiAgPC91cmw+DQogIDx1cmw+DQogICAgPGxvYz5odHRwczovL3htYy14bWFwcHNkZW1vbzJiMTMtZm9ybWFsdXg3MmJhLWRldjU4Yjctcy5zaXRlY29yZS1zdGFnaW5nLmNsb3VkL0Fib3V0LUZvcmdlPC9sb2M+DQogICAgPGxhc3Rtb2Q+MjAyNS0xMC0yNzwvbGFzdG1vZD4NCiAgICA8Y2hhbmdlZnJlcT5kYWlseTwvY2hhbmdlZnJlcT4NCiAgICA8cHJpb3JpdHk+MC41PC9wcmlvcml0eT4NCiAgPC91cmw+DQo8L3VybHNldD4=
 - ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
   Hint: Size
@@ -25,7 +25,7 @@ SharedFields:
   Value: xml
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7a705dd3-ac2f-45b1-a685-9a39f0e9a6f8"
+  Value: "8c118280-5a67-4501-8c6b-75f4faf3c4ad"
 Languages:
 - Language: en
   Versions:
@@ -33,7 +33,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251027T213431Z
+      Value: 20251028T133826Z
     - ID: "2fafe7cb-2691-4800-8848-255efa1d31aa"
       Hint: Keywords
       Value: |
@@ -45,21 +45,21 @@ Languages:
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ade49eb8-b3ff-44eb-8993-372715ea3828"
+      Value: "ba9e0ea7-1c53-4025-a0f6-afd1f4ddb5a9"
     - ID: "ba8341a1-ff30-47b8-ae6a-f4947e4113f0"
       Hint: Description
       Value: Sitecore Experience Accelelator sitemap file
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T213432Z
+      Value: 20251028T133827Z
