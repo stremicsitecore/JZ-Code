@@ -70,9 +70,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T155308Z
-    - ID: "47d3d11e-afc4-449b-897b-3a8185f4d316"
-      Hint: MetaTitle
-      Value: Responding to Energy Emergency Alerts
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: What to Do When an Energy Emergency Alert Is Issued
@@ -89,15 +86,9 @@ Languages:
         <p>When Gridwell issues an Energy Emergency Alert, the grid is already under serious stress. These alerts are not advisories but calls to action. Texans must quickly reduce electricity use to help balance supply and demand in real time.</p>
         <p>The most effective actions include raising thermostats by a few degrees, turning off unnecessary lights, and avoiding the use of heavy appliances such as washers, dryers, and ovens. Businesses can also contribute by adjusting operations to reduce consumption. These conservation efforts buy valuable time and keep the system stable.</p>
         <p>By responding to an EEA quickly and decisively, communities can help prevent rolling outages. The collective effort of Texans plays a huge role in reliability. Signing up for both TXANS and EEA notifications ensures that households are always ready and equipped with the right information.</p>
-    - ID: "7beea914-9e36-43fd-b12d-bffcc0d72a16"
-      Hint: MetaKeywords
-      Value: EEA, emergency alerts, rolling outages, grid emergencies
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "e36af75f-6a68-4043-beb6-c9be7d556e66"
-    - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
-      Hint: MetaDescription
-      Value: Guidance on how Texans should act during EEAs.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

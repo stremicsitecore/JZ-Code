@@ -28,9 +28,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T155128Z
-    - ID: "47d3d11e-afc4-449b-897b-3a8185f4d316"
-      Hint: MetaTitle
-      Value: Energy Conservation During Heatwaves
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Five Easy Ways to Conserve Energy During a Heatwave
@@ -47,15 +44,9 @@ Languages:
         <p>Heatwaves cause electricity usage to surge, particularly due to air conditioning and other cooling appliances. By making small adjustments, Texans can reduce this surge and help keep the grid reliable. For example, raising the thermostat by just two or three degrees reduces strain on both the grid and the household system without sacrificing much comfort.</p>
         <p>In addition to thermostat adjustments, delaying heavy appliance use until after 8 p.m. makes a measurable difference. Dishwashers, washing machines, and dryers are among the most power-hungry devices in the home. By shifting their use, Texans help flatten demand during the most critical hours. Closing blinds and using fans strategically also helps keep indoor temperatures comfortable without extra electricity.</p>
         <p>These small steps don’t just help Gridwell manage demand—they save families money. Energy conservation during peak demand periods lowers household costs and improves community resilience. When combined across millions of homes, these individual actions can be the difference between smooth operation and rolling outages.</p>
-    - ID: "7beea914-9e36-43fd-b12d-bffcc0d72a16"
-      Hint: MetaKeywords
-      Value: conserve energy, summer tips, peak demand, heatwave conservation
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "be4af20c-dff4-4a0d-a53c-83fe8dc563b6"
-    - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
-      Hint: MetaDescription
-      Value: ractical advice for homeowners to reduce electricity use during extreme heat.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

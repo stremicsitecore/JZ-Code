@@ -1,21 +1,18 @@
 ﻿---
-ID: "4e64bb27-7e75-412f-a8ff-db3623fd638c"
-Parent: "c8d376de-6603-4b5f-8ffc-833e628e9f83"
+ID: "2d53b9bc-4a0e-4cd9-9c23-0ebb3e5c3ed1"
+Parent: "e5cda12a-4e83-4041-8ad8-17559c837170"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/manufacturing/Article Template/Content/Content
+Path: /sitecore/templates/Project/manufacturing/Page/Metadata/ogImage
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "query:$xaRichTextProfile"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 500
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8befbffd-38b4-495d-ba10-7ed2203c2eb4"
+  Value: "61c47741-9961-4f0e-b25f-60ab6168eddc"
 Languages:
 - Language: en
   Versions:
@@ -23,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251028T161008Z
+      Value: 20251028T193012Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,11 +31,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "157da5d6-2783-4861-a3fb-13b10664bc12"
+      Value: "16389f5d-3dd8-47e1-90d8-bfdeeb689082"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T161008Z
+      Value: 20251028T193012Z

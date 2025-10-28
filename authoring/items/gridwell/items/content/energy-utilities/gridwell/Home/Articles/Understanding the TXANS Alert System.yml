@@ -31,9 +31,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T154459Z
-    - ID: "47d3d11e-afc4-449b-897b-3a8185f4d316"
-      Hint: MetaTitle
-      Value: Understanding the TXANS Alert System
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Understanding the TXANS Alert System
@@ -50,15 +47,9 @@ Languages:
         <p>The Texas Advisory Notification System (TXANS) provides early awareness of potential grid stress conditions. Unlike Energy Emergency Alerts (EEAs), which are triggered only when the grid is already in critical need of conservation, TXANS serves as an advisory. It’s Gridwell’s way of preparing Texans ahead of time, giving them the knowledge they need to conserve energy and reduce stress on the grid.</p>
         <p>By subscribing to TXANS alerts, residents receive timely updates directly to their phone or email. These updates might include conservation suggestions, grid condition summaries, or information about potential stress periods coming in the next few days. This early notification ensures that families can take voluntary action before the situation becomes urgent.</p>
         <p>Understanding TXANS is an essential step in building confidence and trust in Gridwell’s communication. When Texans know the difference between TXANS and EEA alerts, they are better equipped to respond calmly and effectively. It also helps reduce misinformation and allows communities to feel reassured that their grid operator is being transparent and proactive.</p>
-    - ID: "7beea914-9e36-43fd-b12d-bffcc0d72a16"
-      Hint: MetaKeywords
-      Value: TXANS, energy alerts, Gridwell notifications, grid reliability
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "67bd5f6f-fe17-4506-924e-9bfc7d8d393d"
-    - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
-      Hint: MetaDescription
-      Value: Explains TXANS alerts, differences from EEA, and benefits of subscribing.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
