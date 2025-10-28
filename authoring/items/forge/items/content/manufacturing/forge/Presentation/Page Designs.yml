@@ -7,10 +7,10 @@ BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
   Hint: TemplatesMapping
-  Value: "%7bCEE4C74D-1E12-4E61-A7DA-57775A325105%7d%3d%257B090750F7-99E6-4F1E-B455-6FFCF720052C%257D%26%7b783AFC68-F107-4C79-9425-2EE6B6D70F32%7d%3d%257B090750F7-99E6-4F1E-B455-6FFCF720052C%257D"
+  Value: "%7bCEE4C74D-1E12-4E61-A7DA-57775A325105%7d%3d%257B090750F7-99E6-4F1E-B455-6FFCF720052C%257D%26%7b783AFC68-F107-4C79-9425-2EE6B6D70F32%7d%3d%257B63F1DD52-FC6B-4CEA-BBD4-44ECB1EDEA3D%257D"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "36e34f48-4a5f-488e-828f-7991f59d2010"
+  Value: "e73d922c-447b-40f4-9f8c-96cb4593a530"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -32,11 +32,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ad14d636-6995-48b7-a705-17af7b472c7b"
+      Value: "9faadd39-264d-4358-856c-60766b86ea4c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T162920Z
+      Value: 20251028T163220Z

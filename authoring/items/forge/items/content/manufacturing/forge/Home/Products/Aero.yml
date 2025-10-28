@@ -40,7 +40,7 @@ Languages:
             <r
               uid="{A4642193-A9D2-42B7-9B61-1E1D3B00E233}"
               p:after="r[@uid='{E34F6FAA-EF66-4B8D-B017-8FDF3B2ED24A}']"
-              s:ds="fee39bcf-2185-4634-b817-857f8a2dfe36"
+              s:ds="59ebed1d-4cb7-4994-a2c2-9959a3644776"
               s:id="{E7B031D3-161F-4391-8B23-785FC8445D1E}"
               s:par="FieldNames=%7B013204E2-D701-4E33-A65A-087570C68AAE%7D&amp;excludeTopMargin&amp;theme&amp;CSSStyles&amp;DynamicPlaceholderId=2&amp;Styles"
               s:ph="/headless-header/sxa-content/container-1" />
@@ -68,7 +68,7 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4ea286b8-5d98-4818-9706-c834cd78e7f6"
+      Value: "6da58006-1a4d-420b-b7fa-df2f99282281"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -78,4 +78,4 @@ Languages:
       Value: New page
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T161854Z
+      Value: 20251028T163459Z

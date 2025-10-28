@@ -33,14 +33,14 @@ Languages:
             <r
               uid="{E34F6FAA-EF66-4B8D-B017-8FDF3B2ED24A}"
               p:before="*"
-              s:ds="local:/Data/Image Gallery 1"
+              s:ds="local:/Data/Copy of Image Gallery 1"
               s:id="{939246CC-DAAB-4FE9-A265-536995A04122}"
               s:par="FieldNames&amp;CSSStyles&amp;DynamicPlaceholderId=4"
               s:ph="/headless-header/sxa-content/container-1/container-3" />
             <r
               uid="{A4642193-A9D2-42B7-9B61-1E1D3B00E233}"
               p:after="r[@uid='{E34F6FAA-EF66-4B8D-B017-8FDF3B2ED24A}']"
-              s:ds="fee39bcf-2185-4634-b817-857f8a2dfe36"
+              s:ds="7fc4f191-d495-47ad-b60d-6805fe323bee"
               s:id="{E7B031D3-161F-4391-8B23-785FC8445D1E}"
               s:par="FieldNames=%7B013204E2-D701-4E33-A65A-087570C68AAE%7D&amp;excludeTopMargin&amp;theme&amp;CSSStyles&amp;DynamicPlaceholderId=2&amp;Styles"
               s:ph="/headless-header/sxa-content/container-1" />
@@ -68,7 +68,7 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "248f9646-4e42-4447-aed6-38b76cf47fbc"
+      Value: "27194736-51c5-45c3-8c47-ae4a66e10c6f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -78,4 +78,4 @@ Languages:
       Value: New page
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T162756Z
+      Value: 20251028T164220Z
