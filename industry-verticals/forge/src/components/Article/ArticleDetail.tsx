@@ -6,7 +6,6 @@ import {
   ImageField,
   Image,
   DateField,
-  Placeholder,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { Button } from "@/components/ui/button"
@@ -114,8 +113,6 @@ const ArticleDetail = (props: ArticleDetailProps): JSX.Element => {
               <RichText field={props.fields.Content} />
             </div>
           </div>
-
-          <Placeholder name="article-detail" rendering={props.rendering} />
 
         </article>
       </div>
