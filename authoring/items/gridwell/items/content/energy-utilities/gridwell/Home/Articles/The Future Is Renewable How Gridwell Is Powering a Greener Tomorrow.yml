@@ -1,0 +1,49 @@
+﻿---
+ID: "c6bae9f8-9f61-46de-a72d-3fd6923b2f6a"
+Parent: "92967256-3dd0-4e67-a731-17a2739431b5"
+Template: "3b3034df-1e66-45dd-af2d-b3578d9095e9"
+Path: "/sitecore/content/energy-utilities/gridwell/Home/Articles/The Future Is Renewable How Gridwell Is Powering a Greener Tomorrow"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{283D1693-8E3C-4B27-BA4B-BCF3F55EE176}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2708de06-9d7d-49cb-8b10-616c07fbb1b3"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "The Future Is Renewable: How Gridwell Is Powering a Greener Tomorrow"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T191055Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b377f8bf-76c8-4991-99e9-3a13b23db9ed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T191119Z
+    - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
+      Hint: Title
+      Value: New page
