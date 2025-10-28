@@ -37,7 +37,7 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f1a13ea3-be1d-4972-97e8-422aa5c080d2"
+      Value: "b776b243-fe88-49a2-9c2d-8706a5786323"
     - ID: "9ad66b62-4ebd-42da-8e1a-09dca7db5aea"
       Hint: bannerText
       Value: "Introducing the Forge Precision Platform. Combining automation, robotics, and aerospace-grade engineering to accelerate your production future."
@@ -55,7 +55,7 @@ Languages:
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68309-HomePageHero-2000x800?v=b3ff0bdf" dam-id="HU0M_xR-TT2f8uuk0IfEXw" width="2000" height="800" alt="hero-forge-min.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68309/thumbnail" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T143835Z
+      Value: 20251028T172557Z
     - ID: "e5e059ce-66e3-4039-887b-0086e7764f09"
       Hint: title
-      Value: Build to Power What's Next.
+      Value: Built to Power What's Next.

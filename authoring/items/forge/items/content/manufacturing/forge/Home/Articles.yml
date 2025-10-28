@@ -16,6 +16,13 @@ SharedFields:
   Value: "7273711b-b56c-408a-9373-cf7d728ecce6"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "02e43e1a-13c6-4c70-a485-d0888948f776"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Resources
   Versions:
   - Version: 1
     Fields:
@@ -27,14 +34,14 @@ Languages:
       Value: ARticles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50dd6258-abe3-425b-aa64-8c36af67b1a0"
+      Value: "9cdfd146-143b-46b7-8ce7-61119633fc1d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\angela.gustafson@sitecore.com
     - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
       Hint: Title
       Value: Articles
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T161204Z
+      Value: 20251028T174002Z

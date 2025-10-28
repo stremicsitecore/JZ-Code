@@ -3,13 +3,13 @@
 import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { useState, useEffect, useRef, useCallback, useId, useMemo, createContext, useContext } from 'react';
+import { useState, useEffect, useRef, useCallback, useId, useMemo, useContext, createContext } from 'react';
 import React_c6c9d5c02e9182eb22f40bc4cf21fc656783d24a from 'react';
 import * as React from 'react';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { MapPin, X, PanelLeft, Check, ChevronDown, ChevronUp, GripVertical, Circle, ChevronLeft, ChevronRight, MoreHorizontal, Dot, Search, ArrowLeft, ArrowRight, Moon, Sun, Menu, CheckCircle, Share2, Pause, Play, Facebook, Linkedin, Twitter, Link as Link_6b289e2de0a07a8bed65fcf19e83723e986797b2, Mail } from 'lucide-react';
+import { MapPin, X, PanelLeft, Check, ChevronDown, ChevronUp, GripVertical, Circle, ChevronLeft, ChevronRight, MoreHorizontal, Dot, Search, ArrowLeft, ArrowRight, Moon, Sun, Menu, CheckCircle, Share2, Pause, Play, Facebook, Linkedin, Twitter, Link as Link_6b289e2de0a07a8bed65fcf19e83723e986797b2, Mail, Calendar, User, Bookmark } from 'lucide-react';
 import YouTube from 'react-youtube';
 import { useVideo } from '@/contexts/VideoContext';
 import { Default } from '@/components/icon/Icon';
@@ -25,7 +25,7 @@ import { Default as Default_e49b8b0315b5c2e1dfc6d29366b41ef250099b77 } from 'src
 import { isMobile } from '@/utils/isMobile';
 import { NoDataFallback } from '@/utils/NoDataFallback';
 import { cn, getYouTubeThumbnail } from '@/lib/utils';
-import { Text, useSitecore, Link, Placeholder, RichText, NextImage, withDatasourceCheck, Image, getFieldValue, CdpHelper } from '@sitecore-content-sdk/nextjs';
+import { Text, useSitecore, Link, Placeholder, RichText, NextImage, withDatasourceCheck, Image, getFieldValue, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
 import { Default as Default_86213dc9d44683259b98a62fc55d1fe1127767c5 } from '@/components/image/ImageWrapper.dev';
 import { ButtonBase, EditableButton } from '@/components/button-component/ButtonComponent';
 import * as TooltipPrimitive from '@radix-ui/react-tooltip';
@@ -192,8 +192,8 @@ import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
 import { getContainerPlaceholderProps, isContainerPlaceholderEmpty } from '@/components/container/container.util';
-import { Button as Button_304600e4442bda1409e495cf55dbe6099453bb95 } from 'shadcd/components/ui/button';
 import { Carousel as Carousel_689a09d2932fc88fd54b2c5679f911ae91683185, CarouselContent as CarouselContent_689a09d2932fc88fd54b2c5679f911ae91683185, CarouselItem as CarouselItem_689a09d2932fc88fd54b2c5679f911ae91683185, CarouselNext as CarouselNext_689a09d2932fc88fd54b2c5679f911ae91683185, CarouselPrevious as CarouselPrevious_689a09d2932fc88fd54b2c5679f911ae91683185 } from 'shadcn/components/ui/carousel';
+import { Button as Button_304600e4442bda1409e495cf55dbe6099453bb95 } from 'shadcd/components/ui/button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faStar as faStar_0f20f12744127d4fa4a5eaa149a19b5f7413f4c3 } from '@fortawesome/free-regular-svg-icons';
@@ -213,6 +213,7 @@ import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { FloatingDock } from '@/components/floating-dock/floating-dock.dev';
 import { Toaster as Toaster_a6eeadbb1255ee8f188f6a41d0d7b974840e71b1 } from '@/components/ui/toaster';
+import { newsDateFormatter } from 'src/helpers/DateHelper';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { AccordionBlockItem } from 'src/components/accordion-block/AccordionBlockItem.dev';
 import { AccordionBlockDefault } from 'src/components/accordion-block/AccordionBlockDefault.dev';
@@ -231,8 +232,8 @@ const importMap = [
       { name: 'useCallback', value: useCallback },
       { name: 'useId', value: useId },
       { name: 'useMemo', value: useMemo },
-      { name: 'createContext', value: createContext },
       { name: 'useContext', value: useContext },
+      { name: 'createContext', value: createContext },
       { name: 'default', value: React_c6c9d5c02e9182eb22f40bc4cf21fc656783d24a },
       { name: '*', value: React },
     ]
@@ -291,6 +292,9 @@ const importMap = [
       { name: 'Twitter', value: Twitter },
       { name: 'Link', value: Link_6b289e2de0a07a8bed65fcf19e83723e986797b2 },
       { name: 'Mail', value: Mail },
+      { name: 'Calendar', value: Calendar },
+      { name: 'User', value: User },
+      { name: 'Bookmark', value: Bookmark },
     ]
   },
   {
@@ -403,6 +407,7 @@ const importMap = [
       { name: 'Image', value: Image },
       { name: 'getFieldValue', value: getFieldValue },
       { name: 'CdpHelper', value: CdpHelper },
+      { name: 'DateField', value: DateField },
     ]
   },
   {
@@ -1447,12 +1452,6 @@ const importMap = [
     ]
   },
   {
-    module: 'shadcd/components/ui/button',
-    exports: [
-      { name: 'Button', value: Button_304600e4442bda1409e495cf55dbe6099453bb95 },
-    ]
-  },
-  {
     module: 'shadcn/components/ui/carousel',
     exports: [
       { name: 'Carousel', value: Carousel_689a09d2932fc88fd54b2c5679f911ae91683185 },
@@ -1460,6 +1459,12 @@ const importMap = [
       { name: 'CarouselItem', value: CarouselItem_689a09d2932fc88fd54b2c5679f911ae91683185 },
       { name: 'CarouselNext', value: CarouselNext_689a09d2932fc88fd54b2c5679f911ae91683185 },
       { name: 'CarouselPrevious', value: CarouselPrevious_689a09d2932fc88fd54b2c5679f911ae91683185 },
+    ]
+  },
+  {
+    module: 'shadcd/components/ui/button',
+    exports: [
+      { name: 'Button', value: Button_304600e4442bda1409e495cf55dbe6099453bb95 },
     ]
   },
   {
@@ -1597,6 +1602,12 @@ const importMap = [
     module: '@/components/ui/toaster',
     exports: [
       { name: 'Toaster', value: Toaster_a6eeadbb1255ee8f188f6a41d0d7b974840e71b1 },
+    ]
+  },
+  {
+    module: 'src/helpers/DateHelper',
+    exports: [
+      { name: 'newsDateFormatter', value: newsDateFormatter },
     ]
   },
   {

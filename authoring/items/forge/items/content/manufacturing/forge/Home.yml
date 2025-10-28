@@ -60,18 +60,11 @@ Languages:
               s:ph="/headless-header/sxa-content/container-1" />
             <r
               uid="{729C1BBE-FBA7-4D07-A9F4-E370F4E372F8}"
-              p:after="r[@uid='{7F329135-8C52-4423-9C32-D1FA23EF00A7}']"
+              p:after="*[1=2]"
               s:ds="local:/Data/New Image Carousel"
               s:id="{C18FD197-8254-4AB4-8C02-70C4A391354C}"
               s:par="FieldNames&amp;CSSStyles&amp;DynamicPlaceholderId=3"
               s:ph="" />
-            <r
-              uid="{A9485E1F-BAD8-4B17-8891-FE40F196E711}"
-              p:after="*[1=2]"
-              s:ds="local:/Data/Product Listin"
-              s:id="{167CA3F5-04E0-4683-AF27-B24C6329F76D}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7F1B0C4A-EF24-4E26-BEC9-CDA93AED6A62%7D&amp;Styles&amp;CSSStyles"
-              s:ph="headless-main" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -90,7 +83,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "68199b52-2787-434f-aea3-fbbef1ff2560"
+      Value: "b775b84d-37d4-4bef-9dfc-51ff83e2b32d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -100,4 +93,4 @@ Languages:
       Value: forge
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T171844Z
+      Value: 20251028T172641Z

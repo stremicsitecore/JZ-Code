@@ -7,6 +7,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 import * as AccordionBlock from 'components/accordion-block/AccordionBlock';
 import * as AlertBanner from 'components/alert-banner/AlertBanner.dev';
 import * as ArticleHeader from 'components/article-header/ArticleHeader';
+import * as ArticleDetail from 'components/article/ArticleDetail';
 import * as BackgroundThumbnail from 'components/background-thumbnail/BackgroundThumbnail.dev';
 import * as Breadcrumbs from 'components/breadcrumbs/Breadcrumbs';
 import * as ButtonComponent from 'components/button-component/ButtonComponent';
@@ -95,6 +96,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['AccordionBlock', AccordionBlock],
   ['AlertBanner', AlertBanner],
   ['ArticleHeader', ArticleHeader],
+  ['ArticleDetail', ArticleDetail],
   ['BackgroundThumbnail', BackgroundThumbnail],
   ['Breadcrumbs', Breadcrumbs],
   ['ButtonComponent', ButtonComponent],
