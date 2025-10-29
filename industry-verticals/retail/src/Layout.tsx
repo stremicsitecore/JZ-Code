@@ -7,6 +7,7 @@ import { ImageField, Placeholder, Field, DesignLibrary, Page } from '@sitecore-c
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 interface LayoutProps {
   page: Page;
@@ -45,6 +46,14 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
       <Scripts />
       <SitecoreStyles layoutData={layout} />
       <Head>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-09S93HJYPQ"
+        ></Script>
+        <Script
+          id="ga"
+          strategy="afterInteractive"
+        >{`   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-09S93HJYPQ'); `}</Script>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href="/favicon.ico" />
         {metaDescription && <meta name="description" content={metaDescription} />}
