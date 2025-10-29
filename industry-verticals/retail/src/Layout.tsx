@@ -46,14 +46,6 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
       <Scripts />
       <SitecoreStyles layoutData={layout} />
       <Head>
-        <Script
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-09S93HJYPQ"
-        ></Script>
-        <Script
-          id="ga"
-          strategy="afterInteractive"
-        >{`   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-09S93HJYPQ'); `}</Script>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href="/favicon.ico" />
         {metaDescription && <meta name="description" content={metaDescription} />}
@@ -64,6 +56,15 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogImage && <meta property="og:image" content={ogImage} />}
         <meta property="og:url" content={fullUrl.replace('_site_forma-lux', '')} key="og:url" />
       </Head>
+
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-09S93HJYPQ"
+      ></Script>
+      <Script
+        id="ga"
+        strategy="afterInteractive"
+      >{`   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-09S93HJYPQ'); `}</Script>
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
