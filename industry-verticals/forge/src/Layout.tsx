@@ -73,6 +73,16 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
     fields?.metadataDescription?.value?.toString() ||
     fields?.pageSummary?.value?.toString() ||
     '';
+
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const queryString = searchParams.toString();
+  const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
+
+  const fullUrl = `https://gridwell.dev${relativeUrl}`;
+
+  console.log(`full url: ${fullUrl}`);
   return (
     <>
       <Scripts />
@@ -86,6 +96,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image " content={ogImage} />}
+        <meta property="og:url" content={fullUrl.replace('_site_forge', '')} key="og:url" />
       </Head>
       <VideoProvider>
         {/* root placeholder for the app, which we add components to using route data */}
