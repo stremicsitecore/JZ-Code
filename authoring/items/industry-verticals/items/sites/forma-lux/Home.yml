@@ -575,6 +575,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{2E467DB3-2E4A-4DF0-97FB-3A6A7D7F9665}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="A7AA663C1BB14DE9A0DF297EEE61EC2D"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{33AFFDE8-1BF8-42C2-A2E5-BBC8D2D4C346}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -603,6 +613,26 @@ Languages:
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{918DE32F-EAB0-400F-937E-874A64F43D3A}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="FEC5CC5B653941FDAC95C1DCD1CC570A"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{2D0C2A95-1B2F-4492-8B33-B3D5FAC87944}"
+                        s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                        s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;WithPlaceholder&amp;HideAccentLine&amp;ReverseLayout&amp;HideGradientOverlay&amp;screenLayer=1&amp;FieldNames=%7B945FA565-3B86-4FF1-BA7E-E5AB71318906%7D&amp;Styles=%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+                      <action
+                        uid="{B916715E-C314-4C15-9E19-8890DA45E8D6}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="d3a49cf1-acdd-4a2e-b9fc-6182d2eec3ee" />
+                    </actions>
+                  </rule>
                   <rule
                     uid="{21A5DD41-F265-4DAB-BCED-E77B0949E058}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
@@ -641,6 +671,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{1D4F821F-44BC-4955-A47F-71F7AAC4FD65}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="2386C0C2793E4DB6A3E8C575EF7CD21B"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{FC56D1F8-45D4-4B7B-B4DB-843B704A3DD5}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -667,6 +707,16 @@ Languages:
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{7032DA00-EA61-4E32-8BDF-79F7C0219950}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="E6D6064282F14BBABA27BEF922A25268"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
                   <rule
                     uid="{AB8C25BB-CF3A-4AEE-BCEE-BA79251C30AD}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
@@ -695,6 +745,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{11C77ADF-B879-40C2-856C-742923F3F2EB}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="2BE4E9265A5F4A9C96C06863C589095B"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{FF06996C-9C33-483B-A0EE-0322988222FC}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -721,6 +781,16 @@ Languages:
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{907653ED-6C58-4FAE-9966-912903FB996A}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="07146614EE3B4506B82889553B3139CF"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
                   <rule
                     uid="{20D0322E-CD5D-4676-88AB-AC1BA639B3C2}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
@@ -749,6 +819,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{0C6B50BA-563B-4FB5-8A83-7399FCDA8AD3}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="2EB29F0651284BF39DD947BEFEAAC809"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{C8E19B62-F28C-43AE-A5AD-91B41209F69E}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -775,6 +855,16 @@ Languages:
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{65D041C6-43E8-472C-B975-7300403D3FDE}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="E0ED29023CF845368CB2F07FE193E782"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
                   <rule
                     uid="{BE870A34-949A-42E7-8506-E016597298DB}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
@@ -803,6 +893,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{0C0A1E87-871D-4E26-BF12-EDFB68CFB494}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="38B831A1A8074DEF9D4DDAF85BA356A4"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{473F4307-83EF-4068-8EF6-5BDED92DAA9E}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -829,6 +929,16 @@ Languages:
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{3BFAFC72-BE3D-4002-952E-27C153F4CB44}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="82E2193C26624313B2FFD0576E801DD6"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
                   <rule
                     uid="{B73D7617-8766-46A7-AD9C-2F07CE271497}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
@@ -857,6 +967,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{BDB7EECF-885D-4326-869E-C579944348B9}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="9E16901A19D54CBF92AC8F6E1EE8E606"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{9F73F0EA-E266-47B5-A2D4-C178B44004D9}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -883,6 +1003,16 @@ Languages:
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{2CDBBD24-8FFE-47AC-B2C4-B027F45099C4}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="DC4F81783C184E65950A97EBA5193AFB"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
                   <rule
                     uid="{4E503295-3CBF-4016-BA28-6424F0314762}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
@@ -911,6 +1041,16 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
+                    uid="{BFDD479A-955F-4826-B79F-44A52D3613E9}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="CEF7F832FE4C4A9F9C37869C2422719F"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
                     uid="{E430BEE4-82DA-42C9-8620-BCB59F48B29E}"
                     s:name="8d898823a58046a7a33301b8c9807a0c">
                     <conditions>
@@ -926,6 +1066,33 @@ Languages:
                     <conditions>
                       <condition
                         uid="870F7585359D4BE298E053952300B2CB"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{954AADCA-FC91-45B3-BB1D-21D3462F0236}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{5B832829-4CCC-49A5-99D7-F88FC90B62BF}"
+                    s:name="8c5138f2bd924b56b98be2b9843bae6f">
+                    <conditions>
+                      <condition
+                        uid="37E7A6F984CD4B60A25033F7FB064A10"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="8c5138f2bd924b56b98be2b9843bae6f" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="0FDDAFECB6224B0FABE3E676E50C8752"
                         s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                   </rule>
@@ -966,7 +1133,7 @@ Languages:
       Value: Forma Lux – Handcrafted Luxury Furniture Collections
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4a4e9368-cf88-4f11-a304-3f844123dbed"
+      Value: "b94bec6c-a6b5-46ff-9ac7-5d4a33364bdb"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
@@ -976,10 +1143,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T230652Z
+      Value: 20251030T023535Z
 - Language: "es-ES"
   Versions:
   - Version: 1

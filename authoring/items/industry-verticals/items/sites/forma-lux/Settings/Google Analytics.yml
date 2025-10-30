@@ -1,0 +1,34 @@
+﻿---
+ID: "3f04fb8d-4b54-43f9-8e65-e5ef2e62c2a6"
+Parent: "091e6e59-b7e5-4eda-b742-ad432a30a34d"
+Template: "2046ec12-25a9-4f08-b904-0bd710dd8cf2"
+Path: "/sitecore/content/retail/forma-lux/Settings/Google Analytics"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251029T162316Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\seJWerwzyw1aVB9dN8PtiMvFufMmsSsv
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\seJWerwzyw1aVB9dN8PtiMvFufMmsSsv
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26758ac3-f97c-45c1-accc-b96ae966d3f8"
+    - ID: "b2527883-0c50-474f-a9c5-f24e1c4d49b5"
+      Hint: PropertyID
+      Value: 510806075
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\seJWerwzyw1aVB9dN8PtiMvFufMmsSsv
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251029T162425Z

@@ -37,12 +37,15 @@ SharedFields:
 - ID: "b6953f8b-56d3-4c90-a6db-885786711e4a"
   Hint: SettingsFolder
   Value: "{78F430FC-5049-47F6-8A85-B4CE37EDBDAD}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 - ID: "c5dbb136-3299-4835-a8ce-bca8b49ba3fa"
   Hint: BranchesFolder
   Value: "{C7828DBC-3F42-41AE-A75C-96C521BFEAD5}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1e83cc69-a008-4e50-bc44-f8971a55b8de"
+  Value: "07162786-f4cc-40f2-a9b0-0f8b9c914c67"
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
@@ -71,11 +74,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40a3475b-5d2c-484b-89f9-beed5bb453e1"
+      Value: "68401230-f828-49e9-b88e-f5becd727280"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\dmitry.savushkin@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251022T124325Z
+      Value: 20251029T185547Z
