@@ -15,7 +15,7 @@ const SEARCH_CONFIG = {
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
-  const lang  =  pageProps.page?.locale || scConfig.defaultLanguage ;
+  const lang = pageProps.page?.locale || scConfig.defaultLanguage;
 
   PageController.getContext().setLocaleLanguage(lang);
   if (lang == "en") {
@@ -23,6 +23,10 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
   } else {
     PageController.getContext().setLocaleCountry(lang.split('-')[1]);
   }
+
+  console.log(`Env: ${SEARCH_CONFIG.env}`);
+  console.log(`key: ${SEARCH_CONFIG.customerKey}`);
+  console.log(`api: ${SEARCH_CONFIG.apiKey}`);
 
   return (
     <>
@@ -36,11 +40,11 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
         lngDict={dictionary}
         locale={pageProps.page?.locale || scConfig.defaultLanguage}
       >
-        <WidgetsProvider 
-                env={SEARCH_CONFIG.env}
-                customerKey={SEARCH_CONFIG.customerKey}
-                apiKey={SEARCH_CONFIG.apiKey}
-                publicSuffix={true}>
+        <WidgetsProvider
+          env={SEARCH_CONFIG.env}
+          customerKey={SEARCH_CONFIG.customerKey}
+          apiKey={SEARCH_CONFIG.apiKey}
+          publicSuffix={true}>
           <Component {...rest} />
         </WidgetsProvider>
       </I18nProvider>
