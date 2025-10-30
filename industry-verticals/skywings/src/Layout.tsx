@@ -6,7 +6,7 @@ import Head from 'next/head';
 import { ImageField, Placeholder, Field, DesignLibrary, Page } from '@sitecore-content-sdk/nextjs';
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
-import { useRouter } from 'next/router';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 interface LayoutProps {
   page: Page;
@@ -37,8 +37,15 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
 
-  const router = useRouter();
-  const fullUrl = `https://formalux.dev${router.asPath}`;
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const queryString = searchParams.toString();
+  const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
+
+  const fullUrl = `https://skywings.dev${relativeUrl}`;
+
+  console.log(`full url: ${fullUrl}`);
 
   return (
     <>
