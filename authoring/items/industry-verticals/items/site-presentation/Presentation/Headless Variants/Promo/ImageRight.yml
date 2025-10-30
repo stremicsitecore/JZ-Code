@@ -1,8 +1,8 @@
 ﻿---
-ID: "0a0ac6f7-a755-4b66-91a8-23f8e8738e24"
+ID: "8743f837-bb6d-4f85-aef3-36dde503c531"
 Parent: "528bf819-e758-4818-b212-d8431789e4db"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
-Path: "/sitecore/content/retail/forma-lux/Presentation/Headless Variants/Promo/ImageOnRight"
+Path: "/sitecore/content/retail/forma-lux/Presentation/Headless Variants/Promo/ImageRight"
 SharedFields:
 - ID: "2d81c857-74cd-4a35-ad3e-6d42f11676b7"
   Hint: Content
@@ -10,37 +10,37 @@ SharedFields:
     {"metadata":{"aiGenerated":true}}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "757cc849-d064-4734-9f33-4c2503442aa4"
+  Value: "74ab36db-46a9-40da-adda-7dbfd9325a06"
 Languages:
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "4c9aad52-2a17-4f61-b0e7-6f4af619f0bc"
+    Value: "3085df40-a055-4c23-aeb5-0a3b6944ec40"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Image on right
+    Value: Image Right
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251030T041342Z
+      Value: 20251030T144642Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e076b41d-88b8-4087-8c2a-c16dfa6eaa71"
+      Value: "0ec39a64-7da6-4e73-8a76-be2ecec247e5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T041342Z
+      Value: 20251030T144642Z

@@ -119,13 +119,14 @@ export const PreviewSearchComponent = ({
                             console.log('handling search');
                             handleSearch(
                               e,
-                              article.url,
                               PREVIEW_WIDGET_ID,
                               'content',
                               ['EntityPageView', 'PreviewSearchClickEvent'],
                               article.id,
                               index
                             );
+                            console.log(`redirecting to: ${article.url}`);
+                            router.push(article.url);
                           }}
                           href={article.url}
                           className="box-border flex w-full text-black no-underline focus:shadow-md"

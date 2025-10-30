@@ -3,7 +3,6 @@ import {
   trackPreviewSearchClickEvent,
   trackSearchClickEntityEvent,
 } from '@sitecore-search/react';
-import { useRouter } from 'next/navigation';
 
 export type Events =
   | 'PageViewEvent'
@@ -14,14 +13,12 @@ export type Events =
 
 export function handleSearch(
   e: React.MouseEvent<HTMLAnchorElement>,
-  href: string,
   widgetId: string,
   entityType: string,
   events: Events[],
   entityId: string,
   itemIndex: number
 ) {
-  console.log('Preventing default');
   e.preventDefault();
   events?.forEach((event) => {
     if (event == 'EntityPageView' && entityType && entityId) {
@@ -43,7 +40,4 @@ export function handleSearch(
       });
     }
   });
-
-  console.log(`Redirecting to: ${href}`);
-  useRouter().push(href);
 }

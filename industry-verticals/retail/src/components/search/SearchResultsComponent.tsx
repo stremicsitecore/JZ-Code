@@ -15,6 +15,7 @@ import ResultsPerPage from './ResultsPerPage';
 import QueryResultsSummary from './QueryResultsSummary';
 import CardViewSwitcher from './CardViewSwitcher';
 import { handleSearch } from './HandleSearch';
+import { useRouter } from 'next/navigation';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -139,13 +140,13 @@ export const SearchResultsComponent = ({
                       onItemClick={(e) => {
                         handleSearch(
                           e,
-                          a.url,
                           SEARCH_WIDGET_ID,
                           'content',
                           ['EntityPageView', 'SearchClickEvent'],
                           a.id,
                           index
                         );
+                        useRouter().push(a.url);
                       }}
                     />
                   ))}
@@ -160,13 +161,13 @@ export const SearchResultsComponent = ({
                       onItemClick={(e) => {
                         handleSearch(
                           e,
-                          a.url,
                           SEARCH_WIDGET_ID,
                           'content',
                           ['EntityPageView', 'SearchClickEvent'],
                           a.id,
                           index
                         );
+                        useRouter().push(a.url);
                       }}
                       displayText={true}
                     />

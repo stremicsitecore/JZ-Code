@@ -3,6 +3,7 @@ import { FilterEqual, WidgetDataType, useSearchResults, widget } from '@sitecore
 import ArticleCard from './ArticleCard';
 import { handleSearch } from './HandleSearch';
 import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
+import { useRouter } from 'next/navigation';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -44,13 +45,13 @@ export const HomeHighlightedComponent = (): JSX.Element => {
                 onItemClick={(e) => {
                   handleSearch(
                     e,
-                    a.url,
                     HOMEHIGHLIGHTED_WIDGET_ID,
                     'content',
                     ['EntityPageView', 'SearchClickEvent'],
                     a.id,
                     index
                   );
+                  useRouter().push(a.url);
                 }}
               />
             ))}
