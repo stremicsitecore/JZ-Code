@@ -95,17 +95,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="external" url="" target="" text="Safety Center" title="" class=""/>
+        <link linktype="internal" id="1b2d1382-8981-4923-a400-5375fbc2481b" anchor="" querystring="" target="" class="" text="Contact" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ce0b179-3525-42ce-8d27-c8db0d7cfdba"
+      Value: "1cd3c3a6-1602-45f2-beab-7d4c42f830f7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T163130Z
+      Value: 20251030T131830Z
 - Language: "en-IE"
   Versions:
   - Version: 1

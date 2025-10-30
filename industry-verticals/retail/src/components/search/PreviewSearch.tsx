@@ -116,6 +116,7 @@ export const PreviewSearchComponent = ({
                       <PreviewSearch.Item key={article.id} asChild>
                         <PreviewSearch.ItemLink
                           onClick={(e) => {
+                            console.log('handling search');
                             handleSearch(
                               e,
                               article.url,

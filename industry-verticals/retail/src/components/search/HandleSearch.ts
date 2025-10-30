@@ -21,6 +21,7 @@ export function handleSearch(
   entityId: string,
   itemIndex: number
 ) {
+  console.log('Preventing default');
   e.preventDefault();
   events?.forEach((event) => {
     if (event == 'EntityPageView' && entityType && entityId) {
@@ -41,7 +42,8 @@ export function handleSearch(
         items: [{ id: entityId }],
       });
     }
-
-    useRouter().push(href);
   });
+
+  console.log(`Redirecting to: ${href}`);
+  useRouter().push(href);
 }

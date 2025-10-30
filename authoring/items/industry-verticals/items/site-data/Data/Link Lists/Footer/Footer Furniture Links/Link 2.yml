@@ -100,17 +100,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="external" url="" target="" text="Chair" title="" class=""/>
+        <link linktype="internal" id="46e2c765-75bc-499c-b9a1-390ce3b07a10" anchor="" querystring="" target="" class="" text="Decor" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "089a9f59-7dee-48fd-b842-31a64feabd78"
+      Value: "b09ee5d9-5bf5-4f8c-875d-0f75ad96d647"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250827T163014Z
+      Value: 20251030T131839Z
 - Language: "en-IE"
   Versions:
   - Version: 1

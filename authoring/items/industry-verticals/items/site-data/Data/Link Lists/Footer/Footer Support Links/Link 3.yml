@@ -94,18 +94,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
-      Value: |
-        <link text="Community Guidelines" linktype="external" url="" anchor="" target="" />
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4badd44-7b2b-4ee7-b9f5-150bdd47b2dc"
+      Value: "acde0b16-66f7-4d5b-a672-b419d1e49bd8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\jeffrey.isham@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T102703Z
+      Value: 20251030T131818Z
 - Language: "en-IE"
   Versions:
   - Version: 1
