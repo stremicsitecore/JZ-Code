@@ -3,6 +3,7 @@ import {
   trackPreviewSearchClickEvent,
   trackSearchClickEntityEvent,
 } from '@sitecore-search/react';
+import { useRouter } from 'next/navigation';
 
 export type Events =
   | 'PageViewEvent'
@@ -11,14 +12,16 @@ export type Events =
   | 'SearchClickEvent'
   | 'PreviewSearchSuggestionClickEvent';
 
-export function handleSearch(
+export function useSearchTracking(
   e: React.MouseEvent<HTMLAnchorElement>,
+  url: string,
   widgetId: string,
   entityType: string,
   events: Events[],
   entityId: string,
   itemIndex: number
 ) {
+  const router = useRouter();
   e.preventDefault();
   events?.forEach((event) => {
     if (event == 'EntityPageView' && entityType && entityId) {
@@ -40,4 +43,6 @@ export function handleSearch(
       });
     }
   });
+
+  router.push(url);
 }

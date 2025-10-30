@@ -14,8 +14,7 @@ import SearchFacets from './SearchFacets';
 import ResultsPerPage from './ResultsPerPage';
 import QueryResultsSummary from './QueryResultsSummary';
 import CardViewSwitcher from './CardViewSwitcher';
-import { handleSearch } from './HandleSearch';
-import { useRouter } from 'next/navigation';
+import { useSearchTracking } from '../../hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -138,15 +137,15 @@ export const SearchResultsComponent = ({
                       article={a}
                       index={index}
                       onItemClick={(e) => {
-                        handleSearch(
+                        useSearchTracking(
                           e,
+                          a.url,
                           SEARCH_WIDGET_ID,
                           'content',
                           ['EntityPageView', 'SearchClickEvent'],
                           a.id,
                           index
                         );
-                        useRouter().push(a.url);
                       }}
                     />
                   ))}
@@ -159,15 +158,15 @@ export const SearchResultsComponent = ({
                       article={a as ArticleModel}
                       index={index}
                       onItemClick={(e) => {
-                        handleSearch(
+                        useSearchTracking(
                           e,
+                          a.url,
                           SEARCH_WIDGET_ID,
                           'content',
                           ['EntityPageView', 'SearchClickEvent'],
                           a.id,
                           index
                         );
-                        useRouter().push(a.url);
                       }}
                       displayText={true}
                     />

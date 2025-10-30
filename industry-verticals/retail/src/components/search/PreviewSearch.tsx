@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';
 import Spinner from './Spinner';
 import SuggestionBlock from './SuggestionBlock';
 import { PREVIEW_WIDGET_ID } from '@/_data/customizations';
-import { handleSearch } from './HandleSearch';
+import { useSearchTracking } from '../../hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -116,17 +116,15 @@ export const PreviewSearchComponent = ({
                       <PreviewSearch.Item key={article.id} asChild>
                         <PreviewSearch.ItemLink
                           onClick={(e) => {
-                            console.log('handling search');
-                            handleSearch(
+                            useSearchTracking(
                               e,
+                              article.url,
                               PREVIEW_WIDGET_ID,
                               'content',
                               ['EntityPageView', 'PreviewSearchClickEvent'],
                               article.id,
                               index
                             );
-                            console.log(`redirecting to: ${article.url}`);
-                            router.push(article.url);
                           }}
                           href={article.url}
                           className="box-border flex w-full text-black no-underline focus:shadow-md"
