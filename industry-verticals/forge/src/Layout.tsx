@@ -9,6 +9,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from '@/components/theme-provider/theme-provider.dev';
 import { VideoProvider } from './contexts/VideoContext';
 import { Sora, Roboto } from 'next/font/google';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 const heading = Sora({
   weight: ['300', '400', '500'],
