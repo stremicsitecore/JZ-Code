@@ -25,7 +25,7 @@ import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
-import * as HandleSearch from 'src/components/search/HandleSearch';
+import * as HandleSearch from '@/hooks/useSearchTracking';
 import * as Filter from 'src/components/search/Filter';
 import * as DestinationSearch from 'src/components/search/DestinationSearch';
 import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';

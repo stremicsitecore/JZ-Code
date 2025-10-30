@@ -14,7 +14,7 @@ import SearchFacets from './SearchFacets';
 import ResultsPerPage from './ResultsPerPage';
 import QueryResultsSummary from './QueryResultsSummary';
 import CardViewSwitcher from './CardViewSwitcher';
-import { handleSearch } from './HandleSearch';
+import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -32,12 +32,14 @@ export type ArticleModel = {
   image_url?: string;
   source_id?: string;
 };
+
 type ArticleSearchResultsProps = {
   defaultSortType?: SearchResultsStoreState['sortType'];
   defaultPage?: SearchResultsStoreState['page'];
   defaultItemsPerPage?: SearchResultsStoreState['itemsPerPage'];
   defaultKeyphrase?: SearchResultsStoreState['keyphrase'];
 };
+
 type InitialState = SearchResultsInitialState<'itemsPerPage' | 'keyphrase' | 'page' | 'sortType'>;
 
 export const SearchResultsComponent = ({
@@ -74,10 +76,14 @@ export const SearchResultsComponent = ({
       }
     },
   });
+
   const totalPages = Math.ceil(totalItems / itemsPerPage);
   const defaultCardView = 'list';
   const [dir, setDir] = useState(defaultCardView);
   const onToggle = (value = defaultCardView) => setDir(value);
+
+  // ✅ Call the hook at the top level of the component
+  const { handleSearch } = useSearchTracking();
 
   if (isLoading) {
     return (
@@ -86,6 +92,7 @@ export const SearchResultsComponent = ({
       </div>
     );
   }
+
   return (
     <div>
       <div className="relative flex max-w-full px-4">
@@ -96,13 +103,15 @@ export const SearchResultsComponent = ({
             </div>
           </div>
         )}
+
         {totalItems > 0 && (
           <React.Fragment key="1">
             <section className="relative mt-4 mr-8 flex w-[25%] flex-none flex-col">
               <SearchFacets facets={facets} />
             </section>
+
             <section className="mt-4 flex flex-[4_1_0%] flex-col">
-              {/* Sort Select */}
+              {/* Sort / Controls */}
               <section className="bg-background-accent flex justify-between">
                 <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
                   {totalItems > 0 && (
@@ -136,17 +145,16 @@ export const SearchResultsComponent = ({
                       key={a.id}
                       article={a}
                       index={index}
-                      onItemClick={(e) => {
-                        handleSearch(
-                          e,
-                          a.url,
-                          SEARCH_WIDGET_ID,
-                          'content',
-                          ['EntityPageView', 'SearchClickEvent'],
-                          a.id,
-                          index
-                        );
-                      }}
+                      onItemClick={(e) =>
+                        handleSearch(e, {
+                          url: a.url,
+                          widgetId: SEARCH_WIDGET_ID,
+                          entityType: 'content',
+                          events: ['EntityPageView', 'SearchClickEvent'] as Events[],
+                          entityId: a.id,
+                          itemIndex: index,
+                        })
+                      }
                     />
                   ))}
                 </div>
@@ -157,17 +165,16 @@ export const SearchResultsComponent = ({
                       key={a.id}
                       article={a as ArticleModel}
                       index={index}
-                      onItemClick={(e) => {
-                        handleSearch(
-                          e,
-                          a.url,
-                          SEARCH_WIDGET_ID,
-                          'content',
-                          ['EntityPageView', 'SearchClickEvent'],
-                          a.id,
-                          index
-                        );
-                      }}
+                      onItemClick={(e) =>
+                        handleSearch(e, {
+                          url: a.url,
+                          widgetId: SEARCH_WIDGET_ID,
+                          entityType: 'content',
+                          events: ['EntityPageView', 'SearchClickEvent'] as Events[],
+                          entityId: a.id,
+                          itemIndex: index,
+                        })
+                      }
                       displayText={true}
                     />
                   ))}
@@ -180,16 +187,13 @@ export const SearchResultsComponent = ({
             </section>
           </React.Fragment>
         )}
-        {totalItems <= 0 && !isFetching && (
-          // <div className="w-full flex justify-center">
-          //   <h3>0 Results</h3>
-          // </div>
-          <HomeHighlighted rfkId={HIGHLIGHTED_ARTICLES_RFKID} />
-        )}
+
+        {totalItems <= 0 && !isFetching && <HomeHighlighted rfkId={HIGHLIGHTED_ARTICLES_RFKID} />}
       </div>
     </div>
   );
 };
+
 const SearchResultsWidget = widget(
   SearchResultsComponent,
   WidgetDataType.SEARCH_RESULTS,

@@ -31,7 +31,7 @@ import SearchFacets from 'src/components/search/SearchFacets';
 import ResultsPerPage from 'src/components/search/ResultsPerPage';
 import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
-import { handleSearch } from 'src/components/search/HandleSearch';
+import { handleSearch } from '@/hooks/useSearchTracking';
 import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
 import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';

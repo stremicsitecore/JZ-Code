@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';
 import Spinner from './Spinner';
 import SuggestionBlock from './SuggestionBlock';
 import { PREVIEW_WIDGET_ID } from '@/_data/customizations';
-import { handleSearch } from './HandleSearch';
+import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
 
 const SEARCH_CONFIG = {
   source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
@@ -38,6 +38,8 @@ export const PreviewSearchComponent = ({
   setIsSearchOpen,
 }: PreviewSearchComponentProps) => {
   const router = useRouter();
+  const { handleSearch } = useSearchTracking();
+
   const {
     actions: { onKeyphraseChange },
     queryResult,
@@ -62,6 +64,7 @@ export const PreviewSearchComponent = ({
   });
 
   const loading = isLoading || isFetching;
+
   const keyphraseHandler = useCallback(
     (event: ChangeEvent<HTMLInputElement>) => {
       const target = event.target;
@@ -69,6 +72,7 @@ export const PreviewSearchComponent = ({
     },
     [onKeyphraseChange]
   );
+
   const handleSubmit = (e: SyntheticEvent): void => {
     e.preventDefault();
     if (isOpen) setIsSearchOpen(false);
@@ -90,6 +94,7 @@ export const PreviewSearchComponent = ({
           placeholder="Search content, products..."
         />
       </form>
+
       <PreviewSearch.Content className="flex h-[400px] w-[var(--radix-popover-trigger-width)] justify-center bg-gray-100 pt-0 shadow-[2px_5px_5px_5px_rgba(0,0,0,0.3)] transition-opacity dark:bg-gray-800">
         <Spinner loading={loading} />
 
@@ -104,28 +109,29 @@ export const PreviewSearchComponent = ({
                 />
               </PreviewSearch.Suggestions>
             )}
+
             <PreviewSearch.Results defaultQueryResult={queryResult}>
-              {({ isFetching: loading, data: { content: articles = [] } = {} }) => (
+              {({ isFetching: isResultsFetching, data: { content: articles = [] } = {} }) => (
                 <PreviewSearch.Items
-                  data-loading={loading}
+                  data-loading={isResultsFetching}
                   className="flex flex-[3] overflow-y-auto bg-white data-[loading=false]:m-0 data-[loading=false]:grid data-[loading=false]:list-none data-[loading=false]:grid-cols-3 data-[loading=false]:gap-3 data-[loading=false]:p-2 dark:bg-gray-700"
                 >
-                  <Spinner loading={loading} />
-                  {!loading &&
+                  <Spinner loading={isResultsFetching} />
+
+                  {!isResultsFetching &&
                     articles.map((article, index) => (
                       <PreviewSearch.Item key={article.id} asChild>
                         <PreviewSearch.ItemLink
-                          onClick={(e) => {
-                            handleSearch(
-                              e,
-                              article.url,
-                              PREVIEW_WIDGET_ID,
-                              'content',
-                              ['EntityPageView', 'PreviewSearchClickEvent'],
-                              article.id,
-                              index
-                            );
-                          }}
+                          onClick={(e) =>
+                            handleSearch(e, {
+                              url: article.url,
+                              widgetId: PREVIEW_WIDGET_ID,
+                              entityType: 'content',
+                              events: ['EntityPageView', 'PreviewSearchClickEvent'] as Events[],
+                              entityId: article.id,
+                              itemIndex: index,
+                            })
+                          }
                           href={article.url}
                           className="box-border flex w-full text-black no-underline focus:shadow-md"
                         >
