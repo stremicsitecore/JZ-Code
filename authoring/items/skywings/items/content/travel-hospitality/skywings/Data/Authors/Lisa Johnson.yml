@@ -27,6 +27,40 @@ Languages:
     - ID: "fca4912c-3270-4a82-9820-333ac17e8d5a"
       Hint: Bio
       Value: Lisa Johnson is a travel blogger who shares inspiring tips and heartwarming stories about exploring the world through the lens of family adventures.
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T180356Z
+    - ID: "33580daf-2247-4e68-83dd-e44590a20b13"
+      Hint: Name
+      Value: Lisa Johnson
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93c53657-bcd6-43dc-9fca-8eef9ff43b1e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025642Z
+    - ID: "fca4912c-3270-4a82-9820-333ac17e8d5a"
+      Hint: Bio
+      Value: Lisa Johnson è una blogger di viaggi che condivide consigli ispiratori e storie commoventi sull'esplorazione del mondo attraverso la lente delle avventure familiari.
 - Language: "ja-JP"
   Versions:
   - Version: 1
@@ -47,7 +81,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a84aef2e-8aa4-4515-9be9-7f964ee895d0"
+      Value: "6bb9d778-9d9b-474a-a508-514de5497813"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -57,7 +91,7 @@ Languages:
         sitecore\yijin.wong@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T072759Z
+      Value: 20251031T024308Z
     - ID: "fca4912c-3270-4a82-9820-333ac17e8d5a"
       Hint: Bio
       Value: リサ・ジョンソンは、家族の冒険を通じて世界を探検することについての心温まるストーリーとインスピレーションを与えるヒントを共有する旅行ブロガーです。

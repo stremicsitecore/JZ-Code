@@ -47,6 +47,53 @@ Languages:
       Hint: Image
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9be8c1b8910247729ab802407e646f8d?v=3dcc5f89" dam-id="xLWu2TkUSceFv_4ZCfRouw" width="500" height="349" alt="ff44b4cad08048979b6b715868b99108" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68822/thumbnail" />
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171318Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Viaggio confortevole con servizi moderni, intrattenimento e servizio di qualità</p>
+        <ul>
+            <li>Sedili ergonomici con spazio extra per le gambe</li>
+            <li>WiFi gratuito</li>
+            <li>Schermo di intrattenimento personale</li>
+        </ul>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4856c3c3-3828-4552-b503-602bd387657c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025645Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: Classe Economica
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9be8c1b8910247729ab802407e646f8d?v=3dcc5f89" dam-id="xLWu2TkUSceFv_4ZCfRouw" width="500" height="349" alt="ff44b4cad08048979b6b715868b99108" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68822/thumbnail" />
 - Language: "ja-JP"
   Versions:
   - Version: 1
@@ -76,7 +123,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aca1a9dd-53b5-4821-9b36-f100335ca0f1"
+      Value: "c005a809-8e88-46a1-991e-196bb4505986"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -86,7 +133,7 @@ Languages:
         sitecore\yijin.wong@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T072759Z
+      Value: 20251031T024311Z
     - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
       Hint: Title
       Value: エコノミークラス

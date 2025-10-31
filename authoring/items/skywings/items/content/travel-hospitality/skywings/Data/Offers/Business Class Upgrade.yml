@@ -41,13 +41,13 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250730T173349Z
-- Language: "ja-JP"
+- Language: "it-CH"
   Versions:
   - Version: 1
     Fields:
     - ID: "2031c99a-88be-4a40-80b9-3c65b41ca2a3"
       Hint: Text
-      Value: ご予約で無料アップグレード
+      Value: Aggiornamento gratuito con qualsiasi prenotazione
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T173316Z
@@ -61,7 +61,47 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6c4a3f33-db15-4605-a413-b2f9f696a8ec"
+      Value: "465e6a12-3967-4afe-a5a2-420ef7630049"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a23f19e5-5aee-4ce2-9a09-ab5933cebb56"
+      Hint: Badge
+      Value: GRATIS
+    - ID: "a85885cf-e22e-4646-928f-ac730179c1db"
+      Hint: Title
+      Value: Aggiornamento alla Business Class
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d453c0b9-1e5a-4d37-a345-d0ad05f2cc53"
+      Hint: Valid
+      Value: Tempo limitato
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025653Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2031c99a-88be-4a40-80b9-3c65b41ca2a3"
+      Hint: Text
+      Value: 予約時の無料アップグレード
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T173316Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69603ecb-09d4-4edd-80ce-db600049d6dc"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -80,4 +120,4 @@ Languages:
       Value: 期間限定
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T072802Z
+      Value: 20251031T024320Z

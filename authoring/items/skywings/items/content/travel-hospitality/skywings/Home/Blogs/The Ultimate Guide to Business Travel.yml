@@ -177,13 +177,201 @@ Languages:
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250722T000000Z
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: accesso, aeroporto, sempre, app, evitare, prima, tra, imbarco, prenotare, affari, bagaglio a mano, controllo, scegliere, aziendale, credito, voli, frequent, sano, hotel, hotel, mantenere, laptop, fedeltà, fare la valigia, punti, produttivo, programmi, programma, esperto, sicurezza, intelligente, rimanere, tecnologia, tempo, strumenti, viaggio, viaggiare, viaggio, usare, indossare
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T180947Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: Il viaggio d'affari può essere emozionante, produttivo e, a volte, estenuante. Tra cambi di fuso orario, itinerari fitti e vivere con una valigia, anche i professionisti esperti possono sentirsi affaticati. Ecco perché abbiamo raccolto consigli interni dai frequent flyer&mdash;guerrieri della strada che sanno come lavorare in modo più intelligente, viaggiare più leggero e mantenere la sanità mentale in movimento. Che tu sia un viaggiatore d'affari alle prime armi o un veterano del viaggio aziendale, questa guida ti aiuterà a sfruttare al meglio il tuo tempo in volo e a terra.
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 6 minuti di lettura
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Consigli di viaggio
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: La guida definitiva al viaggio d'affari
+    - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
+      Hint: Excerpt
+      Value: <div><span>Impara l'arte del viaggio d'affari con consigli interni su come massimizzare il comfort e la produttività.</span></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "La guida definitiva al viaggio d'affari: consigli dai frequent flyer"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2de81665-6fcd-440d-bfae-208108d44e93"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: "La guida definitiva al viaggio d'affari: consigli dai frequent flyer"
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <p>Il viaggio d'affari può essere emozionante, produttivo e, a volte, estenuante. Tra cambi di fuso orario, itinerari fitti e vivere con una valigia, anche i professionisti esperti possono sentirsi affaticati. Ecco perché abbiamo raccolto consigli interni dai frequent flyer&mdash;guerrieri della strada che sanno come lavorare in modo più intelligente, viaggiare più leggero e mantenere la sanità mentale in movimento. Che tu sia un viaggiatore d'affari alle prime armi o un veterano del viaggio aziendale, questa guida ti aiuterà a sfruttare al meglio il tuo tempo in volo e a terra.</p>
+        <h3>1. <strong>Fai la valigia come un professionista</strong></h3>
+        <p><strong>Consiglio da un frequent flyer:</strong> <em>&ldquo;Non controllo mai un bagaglio a meno che non sia assolutamente necessario. Il tempo è denaro.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Attieniti al bagaglio a mano</strong>: Investi in un bagaglio a mano di qualità, conforme alle norme delle compagnie aeree, con ruote scorrevoli e buoni scomparti.</p>
+            </li>
+            <li>
+            <p><strong>Usa i cubi da imballaggio</strong>: Questi ti aiutano a organizzare abbigliamento, tecnologia e articoli da toeletta mentre massimizzi lo spazio.</p>
+            </li>
+            <li>
+            <p><strong>Pianifica gli outfit</strong>: Scegli pezzi versatili e resistenti alle pieghe che puoi combinare e abbinare. I colori neutri sono i tuoi migliori amici.</p>
+            </li>
+        </ul>
+        <h3>2. <strong>Prepara la tua tecnologia</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;Un laptop scarico è peggio di un volo in ritardo.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Carica tutto la sera prima</strong> e porta con te un power bank, un caricatore USB multiporta e adattatori per prese (se viaggi all'estero).</p>
+            </li>
+            <li>
+            <p><strong>Scarica documenti, app e intrattenimento chiave</strong> in modo da poterli accedere offline.</p>
+            </li>
+            <li>
+            <p><strong>Usa l'archiviazione cloud</strong> (ad esempio, Google Drive, OneDrive) per evitare ricerche di file via email all'ultimo minuto.</p>
+            </li>
+        </ul>
+        <h3>3. <strong>Unisciti ai programmi di fedeltà e usa le carte di credito giuste</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;Miglia e punti pagano metà dei miei viaggi personali.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Iscriviti ai programmi di fedeltà di compagnie aeree e hotel</strong> per guadagnare punti su ogni viaggio.</p>
+            </li>
+            <li>
+            <p><strong>Usa una carta di credito per viaggi d'affari</strong> che premia voli, hotel e pasti con vantaggi come accesso alle lounge, assicurazione e upgrade.</p>
+            </li>
+            <li>
+            <p><strong>Considera TSA PreCheck o Global Entry</strong> per passare rapidamente attraverso la sicurezza aeroportuale e la dogana.</p>
+            </li>
+        </ul>
+        <h3>4. <strong>Prenota in modo intelligente, non solo economico</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;I voli diretti valgono il costo extra. Sempre.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Scegli voli che si allineano con il tuo programma</strong>, non solo con il tuo budget&mdash;scali extra spesso significano perdita di produttività.</p>
+            </li>
+            <li>
+            <p><strong>Prenota hotel vicino ai tuoi luoghi di incontro</strong> per evitare stress da pendolarismo non necessario.</p>
+            </li>
+            <li>
+            <p><strong>Usa strumenti o app di prenotazione aziendale</strong> che offrono tariffe negoziate, benefici di fedeltà e facile gestione degli itinerari.</p>
+            </li>
+        </ul>
+        <h3>5. <strong>Domina l'efficienza aeroportuale</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;Il mio laptop e i liquidi sono sempre in una tasca di facile accesso.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Effettua il check-in online</strong>, scegli il tuo posto e conserva la carta d'imbarco nell'app wallet del tuo telefono.</p>
+            </li>
+            <li>
+            <p><strong>Usa borse amiche della sicurezza</strong> che non richiedono di rimuovere il laptop.</p>
+            </li>
+            <li>
+            <p><strong>Indossa scarpe senza lacci</strong> e mantieni gli accessori al minimo per velocizzare i controlli di sicurezza.</p>
+            </li>
+        </ul>
+        <h3>6. <strong>Rimani sano ed energico</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;Il jet lag è reale, ma l'idratazione e la luce del giorno aiutano.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Bevi acqua prima, durante e dopo i voli</strong>&mdash;evita troppa caffeina o alcol.</p>
+            </li>
+            <li>
+            <p><strong>Porta snack sani</strong> come barrette proteiche, noci o frutta secca per evitare di affidarti al cibo dell'aeroporto.</p>
+            </li>
+            <li>
+            <p><strong>Adatta il tuo programma di sonno in anticipo</strong> e trascorri del tempo alla luce naturale al tuo arrivo.</p>
+            </li>
+        </ul>
+        <h3>7. <strong>Rimani connesso&mdash;ma stabilisci dei limiti</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;Imposto aspettative con il mio team sui tempi di risposta durante i viaggi.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Usa strumenti come Slack, Zoom o Teams</strong> per rimanere aggiornato, ma non aver paura di impostare messaggi di stato o ore di silenzio.</p>
+            </li>
+            <li>
+            <p><strong>Programma tempo di buffer</strong> tra riunioni e voli per recuperare le email o semplicemente respirare.</p>
+            </li>
+        </ul>
+        <h3>8. <strong>Fai tempo per te</strong></h3>
+        <p><strong>Consiglio:</strong> <em>&ldquo;Anche 30 minuti per esplorare rendono il viaggio più umano.&rdquo;</em></p>
+        <ul>
+            <li>
+            <p><strong>Aggiungi una notte extra</strong> quando possibile per esplorare la città, provare la cucina locale o visitare un punto di riferimento.</p>
+            </li>
+            <li>
+            <p><strong>Porta un libro o un podcast</strong> per momenti di pausa e pause mentali.</p>
+            </li>
+            <li>
+            <p><strong>Pratica la cura di te stesso</strong>: allungati nella tua camera d'albergo, fai una passeggiata o medita per ricaricarti.</p>
+            </li>
+        </ul>
+        <h3>Chiamata finale per l'imbarco</h3>
+        <p>Il viaggio d'affari non deve essere una fatica. Con una pianificazione intelligente, gli strumenti giusti e alcune abitudini consolidate, puoi trasformare ogni viaggio in un'esperienza senza soluzione di continuità, produttiva&mdash;e persino piacevole. Come dicono i frequent flyer: Viaggia in modo intelligente, non solo spesso.</p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68937-HomePageHero-2000x800?v=1ca22869" dam-id="7aQ5_5K4T4mzkARSq2KkVQ" width="2000" height="800" alt="christina-spoerer-IDihFjpf3-g-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68937/thumbnail" />
+    - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
+      Hint: Author
+      Value: "{00743C32-7766-48FF-8F35-8F34D8FAC732}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Il viaggio d'affari può essere emozionante, produttivo e, a volte, estenuante. Tra cambi di fuso orario, itinerari fitti e vivere con una valigia, anche i professionisti esperti possono sentirsi affaticati. Ecco perché abbiamo raccolto consigli interni dai frequent flyer&mdash;guerrieri della strada che sanno come lavorare in modo più intelligente, viaggiare più leggero e mantenere la sanità mentale in movimento. Che tu sia un viaggiatore d'affari alle prime armi o un veterano del viaggio aziendale, questa guida ti aiuterà a sfruttare al meglio il tuo tempo in volo e a terra.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025619Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68937-HomePageHero-2000x800?v=1ca22869" dam-id="7aQ5_5K4T4mzkARSq2KkVQ" width="2000" height="800" alt="christina-spoerer-IDihFjpf3-g-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68937/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250722T000000Z
 - Language: "ja-JP"
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: アクセス、空港、常に、アプリ、避ける、前、間、搭乗、予約、ビジネス、機内持ち込み、チェック、選ぶ、企業、クレジット、フライト、飛行機、頻繁、健康、ホテル、ホテル、保つ、ラップトップ、ロイヤルティ、荷造り、ポイント、生産的、プログラム、スケジュール、経験豊富、セキュリティ、賢い、滞在、技術、時間、ツール、旅行、旅行中、旅行、使用、着用
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250730T180947Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: ビジネス旅行は刺激的で生産的であると同時に、時には疲れることもあります。時差の変化、詰まった日程、スーツケースでの生活の間で、経験豊富なプロでも疲れを感じることがあります。だからこそ、頻繁に飛行する人々からの内部情報を集めました。彼らは賢く働き、軽く旅行し、移動中に冷静さを保つ方法を知っています。初めてのビジネス旅行者でも、企業の旅行ベテランでも、このガイドは空中と地上での時間を最大限に活用するのに役立ちます。
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 6分で読めます
@@ -195,7 +383,7 @@ Languages:
       Value: ビジネス旅行の究極ガイド
     - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
       Hint: Excerpt
-      Value: <div><span>快適さと生産性を最大化するためのビジネス旅行の技術をマスターしましょう。</span></div>
+      Value: <div><span>快適さと生産性を最大限に高めるためのビジネス旅行の秘訣をマスターしましょう。</span></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -204,122 +392,129 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: ビジネス旅行の究極ガイド：頻繁に飛行する人々からのヒント
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6238f7c8-8a89-401b-a22f-e1a00113c54c"
+      Value: "fbc5bacc-f32a-47a1-b80c-77fee0eedd1a"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
-      Value: "ビジネス旅行の究極ガイド: 頻繁に飛行機を利用する人々からのヒント"
+      Value: ビジネス旅行の究極ガイド：頻繁に飛行する人々からのヒント
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: |
-        <p>ビジネス旅行は刺激的で生産的であると同時に、時には疲れることもあります。時差の変化、詰まった日程、スーツケースでの生活など、経験豊富なプロでも疲れを感じることがあります。だからこそ、頻繁に飛行機を利用する人々からのインサイダーヒントを集めました。彼らは賢く働き、軽く旅行し、移動中に冷静さを保つ方法を知っています。初めてのビジネス旅行者でも、企業の旅行ベテランでも、このガイドは空中と地上での時間を最大限に活用する手助けをします。</p>
+        <p>ビジネス旅行は刺激的で生産的であると同時に、時には疲れることもあります。時差の変化、詰まった日程、スーツケースでの生活の間で、経験豊富なプロでも疲れを感じることがあります。だからこそ、頻繁に飛行する人々からの内部情報を集めました。彼らは賢く働き、軽く旅行し、移動中に冷静さを保つ方法を知っています。初めてのビジネス旅行者でも、企業の旅行ベテランでも、このガイドは空中と地上での時間を最大限に活用するのに役立ちます。</p>
         <h3>1. <strong>プロのように荷造りする</strong></h3>
-        <p><strong>頻繁に飛行機を利用する人からのヒント:</strong> <em>「絶対に必要でない限り、荷物を預けません。時間はお金です。」</em></p>
+        <p><strong>頻繁に飛行する人からのヒント:</strong> <em>「絶対に必要でない限り、荷物を預けません。時間はお金です。」</em></p>
         <ul>
             <li>
-            <p><strong>機内持ち込みにこだわる</strong>: スムーズな車輪と良いコンパートメントを備えた品質の高い航空会社対応の機内持ち込み用バッグに投資しましょう。</p>
+            <p><strong>機内持ち込みにこだわる</strong>: スムーズな車輪と良いコンパートメントを備えた品質の良い航空会社対応の機内持ち込み用バッグに投資しましょう。</p>
             </li>
             <li>
             <p><strong>パッキングキューブを使用する</strong>: これらは衣類、技術、トイレタリーを整理し、スペースを最大化するのに役立ちます。</p>
             </li>
             <li>
-            <p><strong>服装を計画する</strong>: 多用途でしわになりにくいアイテムを選び、組み合わせて着ることができるようにしましょう。ニュートラルカラーが最適です。</p>
+            <p><strong>服装を計画する</strong>: 多用途でしわになりにくいアイテムを選び、組み合わせて着ることができます。中立色が最良の友です。</p>
             </li>
         </ul>
         <h3>2. <strong>技術を準備する</strong></h3>
         <p><strong>ヒント:</strong> <em>「死んだラップトップは遅れたフライトよりも悪いです。」</em></p>
         <ul>
             <li>
-            <p><strong>前夜にすべてを充電する</strong>とともに、パワーバンク、マルチポートUSB充電器、プラグアダプター（海外旅行の場合）を持参しましょう。</p>
+            <p><strong>前夜にすべてを充電する</strong>と、パワーバンク、マルチポートUSB充電器、プラグアダプター（海外旅行の場合）を持参しましょう。</p>
             </li>
             <li>
-            <p><strong>重要な文書、アプリ、エンターテイメントをダウンロードする</strong>ことで、オフラインでアクセスできるようにしましょう。</p>
+            <p><strong>重要な文書、アプリ、エンターテイメントをダウンロードする</strong>ことで、オフラインでアクセスできます。</p>
             </li>
             <li>
-            <p><strong>クラウドストレージを使用する</strong>（例: Google Drive、OneDrive）ことで、最後のメールファイルの検索を避けましょう。</p>
+            <p><strong>クラウドストレージを使用する</strong>（例：Google Drive、OneDrive）ことで、最後のメールファイルの検索を避けることができます。</p>
             </li>
         </ul>
         <h3>3. <strong>ロイヤルティプログラムに参加し、適切なクレジットカードを使用する</strong></h3>
-        <p><strong>ヒント:</strong> <em>「マイルとポイントで個人旅行の半分を賄っています。」</em></p>
+        <p><strong>ヒント:</strong> <em>「マイルとポイントは私の個人旅行の半分を支払います。」</em></p>
         <ul>
             <li>
-            <p><strong>航空会社とホテルのロイヤルティプログラムに登録する</strong>ことで、旅行ごとにポイントを獲得しましょう。</p>
+            <p><strong>航空会社とホテルのロイヤルティプログラムに登録する</strong>ことで、旅行ごとにポイントを獲得できます。</p>
             </li>
             <li>
-            <p><strong>ビジネストラベルクレジットカードを使用する</strong>ことで、フライト、ホテル、食事に対してラウンジアクセス、保険、アップグレードなどの特典を得ることができます。</p>
+            <p><strong>ビジネストラベルクレジットカードを使用する</strong>ことで、フライト、ホテル、食事に特典（ラウンジアクセス、保険、アップグレードなど）を得ることができます。</p>
             </li>
             <li>
             <p><strong>TSA PreCheckまたはGlobal Entryを検討する</strong>ことで、空港のセキュリティと税関をスムーズに通過できます。</p>
             </li>
         </ul>
-        <h3>4. <strong>賢く予約する、ただ安いだけではない</strong></h3>
+        <h3>4. <strong>安いだけでなく賢く予約する</strong></h3>
         <p><strong>ヒント:</strong> <em>「直行便は追加費用の価値があります。常に。」</em></p>
         <ul>
             <li>
-            <p><strong>スケジュールに合ったフライトを選ぶ</strong>ことで、予算だけでなく、余分な乗り継ぎが生産性の損失を意味することが多いです。</p>
+            <p><strong>予算だけでなくスケジュールに合ったフライトを選ぶ</strong>ことで、余分な乗り継ぎはしばしば生産性の損失を意味します。</p>
             </li>
             <li>
-            <p><strong>会議場所に近いホテルを予約する</strong>ことで、不要な通勤のストレスを避けましょう。</p>
+            <p><strong>会議場所に近いホテルを予約する</strong>ことで、不要な通勤のストレスを避けることができます。</p>
             </li>
             <li>
-            <p><strong>交渉された料金、ロイヤルティの特典、簡単な旅程管理を提供する企業の予約ツールやアプリを使用する</strong>ことで、賢く予約しましょう。</p>
+            <p><strong>交渉された料金、ロイヤルティの特典、簡単な旅程管理を提供する企業の予約ツールやアプリを使用する</strong>ことで、賢く予約できます。</p>
             </li>
         </ul>
         <h3>5. <strong>空港効率をマスターする</strong></h3>
         <p><strong>ヒント:</strong> <em>「私のラップトップと液体は常に簡単にアクセスできるポケットにあります。」</em></p>
         <ul>
             <li>
-            <p><strong>オンラインでチェックインする</strong>ことで、座席を選び、搭乗券を電話のウォレットアプリに保存しましょう。</p>
+            <p><strong>オンラインでチェックインする</strong>ことで、座席を選び、搭乗券を電話のウォレットアプリに保存します。</p>
             </li>
             <li>
-            <p><strong>セキュリティに優しいバッグを使用する</strong>ことで、ラップトップを取り出す必要がありません。</p>
+            <p><strong>ラップトップを取り出す必要のないセキュリティに優しいバッグを使用する</strong>ことで、セキュリティチェックをスピードアップできます。</p>
             </li>
             <li>
-            <p><strong>スリップオンの靴を履く</strong>ことで、セキュリティチェックを迅速に行えます。</p>
+            <p><strong>スリップオンの靴を履き、アクセサリーを最小限に抑える</strong>ことで、セキュリティチェックを迅速に行えます。</p>
             </li>
         </ul>
-        <h3>6. <strong>健康を維持し、エネルギーを保つ</strong></h3>
-        <p><strong>ヒント:</strong> <em>「時差ボケは現実ですが、水分補給と日光が助けになります。」</em></p>
+        <h3>6. <strong>健康でエネルギッシュに保つ</strong></h3>
+        <p><strong>ヒント:</strong> <em>「時差ぼけは現実ですが、水分補給と日光が助けになります。」</em></p>
         <ul>
             <li>
-            <p><strong>フライトの前、最中、後に水を飲む</strong>ことで、カフェインやアルコールを過剰に摂取しないようにしましょう。</p>
+            <p><strong>フライトの前、最中、後に水を飲む</strong>ことで、カフェインやアルコールを過剰に摂取しないようにします。</p>
             </li>
             <li>
-            <p><strong>プロテインバー、ナッツ、ドライフルーツなどの健康的なスナックを持参する</strong>ことで、空港の食事に頼らないようにしましょう。</p>
+            <p><strong>プロテインバー、ナッツ、ドライフルーツなどの健康的なスナックを持参する</strong>ことで、空港の食事に頼らないようにします。</p>
             </li>
             <li>
-            <p><strong>事前に睡眠スケジュールを調整し、到着後は自然光の中で過ごす</strong>ことで、時差ボケを軽減しましょう。</p>
+            <p><strong>事前に睡眠スケジュールを調整し、到着後は自然光の中で過ごす</strong>ことで、時差ぼけを軽減します。</p>
             </li>
         </ul>
-        <h3>7. <strong>接続を維持する&mdash;しかし、境界を設定する</strong></h3>
+        <h3>7. <strong>接続を維持する&mdash;しかし境界を設定する</strong></h3>
         <p><strong>ヒント:</strong> <em>「旅行中の応答時間についてチームに期待を設定します。」</em></p>
         <ul>
             <li>
             <p><strong>Slack、Zoom、Teamsなどのツールを使用してループに留まる</strong>ことで、ステータスメッセージや静かな時間を設定することを恐れないでください。</p>
             </li>
             <li>
-            <p><strong>会議とフライトの間にバッファ時間をスケジュールする</strong>ことで、メールを確認したり、ただ息をつく時間を確保しましょう。</p>
+            <p><strong>会議とフライトの間にバッファ時間をスケジュールする</strong>ことで、メールを追いつくか、ただ息をつくことができます。</p>
             </li>
         </ul>
         <h3>8. <strong>自分のための時間を作る</strong></h3>
         <p><strong>ヒント:</strong> <em>「30分でも探索することで、旅行がより人間的に感じられます。」</em></p>
         <ul>
             <li>
-            <p><strong>可能であれば、余分な夜を追加して都市を探索し、地元の料理を試したり、ランドマークを訪れたりする</strong>ことで、自分のための時間を作りましょう。</p>
+            <p><strong>可能であれば、余分な夜を追加して都市を探索し、地元の料理を試したり、ランドマークを訪れたりする</strong>ことで、旅行を楽しむことができます。</p>
             </li>
             <li>
-            <p><strong>ダウンタイムや精神的な休憩のために本やポッドキャストを持参する</strong>ことで、自分のための時間を作りましょう。</p>
+            <p><strong>ダウンタイムや精神的な休憩のために本やポッドキャストを持参する</strong>ことで、リラックスできます。</p>
             </li>
             <li>
-            <p><strong>セルフケアを実践する</strong>: ホテルの部屋でストレッチをしたり、散歩をしたり、瞑想してリチャージしましょう。</p>
+            <p><strong>セルフケアを実践する</strong>: ホテルの部屋でストレッチをしたり、散歩をしたり、瞑想してリチャージします。</p>
             </li>
         </ul>
         <h3>最終搭乗呼び出し</h3>
-        <p>ビジネス旅行は苦痛である必要はありません。賢い計画、適切なツール、そしていくつかの経験豊富な習慣を持つことで、すべての旅行をシームレスで生産的&mdash;そして楽しい&mdash;経験に変えることができます。頻繁に飛行機を利用する人々が言うように: 賢く旅行し、ただ頻繁に旅行するだけではありません。</p>
+        <p>ビジネス旅行は必ずしも苦痛である必要はありません。賢い計画、適切なツール、そしていくつかの経験豊富な習慣を持っていれば、すべての旅行をシームレスで生産的&mdash;そして楽しい&mdash;経験に変えることができます。頻繁に飛行する人々が言うように: 賢く旅行し、頻繁に旅行するだけではありません。</p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68937-HomePageHero-2000x800?v=1ca22869" dam-id="7aQ5_5K4T4mzkARSq2KkVQ" width="2000" height="800" alt="christina-spoerer-IDihFjpf3-g-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68937/thumbnail" />
     - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
       Hint: Author
       Value: "{00743C32-7766-48FF-8F35-8F34D8FAC732}"
@@ -327,9 +522,16 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\yijin.wong@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: ビジネス旅行は刺激的で生産的であると同時に、時には疲れることもあります。時差の変化、詰まった日程、スーツケースでの生活の間で、経験豊富なプロでも疲れを感じることがあります。だからこそ、頻繁に飛行する人々からの内部情報を集めました。彼らは賢く働き、軽く旅行し、移動中に冷静さを保つ方法を知っています。初めてのビジネス旅行者でも、企業の旅行ベテランでも、このガイドは空中と地上での時間を最大限に活用するのに役立ちます。
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T072757Z
+      Value: 20251031T024243Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68937-HomePageHero-2000x800?v=1ca22869" dam-id="7aQ5_5K4T4mzkARSq2KkVQ" width="2000" height="800" alt="christina-spoerer-IDihFjpf3-g-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68937/thumbnail" />
     - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
       Hint: PublishDate
       Value: 20250722T000000Z
