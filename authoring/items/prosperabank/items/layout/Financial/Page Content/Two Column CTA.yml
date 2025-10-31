@@ -14,7 +14,7 @@ SharedFields:
     {710850E7-D2EE-4740-9F33-3F233ACDE526}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: DemoIcons/32x32/2_columns.png
+  Value: Office/32x32/keyboard_key_2.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Financial/Components/Two Column CTA
@@ -35,7 +35,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a2682e74-369e-410f-a7b9-acc89a984457"
+  Value: "3a74522f-2289-4e71-956d-0e77883feff4"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
@@ -68,14 +68,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd9929f1-a370-4d71-b49a-9b4628a7be33"
+      Value: "8b1dc235-8bd9-4d34-b4f0-d1f9fcce8dc3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T170613Z
+      Value: 20251031T194259Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

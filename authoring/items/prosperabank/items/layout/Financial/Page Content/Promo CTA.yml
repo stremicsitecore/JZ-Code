@@ -12,7 +12,7 @@ SharedFields:
   Value: "{126CD051-0C03-42C2-8E8E-601448C85984}"
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: DemoIcons/32x32/promo_cta.png
+  Value: Office/32x32/megaphone.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Financial/Components/Promo CTA
@@ -33,7 +33,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fe86f914-9c6f-4eb3-88fd-d0d56e4fd123"
+  Value: "fd9e5cde-4e87-42cf-970c-d01e87e7da12"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
@@ -66,14 +66,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6d91aae2-0d28-44ee-a454-5ddccc7c0ab3"
+      Value: "db1e9f9e-7b7e-44c9-883a-d1b85cb1e93b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T170613Z
+      Value: 20251031T194044Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
