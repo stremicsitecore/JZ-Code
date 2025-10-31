@@ -116,19 +116,7 @@ export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
                           </Button>
                         </NavigationMenuItem>
                       ))}
-                    <button
-                      onClick={() => setIsSearchOpen(!isSearchOpen)}
-                      className="p-2 text-gray-700 transition-colors hover:text-blue-600"
-                    >
-                      <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        />
-                      </svg>
-                    </button>
+
                   </NavigationMenuList>
                 </AnimatedHoverNav>
               </div>
@@ -137,6 +125,19 @@ export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
           {/* Desktop CTA */}
           {headerContact?.jsonValue?.value && (
             <div className="@lg:flex @lg:items-center @lg:justify-end @lg:flex-1 hidden">
+              <button
+                onClick={() => setIsSearchOpen(!isSearchOpen)}
+                className="p-2 text-gray-700 transition-colors hover:text-blue-600"
+              >
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
               <Button asChild className="font-heading text-base font-medium">
                 <ContentSdkLink field={headerContact.jsonValue} prefetch={false} />
               </Button>
