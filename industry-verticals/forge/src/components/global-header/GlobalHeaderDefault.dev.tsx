@@ -19,6 +19,8 @@ import type { GlobalHeaderProps } from './global-header.props';
 import { Button } from '@/components/ui/button';
 import { useMatchMedia } from '@/hooks/use-match-media';
 import { AnimatedHoverNav } from '@/components/ui/animated-hover-nav';
+import PreviewSearch from 'components/search/PreviewSearch';
+import { PREVIEW_WIDGET_ID } from '@/_data/customizations';
 
 export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
   const { fields, isPageEditing } = props ?? {};
@@ -29,6 +31,8 @@ export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
   const [prevScrollY, setPrevScrollY] = useState(0);
   const isReducedMotion = useMatchMedia('(prefers-reduced-motion: reduce)');
   const navRef = useRef<HTMLDivElement>(null);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
   // Reset sheet animation state when sheet closes
   useEffect(() => {
     if (!isOpen) {
@@ -112,6 +116,19 @@ export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
                           </Button>
                         </NavigationMenuItem>
                       ))}
+                    <button
+                      onClick={() => setIsSearchOpen(!isSearchOpen)}
+                      className="p-2 text-gray-700 transition-colors hover:text-blue-600"
+                    >
+                      <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                        />
+                      </svg>
+                    </button>
                   </NavigationMenuList>
                 </AnimatedHoverNav>
               </div>
@@ -210,6 +227,33 @@ export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
             </Sheet>
           </div>
         </div>
+        {isSearchOpen && (
+          <div className="absolute top-full right-0 left-0 z-50 border-b border-gray-200 bg-white shadow-lg">
+            <div className="mx-auto max-w-7xl px-4 py-4">
+              <div className="flex items-center gap-2">
+                <PreviewSearch
+                  rfkId={PREVIEW_WIDGET_ID}
+                  isOpen={isSearchOpen}
+                  setIsSearchOpen={setIsSearchOpen}
+                />
+
+                <button
+                  onClick={() => setIsSearchOpen(false)}
+                  className="p-3 text-gray-500 transition-colors hover:text-gray-700"
+                >
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </motion.header>
     </AnimatePresence>
   );

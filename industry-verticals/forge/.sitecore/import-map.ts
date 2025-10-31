@@ -170,7 +170,7 @@ import { HeroImageBackground } from 'src/components/hero/HeroImageBackground.dev
 import { HeroImageRight } from 'src/components/hero/HeroImageRight.dev';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '@/components/ui/navigation-menu';
 import { AnimatedHoverNav } from '@/components/ui/animated-hover-nav';
-import { GlobalHeaderDefault } from 'src/components/global-header/GlobalHeaderDefault.dev';
+import { GlobalHeaderDefault } from 'components/global-header/GlobalHeaderDefault';
 import { GlobalHeaderCentered } from 'src/components/global-header/GlobalHeaderCentered.dev';
 import { Default as Default_876dd23b33b58359908cbe0cb8d6f70d1693f977 } from '@/components/forms/email/EmailSignupForm.dev';
 import { Default as Default_8e677a138ec2733e1f982ec48acd9de5ac03c898 } from 'src/components/global-footer/FooterNavigationColumn.dev';
