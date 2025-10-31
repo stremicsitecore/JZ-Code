@@ -16,6 +16,12 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/Financial",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "content",
         "path": "/sitecore/content/financial",
         "scope": "ItemAndDescendants",
