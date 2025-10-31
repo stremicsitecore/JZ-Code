@@ -38,6 +38,11 @@ const nextConfig = {
         hostname: 'xmc-*.**',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'starter-*.**',
+        port: '',
+      },
     ],
   },
 

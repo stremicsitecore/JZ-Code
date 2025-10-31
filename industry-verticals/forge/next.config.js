@@ -27,7 +27,6 @@ const nextConfig = {
   // can be served from the Next.js Image Optimization API
   // see https://nextjs.org/docs/app/api-reference/components/image#remotepatterns
   images: {
-    dangerouslyAllowSVG: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -37,6 +36,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'xmc-*.**',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'starter-*.**',
         port: '',
       },
     ],

@@ -39,9 +39,10 @@ const nextConfig = {
         port: '',
       },
       {
-        protocol: "https",
-        hostname: "**",
-      }
+        protocol: 'https',
+        hostname: 'starter-*.**',
+        port: '',
+      },
     ],
     dangerouslyAllowSVG: true,
   },
