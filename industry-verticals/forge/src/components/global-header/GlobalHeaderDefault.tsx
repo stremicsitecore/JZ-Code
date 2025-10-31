@@ -127,7 +127,7 @@ export const GlobalHeaderDefault: React.FC<GlobalHeaderProps> = (props) => {
             <div className="@lg:flex @lg:items-center @lg:justify-end @lg:flex-1 hidden">
               <button
                 onClick={() => setIsSearchOpen(!isSearchOpen)}
-                className="p-2 text-gray-700 transition-colors hover:text-blue-600"
+                className="p-2 text-white mr-8"
               >
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
