@@ -7,12 +7,10 @@ BranchID: "4e841618-96a7-4761-a5eb-b613cbd6c887"
 SharedFields:
 - ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
   Hint: Renderings
-  Value: |
-    {1DEB067F-0BB1-405E-94F5-2ABB537A6160}
-    {4956263D-1195-4D6E-931B-800EA625FF6F}
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "36ac5ee7-e86c-4bdd-b42a-dd45c10142ab"
+  Value: "308f7f1d-2180-48fc-9cd9-7a340603c8a0"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{3A748197-A45F-4B5C-BC1A-E350F433F9E3}"
@@ -34,14 +32,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3c06a4e6-8082-40d8-b61c-5c6766fe7cb6"
+      Value: "670c33b5-e4d7-447a-b374-001e866c3411"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T140914Z
+      Value: 20251031T204714Z
 - Language: "it-CH"
   Versions:
   - Version: 1

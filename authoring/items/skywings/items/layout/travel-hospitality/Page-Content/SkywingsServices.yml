@@ -7,6 +7,9 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: SkywingsServices
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/central_bank.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: "/sitecore/templates/Project/travel-hospitality/Datasource Templates/SkywingsServices"
@@ -15,7 +18,7 @@ SharedFields:
   Value: "/sitecore/content/travel-hospitality/skywings/Data/Services"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "eaa153c3-20dc-4bd8-b403-5df7f78d3866"
+  Value: "a889698a-3074-4bf2-8cdc-ce5aadf3dd1a"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +41,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b967e09d-d091-47f7-95bb-5321bb597a02"
+      Value: "5cd59397-9639-461b-8848-d39bf308fcb2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T170210Z
+      Value: 20251031T205852Z

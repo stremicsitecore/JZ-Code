@@ -61,4 +61,9 @@ export const HomeHighlightedComponent = (): JSX.Element => {
   );
 };
 
-export default widget(HomeHighlightedComponent, WidgetDataType.SEARCH_RESULTS, 'content');
+const HighlightedWidget = widget(
+  HomeHighlightedComponent,
+  WidgetDataType.SEARCH_RESULTS,
+  'content'
+);
+export default HighlightedWidget;

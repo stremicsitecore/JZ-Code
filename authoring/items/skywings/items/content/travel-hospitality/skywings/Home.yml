@@ -87,17 +87,17 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "deb328a3-8c3c-4e88-8a77-672194bb16a2"
+      Value: "a3118ff5-9885-4b7e-b6e3-130a69bcce24"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
-      Value: skywings
+      Value: Skywings
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\zach.escabedo@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T144318Z
+      Value: 20251031T212959Z
 - Language: "it-CH"
   Versions:
   - Version: 1

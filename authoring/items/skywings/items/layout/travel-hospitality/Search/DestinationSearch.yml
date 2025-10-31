@@ -7,6 +7,9 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: DestinationSearch
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/binocular.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: "/sitecore/templates/Project/travel-hospitality/Datasource Templates/SearchBanner"
@@ -15,7 +18,7 @@ SharedFields:
   Value: "/sitecore/content/travel-hospitality/skywings/Data/Search"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "62f1d95d-1213-4476-9195-9d38bcc07d97"
+  Value: "694a4e60-9e89-4610-a791-1181cae73b94"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +41,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d279014-a256-4db5-b6ed-9dd163feae4e"
+      Value: "a3f6a1ba-67dd-4163-b497-fe9786f7a0bd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250731T134321Z
+      Value: 20251031T205305Z

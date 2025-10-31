@@ -7,6 +7,9 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: OfferBlock
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/money_bills.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: "/sitecore/templates/Project/travel-hospitality/Datasource Templates/SpecialOffers"
@@ -15,7 +18,7 @@ SharedFields:
   Value: "/sitecore/content/travel-hospitality/skywings/Data/OfferBlocks"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9fe533e6-9e4d-4b98-b0d2-1a82f9ceb2b3"
+  Value: "cc839411-13da-4044-af44-9a80b1920933"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +41,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1fc393db-0523-4830-a7f2-8440671aa3d9"
+      Value: "6fe5af3f-1e34-4739-b7ec-0a7769704e7e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T174151Z
+      Value: 20251031T205802Z

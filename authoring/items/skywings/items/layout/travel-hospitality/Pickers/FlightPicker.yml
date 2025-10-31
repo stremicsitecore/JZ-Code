@@ -7,6 +7,9 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: FlightPicker
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/airplane.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: "/sitecore/templates/Project/travel-hospitality/Datasource Templates/FlightPicker"
@@ -15,7 +18,7 @@ SharedFields:
   Value: "/sitecore/content/travel-hospitality/skywings/Data/Pickers"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "94d06ce0-3970-40e0-8c96-ee4662d42f96"
+  Value: "038c0c64-b105-4e8b-9226-6327dd914363"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +41,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c42a1288-e1d9-4639-b7d1-f2aaa5a2fa24"
+      Value: "f7a0435a-1940-4c4c-acc0-ae136008cf9c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T154154Z
+      Value: 20251031T205323Z
