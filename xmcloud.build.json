@@ -35,10 +35,19 @@
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
+    },
+    "prosperabank": {
+      "path": "./industry-verticals/prosperabank",
+      "nodeVersion": "22.11.0",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
     }
   },
   "deployItems": {
-    "modules": ["Project.retail", "skywings", "forge", "gridwell"]
+    "modules": ["Project.retail", "skywings", "forge", "gridwell", "prosperabank"]
   },
   "postActions": {
     "actions": {
