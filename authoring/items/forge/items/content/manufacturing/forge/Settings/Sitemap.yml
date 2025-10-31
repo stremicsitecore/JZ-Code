@@ -5,12 +5,15 @@ Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Path: /sitecore/content/manufacturing/forge/Settings/Sitemap
 BranchID: "adb13058-5c08-4827-8f30-a269342a2e9e"
 SharedFields:
+- ID: "674a7926-436f-4882-add1-0f92ea860c19"
+  Hint: Include xdefault
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "093b560d-4fac-4195-b887-7ea071473d5b"
+  Value: "89449e6c-3730-4043-9ecb-f8b3d8f0f617"
 - ID: "eb78b584-b22e-47cd-88da-e80d6dbb9238"
   Hint: Generate Alternate Links
-  Value: 0
+  Value: 
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{39E85A50-1AC7-4A65-A7F5-C726259BEC26}"
@@ -32,11 +35,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34e74d0e-1547-4cbc-9711-957f86517b8a"
+      Value: "a4cdfda3-3758-4074-987f-067152c90d9c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T014323Z
+      Value: 20251031T015222Z

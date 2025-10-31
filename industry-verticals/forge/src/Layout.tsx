@@ -81,7 +81,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
 
-  const fullUrl = `https://gridwell.dev${relativeUrl}`;
+  const fullUrl = `https://forgemanufacturing.dev${relativeUrl}`;
 
   console.log(`full url: ${fullUrl}`);
   return (

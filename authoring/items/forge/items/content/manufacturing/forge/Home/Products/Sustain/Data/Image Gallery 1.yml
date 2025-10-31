@@ -23,7 +23,7 @@ Languages:
       Value: 20251028T152938Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{12FFAC4C-565F-4C9A-B63E-7F77E96B4D1F}"
+      Value: "{4460E76C-87E9-4859-9DE6-DE122774937F}"
     - ID: "45324e3c-4e19-41d7-9497-bdcde2228eb1"
       Hint: image2
       Value: |
@@ -45,7 +45,7 @@ Languages:
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7b94d3c0e51a453f9a558d8ba62fe1e0?v=ade82d26" dam-id="oInLruxtSZCRvnYlb4VEmw" width="1100" height="924" alt="GettyImages-523684614.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41608/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "15c9c134-1eb9-4b1a-ac05-6141ea3a8ec7"
+      Value: "ab523ee0-6539-4eae-a7be-e5d540ae76a8"
     - ID: "a5a74a19-c942-421c-9ff5-c3116fcffa0d"
       Hint: image1
       Value: |
@@ -60,7 +60,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T162741Z
+      Value: 20251031T012600Z

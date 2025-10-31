@@ -26,7 +26,7 @@ Languages:
       Value: Partner with the world’s most advanced industrial engineering team.
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{12FFAC4C-565F-4C9A-B63E-7F77E96B4D1F}"
+      Value: "{4460E76C-87E9-4859-9DE6-DE122774937F}"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -37,7 +37,7 @@ Languages:
         sitecore\angela.gustafson@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba436ce8-e384-4436-bed2-53a3b49a776f"
+      Value: "a256fce0-9827-4652-a805-d90235e9ab16"
     - ID: "9ad66b62-4ebd-42da-8e1a-09dca7db5aea"
       Hint: bannerText
       Value: "Introducing the Forge Precision Platform. Combining automation, robotics, and aerospace-grade engineering to accelerate your production future."
@@ -48,14 +48,14 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "c65eb2cc-503f-48cd-ba69-42c29df106c1"
       Hint: image
       Value: |
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68309-HomePageHero-2000x800?v=b3ff0bdf" dam-id="HU0M_xR-TT2f8uuk0IfEXw" width="2000" height="800" alt="hero-forge-min.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68309/thumbnail" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T174923Z
+      Value: 20251031T012329Z
     - ID: "e5e059ce-66e3-4039-887b-0086e7764f09"
       Hint: title
       Value: Built to Power What's Next.

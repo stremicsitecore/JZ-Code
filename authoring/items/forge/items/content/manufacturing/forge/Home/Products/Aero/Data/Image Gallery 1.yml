@@ -23,7 +23,7 @@ Languages:
       Value: 20251028T152938Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{12FFAC4C-565F-4C9A-B63E-7F77E96B4D1F}"
+      Value: "{4460E76C-87E9-4859-9DE6-DE122774937F}"
     - ID: "45324e3c-4e19-41d7-9497-bdcde2228eb1"
       Hint: image2
       Value: |
@@ -45,7 +45,7 @@ Languages:
         <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/51087-HomePageHero-2000x800?v=bd0e98f8" dam-id="NkfsEHlVQ4C3Y5FpX-qjUA" width="2000" height="800" alt="SYM Bank October (28).jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/51087/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb66b267-8767-4205-a6fe-5be57139344a"
+      Value: "3df8a2a2-5c8a-49fe-b278-017c67d4bea4"
     - ID: "a5a74a19-c942-421c-9ff5-c3116fcffa0d"
       Hint: image1
       Value: |
@@ -60,7 +60,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T162320Z
+      Value: 20251031T012442Z
