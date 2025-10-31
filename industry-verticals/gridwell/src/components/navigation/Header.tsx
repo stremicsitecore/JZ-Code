@@ -4,6 +4,7 @@ import { Zap } from "lucide-react"
 import { ComponentProps } from 'lib/component-props';
 import { withDatasourceCheck } from "@sitecore-content-sdk/nextjs"
 import PreviewSearch from "../search/PreviewSearch"
+import { PREVIEW_WIDGET_ID } from "@/_data/customizations";
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -73,7 +74,7 @@ export const Header = (props: HeaderProps): JSX.Element => {
         <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-200 shadow-lg z-50">
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex items-center gap-2">
-              <PreviewSearch rfkId="rfkid_6" isOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
+              <PreviewSearch rfkId={PREVIEW_WIDGET_ID} isOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
 
               <button
                 onClick={() => setIsSearchOpen(false)}

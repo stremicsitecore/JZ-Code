@@ -145,6 +145,7 @@ export const PreviewSearchComponent = ({
                                 alt="alt"
                                 width={200}
                                 height={100}
+                                unoptimized
                               />
                             </div>
                             <ArticleCard.Title className="m-0 mb-2 max-h-[2rem] overflow-hidden text-xs">
