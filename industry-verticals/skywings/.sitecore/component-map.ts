@@ -1,9 +1,9 @@
 // Below are built-in components that are available in the app, it's recommended to keep them as is
+
 import { BYOCWrapper, NextjsContentSdkComponent, FEaaSWrapper } from '@sitecore-content-sdk/nextjs';
 import { Form } from '@sitecore-content-sdk/nextjs';
-// end of built-in components
 
-// Components imported from the app itself
+// end of built-in components
 import * as tabs from 'src/components/ui/tabs';
 import * as separator from 'src/components/ui/separator';
 import * as select from 'src/components/ui/select';
@@ -25,7 +25,6 @@ import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
-import * as HandleSearch from '@/hooks/useSearchTracking';
 import * as Filter from 'src/components/search/Filter';
 import * as DestinationSearch from 'src/components/search/DestinationSearch';
 import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
@@ -49,56 +48,53 @@ import * as PopularDestinations from 'src/components/destinations/PopularDestina
 import * as FeaturedDestinations from 'src/components/destinations/FeaturedDestinations';
 import * as DestinationDetail from 'src/components/destinations/DestinationDetail';
 
-
-// Components must be registered within the map to match the string key with component name in Sitecore
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
-  ['tabs', tabs],
-  ['separator', separator],
-  ['select', select],
-  ['popover', popover],
-  ['input', input],
-  ['card', card],
-  ['calendar', calendar],
-  ['button', button],
-  ['badge', badge],
-  ['SuggestionBlock', SuggestionBlock],
-  ['Spinner', Spinner],
-  ['SortOrder', SortOrder],
-  ['SearchResultsComponent', SearchResultsComponent],
-  ['SearchResults', SearchResults],
-  ['SearchPagination', SearchPagination],
-  ['SearchFacets', SearchFacets],
-  ['ResultsPerPage', ResultsPerPage],
-  ['QuestionsAnswers', QuestionsAnswers],
-  ['QueryResultsSummary', QueryResultsSummary],
-  ['PreviewSearch', PreviewSearch],
-  ['HomeHighlighted', HomeHighlighted],
-  ['HandleSearch', HandleSearch],
-  ['Filter', Filter],
-  ['DestinationSearch', DestinationSearch],
-  ['CardViewSwitcher', CardViewSwitcher],
-  ['BlogSearch', BlogSearch],
-  ['ArticleHorizontalCard', ArticleHorizontalCard],
-  ['ArticleCard', ArticleCard],
-  ['FlightPicker', FlightPicker],
-  ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
-  ['SkywingsServices', SkywingsServices],
-  ['SkywingsFleet', SkywingsFleet],
-  ['Promo', Promo],
-  ['OfferBlock', OfferBlock],
-  ['BlogDetail', BlogDetail],
-  ['Author', Author],
-  ['Header', Header],
-  ['Footer', Footer],
-  ['LatestBlogGrid', LatestBlogGrid],
-  ['AllBlogs', AllBlogs],
-  ['utils', utils],
-  ['PopularDestinations', PopularDestinations],
-  ['FeaturedDestinations', FeaturedDestinations],
-  ['DestinationDetail', DestinationDetail],
+  ['tabs', { ...tabs }],
+  ['separator', { ...separator }],
+  ['select', { ...select }],
+  ['popover', { ...popover }],
+  ['input', { ...input }],
+  ['card', { ...card }],
+  ['calendar', { ...calendar }],
+  ['button', { ...button }],
+  ['badge', { ...badge }],
+  ['SuggestionBlock', { ...SuggestionBlock }],
+  ['Spinner', { ...Spinner }],
+  ['SortOrder', { ...SortOrder }],
+  ['SearchResultsComponent', { ...SearchResultsComponent }],
+  ['SearchResults', { ...SearchResults }],
+  ['SearchPagination', { ...SearchPagination }],
+  ['SearchFacets', { ...SearchFacets }],
+  ['ResultsPerPage', { ...ResultsPerPage }],
+  ['QuestionsAnswers', { ...QuestionsAnswers }],
+  ['QueryResultsSummary', { ...QueryResultsSummary }],
+  ['PreviewSearch', { ...PreviewSearch }],
+  ['HomeHighlighted', { ...HomeHighlighted }],
+  ['Filter', { ...Filter }],
+  ['DestinationSearch', { ...DestinationSearch }],
+  ['CardViewSwitcher', { ...CardViewSwitcher }],
+  ['BlogSearch', { ...BlogSearch }],
+  ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
+  ['ArticleCard', { ...ArticleCard }],
+  ['FlightPicker', { ...FlightPicker }],
+  ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
+  ['SkywingsServices', { ...SkywingsServices }],
+  ['SkywingsFleet', { ...SkywingsFleet }],
+  ['Promo', { ...Promo }],
+  ['OfferBlock', { ...OfferBlock }],
+  ['BlogDetail', { ...BlogDetail }],
+  ['Author', { ...Author }],
+  ['Header', { ...Header }],
+  ['Footer', { ...Footer }],
+  ['LatestBlogGrid', { ...LatestBlogGrid }],
+  ['AllBlogs', { ...AllBlogs }],
+  ['utils', { ...utils }],
+  ['PopularDestinations', { ...PopularDestinations }],
+  ['FeaturedDestinations', { ...FeaturedDestinations }],
+  ['DestinationDetail', { ...DestinationDetail }],
 ]);
 
 export default componentMap;

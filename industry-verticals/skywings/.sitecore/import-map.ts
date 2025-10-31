@@ -17,7 +17,7 @@ import { Button, buttonVariants } from 'components/ui/button';
 import { Slot } from '@radix-ui/react-slot';
 import { cva } from 'class-variance-authority';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, trackEntityPageViewEvent, trackPreviewSearchClickEvent, trackSearchClickEntityEvent, useSearchResultsSelectedFilters } from '@sitecore-search/react';
+import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon as CheckIcon_1abd24cad8ff392456f872e6f12f5ac5d259c09e, ChevronDownIcon as ChevronDownIcon_1abd24cad8ff392456f872e6f12f5ac5d259c09e } from '@radix-ui/react-icons';
 import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DEFAULT_IMG_URL } from '@/_data/customizations';
@@ -31,7 +31,7 @@ import SearchFacets from 'src/components/search/SearchFacets';
 import ResultsPerPage from 'src/components/search/ResultsPerPage';
 import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
-import { handleSearch } from '@/hooks/useSearchTracking';
+import { useSearchTracking } from 'src/hooks/useSearchTracking';
 import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
 import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
@@ -187,9 +187,6 @@ const importMap = [
       { name: 'useQuestions', value: useQuestions },
       { name: 'usePreviewSearch', value: usePreviewSearch },
       { name: 'FilterEqual', value: FilterEqual },
-      { name: 'trackEntityPageViewEvent', value: trackEntityPageViewEvent },
-      { name: 'trackPreviewSearchClickEvent', value: trackPreviewSearchClickEvent },
-      { name: 'trackSearchClickEntityEvent', value: trackSearchClickEntityEvent },
       { name: 'useSearchResultsSelectedFilters', value: useSearchResultsSelectedFilters },
     ]
   },
@@ -291,9 +288,9 @@ const importMap = [
     ]
   },
   {
-    module: 'src/components/search/HandleSearch',
+    module: 'src/hooks/useSearchTracking',
     exports: [
-      { name: 'handleSearch', value: handleSearch },
+      { name: 'useSearchTracking', value: useSearchTracking },
     ]
   },
   {
