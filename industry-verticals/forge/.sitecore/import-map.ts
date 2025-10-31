@@ -25,7 +25,7 @@ import { Default as Default_e49b8b0315b5c2e1dfc6d29366b41ef250099b77 } from 'src
 import { isMobile } from '@/utils/isMobile';
 import { NoDataFallback } from '@/utils/NoDataFallback';
 import { cn, getYouTubeThumbnail } from '@/lib/utils';
-import { Text, useSitecore, Link, Placeholder, RichText, NextImage, withDatasourceCheck, Image, getFieldValue, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
+import { Text, useSitecore, Link, Placeholder, RichText, NextImage, withDatasourceCheck, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, getFieldValue, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
 import { Default as Default_86213dc9d44683259b98a62fc55d1fe1127767c5 } from '@/components/image/ImageWrapper.dev';
 import { ButtonBase, EditableButton } from '@/components/button-component/ButtonComponent';
 import * as TooltipPrimitive from '@radix-ui/react-tooltip';
@@ -76,6 +76,7 @@ import * as AspectRatioPrimitive from '@radix-ui/react-aspect-ratio';
 import { useMatchMedia } from '@/hooks/use-match-media';
 import { useContainerQuery } from '@/hooks/use-container-query';
 import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog';
+import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { Meteors } from '@/components/magicui/meteors';
 import { TopicItem } from 'src/components/topic-listing/TopicItem.dev';
@@ -98,7 +99,28 @@ import { dictionaryKeys } from '@/variables/dictionary';
 import { SubmissionFormDefault } from 'src/components/submission-form/SubmissionFormDefault.dev';
 import { SubmissionFormCentered } from 'src/components/submission-form/SubmissionFormCentered.dev';
 import Head from 'next/head';
-import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { ChevronDownIcon, GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon } from '@radix-ui/react-icons';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
+import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
+import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DEFAULT_IMG_URL } from '@/_data/customizations';
+import HomeHighlighted from 'src/components/search/HomeHighlighted';
+import Spinner from 'src/components/search/Spinner';
+import ArticleItemCard from 'src/components/search/ArticleCard';
+import SortOrder from 'src/components/search/SortOrder';
+import ArticleHorizontalItemCard from 'src/components/search/ArticleHorizontalCard';
+import SearchPagination from 'src/components/search/SearchPagination';
+import SearchFacets from 'src/components/search/SearchFacets';
+import ResultsPerPage from 'src/components/search/ResultsPerPage';
+import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
+import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
+import { useSearchTracking } from 'src/hooks/useSearchTracking';
+import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
+import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
+import { getImageProps } from 'next/image';
+import Image from 'next/image';
+import SuggestionBlock from 'src/components/search/SuggestionBlock';
+import { Select as Select_74a315bf8f39737a75c686fc0a3118c1056b2a17, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { PromoImageDefault } from 'src/components/promo-image/PromoImageDefault.dev';
 import { PromoImageLeft } from 'src/components/promo-image/PromoImageLeft.dev';
 import { PromoImageRight } from 'src/components/promo-image/PromoImageRight.dev';
@@ -123,13 +145,10 @@ import { PageHeaderFiftyFifty } from 'src/components/page-header/PageHeaderFifty
 import { PageHeaderBlueBackground } from 'src/components/page-header/PageHeaderBlueBackground.dev';
 import { PageHeaderCentered } from 'src/components/page-header/PageHeaderCentered.dev';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Default as Default_5a87dea7e5d774773867b417bc52e56f48fe590a } from 'src/components/multi-promo-tabs/MultiPromoTab.dev';
 import { ButtonBase as ButtonBase_f96768c33c6d085e6eaeb7c734d327903ea8ccc6, EditableButton as EditableButton_f96768c33c6d085e6eaeb7c734d327903ea8ccc6 } from 'src/components/button-component/ButtonComponent';
 import { Default as Default_567cb87e41254de18670d2d9e5ed4fb167d328d0 } from 'src/components/multi-promo/MultiPromoItem.dev';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
-import { getImageProps } from 'next/image';
-import NextImage_5d8ce56058442d94361877e28c501c951a554a6a from 'next/image';
 import { useIntersectionObserver } from '@/hooks/use-intersection-observer';
 import { LogoItem } from 'src/components/logo-tabs/LogoItem';
 import { LocationSearchItem } from 'src/components/location-search/LocationSearchItem.dev';
@@ -170,8 +189,9 @@ import { HeroImageBackground } from 'src/components/hero/HeroImageBackground.dev
 import { HeroImageRight } from 'src/components/hero/HeroImageRight.dev';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '@/components/ui/navigation-menu';
 import { AnimatedHoverNav } from '@/components/ui/animated-hover-nav';
-import { GlobalHeaderDefault } from 'components/global-header/GlobalHeaderDefault';
-import { GlobalHeaderCentered } from 'src/components/global-header/GlobalHeaderCentered.dev';
+import PreviewSearch_2ea3ba0f40d598d351625d9652311fe0e95f0ba5 from 'components/search/PreviewSearch';
+import { GlobalHeaderDefault } from 'src/components/global-header/GlobalHeaderDefault';
+import { GlobalHeaderCentered } from 'src/components/global-header/GlobalHeaderCentered';
 import { Default as Default_876dd23b33b58359908cbe0cb8d6f70d1693f977 } from '@/components/forms/email/EmailSignupForm.dev';
 import { Default as Default_8e677a138ec2733e1f982ec48acd9de5ac03c898 } from 'src/components/global-footer/FooterNavigationColumn.dev';
 import { GlobalFooterDefault } from 'src/components/global-footer/GlobalFooterDefault.dev';
@@ -179,7 +199,7 @@ import { GlobalFooterBlackCompact } from 'src/components/global-footer/GlobalFoo
 import { GlobalFooterBlackLarge } from 'src/components/global-footer/GlobalFooterBlackLarge.dev';
 import { GlobalFooterBlueCentered } from 'src/components/global-footer/GlobalFooterBlueCentered.dev';
 import { GlobalFooterBlueCompact } from 'src/components/global-footer/GlobalFooterBlueCompact.dev';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Accordion as Accordion_ab44ead93eb78aaf6bb74df15565c97029ec6d03, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import libphonenumber from 'google-libphonenumber';
@@ -404,7 +424,7 @@ const importMap = [
       { name: 'RichText', value: RichText },
       { name: 'NextImage', value: NextImage },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
-      { name: 'Image', value: Image },
+      { name: 'Image', value: Image_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'getFieldValue', value: getFieldValue },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'DateField', value: DateField },
@@ -729,6 +749,11 @@ const importMap = [
   {
     module: '@radix-ui/react-accordion',
     exports: [
+      { name: 'Accordion', value: Accordion },
+      { name: 'Content', value: Content },
+      { name: 'Header', value: Header },
+      { name: 'Item', value: Item },
+      { name: 'Trigger', value: Trigger },
       { name: '*', value: AccordionPrimitive },
     ]
   },
@@ -872,6 +897,159 @@ const importMap = [
     module: '@radix-ui/react-icons',
     exports: [
       { name: 'ChevronDownIcon', value: ChevronDownIcon },
+      { name: 'GridIcon', value: GridIcon },
+      { name: 'ListBulletIcon', value: ListBulletIcon },
+      { name: 'ArrowLeftIcon', value: ArrowLeftIcon },
+      { name: 'ArrowRightIcon', value: ArrowRightIcon },
+      { name: 'CheckIcon', value: CheckIcon },
+    ]
+  },
+  {
+    module: 'next/navigation',
+    exports: [
+      { name: 'useRouter', value: useRouter },
+      { name: 'useSearchParams', value: useSearchParams },
+    ]
+  },
+  {
+    module: '@sitecore-search/react',
+    exports: [
+      { name: 'usePreviewSearchActions', value: usePreviewSearchActions },
+      { name: 'useSearchResultsActions', value: useSearchResultsActions },
+      { name: 'WidgetDataType', value: WidgetDataType },
+      { name: 'useSearchResults', value: useSearchResults },
+      { name: 'widget', value: widget },
+      { name: 'useQuestions', value: useQuestions },
+      { name: 'usePreviewSearch', value: usePreviewSearch },
+      { name: 'FilterEqual', value: FilterEqual },
+      { name: 'useSearchResultsSelectedFilters', value: useSearchResultsSelectedFilters },
+    ]
+  },
+  {
+    module: '@sitecore-search/ui',
+    exports: [
+      { name: 'PreviewSearch', value: PreviewSearch },
+      { name: 'SortSelect', value: SortSelect },
+      { name: 'Pagination', value: Pagination },
+      { name: 'AccordionFacets', value: AccordionFacets },
+      { name: 'FacetItem', value: FacetItem },
+      { name: 'RangeFacet', value: RangeFacet },
+      { name: 'SearchResultsAccordionFacets', value: SearchResultsAccordionFacets },
+      { name: 'SearchResultsFacetValueRange', value: SearchResultsFacetValueRange },
+      { name: 'Select', value: Select },
+      { name: 'ArticleCard', value: ArticleCard },
+      { name: 'CardViewSwitcher', value: CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 },
+    ]
+  },
+  {
+    module: '@/_data/customizations',
+    exports: [
+      { name: 'HIGHLIGHTED_ARTICLES_RFKID', value: HIGHLIGHTED_ARTICLES_RFKID },
+      { name: 'SEARCH_WIDGET_ID', value: SEARCH_WIDGET_ID },
+      { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
+      { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
+      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
+    ]
+  },
+  {
+    module: 'src/components/search/HomeHighlighted',
+    exports: [
+      { name: 'default', value: HomeHighlighted },
+    ]
+  },
+  {
+    module: 'src/components/search/Spinner',
+    exports: [
+      { name: 'default', value: Spinner },
+    ]
+  },
+  {
+    module: 'src/components/search/ArticleCard',
+    exports: [
+      { name: 'default', value: ArticleItemCard },
+    ]
+  },
+  {
+    module: 'src/components/search/SortOrder',
+    exports: [
+      { name: 'default', value: SortOrder },
+    ]
+  },
+  {
+    module: 'src/components/search/ArticleHorizontalCard',
+    exports: [
+      { name: 'default', value: ArticleHorizontalItemCard },
+    ]
+  },
+  {
+    module: 'src/components/search/SearchPagination',
+    exports: [
+      { name: 'default', value: SearchPagination },
+    ]
+  },
+  {
+    module: 'src/components/search/SearchFacets',
+    exports: [
+      { name: 'default', value: SearchFacets },
+    ]
+  },
+  {
+    module: 'src/components/search/ResultsPerPage',
+    exports: [
+      { name: 'default', value: ResultsPerPage },
+    ]
+  },
+  {
+    module: 'src/components/search/QueryResultsSummary',
+    exports: [
+      { name: 'default', value: QueryResultsSummary },
+    ]
+  },
+  {
+    module: 'src/components/search/CardViewSwitcher',
+    exports: [
+      { name: 'default', value: CardViewSwitcher },
+    ]
+  },
+  {
+    module: 'src/hooks/useSearchTracking',
+    exports: [
+      { name: 'useSearchTracking', value: useSearchTracking },
+    ]
+  },
+  {
+    module: 'src/components/search/SearchResultsComponent',
+    exports: [
+      { name: 'default', value: SearchResultsWidget },
+    ]
+  },
+  {
+    module: 'src/components/search/QuestionsAnswers',
+    exports: [
+      { name: 'default', value: QuestionsAnswers },
+    ]
+  },
+  {
+    module: 'next/image',
+    exports: [
+      { name: 'getImageProps', value: getImageProps },
+      { name: 'default', value: Image },
+    ]
+  },
+  {
+    module: 'src/components/search/SuggestionBlock',
+    exports: [
+      { name: 'default', value: SuggestionBlock },
+    ]
+  },
+  {
+    module: '@/components/ui/select',
+    exports: [
+      { name: 'Select', value: Select_74a315bf8f39737a75c686fc0a3118c1056b2a17 },
+      { name: 'SelectContent', value: SelectContent },
+      { name: 'SelectItem', value: SelectItem },
+      { name: 'SelectTrigger', value: SelectTrigger },
+      { name: 'SelectValue', value: SelectValue },
     ]
   },
   {
@@ -1025,16 +1203,6 @@ const importMap = [
     ]
   },
   {
-    module: '@/components/ui/select',
-    exports: [
-      { name: 'Select', value: Select },
-      { name: 'SelectContent', value: SelectContent },
-      { name: 'SelectItem', value: SelectItem },
-      { name: 'SelectTrigger', value: SelectTrigger },
-      { name: 'SelectValue', value: SelectValue },
-    ]
-  },
-  {
     module: 'src/components/multi-promo-tabs/MultiPromoTab.dev',
     exports: [
       { name: 'Default', value: Default_5a87dea7e5d774773867b417bc52e56f48fe590a },
@@ -1060,13 +1228,6 @@ const importMap = [
       { name: 'DropdownMenuContent', value: DropdownMenuContent },
       { name: 'DropdownMenuItem', value: DropdownMenuItem },
       { name: 'DropdownMenuTrigger', value: DropdownMenuTrigger },
-    ]
-  },
-  {
-    module: 'next/image',
-    exports: [
-      { name: 'getImageProps', value: getImageProps },
-      { name: 'default', value: NextImage_5d8ce56058442d94361877e28c501c951a554a6a },
     ]
   },
   {
@@ -1312,13 +1473,19 @@ const importMap = [
     ]
   },
   {
-    module: 'src/components/global-header/GlobalHeaderDefault.dev',
+    module: 'components/search/PreviewSearch',
+    exports: [
+      { name: 'default', value: PreviewSearch_2ea3ba0f40d598d351625d9652311fe0e95f0ba5 },
+    ]
+  },
+  {
+    module: 'src/components/global-header/GlobalHeaderDefault',
     exports: [
       { name: 'GlobalHeaderDefault', value: GlobalHeaderDefault },
     ]
   },
   {
-    module: 'src/components/global-header/GlobalHeaderCentered.dev',
+    module: 'src/components/global-header/GlobalHeaderCentered',
     exports: [
       { name: 'GlobalHeaderCentered', value: GlobalHeaderCentered },
     ]
@@ -1368,7 +1535,7 @@ const importMap = [
   {
     module: '@/components/ui/accordion',
     exports: [
-      { name: 'Accordion', value: Accordion },
+      { name: 'Accordion', value: Accordion_ab44ead93eb78aaf6bb74df15565c97029ec6d03 },
       { name: 'AccordionContent', value: AccordionContent },
       { name: 'AccordionItem', value: AccordionItem },
       { name: 'AccordionTrigger', value: AccordionTrigger },
