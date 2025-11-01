@@ -1,22 +1,20 @@
 import React, { JSX } from 'react';
 import { ComponentProps } from 'lib/component-props';
-import { useSearchParams } from 'next/navigation';
 import HighlightedWidget from './HomeHighlighted';
 import { HIGHLIGHTED_ARTICLES_RFKID } from '@/_data/customizations';
+import { randomUUID } from 'crypto';
 
 export const dynamic = 'force-dynamic';
 export const fetchCache = 'force-no-store';
 
-export type SearchResultsProps = ComponentProps & {
+export type HighlightedArticlesProps = ComponentProps & {
   params: { [key: string]: string };
 };
 
-export const SearchResults = (props: SearchResultsProps): JSX.Element => {
+export const HighlightedArticles = (props: HighlightedArticlesProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  const searchParams = useSearchParams();
-  const query = searchParams?.get('q') || '';
+  const query = randomUUID();
 
-  console.log(`grabbed keyword from querystring: ${query}`);
 
   return (
     <div key={query} className={`${sxaStyles}`}>
@@ -25,4 +23,4 @@ export const SearchResults = (props: SearchResultsProps): JSX.Element => {
   );
 };
 
-export const Default = SearchResults;
+export const Default = HighlightedArticles;
