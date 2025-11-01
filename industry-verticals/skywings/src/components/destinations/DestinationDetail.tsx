@@ -262,7 +262,7 @@ const DestinationDetail = (props: DestinationDetailProps): JSX.Element => {
             field={props.fields.Image}
             height={500}
             width={1200}
-            className="object-cover h-[500px]"
+            className="object-cover w-full h-[500px]"
           />
           <div className="absolute bottom-8 left-8 text-white">
             <div className="flex items-center space-x-2 mb-2">
