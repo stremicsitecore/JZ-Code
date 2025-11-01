@@ -16,6 +16,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: New York culture, NYC heritage, Broadway theatre, Metropolitan Museum of Art, Museum of Modern Art, Harlem culture, Brooklyn arts, New York travel, city landmarks, Skywings
     - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
       Hint: Price
       Value: from $499
@@ -25,6 +28,9 @@ Languages:
     - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
       Hint: Rating
       Value: 4.7
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "New York is a vibrant mosaic of culture, creativity, and history, shaped by the many communities who call it home. From iconic landmarks and world-class museums to local arts scenes and historic neighborhoods, the city offers endless opportunities for meaningful exploration. Skywings helps travelers engage deeply with New York’s dynamic spirit and cultural legacy."
     - ID: "2ec668d0-921f-4883-862b-87e412441319"
       Hint: Country
       Value: "{6381A818-B69E-488F-8A20-BB982245A8F4}"
@@ -37,12 +43,19 @@ Languages:
     - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
       Hint: HolidayType
       Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: New York Cultural Experiences & Iconic City Landmarks | Skywings
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d5234575-b6af-4ed4-92df-aa3cd847bdaf"
+      Value: "b6c561a9-49b0-4ac0-a0f4-9ef54ff8958c"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: New York
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p data-start="281" data-end="824">New York is a city shaped by motion—always transforming, always reaching, always alive with possibility. Its identity emerges from the voices, traditions, and dreams of countless communities who have made the city their own. From its iconic skyline to its intimate neighborhood moments, New York stands as a testament to creativity, resilience, and the shared pursuit of something greater. Here, cultural expression is not reserved for galleries or theaters alone; it unfolds on every street corner, in every café, and across every park bench.</p><p data-start="826" data-end="1235">The city’s landmarks form the framework of its global presence. The Statue of Liberty rises as a symbol of welcome, hope, and beginnings, while the Empire State Building and One World Trade Center speak to the city’s ambition and enduring spirit. Times Square, with its shifting lights and kinetic pulse, showcases the city’s relentless energy—a crossroads where the world gathers, collides, and continues on.</p><p data-start="1237" data-end="1832">Yet New York’s cultural identity is just as deeply rooted in its neighborhoods and the communities that cultivate them. Harlem carries the enduring legacy of the Harlem Renaissance—a flourishing of Black art, thought, music, and literature that continues to influence global culture today. The Lower East Side reflects stories of immigration and shared resilience, where cultures blended to form the rhythms of daily life. In Brooklyn, creativity thrives in repurposed warehouses, where art collectives, experimental music venues, and independent studios breathe new life into industrial spaces.</p><p data-start="1834" data-end="2248">Museums here serve not only as repositories of art and history, but as active participants in shaping cultural dialogue. The Metropolitan Museum of Art spans thousands of years of human expression, offering a profound journey through civilizations, while the Museum of Modern Art brings the evolution of contemporary creativity to the forefront. Each institution invites visitors to reflect, question, and connect.</p><p data-start="2250" data-end="2581">New York’s heartbeat can be felt in its performing arts. Broadway theaters illuminate stories that inspire, challenge, and delight audiences from across the world. Meanwhile, jazz clubs in Greenwich Village preserve and reimagine musical innovation each night, honoring the improvisational spirit that helped define American music.</p><p data-start="2583" data-end="2957">To experience New York is to embrace its contrasts: quiet mornings in Central Park before the city awakens, the hum of subway tracks beneath the pavement, the shared sense of movement and purpose that binds millions of individuals into a single, extraordinary urban community. It is a city that invites exploration—not to merely observe, but to become part of its narrative.</p><p data-start="2959" data-end="3332">Skywings enables travelers to discover New York through journeys that honor the city’s cultural depth and dynamic atmosphere. Whether encountering its grand landmarks or its intimate local expressions, visitors are given the opportunity to connect with a place that continues to shape and be shaped by the world. In New York, memories are not only made—they are lived into.</p></div>
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: "<span>The city that never sleeps offers endless entertainment, world-class dining, and iconic skylines.</span>"
@@ -52,7 +65,7 @@ Languages:
     - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68794-HomePageHero-2000x800?v=1656c4a4" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="2000" height="800" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
     - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
       Hint: Highlights
       Value: |
@@ -70,9 +83,16 @@ Languages:
         {B8ADE3AE-07CE-4F5B-BCF3-1A5000EC7E3E}
         {76A445E3-7058-4FF7-8AD1-3B256BF33F21}
         {CF86A6EF-9130-4A98-9214-E1879B99A59F}
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Discover New York's diverse cultural heritage, world-renowned museums, legendary arts scene, and historic neighborhoods. Explore the city’s vibrant identity and dynamic spirit with Skywings guiding your journey."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251025T203322Z
+      Value: 20251101T213438Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68794-HomePageHero-2000x800?v=1656c4a4" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="2000" height="800" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
     - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
       Hint: ExpectedTemps
       Value: "5-26C"

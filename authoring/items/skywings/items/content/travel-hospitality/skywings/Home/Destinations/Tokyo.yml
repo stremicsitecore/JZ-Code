@@ -16,6 +16,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: "Tokyo culture, Tokyo travel, Meiji Shrine, Senso-ji Temple, Japanese traditions, Tokyo neighborhoods, contemporary Tokyo, Tokyo cuisine, Japan heritage, Skywings"
     - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
       Hint: Price
       Value: from $899
@@ -25,6 +28,9 @@ Languages:
     - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
       Hint: Rating
       Value: 4.9
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: Tokyo harmonizes ancient tradition with modern innovation. From sacred temples and historic neighborhoods to contemporary art and dynamic city life, Tokyo offers rich cultural experiences at every turn. Skywings helps travelers engage deeply with the city’s heritage and evolving identity.
     - ID: "2ec668d0-921f-4883-862b-87e412441319"
       Hint: Country
       Value: "{B1488EB2-504A-4E5C-85E1-B6463CB4C97F}"
@@ -37,12 +43,19 @@ Languages:
     - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
       Hint: HolidayType
       Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Tokyo Culture, Heritage & Modern City Experiences | Skywings
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0800c881-a7d8-44df-88c8-648a83543f5f"
+      Value: "30898403-980d-4a5a-8ffa-7f429e77348f"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Tokyo
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p data-start="290" data-end="634">Tokyo is a city where contrasts coexist in effortless harmony. Ancient shrines stand beside avant-garde architecture, and timeless craftsmanship shares space with cutting-edge technology. This unique balance defines Tokyo’s cultural identity, where reverence for heritage and enthusiasm for the future continuously shape and inspire daily life.</p><p data-start="636" data-end="1147">At the heart of Tokyo’s historical landscape is the serene Meiji Shrine, surrounded by a tranquil forest that creates a sanctuary of stillness amidst the dynamic energy of the city. Equally iconic is Sensō-ji, Tokyo’s oldest temple, where lantern-lit pathways, incense, and vibrant markets reflect centuries of spiritual devotion and community tradition. These sacred sites serve as touchstones to Japan’s enduring cultural foundations, offering meaningful moments of reflection in a world constantly in motion.</p><p data-start="1149" data-end="1638">Tokyo’s cultural richness extends into its neighborhoods, each offering a distinct perspective on the city’s identity. The refined avenues of Ginza display a mastery of design, luxury, and hospitality, while the artistic enclaves of Daikanyama and Nakameguro embody an effortless modern aesthetic. In Asakusa, tradition is woven into the rhythms of everyday life, while Shibuya pulses with youthful creativity and trendsetting expression. Every district invites exploration and connection.</p><p data-start="1640" data-end="2074">Art and innovation shape Tokyo’s contemporary cultural landscape. Museums like the Tokyo National Museum preserve centuries of artistic heritage, while institutions such as teamLab Borderless reimagine the relationship between art, technology, and the senses. The city’s culinary scene also reflects its blend of precision and creativity—from quiet, family-run ramen shops to Michelin-starred dining rooms where technique becomes art.</p><p data-start="2076" data-end="2430">Tokyo’s sense of community is found in its seasonal celebrations. Cherry blossoms in spring draw people to parks for picnics and shared appreciation of nature’s fleeting beauty, while autumn brings festivals filled with music, dance, and traditional performance. These gatherings honor a collective cultural heritage that offers belonging and shared joy.</p><p data-start="2432" data-end="2818">Skywings enables travelers to experience Tokyo with depth and intention—whether exploring ancient temples, engaging with contemporary design, savoring the city’s world-renowned cuisine, or simply observing the quiet poetry of everyday life. In Tokyo, the past and future do not compete; they converse, creating a cultural experience that is endlessly inspiring and uniquely captivating.</p></div>
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: "<span>A fascinating blend of ultra-modern technology and traditional culture in Japan's bustling capital.</span>"
@@ -52,7 +65,7 @@ Languages:
     - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/3c06a0966ee94c4c95242851b335d8a5?v=e672b4f4" dam-id="K3vo00urT8O5imm_DYrvEQ" width="360" height="270" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68761/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68761-HomePageHero-2000x800?v=769f5ea2" dam-id="K3vo00urT8O5imm_DYrvEQ" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68761/thumbnail" />
     - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
       Hint: Highlights
       Value: |
@@ -70,9 +83,16 @@ Languages:
         {CF86A6EF-9130-4A98-9214-E1879B99A59F}
         {12358AAD-8958-4A02-95E2-6C235D4312FE}
         {76A445E3-7058-4FF7-8AD1-3B256BF33F21}
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Discover Tokyo’s blend of ancient tradition and contemporary innovation. Explore historic temples, vibrant neighborhoods, modern art, and world-renowned cuisine with Skywings."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251025T203146Z
+      Value: 20251101T215032Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68761-HomePageHero-2000x800?v=769f5ea2" dam-id="K3vo00urT8O5imm_DYrvEQ" width="2000" height="800" alt="tokyo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68761/thumbnail" />
     - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
       Hint: ExpectedTemps
       Value: "10-28C"

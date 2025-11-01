@@ -16,6 +16,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Bali culture, Balinese traditions, Tanah Lot Temple, Balinese dance, Barong, Legong, gamelan music, cultural travel Bali, Bali heritage, Skywings
     - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
       Hint: Price
       Value: from $699
@@ -25,6 +28,9 @@ Languages:
     - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
       Hint: Rating
       Value: 4.9
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: Bali is a living tapestry of tradition, where ancient temples, sacred ceremonies, and expressive dance performances reflect a rich cultural legacy. From the iconic Tanah Lot Temple to the entrancing rhythms of gamelan music, Bali offers travelers a deep and immersive cultural experience. Skywings helps travelers connect with these traditions and experience the island’s heritage firsthand.
     - ID: "2ec668d0-921f-4883-862b-87e412441319"
       Hint: Country
       Value: "{B8D7825A-AD13-4032-990D-5A58BFA393AE}"
@@ -37,9 +43,12 @@ Languages:
     - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
       Hint: HolidayType
       Value: "{817D29AE-2CED-4ECE-906A-C8E7A1656F0C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Bali Cultural Heritage & Traditions | Skywings Travel
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b2d0d745-42f7-4ae9-97a5-dfec923b8b4f"
+      Value: "ceb9be52-bf21-4527-87ff-d0e590ad0060"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Bali
@@ -53,6 +62,10 @@ Languages:
     - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
       Hint: SuggestedDuration
       Value: "5-10 days"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/bc4450e5add447338453888b75c4a036?v=bb40f9c8" dam-id="90MKs57rQ92tpcpYl7b8ww" width="2000" height="1333" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
     - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
       Hint: Highlights
       Value: |
@@ -70,9 +83,16 @@ Languages:
         {71833BDE-9DE1-423F-B0BB-624B72753453}
         {0C2FEA46-D4D2-4696-95E1-FDA4AC2B94FA}
         {49CD832A-45A8-452E-8CDB-1AE214076326}
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Discover Bali’s vibrant cultural heritage, from ancient temples and spiritual ceremonies to traditional Balinese dance. Explore the island’s deep-rooted traditions and immerse yourself in its timeless beauty with Skywings."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250731T163701Z
+      Value: 20251101T211003Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/bc4450e5add447338453888b75c4a036?v=bb40f9c8" dam-id="90MKs57rQ92tpcpYl7b8ww" width="2000" height="1333" alt="DistandtCouplePool.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49433/thumbnail" />
     - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
       Hint: ExpectedTemps
       Value: "10-28C"

@@ -4,10 +4,16 @@ Parent: "1c69a4cb-a950-4f89-b4d2-0787d84421fc"
 Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
 Path: "/sitecore/content/retail/forma-lux/Home/Landing Pages/The Lumina Collection"
 SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C7985DA6-7D30-4805-8DA0-7C9F18E7310C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3f33a005-f4a4-43a1-926a-69374da4f404"
 Languages:
 - Language: "de-CH"
   Versions:
@@ -209,7 +215,7 @@ Languages:
       Value: The Lumina Collection | Timeless, Sustainable Furniture by Forma Lux
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1368f17-60d3-4de7-83df-f2fc171be350"
+      Value: "1f1561b9-3e91-472e-a232-64c63e34af3a"
     - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
       Hint: pageSummary
       Value: |
@@ -224,10 +230,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T185315Z
+      Value: 20251031T231846Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

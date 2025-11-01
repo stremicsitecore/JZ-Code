@@ -34,7 +34,7 @@ SharedFields:
   Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: *
+  Value: gridwell.dev
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: en=gridwell
@@ -46,7 +46,10 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1c68a9f3-c58f-4718-88fa-0680ca4e1b73"
+  Value: "a84ec506-8b50-4dbc-8f4c-19ca98c2247d"
+- ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
+  Hint: TargetHostName
+  Value: gridwell.dev
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: gridwell
@@ -74,11 +77,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5a22c02d-fe01-43da-ad9a-360a00d23990"
+      Value: "582e3d48-708e-4ff3-bdb7-43412e593e1f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T215205Z
+      Value: 20251031T232604Z

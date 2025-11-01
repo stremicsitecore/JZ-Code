@@ -34,7 +34,7 @@ SharedFields:
   Value: skywings.dev
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
-  Value: en=skywings_1
+  Value: "en=skywings_1&is-IS=skywings_1&it-CH=skywings_1"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: skywings
@@ -43,7 +43,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3915cf70-a3c9-4dc8-8756-7f2d4714b566"
+  Value: "8d34c74e-3e53-4d67-af13-30e1fa9ef282"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
   Value: skywings.dev
@@ -71,14 +71,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5a7b238f-85e2-4330-aa9b-9daeab614270"
+      Value: "2e0c4a08-1114-4d65-9238-412d861be13d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T132951Z
+      Value: 20251101T211141Z
 - Language: "it-CH"
   Versions:
   - Version: 1

@@ -51,22 +51,35 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250728T202917Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: The Blogs Overview page features curated stories, guides, and cultural insights from destinations worldwide. It offers inspiration, travel knowledge, and helpful context to support meaningful and informed journeys with Skywings.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Blogs
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Travel Stories, Guides & Inspiration | Skywings
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb01d65d-bdab-4ce2-8a2e-8e8a2751ebf3"
+      Value: "71019715-94ac-41d8-8a11-369b98aa68cb"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Blogs
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Explore travel insights, cultural highlights, destination guides, and stories from around the world. Find inspiration for your next journey with the Skywings blog.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T192116Z
+      Value: 20251101T222655Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/05700e799d244417a8e2425c855ba6d6?v=e831a3d9" dam-id="tliH9VFqRBSCj_c26UPqYg" width="1100" height="733" alt="GettyImages-547016161.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41301/thumbnail" />
 - Language: "it-CH"
   Versions:
   - Version: 1

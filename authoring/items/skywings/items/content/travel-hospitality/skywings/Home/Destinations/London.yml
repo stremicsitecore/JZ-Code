@@ -16,6 +16,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: London culture, London heritage, British history, Westminster Abbey, The British Museum, West End theatre, royal traditions, London travel, UK landmarks, Skywings
     - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
       Hint: Price
       Value: from $529
@@ -25,6 +28,9 @@ Languages:
     - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
       Hint: Rating
       Value: 4.6
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: London stands as a global crossroads where centuries of heritage meet contemporary creativity. From the storied architecture of Westminster and the majesty of royal ceremonies to the immersive galleries of the British Museum and the electric energy of West End theatre, the city invites travelers to explore culture in every corner. Skywings helps visitors engage deeply with London’s historical and artistic identity, creating journeys that connect past and present.
     - ID: "2ec668d0-921f-4883-862b-87e412441319"
       Hint: Country
       Value: "{DF3C9D49-5404-4884-AD5D-6C2F094124E2}"
@@ -37,12 +43,19 @@ Languages:
     - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
       Hint: HolidayType
       Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: London Cultural Heritage & Iconic Landmarks | Skywings
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88c03619-7f3e-408e-a0af-b94fd6cb4bd1"
+      Value: "2ab1e438-48fd-4699-913e-599964102878"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: London
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p data-start="323" data-end="768">London stands as one of the world’s most culturally rich cities, where history and modernity coexist in a uniquely dynamic balance. From its regal ceremonies to its groundbreaking creative scene, the city invites travelers to explore a mosaic of traditions, innovations, and everyday expressions of British identity. Every street, gallery, and landmark reflects an ongoing story—one that continues to evolve while honoring centuries of heritage.</p><p data-start="770" data-end="1330">London’s most defining icons echo its long and storied past. The majestic silhouette of Westminster Abbey has borne witness to royal weddings, coronations, and national moments of reflection. Just steps away, the Houses of Parliament and the famed Big Ben clock tower mark the passage of time over a capital that has shaped global culture and governance. Meanwhile, Buckingham Palace remains a living emblem of tradition, where the Changing of the Guard ceremony draws spectators from around the world to experience the pageantry and symbolism of the monarchy.</p><p data-start="1332" data-end="1921">Beyond its monumental architecture, London holds profound cultural treasures within its institutions. The British Museum, one of the world’s most celebrated repositories of human history, offers a journey through civilizations, philosophies, and artistic expression spanning thousands of years. The National Gallery, poised on the edge of Trafalgar Square, brings visitors face-to-face with masterpieces that have influenced artistic thought and vision across continents. Each museum, gallery, and exhibit extends an open invitation to engage with the world through London’s cultural lens.</p><p data-start="1923" data-end="2371">London’s cultural rhythm is equally felt in its creative districts and community spaces. The West End theatre scene pulses with energy, showcasing everything from time-honored productions to groundbreaking contemporary works. Meanwhile, neighborhoods like Shoreditch, Camden, and Southbank serve as dynamic hubs of artistic experimentation—where street art, music, independent markets, and local voices shape the city’s evolving aesthetic identity.</p><p data-start="2373" data-end="2749">To experience London deeply is to engage with both the grand and the intimate: the quiet reflection of a riverside walk along the Thames, a lively debate in a historic pub, the hum of markets weaving together flavors from across the world. London is not only a destination to observe—it is a place to participate, connect, and share in the stories that continue to be written.</p><p data-start="2751" data-end="3153">Skywings supports travelers in reaching and exploring London’s cultural heart, ensuring that each visitor has the opportunity to encounter the city’s historical legacy and contemporary spirit. Through thoughtful travel experiences, individuals from every background can engage with London’s role as a timeless and forward-looking cultural center—creating memories that bridge past, present, and future.</p></div>
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: <span>Rich history meets modern innovation in this cosmopolitan capital with royal heritage.</span>
@@ -52,7 +65,7 @@ Languages:
     - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/09a110c84d3d4763928a477485253c8d?v=3ed8371c" dam-id="tCqC8XHbQUuSonHvLojRIA" width="360" height="270" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68797-HomePageHero-2000x800?v=adadbf82" dam-id="tCqC8XHbQUuSonHvLojRIA" width="2000" height="800" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
     - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
       Hint: Highlights
       Value: |
@@ -70,9 +83,16 @@ Languages:
         {71833BDE-9DE1-423F-B0BB-624B72753453}
         {A5B87476-9EE6-45F3-8DC5-00942F244F10}
         {E92EC975-133D-4A67-8732-B26BBE223CA1}
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Experience London’s timeless blend of history and modern culture. Explore world-renowned museums, historic architecture, royal traditions, and vibrant theatre districts with Skywings guiding your journey."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251025T203406Z
+      Value: 20251101T213317Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68797-HomePageHero-2000x800?v=adadbf82" dam-id="tCqC8XHbQUuSonHvLojRIA" width="2000" height="800" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
     - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
       Hint: ExpectedTemps
       Value: "8-22C"
