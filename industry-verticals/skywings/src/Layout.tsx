@@ -65,7 +65,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
         <meta property="og:url" content={fullUrl.replace('_site_skywings', '')} key="og:url" />
-        <meta property="og:destination_category" content={holidayType} key="og:destination_category" />
+        <meta property="destination_category" content={holidayType} key="destination_category" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
