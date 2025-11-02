@@ -9,6 +9,9 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{1BE4C3F3-D540-4096-8814-F240013D8237}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5b2be5eb-7771-4e49-8d6b-0b53e98e1632"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -38,8 +41,14 @@ Languages:
               s:par="CSSStyles&amp;Styles"
               s:ph="headless-main" />
             <r
-              uid="{BCC6AD9D-B29B-4780-87CE-6006A67054FE}"
+              uid="{1C7FFDC7-B067-48B3-8733-2EE89245A566}"
               p:after="r[@uid='{55544397-7689-4476-ADD3-96C4ACDEE983}']"
+              s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{BCC6AD9D-B29B-4780-87CE-6006A67054FE}"
+              p:after="r[@uid='{1C7FFDC7-B067-48B3-8733-2EE89245A566}']"
               s:ds="4e52d367-47c3-4099-afb1-06dc19f5f951"
               s:id="{B428F62F-7269-4119-B345-C8BDFDD7F6BD}"
               s:par="CSSStyles"
@@ -93,7 +102,7 @@ Languages:
       Value: Skywings | Explore the World with Meaningful Journeys
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a70c19c8-3969-4b2a-ae10-d54f7a2272bf"
+      Value: "70e47ebd-be8c-4bc5-9e2b-cfc4b163b803"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Skywings
@@ -106,7 +115,7 @@ Languages:
       Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251101T222806Z
+      Value: 20251102T175304Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

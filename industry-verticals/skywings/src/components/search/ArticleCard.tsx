@@ -1,8 +1,9 @@
 import { ArticleCard } from '@sitecore-search/ui';
 import Link from 'next/link';
 import Image from 'next/image';
-import { DEFAULT_IMG_URL } from '@/_data/customizations';
+import { DEFAULT_IMG_URL, HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
 import { EntityModel } from '@sitecore-search/react';
+import { useSearchTracking, type Events } from '@/hooks/useSearchTracking';
 
 type ArticleItemCardProps = {
   className?: string;
@@ -13,6 +14,7 @@ type ArticleItemCardProps = {
 
 const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
   const validImageUrl = article.image_url?.trim() ? article.image_url : DEFAULT_IMG_URL;
+  const { handleSearch } = useSearchTracking();
 
   return (
     <ArticleCard.Root
@@ -32,8 +34,18 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
       <div className="relative m-4 flex-col justify-between">
         <Link
           className="focus:outline-indigo-500"
-          href={`/detail/${article.id}`}
+          href={article.url}
           aria-label={`View details for ${article.name || article.title}`}
+          onClick={(e) =>
+            handleSearch(e, {
+              url: article.url,
+              widgetId: HOMEHIGHLIGHTED_WIDGET_ID,
+              entityType: 'content',
+              events: ['EntityPageView', 'SearchClickEvent'] as Events[],
+              entityId: article.id,
+              itemIndex: article.id,
+            })
+          }
         >
           <span aria-hidden="true" className="absolute inset-0"></span>
           <ArticleCard.Title className="mt-4 h-[100px] overflow-hidden text-base font-bold">
