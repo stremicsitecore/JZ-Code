@@ -22,7 +22,7 @@ export const HOME_HERO_RFKID = 'home_hero';
 export const DEFAULT_QUESTION = 'What are the top beach destinations?';
 
 // Change if you choose to use a custom highlighted articles widget
-export const HIGHLIGHTED_ARTICLES_RFKID = 'search_home_highlight_blogs_skywings';
+export const HIGHLIGHTED_ARTICLES_RFKID = 'skywings_home_highlight';
 
 // Change if you want to show a different content type in the highlighted articles widget. This value is case-sensitive. Default is website_content.
 export const HIGHLIGHTED_ARTICLES_CONTENT_TYPE = 'Blog';
@@ -33,4 +33,4 @@ export const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No Image';
 // Sym stuff
 export const PREVIEW_WIDGET_ID = 'skywings_preview_search';
 export const SEARCH_WIDGET_ID = 'skywings_search_results';
-export const HOMEHIGHLIGHTED_WIDGET_ID = 'search_home_highlight_blogs_skywings';
+export const HOMEHIGHLIGHTED_WIDGET_ID = 'skywings_home_highlight';

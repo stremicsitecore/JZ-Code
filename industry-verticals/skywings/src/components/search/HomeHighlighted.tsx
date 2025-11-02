@@ -16,14 +16,14 @@ export const HomeHighlightedComponent = (): JSX.Element => {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Destinations'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', 'Destination'));
 
-      // if (SEARCH_CONFIG.source !== '') {
-      //   const sources = SEARCH_CONFIG.source.split('|');
-      //   sources.forEach((source) => {
-      //     query.getRequest().addSource(source.trim());
-      //   });
-      // }
+      if (SEARCH_CONFIG.source !== '') {
+        const sources = SEARCH_CONFIG.source.split('|');
+        sources.forEach((source) => {
+          query.getRequest().addSource(source.trim());
+        });
+      }
     },
   });
 
