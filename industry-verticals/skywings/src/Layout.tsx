@@ -41,7 +41,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogImage = fields?.ogImage?.value?.src;
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
-  const holidayType = fields?.HolidayType?.fields?.Name.value?.toString() || '';
+  const holidayType = fields?.HolidayType?.fields.Name.value?.toString() || '';
 
   const pathname = usePathname();
   const searchParams = useSearchParams();
