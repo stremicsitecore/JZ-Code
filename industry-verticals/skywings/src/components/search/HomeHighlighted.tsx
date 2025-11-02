@@ -9,20 +9,25 @@ const SEARCH_CONFIG = {
 };
 
 export const HomeHighlightedComponent = (): JSX.Element => {
+  console.log(`using ${HOMEHIGHLIGHTED_WIDGET_ID}`);
+  console.log(`source: ${SEARCH_CONFIG.source}`);
+
   const {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
       query.getRequest().setSearchFilter(new FilterEqual('type', 'Destinations'));
 
-      if (SEARCH_CONFIG.source !== '') {
-        const sources = SEARCH_CONFIG.source.split('|');
-        sources.forEach((source) => {
-          query.getRequest().addSource(source.trim());
-        });
-      }
+      // if (SEARCH_CONFIG.source !== '') {
+      //   const sources = SEARCH_CONFIG.source.split('|');
+      //   sources.forEach((source) => {
+      //     query.getRequest().addSource(source.trim());
+      //   });
+      // }
     },
   });
+
+  console.log(`found: ${articles}`)
 
   const articlesToShow = articles.slice(0, 4);
   const { handleSearch } = useSearchTracking();
