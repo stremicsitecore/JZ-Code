@@ -1,7 +1,7 @@
 import { JSX } from 'react';
 import { FilterEqual, WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
-import ArticleCard from './ArticleCard';
-import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
+// import ArticleCard from './ArticleCard';
+// import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
 import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
 
 const SEARCH_CONFIG = {
@@ -9,6 +9,9 @@ const SEARCH_CONFIG = {
 };
 
 export const HomeHighlightedComponent = (): JSX.Element => {
+  console.log('starting home highlighted');
+  console.log(`using ${HOMEHIGHLIGHTED_WIDGET_ID}`);
+  console.log(`using source: ${SEARCH_CONFIG.source}`);
   const {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
@@ -24,8 +27,11 @@ export const HomeHighlightedComponent = (): JSX.Element => {
     },
   });
 
-  const articlesToShow = articles.slice(0, 4);
-  const { handleSearch } = useSearchTracking();
+  console.log(`found: ${articles}`);
+  // const articlesToShow = articles.slice(0, 4);
+  // const { handleSearch } = useSearchTracking();
+
+
 
   return (
     <div className="container mx-auto px-4">
@@ -38,7 +44,7 @@ export const HomeHighlightedComponent = (): JSX.Element => {
 
       <div className="my-10 flex w-full justify-around text-gray-900 dark:text-gray-200">
         <div className="grid grid-cols-4 gap-x-5 gap-y-3">
-          {articlesToShow.map((a, index) => (
+          {/* {articlesToShow.map((a, index) => (
             <ArticleCard
               article={a}
               key={a?.id ?? index}
@@ -54,7 +60,7 @@ export const HomeHighlightedComponent = (): JSX.Element => {
                 })
               }
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
