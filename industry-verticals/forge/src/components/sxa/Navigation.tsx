@@ -113,8 +113,6 @@ export const Default = (props: NavigationProps): JSX.Element => {
 export const ButtonNavigation = (props: NavigationProps): JSX.Element => {
   const list = Object.values(props.fields).filter((element) => element);
 
-  console.log(list);
-
   return (
     <section className="py-16">
       <div className="container mx-auto">

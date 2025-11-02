@@ -45,8 +45,6 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
 
   const fullUrl = `https://gridwell.dev${relativeUrl}`;
 
-  console.log(`full url: ${fullUrl}`);
-
   return (
     <>
       <Scripts />

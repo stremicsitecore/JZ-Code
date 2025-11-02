@@ -31,6 +31,6 @@ export const HIGHLIGHTED_ARTICLES_CONTENT_TYPE = 'Blog';
 export const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No Image';
 
 // Sym stuff
-export const PREVIEW_WIDGET_ID = 'formalux_preview_search';
-export const SEARCH_WIDGET_ID = 'formalux_search_results';
-export const HOMEHIGHLIGHTED_WIDGET_ID = 'formalux_search_home_highlight_articles';
+export const PREVIEW_WIDGET_ID = 'skywings_preview_search';
+export const SEARCH_WIDGET_ID = 'skywings_search_results';
+export const HOMEHIGHLIGHTED_WIDGET_ID = 'search_home_highlight_blogs_skywings';

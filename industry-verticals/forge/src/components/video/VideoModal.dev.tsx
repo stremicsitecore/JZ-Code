@@ -32,7 +32,6 @@ export function VideoModal({ isOpen, onClose, videoUrl }: VideoModalProps) {
     let timer: NodeJS.Timeout;
 
     const resetTimer = () => {
-      // console.log('resetTimer');
       setShowCloseButton(true);
       clearTimeout(timer);
       timer = setTimeout(() => setShowCloseButton(false), 3000);
@@ -152,9 +151,8 @@ export function VideoModal({ isOpen, onClose, videoUrl }: VideoModalProps) {
               </motion.div>
               <motion.div variants={itemVariants} className="fixed right-4 top-4 z-[110]">
                 <Button
-                  className={`bg-white text-black hover:bg-gray-200  ${fadeOutClass} ${
-                    showCloseButton ? visibleClass : hiddenClass
-                  }`}
+                  className={`bg-white text-black hover:bg-gray-200  ${fadeOutClass} ${showCloseButton ? visibleClass : hiddenClass
+                    }`}
                   variant="default"
                   size="icon"
                   onClick={(e) => {

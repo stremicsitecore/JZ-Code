@@ -40,8 +40,6 @@ export const PreviewSearchComponent = ({
   const router = useRouter();
   const { handleSearch } = useSearchTracking();
 
-  console.log(`source: ${SEARCH_CONFIG.source}`);
-
   const {
     actions: { onKeyphraseChange },
     queryResult,

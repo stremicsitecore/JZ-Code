@@ -83,7 +83,6 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
 
   const fullUrl = `https://forgemanufacturing.dev${relativeUrl}`;
 
-  console.log(`full url: ${fullUrl}`);
   return (
     <>
       <Scripts />

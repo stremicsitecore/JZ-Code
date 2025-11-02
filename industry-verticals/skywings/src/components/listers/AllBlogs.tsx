@@ -23,10 +23,9 @@ type AllBlogsProps = ComponentProps & {
 
 const AllBlogs = (props: AllBlogsProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  console.log(props);
 
   return (
-      <section className={`py-12 bg-gray-50 ${sxaStyles}`}>
+    <section className={`py-12 bg-gray-50 ${sxaStyles}`}>
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Latest Articles</h2>

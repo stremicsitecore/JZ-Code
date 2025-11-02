@@ -22,7 +22,6 @@ type LatestBlogGridProps = ComponentProps & {
 
 const LatestBlogGrid = (props: LatestBlogGridProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  console.log(props);
 
   return (
     <>

@@ -238,7 +238,6 @@ const destination = {
 
 const DestinationDetail = (props: DestinationDetailProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  console.log(props);
 
   return (
     <>

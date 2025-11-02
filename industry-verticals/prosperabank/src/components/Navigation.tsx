@@ -83,8 +83,6 @@ export const Default = (props: NavigationProps): JSX.Element => {
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
       : '';
   const id = props.params != null ? props.params.RenderingIdentifier : null;
-  console.log('STYLES: ', styles);
-  console.log('props: ', props);
 
   if (!Object.values(props.fields).length) {
     return (
@@ -162,9 +160,8 @@ export const Default = (props: NavigationProps): JSX.Element => {
       {isSearchSDKEnabled && (
         <div
           ref={containerRef}
-          className={`search-input-container ${
-            !isPreviewSearchOpen ? 'search-input-container-hidden' : ''
-          }`}
+          className={`search-input-container ${!isPreviewSearchOpen ? 'search-input-container-hidden' : ''
+            }`}
         >
           <PreviewSearchWidget rfkId="rfkid_6" itemRedirectionHandler={onRedirect} />
         </div>
