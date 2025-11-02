@@ -20,6 +20,11 @@ interface RouteFields {
   metadataDescription?: Field;
   pageSummary?: Field;
   ogImage?: ImageField;
+  HolidayType?: {
+    fields: {
+      Name?: Field;
+    }
+  }
 }
 
 const Layout = ({ page }: LayoutProps): JSX.Element => {
@@ -36,6 +41,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogImage = fields?.ogImage?.value?.src;
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
+  const holidayType = fields?.HolidayType?.fields?.Name.value?.toString() || '';
 
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -59,6 +65,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
         <meta property="og:url" content={fullUrl.replace('_site_skywings', '')} key="og:url" />
+        <meta property="og:destination_category" content={holidayType} key="og:destination_category" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
