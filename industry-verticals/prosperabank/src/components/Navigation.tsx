@@ -158,11 +158,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
         </label>
       )}
       {isSearchSDKEnabled && (
-        <div
-          ref={containerRef}
-          className={`search-input-container ${!isPreviewSearchOpen ? 'search-input-container-hidden' : ''
-            }`}
-        >
+        <div ref={containerRef} className={`search-input-container ${!isPreviewSearchOpen ? 'search-input-container-hidden' : ''}`}>
           <PreviewSearchWidget rfkId="rfkid_6" itemRedirectionHandler={onRedirect} />
         </div>
       )}
