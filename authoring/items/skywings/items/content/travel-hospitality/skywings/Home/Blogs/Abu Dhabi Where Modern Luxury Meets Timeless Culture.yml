@@ -54,14 +54,20 @@ Languages:
       Value: Abu Dhabi – Where Modern Luxury Meets Timeless Culture
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0a96cf46-44e9-4d5f-bf00-20f6a57ba23f"
+      Value: "3ee434c8-07ca-4c0b-b1e5-421c14674ff5"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Abu Dhabi – Where Modern Luxury Meets Timeless Culture
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-start="404" data-end="490">Discover the art, adventure, and Arabian elegance of the UAE’s capital.</p><p data-start="492" data-end="854">From the gleaming skyscrapers that define its skyline to the serene stretches of white sand beaches, Abu Dhabi is a city that effortlessly blends tradition and modernity. Begin your journey at the majestic <strong data-start="698" data-end="727">Sheikh Zayed Grand Mosque</strong>, a masterpiece of Islamic architecture where sparkling marble and intricate mosaics tell stories of faith and craftsmanship.</p><p data-start="856" data-end="1140">For art enthusiasts, the <strong data-start="881" data-end="901">Louvre Abu Dhabi</strong> is a must-visit, offering a world-class collection that bridges cultures and centuries. Adventure seekers can head to <strong data-start="1020" data-end="1037">Ferrari World</strong> for heart-pounding rides, or take a desert safari to experience the golden dunes in all their glory.</p><p data-start="1142" data-end="1402">When the sun sets, Abu Dhabi’s Corniche comes alive with waterfront dining, buzzing cafes, and walking paths perfect for a leisurely stroll. With its mix of luxury, culture, and adventure, Abu Dhabi is a destination that promises memories to last a lifetime.</p></div>
+        <div class="ck-content">
+              <p>Discover the art, adventure, and Arabian elegance of the UAE’s capital.</p>
+              <p>From the gleaming skyscrapers that define its skyline to the serene stretches of white sand beaches, Abu Dhabi is a city that effortlessly blends tradition and modernity. Begin your journey at the majestic <strong>Sheikh Zayed Grand Mosque</strong>, a masterpiece of Islamic architecture where sparkling marble and intricate mosaics tell stories of faith and craftsmanship.</p>
+              <p>For art enthusiasts, the <strong>Louvre Abu Dhabi</strong> is a must-visit, offering a world-class collection that bridges cultures and centuries. Adventure seekers can head to <strong>Ferrari World</strong> for heart-pounding rides, or take a desert safari to experience the golden dunes in all their glory.</p>
+              <p>When the sun sets, Abu Dhabi’s Corniche comes alive with waterfront dining, buzzing cafes, and walking paths perfect for a leisurely stroll. With its mix of luxury, culture, and adventure, Abu Dhabi is a destination that promises memories to last a lifetime.</p>
+            </div>
+        
     - ID: "a241b564-1997-4ae4-a610-87713757af69"
       Hint: Image
       Value: |
@@ -69,13 +75,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
       Hint: metadataDescription
       Value: Explore Abu Dhabi, a city where modern luxury meets timeless Arabian culture. Discover iconic landmarks like Sheikh Zayed Grand Mosque, the Louvre Abu Dhabi, and golden desert adventures.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T194846Z
+      Value: 20251103T020209Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

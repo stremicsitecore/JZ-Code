@@ -7,7 +7,6 @@ import {
   ImageField,
   Image,
   DateField,
-  Placeholder,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { Button } from "@/components/ui/button"
@@ -124,8 +123,6 @@ const BlogDetail = (props: BlogDetailProps): JSX.Element => {
             </div>
           </div>
         </div>
-
-        <Placeholder name="blogdetail" rendering={props.rendering} />
       </article>
     </>
   );

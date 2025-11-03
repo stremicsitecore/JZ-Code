@@ -54,14 +54,20 @@ Languages:
       Value: Doha – A Fusion of Culture and Modern Wonders
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1b48059-818b-4da0-9e2a-16ea99829439"
+      Value: "05debded-ddca-4881-80ed-669c257037d1"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Doha – A Fusion of Culture and Modern Wonders
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-start="2507" data-end="2604">Explore Qatar’s capital where the past and present intertwine in stunning harmony.</p><p data-start="2606" data-end="2908">Doha is a city of contrasts: gleaming skyscrapers rise alongside traditional souks, and cultural treasures sit comfortably beside luxury hotels. Start with the <strong data-start="2766" data-end="2791">Museum of Islamic Art</strong>, a breathtaking structure perched on the Corniche, showcasing centuries of artistry from across the Islamic world.</p><p data-start="2910" data-end="3241">Explore the winding streets of <strong data-start="2941" data-end="2955">Souq Waqif</strong>, where spices, textiles, and handicrafts tempt your senses. For a taste of the desert, hop on a safari or sandboard down the dunes just outside the city. Sports enthusiasts and architecture fans alike will marvel at the <strong data-start="3176" data-end="3191">Stadium 974</strong>, an engineering marvel from the FIFA World Cup.</p><p data-start="3243" data-end="3491">Doha’s culinary scene is another highlight, offering everything from gourmet dining to traditional Qatari cuisine. Whether you’re wandering along the waterfront or exploring a desert oasis, Doha provides an authentic yet modern Arabian adventure.</p></div>
+        <div class="ck-content">
+              <p>Explore Qatar’s capital where the past and present intertwine in stunning harmony.</p>
+              <p>Doha is a city of contrasts: gleaming skyscrapers rise alongside traditional souks, and cultural treasures sit comfortably beside luxury hotels. Start with the <strong>Museum of Islamic Art</strong>, a breathtaking structure perched on the Corniche, showcasing centuries of artistry from across the Islamic world.</p>
+              <p>Explore the winding streets of <strong>Souq Waqif</strong>, where spices, textiles, and handicrafts tempt your senses. For a taste of the desert, hop on a safari or sandboard down the dunes just outside the city. Sports enthusiasts and architecture fans alike will marvel at the <strong>Stadium 974</strong>, an engineering marvel from the FIFA World Cup.</p>
+              <p>Doha’s culinary scene is another highlight, offering everything from gourmet dining to traditional Qatari cuisine. Whether you’re wandering along the waterfront or exploring a desert oasis, Doha provides an authentic yet modern Arabian adventure.</p>
+            </div>
+        
     - ID: "a241b564-1997-4ae4-a610-87713757af69"
       Hint: Image
       Value: |
@@ -69,13 +75,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
       Hint: metadataDescription
       Value: "Experience Doha, where tradition and innovation blend seamlessly. Visit the Museum of Islamic Art, shop at Souq Waqif, and enjoy desert safaris and world-class cuisine."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T194929Z
+      Value: 20251103T020226Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

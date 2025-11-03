@@ -54,14 +54,20 @@ Languages:
       Value: Dubai – A Playground of Possibilities
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eef3738a-8a15-4d36-93fe-5c366c0d2462"
+      Value: "12506826-14ee-4690-9c85-665353dd1006"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Dubai – A Playground of Possibilities
     - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-start="1468" data-end="1556">From sky-high adventures to sparkling souks, Dubai dazzles at every turn.</p><p data-start="1558" data-end="1863">Dubai is the city of “wow” moments. Start your day atop the world’s tallest building, <strong data-start="1644" data-end="1660">Burj Khalifa</strong>, and soak in breathtaking views from the observation deck. Then, stroll through <strong data-start="1741" data-end="1755">Dubai Mall</strong>, home not just to shopping, but to an aquarium, ice rink, and countless experiences for the whole family.</p><p data-start="1865" data-end="2233">For a taste of tradition, wander the <strong data-start="1902" data-end="1939">Al Fahidi Historical Neighborhood</strong> or explore the vibrant <strong data-start="1963" data-end="1987">Gold and Spice Souks</strong>, where the scents and colors immerse you in the city’s rich heritage. Dubai’s beaches, like <strong data-start="2080" data-end="2098">Jumeirah Beach</strong>, are perfect for sun-soaked relaxation, while adrenaline seekers can try skydiving over <strong data-start="2187" data-end="2204">Palm Jumeirah</strong> for an unforgettable rush.</p><p data-start="2235" data-end="2433">When night falls, the city lights up with dazzling fountains, rooftop bars, and world-class dining. Dubai is a city that invites you to dream big, explore boldly, and enjoy every luxurious moment.</p></div>
+        <div class="ck-content">
+              <p>From sky-high adventures to sparkling souks, Dubai dazzles at every turn.</p>
+              <p>Dubai is the city of “wow” moments. Start your day atop the world’s tallest building, <strong>Burj Khalifa</strong>, and soak in breathtaking views from the observation deck. Then, stroll through <strong>Dubai Mall</strong>, home not just to shopping, but to an aquarium, ice rink, and countless experiences for the whole family.</p>
+              <p>For a taste of tradition, wander the <strong>Al Fahidi Historical Neighborhood</strong> or explore the vibrant <strong>Gold and Spice Souks</strong>, where the scents and colors immerse you in the city’s rich heritage. Dubai’s beaches, like <strong>Jumeirah Beach</strong>, are perfect for sun-soaked relaxation, while adrenaline seekers can try skydiving over <strong>Palm Jumeirah</strong> for an unforgettable rush.</p>
+              <p>When night falls, the city lights up with dazzling fountains, rooftop bars, and world-class dining. Dubai is a city that invites you to dream big, explore boldly, and enjoy every luxurious moment.</p>
+            </div>
+        
     - ID: "a241b564-1997-4ae4-a610-87713757af69"
       Hint: Image
       Value: |
@@ -69,13 +75,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
       Hint: metadataDescription
       Value: Uncover the magic of Dubai—from the towering Burj Khalifa and vibrant souks to thrilling skydives and luxurious beaches. A city of endless adventure and unforgettable experiences.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T195208Z
+      Value: 20251103T020234Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
