@@ -125,7 +125,7 @@ const BlogDetail = (props: BlogDetailProps): JSX.Element => {
           </div>
         </div>
 
-        <Placeholder name="blog-content" rendering={props.rendering} />
+        <Placeholder name="blogdetail" rendering={props.rendering} />
       </article>
     </>
   );
