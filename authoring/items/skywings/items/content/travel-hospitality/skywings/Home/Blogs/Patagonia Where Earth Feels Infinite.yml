@@ -25,13 +25,13 @@ Languages:
       Value: <r />
     - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
       Hint: metadataKeywords
-      Value: Patagonia travel guide, Torres del Paine hiking, Patagonia glaciers, Patagonia stargazing, Patagonia adventure tours, Patagonia itinerary, Patagonia nature escapes
+      Value: Patagonia travel guide, Torres del Paine hiking, Patagonia glaciers, Patagonia stargazing, Patagonia adventure tours, Patagonia itinerary, Patagonia nature escapes, Patagonia summer.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251027T184657Z
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
-      Value: Explore Patagonia’s raw beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness.
+      Value: Explore Patagonia’s raw summer beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness. Summer
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 3 min
@@ -54,7 +54,7 @@ Languages:
       Value: "Patagonia: Where Earth Feels Infinite"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa6dbd06-1d0d-4811-9a09-f598ab8b946e"
+      Value: "f2dc6d9c-76f9-48a2-9eee-343e0eb181b1"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "Patagonia: Where Earth Feels Infinite"
@@ -69,13 +69,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
       Hint: metadataDescription
       Value:  Explore Patagonia’s raw beauty — glaciers, jagged peaks, and stargazing skies. Adventure awaits in Chile and Argentina’s southern wilderness.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T195048Z
+      Value: 20251102T221310Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

@@ -3,6 +3,7 @@ import { ComponentProps } from 'lib/component-props';
 import SearchResultsWidget from './SearchResultsComponent';
 import { useSearchParams } from 'next/navigation';
 import QuestionsAnswers from './QuestionsAnswers';
+import { SEARCH_WIDGET_ID } from '@/_data/customizations';
 
 export const dynamic = 'force-dynamic';
 export const fetchCache = 'force-no-store';
@@ -16,8 +17,6 @@ export const SearchResults = (props: SearchResultsProps): JSX.Element => {
   const searchParams = useSearchParams();
   const query = searchParams?.get('q') || '';
 
-  console.log(`grabbed keyword from querystring: ${query}`);
-
   return (
     <div key={query} className={`${sxaStyles}`}>
       <QuestionsAnswers
@@ -26,7 +25,7 @@ export const SearchResults = (props: SearchResultsProps): JSX.Element => {
         defaultKeyphrase={query}
         defaultRelatedQuestions={3}
       />
-      <SearchResultsWidget rfkId="formalux_search_results" defaultKeyphrase={query} />
+      <SearchResultsWidget rfkId={SEARCH_WIDGET_ID} defaultKeyphrase={query} />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import {
   ImageField,
   Image,
   DateField,
+  Placeholder,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { Button } from "@/components/ui/button"
@@ -56,11 +57,11 @@ const BlogDetail = (props: BlogDetailProps): JSX.Element => {
 
             <div className="flex flex-wrap items-center gap-6 text-sm text-gray-500 mb-6">
               <div className="flex items-center space-x-2">
-                <Image field={props.fields.Author.fields.Picture} 
+                <Image field={props.fields.Author.fields.Picture}
                   width={32}
                   height={32}
                   className="rounded-full"
-                /> 
+                />
                 <span className="font-medium"><Text field={props.fields.Author.fields.Name} /></span>
               </div>
               <div className="flex items-center space-x-1">
@@ -123,6 +124,8 @@ const BlogDetail = (props: BlogDetailProps): JSX.Element => {
             </div>
           </div>
         </div>
+
+        <Placeholder name="blog-content" rendering={props.rendering} />
       </article>
     </>
   );

@@ -25,7 +25,7 @@ Languages:
       Value: <r />
     - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
       Hint: metadataKeywords
-      Value: Croatia travel guide, Dubrovnik old town, Split harbor, Croatia island hopping, Adriatic sunset views, Croatia itinerary, Croatian coastal escapes
+      Value: Croatia travel guide, Dubrovnik old town, Split harbor, Croatia island hopping, Adriatic sunset views, Croatia itinerary, Croatian coastal escapes, summer
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251027T190820Z
@@ -54,7 +54,7 @@ Languages:
       Value: "The Hidden Riviera: Croatia’s Adriatic Gem"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "108a9dc7-6d1a-47f3-99ba-2a9a0abedc2f"
+      Value: "bf1fc4e6-9f4f-466d-bef2-f5d75e72fb9c"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "The Hidden Riviera: Croatia’s Adriatic Gem"
@@ -69,13 +69,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
       Hint: metadataDescription
-      Value:  Discover Croatia’s medieval towns, turquoise waters, and coastal charm. From Dubrovnik to Split, explore history wrapped in sunshine.
+      Value: Discover Croatia’s medieval towns, turquoise waters, and coastal charm this summer. From Dubrovnik to Split, explore history wrapped in sunshine.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T195125Z
+      Value: 20251102T221138Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

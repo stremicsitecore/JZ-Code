@@ -31,13 +31,13 @@ Languages:
       Value: <r />
     - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
       Hint: metadataKeywords
-      Value: Bali travel guide, Bali cultural experiences, Ubud yoga retreats, Bali art markets, Tirta Empul temple, Uluwatu sunset views, Bali itinerary, Bali beyond beaches
+      Value: Bali travel guide, Bali cultural experiences, Ubud yoga retreats, Bali art markets, Tirta Empul temple, Uluwatu sunset views, Bali itinerary, Bali beyond beaches Summery summer.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250903T130601Z
     - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
       Hint: pageSummary
-      Value: Discover Bali’s spiritual calm and creative pulse. Explore rice terraces, temples, art markets, and sunset views from Uluwatu’s cliffs.
+      Value: Discover Bali’s spiritual calm and creative pulse. Explore rice terraces, temples, art markets, and sunset views from Uluwatu’s cliffs. Summer.
     - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
       Hint: ReadTime
       Value: 10 min
@@ -55,7 +55,7 @@ Languages:
       Value: "The Art of Island Time: Bali Beyond the Beaches"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cac003f-841e-4269-a881-5f447f8e98ac"
+      Value: "6321fd74-4474-46d3-acef-741c59fdbf5a"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: "The Art of Island Time: Bali Beyond the Beaches"
@@ -70,13 +70,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
       Hint: metadataDescription
       Value: Discover Bali’s spiritual calm and creative pulse. Explore rice terraces, temples, art markets, and sunset views from Uluwatu’s cliffs.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T194911Z
+      Value: 20251102T221220Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
