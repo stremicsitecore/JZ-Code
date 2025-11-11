@@ -13,17 +13,19 @@ import { cva } from 'class-variance-authority';
 import { useRouter } from 'next/navigation';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
-import ArticleItemCard from 'src/components/search/ArticleCard';
-import ArticleHorizontalItemCard from 'src/components/search/ArticleHorizontalCard';
-import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
-import Filter from 'src/components/search/Filter';
-import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
-import ResultsPerPage from 'src/components/search/ResultsPerPage';
-import SearchFacets from 'src/components/search/SearchFacets';
-import SearchPagination from 'src/components/search/SearchPagination';
-import SortOrder from 'src/components/search/SortOrder';
-import Spinner from 'src/components/search/Spinner';
 import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon } from '@radix-ui/react-icons';
+import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DEFAULT_IMG_URL } from '@/_data/customizations';
+import HomeHighlighted from 'src/components/search/HomeHighlighted';
+import Spinner from 'src/components/search/Spinner';
+import ArticleItemCard from 'src/components/search/ArticleCard';
+import SortOrder from 'src/components/search/SortOrder';
+import ArticleHorizontalItemCard from 'src/components/search/ArticleHorizontalCard';
+import SearchPagination from 'src/components/search/SearchPagination';
+import SearchFacets from 'src/components/search/SearchFacets';
+import ResultsPerPage from 'src/components/search/ResultsPerPage';
+import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
+import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
+import { useSearchTracking } from 'src/hooks/useSearchTracking';
 import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
 import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
@@ -124,57 +126,29 @@ const importMap = [
     ]
   },
   {
-    module: 'src/components/search/ArticleCard',
+    module: '@radix-ui/react-icons',
     exports: [
-      { name: 'default', value: ArticleItemCard },
+      { name: 'GridIcon', value: GridIcon },
+      { name: 'ListBulletIcon', value: ListBulletIcon },
+      { name: 'ArrowLeftIcon', value: ArrowLeftIcon },
+      { name: 'ArrowRightIcon', value: ArrowRightIcon },
+      { name: 'CheckIcon', value: CheckIcon },
     ]
   },
   {
-    module: 'src/components/search/ArticleHorizontalCard',
+    module: '@/_data/customizations',
     exports: [
-      { name: 'default', value: ArticleHorizontalItemCard },
+      { name: 'HIGHLIGHTED_ARTICLES_RFKID', value: HIGHLIGHTED_ARTICLES_RFKID },
+      { name: 'SEARCH_WIDGET_ID', value: SEARCH_WIDGET_ID },
+      { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
+      { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
+      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
     ]
   },
   {
-    module: 'src/components/search/CardViewSwitcher',
+    module: 'src/components/search/HomeHighlighted',
     exports: [
-      { name: 'default', value: CardViewSwitcher },
-    ]
-  },
-  {
-    module: 'src/components/search/Filter',
-    exports: [
-      { name: 'default', value: Filter },
-    ]
-  },
-  {
-    module: 'src/components/search/QueryResultsSummary',
-    exports: [
-      { name: 'default', value: QueryResultsSummary },
-    ]
-  },
-  {
-    module: 'src/components/search/ResultsPerPage',
-    exports: [
-      { name: 'default', value: ResultsPerPage },
-    ]
-  },
-  {
-    module: 'src/components/search/SearchFacets',
-    exports: [
-      { name: 'default', value: SearchFacets },
-    ]
-  },
-  {
-    module: 'src/components/search/SearchPagination',
-    exports: [
-      { name: 'default', value: SearchPagination },
-    ]
-  },
-  {
-    module: 'src/components/search/SortOrder',
-    exports: [
-      { name: 'default', value: SortOrder },
+      { name: 'default', value: HomeHighlighted },
     ]
   },
   {
@@ -184,13 +158,57 @@ const importMap = [
     ]
   },
   {
-    module: '@radix-ui/react-icons',
+    module: 'src/components/search/ArticleCard',
     exports: [
-      { name: 'GridIcon', value: GridIcon },
-      { name: 'ListBulletIcon', value: ListBulletIcon },
-      { name: 'ArrowLeftIcon', value: ArrowLeftIcon },
-      { name: 'ArrowRightIcon', value: ArrowRightIcon },
-      { name: 'CheckIcon', value: CheckIcon },
+      { name: 'default', value: ArticleItemCard },
+    ]
+  },
+  {
+    module: 'src/components/search/SortOrder',
+    exports: [
+      { name: 'default', value: SortOrder },
+    ]
+  },
+  {
+    module: 'src/components/search/ArticleHorizontalCard',
+    exports: [
+      { name: 'default', value: ArticleHorizontalItemCard },
+    ]
+  },
+  {
+    module: 'src/components/search/SearchPagination',
+    exports: [
+      { name: 'default', value: SearchPagination },
+    ]
+  },
+  {
+    module: 'src/components/search/SearchFacets',
+    exports: [
+      { name: 'default', value: SearchFacets },
+    ]
+  },
+  {
+    module: 'src/components/search/ResultsPerPage',
+    exports: [
+      { name: 'default', value: ResultsPerPage },
+    ]
+  },
+  {
+    module: 'src/components/search/QueryResultsSummary',
+    exports: [
+      { name: 'default', value: QueryResultsSummary },
+    ]
+  },
+  {
+    module: 'src/components/search/CardViewSwitcher',
+    exports: [
+      { name: 'default', value: CardViewSwitcher },
+    ]
+  },
+  {
+    module: 'src/hooks/useSearchTracking',
+    exports: [
+      { name: 'useSearchTracking', value: useSearchTracking },
     ]
   },
   {

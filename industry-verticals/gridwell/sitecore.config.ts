@@ -20,4 +20,7 @@ export default defineConfig({
     },
   },
   defaultSite: process.env.NEXT_PUBLIC_DEFAULT_SITE_NAME,
+  multisite: {
+    enabled: false,
+  }
 });
