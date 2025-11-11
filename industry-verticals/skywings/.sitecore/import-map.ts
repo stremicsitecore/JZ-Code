@@ -42,6 +42,7 @@ import { Input } from '@/components/ui/input';
 import { Select as Select_74a315bf8f39737a75c686fc0a3118c1056b2a17, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button as Button_68caa79812567088b20baa54d6b10a9ef0e1581e } from '@/components/ui/button';
 import Link from 'next/link';
+import { useSearchTracking as useSearchTracking_28742e7434a136289865b7be7dae68a0db3267e1 } from '@/hooks/useSearchTracking';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Calendar } from '@/components/ui/calendar';
@@ -367,6 +368,12 @@ const importMap = [
     module: 'next/link',
     exports: [
       { name: 'default', value: Link },
+    ]
+  },
+  {
+    module: '@/hooks/useSearchTracking',
+    exports: [
+      { name: 'useSearchTracking', value: useSearchTracking_28742e7434a136289865b7be7dae68a0db3267e1 },
     ]
   },
   {

@@ -25,6 +25,7 @@ import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
+import * as HighlightedArticles from 'src/components/search/HighlightedArticles';
 import * as Filter from 'src/components/search/Filter';
 import * as DestinationSearch from 'src/components/search/DestinationSearch';
 import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
@@ -73,6 +74,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['QueryResultsSummary', { ...QueryResultsSummary }],
   ['PreviewSearch', { ...PreviewSearch }],
   ['HomeHighlighted', { ...HomeHighlighted }],
+  ['HighlightedArticles', { ...HighlightedArticles }],
   ['Filter', { ...Filter }],
   ['DestinationSearch', { ...DestinationSearch }],
   ['CardViewSwitcher', { ...CardViewSwitcher }],
