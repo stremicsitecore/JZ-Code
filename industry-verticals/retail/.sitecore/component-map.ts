@@ -1,9 +1,9 @@
 // Below are built-in components that are available in the app, it's recommended to keep them as is
+
 import { BYOCWrapper, NextjsContentSdkComponent, FEaaSWrapper } from '@sitecore-content-sdk/nextjs';
 import { Form } from '@sitecore-content-sdk/nextjs';
-// end of built-in components
 
-// Components imported from the app itself
+// end of built-in components
 import * as Title from 'src/components/title/Title';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
@@ -11,7 +11,20 @@ import * as SocialFeed from 'src/components/social-feed/SocialFeed';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as SuggestionBlock from 'src/components/search/SuggestionBlock';
 import * as Spinner from 'src/components/search/Spinner';
+import * as SortOrder from 'src/components/search/SortOrder';
+import * as SearchResultsComponent from 'src/components/search/SearchResultsComponent';
+import * as SearchResults from 'src/components/search/SearchResults';
+import * as SearchPagination from 'src/components/search/SearchPagination';
+import * as SearchFacets from 'src/components/search/SearchFacets';
+import * as ResultsPerPage from 'src/components/search/ResultsPerPage';
+import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
+import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
+import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
+import * as Filter from 'src/components/search/Filter';
+import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
+import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalCard';
+import * as ArticleCard from 'src/components/search/ArticleCard';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as ReviewsCarousel from 'src/components/reviews-carousel/ReviewsCarousel';
@@ -22,6 +35,25 @@ import * as ProductDetails from 'src/components/product-details/ProductDetails';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as PageContent from 'src/components/page-content/PageContent';
 import * as Offers from 'src/components/offers/Offers';
+import * as StarRating from 'src/components/non-sitecore/StarRating';
+import * as SocialShare from 'src/components/non-sitecore/SocialShare';
+import * as ReviewCard from 'src/components/non-sitecore/ReviewCard';
+import * as QuantityControl from 'src/components/non-sitecore/QuantityControl';
+import * as ProductTabs from 'src/components/non-sitecore/ProductTabs';
+import * as ProductSizeControl from 'src/components/non-sitecore/ProductSizeControl';
+import * as ProductReviews from 'src/components/non-sitecore/ProductReviews';
+import * as ProductMetaDetails from 'src/components/non-sitecore/ProductMetaDetails';
+import * as ProductGallery from 'src/components/non-sitecore/ProductGallery';
+import * as ProductDescription from 'src/components/non-sitecore/ProductDescription';
+import * as ProductColorControl from 'src/components/non-sitecore/ProductColorControl';
+import * as ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
+import * as ProductCard from 'src/components/non-sitecore/ProductCard';
+import * as Pagination from 'src/components/non-sitecore/Pagination';
+import * as MiniCart from 'src/components/non-sitecore/MiniCart';
+import * as HamburgerIcon from 'src/components/non-sitecore/HamburgerIcon';
+import * as ExploreLink from 'src/components/non-sitecore/ExploreLink';
+import * as CarouselButton from 'src/components/non-sitecore/CarouselButton';
+import * as AddToCartButton from 'src/components/non-sitecore/AddToCartButton';
 import * as NavigationIcons from 'src/components/navigation-icons/NavigationIcons';
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as LinkList from 'src/components/link-list/LinkList';
@@ -41,47 +73,78 @@ import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 import * as ArticleCarousel from 'src/components/article-carousel/ArticleCarousel';
 import * as AllProductsCarousel from 'src/components/all-products-carousel/AllProductsCarousel';
 
-// Components must be registered within the map to match the string key with component name in Sitecore
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
-  ['Title', Title],
-  ['Subscribe', Subscribe],
-  ['SocialFollow', SocialFollow],
-  ['SocialFeed', SocialFeed],
-  ['SectionWrapper', SectionWrapper],
-  ['SuggestionBlock', SuggestionBlock],
-  ['Spinner', Spinner],
-  ['PreviewSearch', PreviewSearch],
-  ['RowSplitter', RowSplitter],
-  ['RichText', RichText],
-  ['ReviewsCarousel', ReviewsCarousel],
-  ['RelatedProducts', RelatedProducts],
-  ['Promo', Promo],
-  ['ProductListing', ProductListing],
-  ['ProductDetails', ProductDetails],
-  ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
-  ['PageContent', PageContent],
-  ['Offers', Offers],
-  ['NavigationIcons', NavigationIcons],
-  ['Navigation', Navigation],
-  ['LinkList', LinkList],
-  ['LanguageSwitcher', LanguageSwitcher],
-  ['Image', Image],
-  ['HeroBanner', HeroBanner],
-  ['Header', Header],
-  ['Footer', Footer],
-  ['Features', Features],
-  ['ContentBlock', ContentBlock],
-  ['Container', Container],
-  ['ContactForm', ContactForm],
-  ['ColumnSplitter', ColumnSplitter],
-  ['Breadcrumb', Breadcrumb],
-  ['ArticleListing', ArticleListing],
-  ['ArticleDetails', ArticleDetails],
-  ['ArticleCarousel', ArticleCarousel],
-  ['AllProductsCarousel', AllProductsCarousel],
+  ['Title', { ...Title }],
+  ['Subscribe', { ...Subscribe }],
+  ['SocialFollow', { ...SocialFollow }],
+  ['SocialFeed', { ...SocialFeed }],
+  ['SectionWrapper', { ...SectionWrapper }],
+  ['SuggestionBlock', { ...SuggestionBlock }],
+  ['Spinner', { ...Spinner }],
+  ['SortOrder', { ...SortOrder }],
+  ['SearchResultsComponent', { ...SearchResultsComponent }],
+  ['SearchResults', { ...SearchResults }],
+  ['SearchPagination', { ...SearchPagination }],
+  ['SearchFacets', { ...SearchFacets }],
+  ['ResultsPerPage', { ...ResultsPerPage }],
+  ['QuestionsAnswers', { ...QuestionsAnswers }],
+  ['QueryResultsSummary', { ...QueryResultsSummary }],
+  ['PreviewSearch', { ...PreviewSearch }],
+  ['HomeHighlighted', { ...HomeHighlighted }],
+  ['Filter', { ...Filter }],
+  ['CardViewSwitcher', { ...CardViewSwitcher }],
+  ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
+  ['ArticleCard', { ...ArticleCard }],
+  ['RowSplitter', { ...RowSplitter }],
+  ['RichText', { ...RichText }],
+  ['ReviewsCarousel', { ...ReviewsCarousel }],
+  ['RelatedProducts', { ...RelatedProducts }],
+  ['Promo', { ...Promo }],
+  ['ProductListing', { ...ProductListing }],
+  ['ProductDetails', { ...ProductDetails }],
+  ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
+  ['PageContent', { ...PageContent }],
+  ['Offers', { ...Offers }],
+  ['StarRating', { ...StarRating }],
+  ['SocialShare', { ...SocialShare }],
+  ['ReviewCard', { ...ReviewCard }],
+  ['QuantityControl', { ...QuantityControl }],
+  ['ProductTabs', { ...ProductTabs }],
+  ['ProductSizeControl', { ...ProductSizeControl }],
+  ['ProductReviews', { ...ProductReviews }],
+  ['ProductMetaDetails', { ...ProductMetaDetails }],
+  ['ProductGallery', { ...ProductGallery }],
+  ['ProductDescription', { ...ProductDescription }],
+  ['ProductColorControl', { ...ProductColorControl }],
+  ['ProductCarousel', { ...ProductCarousel }],
+  ['ProductCard', { ...ProductCard }],
+  ['Pagination', { ...Pagination }],
+  ['MiniCart', { ...MiniCart }],
+  ['HamburgerIcon', { ...HamburgerIcon }],
+  ['ExploreLink', { ...ExploreLink }],
+  ['CarouselButton', { ...CarouselButton }],
+  ['AddToCartButton', { ...AddToCartButton }],
+  ['NavigationIcons', { ...NavigationIcons }],
+  ['Navigation', { ...Navigation, componentType: 'client' }],
+  ['LinkList', { ...LinkList }],
+  ['LanguageSwitcher', { ...LanguageSwitcher, componentType: 'client' }],
+  ['Image', { ...Image }],
+  ['HeroBanner', { ...HeroBanner }],
+  ['Header', { ...Header }],
+  ['Footer', { ...Footer }],
+  ['Features', { ...Features }],
+  ['ContentBlock', { ...ContentBlock }],
+  ['Container', { ...Container }],
+  ['ContactForm', { ...ContactForm, componentType: 'client' }],
+  ['ColumnSplitter', { ...ColumnSplitter }],
+  ['Breadcrumb', { ...Breadcrumb }],
+  ['ArticleListing', { ...ArticleListing }],
+  ['ArticleDetails', { ...ArticleDetails }],
+  ['ArticleCarousel', { ...ArticleCarousel, componentType: 'client' }],
+  ['AllProductsCarousel', { ...AllProductsCarousel }],
 ]);
 
 export default componentMap;

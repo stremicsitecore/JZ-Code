@@ -15,7 +15,7 @@ import {
   withDatasourceCheck,
   DateField,
 } from '@sitecore-content-sdk/nextjs';
-import { useCallback, useState, useEffect, useMemo, useId, useRef } from 'react';
+import { useState, useCallback, useEffect, useMemo, useId, useRef } from 'react';
 import React from 'react';
 import { useI18n } from 'next-localization';
 import {
@@ -35,19 +35,71 @@ import {
 } from '@/assets/icons/social/social';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   usePreviewSearchActions,
+  useSearchResultsActions,
   WidgetDataType,
-  usePreviewSearch,
+  useSearchResults,
   widget,
+  useQuestions,
+  usePreviewSearch,
+  FilterEqual,
+  useSearchResultsSelectedFilters,
 } from '@sitecore-search/react';
-import { PreviewSearch, ArticleCard } from '@sitecore-search/ui';
-import Image from 'next/image';
+import {
+  PreviewSearch,
+  SortSelect,
+  Pagination,
+  AccordionFacets,
+  FacetItem,
+  RangeFacet,
+  SearchResultsAccordionFacets,
+  SearchResultsFacetValueRange,
+  Select,
+  ArticleCard,
+  CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7,
+} from '@sitecore-search/ui';
+import {
+  GridIcon,
+  ListBulletIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  CheckIcon,
+  ChevronDownIcon,
+} from '@radix-ui/react-icons';
+import {
+  HIGHLIGHTED_ARTICLES_RFKID,
+  SEARCH_WIDGET_ID,
+  PREVIEW_WIDGET_ID,
+  HOMEHIGHLIGHTED_WIDGET_ID,
+  DEFAULT_IMG_URL,
+} from '@/_data/customizations';
+import HomeHighlighted from 'src/components/search/HomeHighlighted';
 import Spinner from 'src/components/search/Spinner';
+import ArticleItemCard from 'src/components/search/ArticleCard';
+import SortOrder from 'src/components/search/SortOrder';
+import ArticleHorizontalItemCard from 'src/components/search/ArticleHorizontalCard';
+import SearchPagination from 'src/components/search/SearchPagination';
+import SearchFacets from 'src/components/search/SearchFacets';
+import ResultsPerPage from 'src/components/search/ResultsPerPage';
+import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
+import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
+import { useSearchTracking } from 'src/hooks/useSearchTracking';
+import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
+import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
+import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
+import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
+import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay, A11y, Keyboard } from 'swiper/modules';
+import {
+  Navigation,
+  Pagination as Pagination_8dba730cdca19ae0ff3cf106a6e16ccff9e9cae7,
+  Autoplay,
+  A11y,
+  Keyboard,
+} from 'swiper/modules';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
 import ReviewCard from 'src/components/non-sitecore/ReviewCard';
 import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
@@ -99,7 +151,6 @@ import { ProductReviews } from 'src/components/non-sitecore/ProductReviews';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
 import { useLocale } from '@/hooks/useLocaleOptions';
 import { ProductCard as ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b } from 'src/components/non-sitecore/ProductCard';
-import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { getCart } from '@/lib/cart';
 import { useCartAction } from '@/hooks/useCartAction';
 import { PopoverClose } from '@radix-ui/react-popover';
@@ -112,7 +163,6 @@ import PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 from 'src/componen
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
-import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import {
   getLinkContent,
   getLinkField,
@@ -122,7 +172,7 @@ import {
 } from '@/helpers/navHelpers';
 import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
 import {
-  Select,
+  Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850,
   SelectContent,
   SelectItem,
   SelectTrigger,
@@ -137,6 +187,7 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
+import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { faUser, faCalendar, faTag } from '@fortawesome/free-solid-svg-icons';
 import { sortByDateDesc, getCategoryCounts } from '@/helpers/articleUtils';
 import { cn } from '@/shadcn/lib/utils';
@@ -160,8 +211,8 @@ const importMap = [
   {
     module: 'react',
     exports: [
-      { name: 'useCallback', value: useCallback },
       { name: 'useState', value: useState },
+      { name: 'useCallback', value: useCallback },
       { name: 'useEffect', value: useEffect },
       { name: 'useMemo', value: useMemo },
       { name: 'useId', value: useId },
@@ -207,22 +258,125 @@ const importMap = [
   },
   {
     module: 'next/navigation',
-    exports: [{ name: 'useRouter', value: useRouter }],
+    exports: [
+      { name: 'useRouter', value: useRouter },
+      { name: 'useSearchParams', value: useSearchParams },
+    ],
   },
   {
     module: '@sitecore-search/react',
     exports: [
       { name: 'usePreviewSearchActions', value: usePreviewSearchActions },
+      { name: 'useSearchResultsActions', value: useSearchResultsActions },
       { name: 'WidgetDataType', value: WidgetDataType },
-      { name: 'usePreviewSearch', value: usePreviewSearch },
+      { name: 'useSearchResults', value: useSearchResults },
       { name: 'widget', value: widget },
+      { name: 'useQuestions', value: useQuestions },
+      { name: 'usePreviewSearch', value: usePreviewSearch },
+      { name: 'FilterEqual', value: FilterEqual },
+      { name: 'useSearchResultsSelectedFilters', value: useSearchResultsSelectedFilters },
     ],
   },
   {
     module: '@sitecore-search/ui',
     exports: [
       { name: 'PreviewSearch', value: PreviewSearch },
+      { name: 'SortSelect', value: SortSelect },
+      { name: 'Pagination', value: Pagination },
+      { name: 'AccordionFacets', value: AccordionFacets },
+      { name: 'FacetItem', value: FacetItem },
+      { name: 'RangeFacet', value: RangeFacet },
+      { name: 'SearchResultsAccordionFacets', value: SearchResultsAccordionFacets },
+      { name: 'SearchResultsFacetValueRange', value: SearchResultsFacetValueRange },
+      { name: 'Select', value: Select },
       { name: 'ArticleCard', value: ArticleCard },
+      {
+        name: 'CardViewSwitcher',
+        value: CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7,
+      },
+    ],
+  },
+  {
+    module: '@radix-ui/react-icons',
+    exports: [
+      { name: 'GridIcon', value: GridIcon },
+      { name: 'ListBulletIcon', value: ListBulletIcon },
+      { name: 'ArrowLeftIcon', value: ArrowLeftIcon },
+      { name: 'ArrowRightIcon', value: ArrowRightIcon },
+      { name: 'CheckIcon', value: CheckIcon },
+      { name: 'ChevronDownIcon', value: ChevronDownIcon },
+    ],
+  },
+  {
+    module: '@/_data/customizations',
+    exports: [
+      { name: 'HIGHLIGHTED_ARTICLES_RFKID', value: HIGHLIGHTED_ARTICLES_RFKID },
+      { name: 'SEARCH_WIDGET_ID', value: SEARCH_WIDGET_ID },
+      { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
+      { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
+      { name: 'DEFAULT_IMG_URL', value: DEFAULT_IMG_URL },
+    ],
+  },
+  {
+    module: 'src/components/search/HomeHighlighted',
+    exports: [{ name: 'default', value: HomeHighlighted }],
+  },
+  {
+    module: 'src/components/search/Spinner',
+    exports: [{ name: 'default', value: Spinner }],
+  },
+  {
+    module: 'src/components/search/ArticleCard',
+    exports: [{ name: 'default', value: ArticleItemCard }],
+  },
+  {
+    module: 'src/components/search/SortOrder',
+    exports: [{ name: 'default', value: SortOrder }],
+  },
+  {
+    module: 'src/components/search/ArticleHorizontalCard',
+    exports: [{ name: 'default', value: ArticleHorizontalItemCard }],
+  },
+  {
+    module: 'src/components/search/SearchPagination',
+    exports: [{ name: 'default', value: SearchPagination }],
+  },
+  {
+    module: 'src/components/search/SearchFacets',
+    exports: [{ name: 'default', value: SearchFacets }],
+  },
+  {
+    module: 'src/components/search/ResultsPerPage',
+    exports: [{ name: 'default', value: ResultsPerPage }],
+  },
+  {
+    module: 'src/components/search/QueryResultsSummary',
+    exports: [{ name: 'default', value: QueryResultsSummary }],
+  },
+  {
+    module: 'src/components/search/CardViewSwitcher',
+    exports: [{ name: 'default', value: CardViewSwitcher }],
+  },
+  {
+    module: 'src/hooks/useSearchTracking',
+    exports: [{ name: 'useSearchTracking', value: useSearchTracking }],
+  },
+  {
+    module: 'src/components/search/SearchResultsComponent',
+    exports: [{ name: 'default', value: SearchResultsWidget }],
+  },
+  {
+    module: 'src/components/search/QuestionsAnswers',
+    exports: [{ name: 'default', value: QuestionsAnswers }],
+  },
+  {
+    module: '@radix-ui/react-accordion',
+    exports: [
+      { name: 'Accordion', value: Accordion },
+      { name: 'Content', value: Content },
+      { name: 'Header', value: Header },
+      { name: 'Item', value: Item },
+      { name: 'Trigger', value: Trigger },
     ],
   },
   {
@@ -230,12 +384,12 @@ const importMap = [
     exports: [{ name: 'default', value: Image }],
   },
   {
-    module: 'src/components/search/Spinner',
-    exports: [{ name: 'default', value: Spinner }],
-  },
-  {
     module: 'src/components/search/SuggestionBlock',
     exports: [{ name: 'default', value: SuggestionBlock }],
+  },
+  {
+    module: 'next/link',
+    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
   },
   {
     module: 'swiper/react',
@@ -248,7 +402,7 @@ const importMap = [
     module: 'swiper/modules',
     exports: [
       { name: 'Navigation', value: Navigation },
-      { name: 'Pagination', value: Pagination },
+      { name: 'Pagination', value: Pagination_8dba730cdca19ae0ff3cf106a6e16ccff9e9cae7 },
       { name: 'Autoplay', value: Autoplay },
       { name: 'A11y', value: A11y },
       { name: 'Keyboard', value: Keyboard },
@@ -381,10 +535,6 @@ const importMap = [
     exports: [{ name: 'ProductCard', value: ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b }],
   },
   {
-    module: 'next/link',
-    exports: [{ name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 }],
-  },
-  {
     module: '@/lib/cart',
     exports: [{ name: 'getCart', value: getCart }],
   },
@@ -437,10 +587,6 @@ const importMap = [
     exports: [{ name: 'useStopResponsiveTransition', value: useStopResponsiveTransition }],
   },
   {
-    module: '@/helpers/extractMediaUrl',
-    exports: [{ name: 'extractMediaUrl', value: extractMediaUrl }],
-  },
-  {
     module: '@/helpers/navHelpers',
     exports: [
       { name: 'getLinkContent', value: getLinkContent },
@@ -457,7 +603,7 @@ const importMap = [
   {
     module: 'src/shadcn/components/ui/select',
     exports: [
-      { name: 'Select', value: Select },
+      { name: 'Select', value: Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850 },
       { name: 'SelectContent', value: SelectContent },
       { name: 'SelectItem', value: SelectItem },
       { name: 'SelectTrigger', value: SelectTrigger },
@@ -499,6 +645,10 @@ const importMap = [
   {
     module: 'sitecore.config',
     exports: [{ name: 'default', value: config }],
+  },
+  {
+    module: '@/helpers/extractMediaUrl',
+    exports: [{ name: 'extractMediaUrl', value: extractMediaUrl }],
   },
   {
     module: '@fortawesome/free-solid-svg-icons',
