@@ -34,7 +34,7 @@ Languages:
               s:ds="7d2c3223-f93d-4887-a6b4-ffbbd843b61c"
               s:id="{4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}"
               s:par="GridParameters&amp;FieldNames=%7B2328AD5E-FE66-47D9-B3B8-D797DEE1F9F8%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="headless-main" />
+              s:ph="/headless-main/sxa-blog-content/blog-detail-{AB5F3358-6F03-42A2-B118-88B5077F02E1}-0" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -61,7 +61,7 @@ Languages:
       Value: Its Summer In Bali
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4c70daba-01ef-4252-9520-d5dc3d0fa82d"
+      Value: "debd3291-d4d0-432c-b8f2-ea52c52485c4"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Its Summer In Bali
@@ -109,7 +109,7 @@ Languages:
       Value: Explore the diverse splendor of Bali, from lush jungles and iconic rice terraces to pristine beaches and vibrant cultural experiences. Discover the island's enchanting beauty and unforgettable sights.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251103T010832Z
+      Value: 20251111T183907Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |

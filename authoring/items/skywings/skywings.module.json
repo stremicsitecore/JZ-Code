@@ -16,6 +16,12 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/skywings",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "content",
         "path": "/sitecore/content/travel-hospitality",
         "scope": "ItemAndDescendants",
