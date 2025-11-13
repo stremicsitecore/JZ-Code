@@ -48,6 +48,7 @@ import * as utils from 'src/components/lib/utils';
 import * as PopularDestinations from 'src/components/destinations/PopularDestinations';
 import * as FeaturedDestinations from 'src/components/destinations/FeaturedDestinations';
 import * as DestinationDetail from 'src/components/destinations/DestinationDetail';
+import * as HeroBanner from 'src/components/banners/HeroBanner';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -97,6 +98,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PopularDestinations', { ...PopularDestinations }],
   ['FeaturedDestinations', { ...FeaturedDestinations }],
   ['DestinationDetail', { ...DestinationDetail }],
+  ['HeroBanner', { ...HeroBanner }],
 ]);
 
 export default componentMap;
