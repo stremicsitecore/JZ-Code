@@ -1,5 +1,4 @@
 import React, { JSX } from 'react'
-import { Button } from "@/components/ui/button"
 import { ComponentProps } from 'lib/component-props';
 import { withDatasourceCheck, Field, ImageField, LinkField, Link, Image, Text } from '@sitecore-content-sdk/nextjs';
 
