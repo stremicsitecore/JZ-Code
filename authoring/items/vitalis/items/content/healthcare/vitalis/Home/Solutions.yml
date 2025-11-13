@@ -1,0 +1,34 @@
+﻿---
+ID: "f42383b2-cd20-411c-a083-5af56ddac3df"
+Parent: "e2282aa0-af68-4033-ac38-14b16ca6ae62"
+Template: "38183f6a-c7aa-47bd-83d6-935f2383bc5d"
+Path: /sitecore/content/healthcare/vitalis/Home/Solutions
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6633B8D5-BC22-4AB3-A5E9-CA1671555C25}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251113T201929Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Solutions
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2acd35dc-90d6-43c8-96b1-91215e635f21"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251113T201929Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: Solutions

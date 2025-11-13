@@ -10,7 +10,7 @@ import * as TabsPrimitive from '@radix-ui/react-tabs';
 import { cn } from 'components/lib/utils';
 import * as SeparatorPrimitive from '@radix-ui/react-separator';
 import * as SelectPrimitive from '@radix-ui/react-select';
-import { CheckIcon, ChevronDownIcon, ChevronUpIcon, ChevronLeftIcon, ChevronRightIcon, Search, Plane, MapPin, CalendarIcon, Users, Star, Shield, Clock, Headphones, Wifi, Coffee, Luggage, Calendar as Calendar_6b289e2de0a07a8bed65fcf19e83723e986797b2, Heart, Share2, Facebook, Twitter, Linkedin, ArrowLeft, Menu, X, CreditCard, Phone, Mail, Instagram, Youtube, User, Thermometer, Camera, Bed, Navigation, Sun, Cloud } from 'lucide-react';
+import { CheckIcon, ChevronDownIcon, ChevronUpIcon, ChevronLeftIcon, ChevronRightIcon, Search, Plane, MapPin, CalendarIcon, Users, Star, Shield, Clock, Headphones, Wifi, Coffee, Luggage, Calendar as Calendar_6b289e2de0a07a8bed65fcf19e83723e986797b2, Heart, Share2, Facebook, Twitter, Linkedin, ArrowLeft, Menu, X, User, Thermometer, Camera, Bed, Phone, Navigation, Sun, Cloud } from 'lucide-react';
 import * as PopoverPrimitive from '@radix-ui/react-popover';
 import { DayPicker, getDefaultClassNames } from 'react-day-picker';
 import { Button, buttonVariants } from 'components/ui/button';
@@ -125,15 +125,11 @@ const importMap = [
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'Menu', value: Menu },
       { name: 'X', value: X },
-      { name: 'CreditCard', value: CreditCard },
-      { name: 'Phone', value: Phone },
-      { name: 'Mail', value: Mail },
-      { name: 'Instagram', value: Instagram },
-      { name: 'Youtube', value: Youtube },
       { name: 'User', value: User },
       { name: 'Thermometer', value: Thermometer },
       { name: 'Camera', value: Camera },
       { name: 'Bed', value: Bed },
+      { name: 'Phone', value: Phone },
       { name: 'Navigation', value: Navigation },
       { name: 'Sun', value: Sun },
       { name: 'Cloud', value: Cloud },

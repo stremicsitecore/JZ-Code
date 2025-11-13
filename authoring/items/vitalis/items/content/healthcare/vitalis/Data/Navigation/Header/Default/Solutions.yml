@@ -1,19 +1,15 @@
 ﻿---
-ID: "69f705ab-a0f5-4426-bc23-4042eff8d836"
-Parent: "623786dd-60ed-4552-82b4-38bb58278810"
-Template: "260a00d6-b332-49b5-ae09-4c859086839e"
-Path: /sitecore/content/healthcare/vitalis/Presentation/Page Designs
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+ID: "647c3d36-499a-4aa0-9d13-a67453d019bd"
+Parent: "35f1fb53-36f7-4574-b59d-0339fd8e38ba"
+Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
+Path: /sitecore/content/healthcare/vitalis/Data/Navigation/Header/Default/Solutions
 SharedFields:
-- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
-  Hint: TemplatesMapping
-  Value: "%7b38183F6A-C7AA-47BD-83D6-935F2383BC5D%7d%3d%257B7F513164-77D5-4ACD-984C-EA67721B40AF%257D"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5eaa7d48-0fac-4ed8-b858-fd28120ee61a"
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+  Value: "87faa759-bff1-4331-a4c1-d73c3ec04844"
 Languages:
 - Language: en
   Versions:
@@ -21,22 +17,26 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T183658Z
+      Value: 20250728T153900Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F42383B2-CD20-411C-A083-5AF56DDAC3DF}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5f068e91-ec5a-4e50-8996-6623c4d6f308"
+      Value: "708cc4c1-61a1-49ea-9d3f-de5649e2ef92"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T203614Z
+      Value: 20251113T202044Z

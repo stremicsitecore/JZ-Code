@@ -33,7 +33,7 @@ export const Header = (props: HeaderProps): JSX.Element => {
   return (
     <header className={`sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur ${sxaStyles}`}>
       <nav className="flex items-center justify-between px-4 py-4 md:px-8 max-w-7xl mx-auto w-full">
-        <Link href="/" className="flex items-center justify-between px-4 py-4 md:px-8 max-w-7xl font-bols text-foreground">
+        <Link href="/" className="flex items-center gap-2 text-xl font-bold text-foreground">
           <div className="h-8 w-8 rounded bg-primary text-primary-foreground flex items-center justify-center font-black">
             V
           </div>
@@ -91,6 +91,7 @@ export const Header = (props: HeaderProps): JSX.Element => {
           </div>
         )}
       </nav>
+
       {/* Mobile Menu */}
       {mobileOpen && (
         <div className="md:hidden border-t border-border bg-secondary p-4 space-y-4">

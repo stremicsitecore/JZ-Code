@@ -1,19 +1,15 @@
 ﻿---
-ID: "69f705ab-a0f5-4426-bc23-4042eff8d836"
-Parent: "623786dd-60ed-4552-82b4-38bb58278810"
-Template: "260a00d6-b332-49b5-ae09-4c859086839e"
-Path: /sitecore/content/healthcare/vitalis/Presentation/Page Designs
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+ID: "c7b9a5c5-552e-4193-bd38-c56eabc7a91e"
+Parent: "2f903864-5be4-4055-9243-9fdbe6ff7b5b"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/healthcare/vitalis/Data/Navigation
 SharedFields:
-- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
-  Hint: TemplatesMapping
-  Value: "%7b38183F6A-C7AA-47BD-83D6-935F2383BC5D%7d%3d%257B7F513164-77D5-4ACD-984C-EA67721B40AF%257D"
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/signpost2.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5eaa7d48-0fac-4ed8-b858-fd28120ee61a"
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+  Value: "99ae9779-06c6-4760-9812-ec8aa36a0fb1"
 Languages:
 - Language: en
   Versions:
@@ -21,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T183658Z
+      Value: 20250728T151018Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5f068e91-ec5a-4e50-8996-6623c4d6f308"
+      Value: "d0e15cf8-bc15-4a9b-9ffa-535661032e28"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T203614Z
+      Value: 20251113T201612Z
