@@ -28,7 +28,15 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{719A6262-8C6C-4BB8-91AE-4BD1144CF794}"
+              p:before="*"
+              s:ds="b3fab2da-596a-4893-89ff-296ec43b7e6a"
+              s:id="{B94588E6-1BAE-4859-AD97-28EB5FF84A10}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
               uid="{2E79AC43-524F-46A2-9372-A9E548B5403E}"
+              p:after="*[1=2]"
               s:ds="fb7b27d6-9d85-403f-a3ed-3a1d00c0e7ba"
               s:id="{41A33C8C-997E-4A2D-BC17-A61F2397ECCD}"
               s:par="CSSStyles"
@@ -51,14 +59,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d69910f7-0a2a-4bea-ba5f-5dcd3c102985"
+      Value: "98c2c92e-cb9d-4dea-bccd-22ec790eff4b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T213643Z
+      Value: 20251114T150841Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: vitalis

@@ -6,10 +6,12 @@ Path: /sitecore/content/healthcare/vitalis/Presentation/Available Renderings/Vit
 SharedFields:
 - ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
   Hint: Renderings
-  Value: "{41A33C8C-997E-4A2D-BC17-A61F2397ECCD}"
+  Value: |
+    {41A33C8C-997E-4A2D-BC17-A61F2397ECCD}
+    {B94588E6-1BAE-4859-AD97-28EB5FF84A10}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cb2482b9-cca9-4041-ae1e-61ee1f7bf125"
+  Value: "c60488be-02c6-42fe-8137-4f5b840682ef"
 Languages:
 - Language: en
   Versions:
@@ -28,11 +30,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4e3d8c9-d0b7-4b41-81ef-9a54cac01273"
+      Value: "9e761264-ea3d-4637-8a0d-8f3476e49f88"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T213424Z
+      Value: 20251114T150214Z

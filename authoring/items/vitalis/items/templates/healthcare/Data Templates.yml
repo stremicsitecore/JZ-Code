@@ -1,15 +1,8 @@
 ﻿---
-ID: "7dedf094-4e54-4351-a8e3-ca574ac89042"
-Parent: "2f903864-5be4-4055-9243-9fdbe6ff7b5b"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/content/healthcare/vitalis/Data/Banners
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: "{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}"
-- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
-  Hint: __Shared revision
-  Value: "53a14b42-ee5c-46ef-aec5-1b1bfdec30c1"
+ID: "b120b26c-3943-46f4-9b15-8090c2017e85"
+Parent: "f775defd-bc4a-49cf-b349-9ae844af98ee"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/healthcare/Data Templates
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T213059Z
+      Value: 20251114T144546Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c63f52d7-0a50-4601-85ec-b9e82a0892b8"
+      Value: "ee0fdea5-b4a5-43f9-a125-bbb8eae8d0d1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T143923Z
+      Value: 20251114T144546Z
