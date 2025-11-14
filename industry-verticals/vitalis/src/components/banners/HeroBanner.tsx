@@ -26,7 +26,7 @@ const HeroBanner = (props: HeroBannerProps): JSX.Element => {
             <Text field={props.fields.Title} />
           </h1>
           <p className="text-lg text-muted-foreground">
-            <Text field={props.fields.Title} />
+            <Text field={props.fields.Subtitle} />
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition font-medium w-full sm:w-auto">
