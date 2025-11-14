@@ -4,10 +4,16 @@ Parent: "e2282aa0-af68-4033-ac38-14b16ca6ae62"
 Template: "38183f6a-c7aa-47bd-83d6-935f2383bc5d"
 Path: /sitecore/content/healthcare/vitalis/Home/Products
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{24AD6C15-9C20-4EEF-9ECC-E25D574FF37E}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "422645a1-b600-4b0a-af66-31e91016c6da"
 Languages:
 - Language: en
   Versions:
@@ -21,14 +27,14 @@ Languages:
       Value: Products
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1935c564-9993-45bc-b012-3d87680b75f2"
+      Value: "024b0aca-0439-40c6-b70b-39dc2c3b7ab0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T201800Z
+      Value: 20251114T173629Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: Products

@@ -1,18 +1,15 @@
 ﻿---
-ID: "e9925c84-85ac-4808-a888-ea4895eb5096"
-Parent: "5ec4662e-373d-4d91-8916-3aa3743387d8"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/healthcare/vitalis/Presentation/Available Renderings/Vitalis
+ID: "1b849b69-d0b7-401e-b910-ab6d225a599f"
+Parent: "7dedf094-4e54-4351-a8e3-ca574ac89042"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/healthcare/vitalis/Data/Banners/Carousel Banners
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {41A33C8C-997E-4A2D-BC17-A61F2397ECCD}
-    {B94588E6-1BAE-4859-AD97-28EB5FF84A10}
-    {E1AD95B9-854D-4ADF-8F75-2DF1B69F80CC}
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{9501BF74-0FA6-49A7-BEB7-C031626B6E9C}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3f214f81-e458-4622-ae01-b60f9961eb18"
+  Value: "00f545bd-ffb2-4087-9030-8840e6d0f026"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T213412Z
+      Value: 20251114T163201Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cf4c0118-033c-4423-9630-805ce9a0f448"
+      Value: "db1af025-1c90-4ba5-9c0c-e1dbb2a3ea37"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T163835Z
+      Value: 20251114T163219Z

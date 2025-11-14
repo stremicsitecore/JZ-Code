@@ -50,6 +50,7 @@ import * as FeaturedDestinations from 'src/components/destinations/FeaturedDesti
 import * as DestinationDetail from 'src/components/destinations/DestinationDetail';
 import * as VideoBanner from 'src/components/banners/VideoBanner';
 import * as HeroBanner from 'src/components/banners/HeroBanner';
+import * as CarouselBanner from 'src/components/banners/CarouselBanner';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -101,6 +102,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['DestinationDetail', { ...DestinationDetail }],
   ['VideoBanner', { ...VideoBanner }],
   ['HeroBanner', { ...HeroBanner }],
+  ['CarouselBanner', { ...CarouselBanner }],
 ]);
 
 export default componentMap;
