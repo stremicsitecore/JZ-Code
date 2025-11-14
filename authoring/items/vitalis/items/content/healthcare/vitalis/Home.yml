@@ -43,9 +43,16 @@ Languages:
               s:ph="headless-main" />
             <r
               uid="{1CAB9B95-6C15-4C9A-A00F-141642E927C3}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{2E79AC43-524F-46A2-9372-A9E548B5403E}']"
               s:ds="92dfd616-cb9d-4b8c-a190-7e3fd0ca7169"
               s:id="{E1AD95B9-854D-4ADF-8F75-2DF1B69F80CC}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{F2156A32-40B8-487E-A5D8-85CBCE34412F}"
+              p:after="*[1=2]"
+              s:ds="ec05973b-a51a-47cf-89a4-7e6257d4e008"
+              s:id="{213EAE20-D60F-4005-BA72-2CD74FA70997}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -66,14 +73,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f357d467-1d9f-436b-b0b1-c9da02537a9b"
+      Value: "0cb48880-c91b-4558-a43e-289924923d06"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T164044Z
+      Value: 20251114T191509Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: vitalis

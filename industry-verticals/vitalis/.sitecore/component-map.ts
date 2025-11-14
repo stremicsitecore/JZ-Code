@@ -34,6 +34,7 @@ import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalC
 import * as ArticleCard from 'src/components/search/ArticleCard';
 import * as FlightPicker from 'src/components/pickers/FlightPicker';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
+import * as Stats from 'src/components/page-content/Stats';
 import * as Promo from 'src/components/page-content/Promo';
 import * as OfferBlock from 'src/components/page-content/OfferBlock';
 import * as BlogDetail from 'src/components/page-content/BlogDetail';
@@ -84,6 +85,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ArticleCard', { ...ArticleCard }],
   ['FlightPicker', { ...FlightPicker }],
   ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
+  ['Stats', { ...Stats }],
   ['Promo', { ...Promo }],
   ['OfferBlock', { ...OfferBlock }],
   ['BlogDetail', { ...BlogDetail }],
