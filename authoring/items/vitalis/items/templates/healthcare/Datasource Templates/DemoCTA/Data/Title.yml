@@ -1,22 +1,18 @@
 ﻿---
-ID: "b1277401-f174-468c-a58c-ee90b9044cfe"
-Parent: "c0ff5c01-f18d-46a5-9594-bd37af71b173"
-Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/Project/healthcare/Articles/article-detail"
+ID: "b723bdc7-ff00-4ce3-87e4-b74a4b5f31f0"
+Parent: "e27aa597-2267-49d3-ac4f-b0559f48e85f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/healthcare/Datasource Templates/DemoCTA/Data/Title
 SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: "article-detail"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a1b15f1f-3548-4a63-b503-240d86ee7ca5"
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Value: |
-    {4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}
-    {DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}
-    {CAA0C742-F052-49FB-825B-A03494798DB7}
-    {D203BAA3-339A-4C44-A41C-63DD3E053376}
+  Value: "d3d07127-6cc9-4040-81a4-c6dd6eb508ab"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251117T141407Z
+      Value: 20251117T175846Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,11 +31,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "27f7d879-5511-479a-8273-71110b7bda40"
+      Value: "e3861ffb-f187-4a24-b979-de4b1c58433c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T180345Z
+      Value: 20251117T180013Z
