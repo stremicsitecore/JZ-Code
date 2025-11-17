@@ -1,0 +1,76 @@
+﻿---
+ID: "a9d3a2a7-5386-48d8-b1f9-d191cb5a5593"
+Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
+Template: "0e9264df-c757-46ff-919d-cc434213740d"
+Path: /sitecore/content/healthcare/vitalis/Home/Articles/Reducing Administrative Burden
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0F9B344E-A6B4-4089-8DCB-7EBBD1CFC9D4}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T154208Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: healthcare automation, Stars reporting, HEDIS data automation, clinical burden reduction, Vitalis cloud solutions, healthcare data workflow
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Reducing Administrative Burden with Healthcare Data Automation | Vitalis
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Reducing Administrative Burden
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: Discover how healthcare organizations reduce administrative burden and strengthen performance using Vitalis’ intelligent data automation platform.
+    - ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
+      Hint: PublishDate
+      Value: 20250226T000000Z
+    - ID: "7cf9f373-5e3b-4677-8e52-8445d688be45"
+      Hint: Category
+      Value: "{91FDED2E-A612-4C99-8AF0-AA8AA32CC6C4}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ec03d0a-485b-46b6-b234-b7a9e2e53bcc"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <div class="ck-content">
+              <p>Administrative burden continues to be one of the most significant barriers to efficiency across payers, providers, and value-based care organizations. Clinical teams, quality teams, and operational leaders all face increasing pressure to deliver more with less—while navigating regulatory change, expanding data requirements, and tighter performance windows. As healthcare grows more complex, organizations are turning to intelligent automation platforms to streamline workflows, elevate accuracy, and return valuable time to the workforce.</p>
+              <p> </p>
+              <p>Vitalis’ cloud-based data automation solutions are designed specifically for these pressures. Instead of relying on manual processes, disconnected data sources, or heavy IT lift, organizations can centralize and automate quality reporting, chart retrieval, documentation, and performance workflows. By unifying once-fragmented tasks, teams see measurable reductions in administrative overhead and can redirect their focus toward patient experience, quality improvement, and strategic initiatives.</p>
+              <p> </p>
+              <p>Automation also strengthens data integrity—a key requirement for Stars, HEDIS, and value-based models. With automated ingestion, validation, and enrichment, Vitalis ensures teams work from a reliable and consistent source of truth. This reduces rework, increases confidence in reporting, and accelerates critical processes during peak measurement seasons. As organizations prepare for upcoming regulatory cycles, the importance of dependable, scalable data automation continues to grow.</p>
+              <p> </p>
+              <p>Finally, automation supports cross-team collaboration. Quality, analytics, marketing, compliance, and provider management teams can all access the same unified data environment, enabling aligned planning and faster decision-making. For healthcare organizations committed to operational excellence, automation isn’t just a convenience—it’s becoming a competitive advantage.</p>
+            </div>
+        
+    - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/8df0a02f050a42be8bc0ef28d046d3fd?v=872b749d" dam-id="TTtxdW-OQkm65Oy34VIxTA" width="1800" height="1200" alt="shutterstock_2334505381_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48671/thumbnail" />
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/287df11ea0f14bc5b09171928f2a364f?v=e66ddcd3" dam-id="TTtxdW-OQkm65Oy34VIxTA" width="350" height="350" alt="shutterstock_2334505381_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48671/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: "This article explains how healthcare payers and providers reduce administrative burden through Vitalis’ intelligent data automation. It highlights workflow efficiency, improved data accuracy, and enhanced cross-team collaboration for Stars, HEDIS, and value-based care programs."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T155420Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: How Healthcare Organizations Are Reducing Administrative Burden Through Intelligent Data Automation

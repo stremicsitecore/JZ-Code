@@ -1,18 +1,8 @@
 ﻿---
-ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
-Parent: "2db11b0c-c62f-4052-afc5-d29e08320960"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/healthcare/Article/Content/Image
-SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: Image
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
-- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
-  Hint: __Shared revision
-  Value: "bf50d86d-8cc2-4fd4-9b40-e23117c54cd9"
+ID: "cf1f8cc0-5d48-4a85-90c8-7db4bbe2ef12"
+Parent: "d535c20b-c25f-4a62-8e16-3e77d37402be"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/healthcare/vitalis/System/A/9/D
 Languages:
 - Language: en
   Versions:
@@ -20,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251114T193534Z
+      Value: 20251117T154208Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +21,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f729922-a883-4f3e-be22-7586022d8f6b"
+      Value: "4172b5f3-b7e7-4afd-b42a-b0d0ec53f304"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T155342Z
+      Value: 20251117T154208Z

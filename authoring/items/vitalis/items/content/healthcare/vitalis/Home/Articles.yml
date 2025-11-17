@@ -2,12 +2,18 @@
 ID: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
 Parent: "e2282aa0-af68-4033-ac38-14b16ca6ae62"
 Template: "38183f6a-c7aa-47bd-83d6-935f2383bc5d"
-Path: /sitecore/content/healthcare/vitalis/Home/News
+Path: /sitecore/content/healthcare/vitalis/Home/Articles
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{0E9264DF-C757-46FF-919D-CC434213740D}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{8FAA399A-F449-47C9-8C43-A0DB62978600}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7b3a527c-598d-46e5-9c7e-e36fdf2da88c"
 Languages:
 - Language: en
   Versions:
@@ -21,14 +27,14 @@ Languages:
       Value: News
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e34103d1-4611-4bb9-a967-b21ca2c450b6"
+      Value: "f9c17324-4c8d-4682-8d51-e3aac3a3b604"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T201956Z
+      Value: 20251117T145022Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: News

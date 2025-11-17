@@ -37,19 +37,17 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as Stats from 'src/components/page-content/Stats';
 import * as Promo from 'src/components/page-content/Promo';
 import * as OfferBlock from 'src/components/page-content/OfferBlock';
-import * as BlogDetail from 'src/components/page-content/BlogDetail';
+import * as DemoCTA from 'src/components/page-content/DemoCTA';
 import * as Author from 'src/components/page-content/Author';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as LatestBlogGrid from 'src/components/listers/LatestBlogGrid';
 import * as AllBlogs from 'src/components/listers/AllBlogs';
 import * as utils from 'src/components/lib/utils';
-import * as PopularDestinations from 'src/components/destinations/PopularDestinations';
-import * as FeaturedDestinations from 'src/components/destinations/FeaturedDestinations';
-import * as DestinationDetail from 'src/components/destinations/DestinationDetail';
 import * as VideoBanner from 'src/components/banners/VideoBanner';
 import * as HeroBanner from 'src/components/banners/HeroBanner';
 import * as CarouselBanner from 'src/components/banners/CarouselBanner';
+import * as ArticleDetail from 'src/components/artilcles/ArticleDetail';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -88,19 +86,17 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Stats', { ...Stats }],
   ['Promo', { ...Promo }],
   ['OfferBlock', { ...OfferBlock }],
-  ['BlogDetail', { ...BlogDetail }],
+  ['DemoCTA', { ...DemoCTA }],
   ['Author', { ...Author }],
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
   ['LatestBlogGrid', { ...LatestBlogGrid }],
   ['AllBlogs', { ...AllBlogs }],
   ['utils', { ...utils }],
-  ['PopularDestinations', { ...PopularDestinations }],
-  ['FeaturedDestinations', { ...FeaturedDestinations }],
-  ['DestinationDetail', { ...DestinationDetail }],
   ['VideoBanner', { ...VideoBanner }],
   ['HeroBanner', { ...HeroBanner }],
   ['CarouselBanner', { ...CarouselBanner }],
+  ['ArticleDetail', { ...ArticleDetail }],
 ]);
 
 export default componentMap;

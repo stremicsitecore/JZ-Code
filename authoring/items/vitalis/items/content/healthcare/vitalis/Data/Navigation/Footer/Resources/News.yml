@@ -21,14 +21,14 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{75154406-99B2-4230-9F1A-9B09F6BF7EA3}" />
+        <link class="" id="{75154406-99B2-4230-9F1A-9B09F6BF7EA3}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/healthcare/vitalis/Home/Articles" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1a0ffb70-2368-4859-a61d-216494a5c3a0"
+      Value: "a29ead7c-7078-4bf7-a39e-048a3d21ac51"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T204949Z
+      Value: 20251117T145008Z

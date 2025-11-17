@@ -1,20 +1,21 @@
 ﻿---
-ID: "e9925c84-85ac-4808-a888-ea4895eb5096"
-Parent: "5ec4662e-373d-4d91-8916-3aa3743387d8"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/healthcare/vitalis/Presentation/Available Renderings/Vitalis
+ID: "b1277401-f174-468c-a58c-ee90b9044cfe"
+Parent: "c0ff5c01-f18d-46a5-9594-bd37af71b173"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/healthcare/Articles/article-detail"
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {41A33C8C-997E-4A2D-BC17-A61F2397ECCD}
-    {B94588E6-1BAE-4859-AD97-28EB5FF84A10}
-    {E1AD95B9-854D-4ADF-8F75-2DF1B69F80CC}
-    {213EAE20-D60F-4005-BA72-2CD74FA70997}
-    {E27D06DE-F68D-45EE-81F6-CEB651A53589}
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "article-detail"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "36c5cb9f-1338-45a3-a79d-db83ecc66c20"
+  Value: "b8d58d3b-bd8b-4382-accc-5ab74eaba921"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}
+    {DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}
+    {CAA0C742-F052-49FB-825B-A03494798DB7}
 Languages:
 - Language: en
   Versions:
@@ -22,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T213412Z
+      Value: 20251117T141407Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -33,11 +34,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88e33e0c-4d86-4856-9de0-af9da4f57d02"
+      Value: "cc457e3b-cdff-4c62-bf16-edf842ab13a6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T150024Z
+      Value: 20251117T141625Z

@@ -1,20 +1,18 @@
 ﻿---
-ID: "e9925c84-85ac-4808-a888-ea4895eb5096"
-Parent: "5ec4662e-373d-4d91-8916-3aa3743387d8"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/healthcare/vitalis/Presentation/Available Renderings/Vitalis
+ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
+Parent: "2db11b0c-c62f-4052-afc5-d29e08320960"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/healthcare/Article/Content/PublishDate
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {41A33C8C-997E-4A2D-BC17-A61F2397ECCD}
-    {B94588E6-1BAE-4859-AD97-28EB5FF84A10}
-    {E1AD95B9-854D-4ADF-8F75-2DF1B69F80CC}
-    {213EAE20-D60F-4005-BA72-2CD74FA70997}
-    {E27D06DE-F68D-45EE-81F6-CEB651A53589}
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Date
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "36c5cb9f-1338-45a3-a79d-db83ecc66c20"
+  Value: "d75f776b-0a35-44c9-9236-7dc332608a14"
 Languages:
 - Language: en
   Versions:
@@ -22,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20251113T213412Z
+      Value: 20251117T144210Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -33,11 +31,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88e33e0c-4d86-4856-9de0-af9da4f57d02"
+      Value: "09e06248-ba15-411a-9418-4ff2a3a64bef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T150024Z
+      Value: 20251117T155342Z

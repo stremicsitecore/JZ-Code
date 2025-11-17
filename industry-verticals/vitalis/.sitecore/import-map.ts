@@ -10,7 +10,7 @@ import * as TabsPrimitive from '@radix-ui/react-tabs';
 import { cn } from 'components/lib/utils';
 import * as SeparatorPrimitive from '@radix-ui/react-separator';
 import * as SelectPrimitive from '@radix-ui/react-select';
-import { CheckIcon, ChevronDownIcon, ChevronUpIcon, ChevronLeftIcon, ChevronRightIcon, Search, Plane, MapPin, CalendarIcon, Users, Star, Shield, Clock, Headphones, Wifi, Coffee, Luggage, Calendar as Calendar_6b289e2de0a07a8bed65fcf19e83723e986797b2, Heart, Share2, Facebook, Twitter, Linkedin, ArrowLeft, Menu, X, User, Thermometer, Camera, Bed, Phone, Navigation, Sun, Cloud, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { CheckIcon, ChevronDownIcon, ChevronUpIcon, ChevronLeftIcon, ChevronRightIcon, Search, Plane, MapPin, CalendarIcon, Users, BriefcaseMedical, ClipboardCheck, FilePlus, GraduationCap, Hospital, Microscope, MonitorCheck, Twitter, Linkedin, Menu, X, Calendar as Calendar_6b289e2de0a07a8bed65fcf19e83723e986797b2, Clock, Heart, Share2, User, ArrowRight, ChevronLeft, ChevronRight, ArrowLeft } from 'lucide-react';
 import * as PopoverPrimitive from '@radix-ui/react-popover';
 import { DayPicker, getDefaultClassNames } from 'react-day-picker';
 import { Button, buttonVariants } from 'components/ui/button';
@@ -37,7 +37,7 @@ import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
 import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
-import { withDatasourceCheck, Text, Placeholder, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, Link as Link_8a80e63291fea86e0744df19113dc44bec187216, DateField, CdpHelper, useSitecore } from '@sitecore-content-sdk/nextjs';
+import { withDatasourceCheck, Text, Placeholder, Link as Link_8a80e63291fea86e0744df19113dc44bec187216, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, DateField, CdpHelper, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { Input } from '@/components/ui/input';
 import { Select as Select_74a315bf8f39737a75c686fc0a3118c1056b2a17, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button as Button_68caa79812567088b20baa54d6b10a9ef0e1581e } from '@/components/ui/button';
@@ -47,14 +47,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Calendar } from '@/components/ui/calendar';
 import { Badge } from '@/components/ui/badge';
-import { newsDateFormatter } from 'src/helpers/DateHelper';
 import PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 from 'src/components/search/PreviewSearch';
+import { newsDateFormatter } from 'src/helpers/DateHelper';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import Head from 'next/head';
-import { removeTags } from 'src/helpers/ContentSearchHelper';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Separator } from '@/components/ui/separator';
 import client from 'lib/sitecore-client';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
@@ -109,33 +106,26 @@ const importMap = [
       { name: 'MapPin', value: MapPin },
       { name: 'CalendarIcon', value: CalendarIcon },
       { name: 'Users', value: Users },
-      { name: 'Star', value: Star },
-      { name: 'Shield', value: Shield },
-      { name: 'Clock', value: Clock },
-      { name: 'Headphones', value: Headphones },
-      { name: 'Wifi', value: Wifi },
-      { name: 'Coffee', value: Coffee },
-      { name: 'Luggage', value: Luggage },
-      { name: 'Calendar', value: Calendar_6b289e2de0a07a8bed65fcf19e83723e986797b2 },
-      { name: 'Heart', value: Heart },
-      { name: 'Share2', value: Share2 },
-      { name: 'Facebook', value: Facebook },
+      { name: 'BriefcaseMedical', value: BriefcaseMedical },
+      { name: 'ClipboardCheck', value: ClipboardCheck },
+      { name: 'FilePlus', value: FilePlus },
+      { name: 'GraduationCap', value: GraduationCap },
+      { name: 'Hospital', value: Hospital },
+      { name: 'Microscope', value: Microscope },
+      { name: 'MonitorCheck', value: MonitorCheck },
       { name: 'Twitter', value: Twitter },
       { name: 'Linkedin', value: Linkedin },
-      { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'Menu', value: Menu },
       { name: 'X', value: X },
+      { name: 'Calendar', value: Calendar_6b289e2de0a07a8bed65fcf19e83723e986797b2 },
+      { name: 'Clock', value: Clock },
+      { name: 'Heart', value: Heart },
+      { name: 'Share2', value: Share2 },
       { name: 'User', value: User },
-      { name: 'Thermometer', value: Thermometer },
-      { name: 'Camera', value: Camera },
-      { name: 'Bed', value: Bed },
-      { name: 'Phone', value: Phone },
-      { name: 'Navigation', value: Navigation },
-      { name: 'Sun', value: Sun },
-      { name: 'Cloud', value: Cloud },
       { name: 'ArrowRight', value: ArrowRight },
       { name: 'ChevronLeft', value: ChevronLeft },
       { name: 'ChevronRight', value: ChevronRight },
+      { name: 'ArrowLeft', value: ArrowLeft },
     ]
   },
   {
@@ -334,9 +324,9 @@ const importMap = [
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'Text', value: Text },
       { name: 'Placeholder', value: Placeholder },
+      { name: 'Link', value: Link_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'RichText', value: RichText },
       { name: 'Image', value: Image_8a80e63291fea86e0744df19113dc44bec187216 },
-      { name: 'Link', value: Link_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'DateField', value: DateField },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'useSitecore', value: useSitecore },
@@ -406,15 +396,15 @@ const importMap = [
     ]
   },
   {
-    module: 'src/helpers/DateHelper',
-    exports: [
-      { name: 'newsDateFormatter', value: newsDateFormatter },
-    ]
-  },
-  {
     module: 'src/components/search/PreviewSearch',
     exports: [
       { name: 'default', value: PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 },
+    ]
+  },
+  {
+    module: 'src/helpers/DateHelper',
+    exports: [
+      { name: 'newsDateFormatter', value: newsDateFormatter },
     ]
   },
   {
@@ -433,27 +423,6 @@ const importMap = [
     module: 'next/head',
     exports: [
       { name: 'default', value: Head },
-    ]
-  },
-  {
-    module: 'src/helpers/ContentSearchHelper',
-    exports: [
-      { name: 'removeTags', value: removeTags },
-    ]
-  },
-  {
-    module: '@/components/ui/tabs',
-    exports: [
-      { name: 'Tabs', value: Tabs },
-      { name: 'TabsContent', value: TabsContent },
-      { name: 'TabsList', value: TabsList },
-      { name: 'TabsTrigger', value: TabsTrigger },
-    ]
-  },
-  {
-    module: '@/components/ui/separator',
-    exports: [
-      { name: 'Separator', value: Separator },
     ]
   },
   {

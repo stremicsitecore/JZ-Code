@@ -28,7 +28,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c5699269-39dc-4bad-8ee8-09c771019f52"
+      Value: "ed905a78-eed0-44bd-a24d-c5e384740916"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -36,10 +36,10 @@ Languages:
     - ID: "bfa9e145-f09f-4fd1-8722-29fee3a32b2f"
       Hint: CTA2
       Value: |
-        <link text="Schedule Demo" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{75154406-99B2-4230-9F1A-9B09F6BF7EA3}" />
+        <link class="" id="{75154406-99B2-4230-9F1A-9B09F6BF7EA3}" querystring="" anchor="" target="_blank" title="" linktype="internal" text="Schedule Demo" url="/healthcare/vitalis/Home/Articles" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T213352Z
+      Value: 20251117T145008Z
     - ID: "df83603b-689f-4a70-86f5-2845225a213e"
       Hint: Title
       Value: Transform healthcare data into meaningful action

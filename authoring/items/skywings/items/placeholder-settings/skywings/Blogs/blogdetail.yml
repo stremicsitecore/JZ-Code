@@ -9,10 +9,13 @@ SharedFields:
   Value: "blog-detail"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f36ca219-c82b-478f-9250-b2bf59f3110a"
+  Value: "f8b63102-9c96-437d-8751-5040ccb0e0c6"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
-  Value: "{4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}"
+  Value: |
+    {4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}
+    {CAA0C742-F052-49FB-825B-A03494798DB7}
+    {DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}
 Languages:
 - Language: en
   Versions:
@@ -31,11 +34,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55b5286d-e56c-40f1-84a2-c98b86ad58ed"
+      Value: "ed854bdc-6b4d-43b4-be23-e8e822aa026f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251103T022435Z
+      Value: 20251117T141609Z
