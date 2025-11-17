@@ -34,7 +34,7 @@ export const Header = (props: HeaderProps): JSX.Element => {
     <header className={`sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur ${sxaStyles}`}>
       <nav className="flex items-center justify-between px-4 md:px-8 max-w-7xl mx-auto w-full">
         <Link href="/" className="flex items-center gap-2 w-[250px]">
-          <img src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b1e9755809354d2e81f096a8ea4228b5?v=12bbbf40" className="py-2 max-w-full" />
+          <img src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b1e9755809354d2e81f096a8ea4228b5?v=12bbbf40" alt="Vitalis Logo" className="py-2 max-w-full" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
