@@ -47,7 +47,7 @@ import * as utils from 'src/components/lib/utils';
 import * as VideoBanner from 'src/components/banners/VideoBanner';
 import * as HeroBanner from 'src/components/banners/HeroBanner';
 import * as CarouselBanner from 'src/components/banners/CarouselBanner';
-import * as ArticleDetail from 'src/components/artilcles/ArticleDetail';
+import * as ArticleDetail from 'src/components/articles/ArticleDetail';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],

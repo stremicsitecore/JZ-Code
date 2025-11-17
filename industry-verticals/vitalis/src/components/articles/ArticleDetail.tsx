@@ -28,7 +28,6 @@ type ArticleDetailProps = ComponentProps & {
 };
 
 const ArticleDetail = (props: ArticleDetailProps): JSX.Element => {
-  console.log(props);
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (
