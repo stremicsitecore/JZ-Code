@@ -1,15 +1,22 @@
 ﻿---
-ID: "a9d3a2a7-5386-48d8-b1f9-d191cb5a5593"
+ID: "ba84430a-4c61-46f1-8b27-de9c100ce3c7"
 Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
 Template: "0e9264df-c757-46ff-919d-cc434213740d"
-Path: /sitecore/content/healthcare/vitalis/Home/Articles/Reducing Administrative Burden
+Path: "/sitecore/content/healthcare/vitalis/Home/Articles/Driving Revenue Growth Through Data-Driven Marketing"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{0F9B344E-A6B4-4089-8DCB-7EBBD1CFC9D4}" />
+    <image mediaid="{FE0AD454-F484-4BDB-9E8B-0A981F4D46E0}" />
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c7344d9b-9a0c-42be-8a54-1889f26e241d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Driving Revenue Growth Through Data-Driven Marketing"
   Versions:
   - Version: 1
     Fields:
@@ -54,20 +61,11 @@ Languages:
       Value: "{91FDED2E-A612-4C99-8AF0-AA8AA32CC6C4}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8611e50d-86d3-4f09-bb4b-088bf8a98f15"
+      Value: "23b40c00-cf98-428a-96c3-976a4c1dc47a"
     - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
       Hint: Content
       Value: |
-        <div class="ck-content">
-              <p>Administrative burden continues to be one of the most significant barriers to efficiency across payers, providers, and value-based care organizations. Clinical teams, quality teams, and operational leaders all face increasing pressure to deliver more with less—while navigating regulatory change, expanding data requirements, and tighter performance windows. As healthcare grows more complex, organizations are turning to intelligent automation platforms to streamline workflows, elevate accuracy, and return valuable time to the workforce.</p>
-              <p> </p>
-              <p>Vitalis’ cloud-based data automation solutions are designed specifically for these pressures. Instead of relying on manual processes, disconnected data sources, or heavy IT lift, organizations can centralize and automate quality reporting, chart retrieval, documentation, and performance workflows. By unifying once-fragmented tasks, teams see measurable reductions in administrative overhead and can redirect their focus toward patient experience, quality improvement, and strategic initiatives.</p>
-              <p> </p>
-              <p>Automation also strengthens data integrity—a key requirement for Stars, HEDIS, and value-based models. With automated ingestion, validation, and enrichment, Vitalis ensures teams work from a reliable and consistent source of truth. This reduces rework, increases confidence in reporting, and accelerates critical processes during peak measurement seasons. As organizations prepare for upcoming regulatory cycles, the importance of dependable, scalable data automation continues to grow.</p>
-              <p> </p>
-              <p>Finally, automation supports cross-team collaboration. Quality, analytics, marketing, compliance, and provider management teams can all access the same unified data environment, enabling aligned planning and faster decision-making. For healthcare organizations committed to operational excellence, automation isn’t just a convenience—it’s becoming a competitive advantage.</p>
-            </div>
-        
+        <div class="ck-content"><p>n today’s competitive healthcare technology landscape, marketing teams must do more than create awareness—they must deliver measurable revenue impact. At <strong>Vitalis</strong>, our primary revenue goal is clear: <strong>generate qualified leads and accelerate pipeline growth through effective campaigns and advanced analytics</strong>.<br />&nbsp;</p><p>By leveraging proprietary datasets and AI-driven insights, we empower marketing strategies that personalize outreach, optimize conversion rates, and maximize ROI. This approach ensures every campaign contributes directly to revenue objectives, aligning marketing efforts with organizational growth priorities.<br />&nbsp;</p><p>As we look ahead, expect continued innovation in campaign automation, predictive analytics, and omnichannel engagement—all designed to keep <strong>Vitalis</strong> at the forefront of healthcare data solutions.</p></div>
     - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
       Hint: Image
       Value: |
@@ -79,7 +77,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3405e07-721f-4582-ae8c-81b9f1cfd954"
       Hint: Excerpt
       Value: Healthcare teams are overwhelmed by manual workflows, fragmented data, and rising reporting demands—but intelligent automation is transforming the way they operate. Vitalis helps organizations centralize and automate complex processes, reducing administrative burden while improving accuracy and efficie
@@ -88,7 +86,7 @@ Languages:
       Value: "This article explains how healthcare payers and providers reduce administrative burden through Vitalis’ intelligent data automation. It highlights workflow efficiency, improved data accuracy, and enhanced cross-team collaboration for Stars, HEDIS, and value-based care programs."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T184718Z
+      Value: 20251117T204237Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
-      Value: How Healthcare Organizations Are Reducing Administrative Burden Through Intelligent Data Automation
+      Value: "Driving Revenue Growth Through Data-Driven Marketing"

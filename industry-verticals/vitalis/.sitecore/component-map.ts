@@ -32,17 +32,13 @@ import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
 import * as BlogSearch from 'src/components/search/BlogSearch';
 import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalCard';
 import * as ArticleCard from 'src/components/search/ArticleCard';
-import * as FlightPicker from 'src/components/pickers/FlightPicker';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as Stats from 'src/components/page-content/Stats';
 import * as Promo from 'src/components/page-content/Promo';
-import * as OfferBlock from 'src/components/page-content/OfferBlock';
 import * as DemoCTA from 'src/components/page-content/DemoCTA';
-import * as Author from 'src/components/page-content/Author';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
-import * as LatestBlogGrid from 'src/components/listers/LatestBlogGrid';
-import * as AllBlogs from 'src/components/listers/AllBlogs';
+import * as ArticleLister from 'src/components/listers/ArticleLister';
 import * as utils from 'src/components/lib/utils';
 import * as VideoBanner from 'src/components/banners/VideoBanner';
 import * as HeroBanner from 'src/components/banners/HeroBanner';
@@ -81,17 +77,13 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BlogSearch', { ...BlogSearch }],
   ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
   ['ArticleCard', { ...ArticleCard }],
-  ['FlightPicker', { ...FlightPicker }],
   ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
   ['Stats', { ...Stats }],
   ['Promo', { ...Promo }],
-  ['OfferBlock', { ...OfferBlock }],
   ['DemoCTA', { ...DemoCTA }],
-  ['Author', { ...Author }],
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
-  ['LatestBlogGrid', { ...LatestBlogGrid }],
-  ['AllBlogs', { ...AllBlogs }],
+  ['ArticleLister', { ...ArticleLister }],
   ['utils', { ...utils }],
   ['VideoBanner', { ...VideoBanner }],
   ['HeroBanner', { ...HeroBanner }],
