@@ -1,13 +1,13 @@
 ﻿---
-ID: "ba84430a-4c61-46f1-8b27-de9c100ce3c7"
+ID: "b2ce042e-019e-4154-af0a-99d5ec367fd3"
 Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
 Template: "0e9264df-c757-46ff-919d-cc434213740d"
-Path: "/sitecore/content/healthcare/vitalis/Home/Articles/Driving Revenue Growth Through Data-Driven Marketing"
+Path: /sitecore/content/healthcare/vitalis/Home/Articles/new page
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{FE0AD454-F484-4BDB-9E8B-0A981F4D46E0}" />
+    <image mediaid="{5F09AE55-E2B3-40FC-AF6C-94087CCAF922}" />
 Languages:
 - Language: en
   Fields:
@@ -43,16 +43,16 @@ Languages:
       Value: 20251117T154208Z
     - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
       Hint: metadataKeywords
-      Value: healthcare automation, Stars reporting, HEDIS data automation, clinical burden reduction, Vitalis cloud solutions, healthcare data workflow
+      Value: "AI-driven insights, personalized outreach, campaign automation, predictive analytics, omnichannel engagement, Vitalis healthcare data solutions, marketing strategies, conversion rate optimization, ROI maximization, pipeline growth, qualified leads generation"
     - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
       Hint: metadataTitle
-      Value: Reducing Administrative Burden with Healthcare Data Automation | Vitalis
+      Value: Driving Revenue Through Innovative Healthcare Data Solutions | Vitalis
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Reducing Administrative Burden
     - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
       Hint: metadataDescription
-      Value: Discover how healthcare organizations reduce administrative burden and strengthen performance using Vitalis’ intelligent data automation platform.
+      Value: "In today's competitive healthcare technology landscape, Vitalis does more than create awareness; we deliver measurable revenue impact. Discover how healthcare organizations reduce administrative burden and strengthen performance using Vitalis’ intelligent data automation platform. Our strategic approach generates qualified leads and accelerates pipeline growth through effective campaigns and advanced analytics. By leveraging proprietary datasets and AI-driven insights, we empower marketing strategies that personalize outreach, optimize conversion rates, and maximize ROI. Expect continued innovation in campaign automation, predictive analytics, and omnichannel engagement, designed to keep Vitalis at the forefront of healthcare data solutions, aligning marketing efforts with organizational growth priorities."
     - ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
       Hint: PublishDate
       Value: 20250226T000000Z
@@ -61,7 +61,7 @@ Languages:
       Value: "{91FDED2E-A612-4C99-8AF0-AA8AA32CC6C4}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "23b40c00-cf98-428a-96c3-976a4c1dc47a"
+      Value: "b512f97d-9060-4af5-bab9-d7f4660e31da"
     - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
       Hint: Content
       Value: |
@@ -69,11 +69,11 @@ Languages:
     - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/8df0a02f050a42be8bc0ef28d046d3fd?v=872b749d" dam-id="TTtxdW-OQkm65Oy34VIxTA" width="1800" height="1200" alt="shutterstock_2334505381_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48671/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74662-HomepagePromoCTAs-1100x740?v=969c21ce" dam-id="41j-nZWsT7CC1bmi81LrXw" width="1100" height="740" alt="V4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74662/thumbnail" />
     - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
       Hint: ogImage
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/287df11ea0f14bc5b09171928f2a364f?v=e66ddcd3" dam-id="TTtxdW-OQkm65Oy34VIxTA" width="350" height="350" alt="shutterstock_2334505381_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48671/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74662-HomepagePromoCTAs-1100x740?v=969c21ce" dam-id="41j-nZWsT7CC1bmi81LrXw" width="1100" height="740" alt="V4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74662/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -83,10 +83,10 @@ Languages:
       Value: Healthcare teams are overwhelmed by manual workflows, fragmented data, and rising reporting demands—but intelligent automation is transforming the way they operate. Vitalis helps organizations centralize and automate complex processes, reducing administrative burden while improving accuracy and efficie
     - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
       Hint: pageSummary
-      Value: "This article explains how healthcare payers and providers reduce administrative burden through Vitalis’ intelligent data automation. It highlights workflow efficiency, improved data accuracy, and enhanced cross-team collaboration for Stars, HEDIS, and value-based care programs."
+      Value: "Vitalis empowers healthcare payers and providers to streamline operations while generating measurable revenue impact. Through cutting-edge data automation, we enhance workflow efficiency, improve data accuracy, and foster cross-team collaboration, benefiting Stars, HEDIS, and value-based care programs. By integrating advanced analytics and AI-driven insights, Vitalis not only reduces administrative burdens but also aligns marketing strategies with growth priorities, optimizing pipeline growth and maximizing ROI in the competitive healthcare technology landscape."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T204237Z
+      Value: 20251117T225108Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: "Driving Revenue Growth Through Data-Driven Marketing"

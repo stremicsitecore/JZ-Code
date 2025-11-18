@@ -1,6 +1,7 @@
 import React, { JSX } from 'react';
 import {
   Field,
+  ImageField,
   Text,
   withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
@@ -23,14 +24,16 @@ export type FlightPickerProps = ComponentProps & {
     Title: Field<string>;
     Slogan: Field<string>;
     ButtonText: Field<string>;
+    BackgroundImage: ImageField;
   };
 };
 
 const FlightPicker = (props: FlightPickerProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
+  const imgUrl = props.fields.BackgroundImage.value?.src ? props.fields.BackgroundImage.value?.src : 'https://starter-verticals.sitecoresandbox.cloud/api/public/content/921360c84bdf415f8ac85a582f29fcb0?v=c7501288';
 
   return (
-    <section className={`relative bg-gradient-to-r from-blue-600 to-blue-800 text-white bg-[url('https://starter-verticals.sitecoresandbox.cloud/api/public/content/921360c84bdf415f8ac85a582f29fcb0?v=c7501288')] bg-cover bg-center ${sxaStyles}`}>
+    <section className={`relative bg-gradient-to-r from-blue-600 to-blue-800 text-white bg-cover bg-center ${sxaStyles}`} style={{ backgroundImage: `url(${imgUrl})` }}>
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="relative container mx-auto px-4 py-20 opacity-[0.9]">
         <div className="max-w-4xl mx-auto text-center mb-12">

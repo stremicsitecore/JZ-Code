@@ -17,7 +17,6 @@ type ArticleListerProps = ComponentProps & {
 
 const ArticleLister = (props: ArticleListerProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  console.log(props)
 
   return (
     <section className={`px-4 py-16 md:py-24 max-w-7xl mx-auto ${sxaStyles}`}>
@@ -32,12 +31,6 @@ const ArticleLister = (props: ArticleListerProps): JSX.Element => {
             <div className="rounded-lg border border-border hover:border-accent bg-card hover:bg-secondary transition cursor-pointer group h-full flex flex-col overflow-hidden">
               <div className="image-card relative h-40 overflow-hidden bg-secondary">
                 <Image field={article.fields.Image} className="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-                {/* <img
-                  src={article.image || "/placeholder.svg"}
-                  alt={article.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                /> */}
-                <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-30" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <div className="flex items-center gap-2 mb-3">
