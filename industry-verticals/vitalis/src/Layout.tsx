@@ -74,7 +74,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
           <DesignLibrary loadImportMap={importMapDynamic} />
         ) : (
           <>
-            <header>
+            <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
               <div id="header">
                 {route && <Placeholder name="headless-header" rendering={route} />}
               </div>
