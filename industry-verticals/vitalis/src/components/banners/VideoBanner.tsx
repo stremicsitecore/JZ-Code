@@ -1,7 +1,8 @@
 import React, { JSX } from 'react'
 import { ComponentProps } from 'lib/component-props';
 import { withDatasourceCheck, Field, LinkField, Text } from '@sitecore-content-sdk/nextjs';
-import { ArrowRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
+import Link from 'next/link';
 
 export type VideoBannerProps = ComponentProps & {
   fields: {
@@ -18,6 +19,31 @@ export type VideoBannerProps = ComponentProps & {
 }
 
 const VideoBanner = (props: VideoBannerProps): JSX.Element => {
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <div className={`relative ${sxaStyles}`}>
+      <video autoPlay muted loop playsInline className="inset-0 w-full max-h-80 object-cover">
+        <source
+          src={props.fields.VideoUrl.value.href}
+          type="video/mp4"
+        />
+      </video>
+      <div className="text-primary-foreground absolute top-8 left-8 z-10 ">
+        <Link href="/products" className="flex items-center gap-2 hover:underline mb-6">
+          <ArrowLeft className="w-4 h-4" /> Back to Products
+        </Link>
+
+        <h2 className="text-4xl md:text-5xl font-bold mb-4"><Text field={props.fields.Title} /></h2>
+        <p><Text field={props.fields.Subtitle} /></p>
+      </div>
+    </div>
+  )
+}
+
+export const Default = withDatasourceCheck()<VideoBannerProps>(VideoBanner);
+
+const VideoBannerWColumns = (props: VideoBannerProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (
@@ -64,4 +90,4 @@ const VideoBanner = (props: VideoBannerProps): JSX.Element => {
   )
 }
 
-export const Default = withDatasourceCheck()<VideoBannerProps>(VideoBanner);
+export const VideoBannerWithColumns = withDatasourceCheck()<VideoBannerProps>(VideoBannerWColumns);

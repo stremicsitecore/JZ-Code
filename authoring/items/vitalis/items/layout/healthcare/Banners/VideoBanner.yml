@@ -13,12 +13,15 @@ SharedFields:
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/healthcare/Datasource Templates/VideoBanner
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{68F744C9-0330-43E5-A275-4B2CF7101B0B}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: /sitecore/content/healthcare/vitalis/Data/Banners/Video Banners
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b633f56b-514c-471f-a65f-3109f12e76a2"
+  Value: "a29c374f-a9a3-45d0-afcd-40c6436c5cf2"
 Languages:
 - Language: en
   Fields:
@@ -41,11 +44,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f46bc2ed-f60b-47eb-bdc3-330a905cb152"
+      Value: "594c77cb-c835-4ddb-97c7-7606cf226d05"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T150107Z
+      Value: 20251124T155039Z

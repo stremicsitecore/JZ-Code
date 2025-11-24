@@ -32,7 +32,7 @@ Languages:
               p:before="*"
               s:ds="b3fab2da-596a-4893-89ff-296ec43b7e6a"
               s:id="{B94588E6-1BAE-4859-AD97-28EB5FF84A10}"
-              s:par="CSSStyles"
+              s:par="CSSStyles&amp;FieldNames=%7B6BDBB2D8-95E4-46C8-B06C-791115631ED9%7D"
               s:ph="headless-main" />
             <r
               uid="{2E79AC43-524F-46A2-9372-A9E548B5403E}"
@@ -73,14 +73,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0cb48880-c91b-4558-a43e-289924923d06"
+      Value: "268f3958-b518-4824-9a9f-72cb7a97f90a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T191509Z
+      Value: 20251124T155114Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: vitalis

@@ -39,6 +39,7 @@ import * as Promo from 'src/components/page-content/Promo';
 import * as DemoCTA from 'src/components/page-content/DemoCTA';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
+import * as ProductLister from 'src/components/listers/ProductLister';
 import * as ArticleLister from 'src/components/listers/ArticleLister';
 import * as utils from 'src/components/lib/utils';
 import * as VideoBanner from 'src/components/banners/VideoBanner';
@@ -85,6 +86,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['DemoCTA', { ...DemoCTA }],
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
+  ['ProductLister', { ...ProductLister }],
   ['ArticleLister', { ...ArticleLister }],
   ['utils', { ...utils }],
   ['VideoBanner', { ...VideoBanner }],

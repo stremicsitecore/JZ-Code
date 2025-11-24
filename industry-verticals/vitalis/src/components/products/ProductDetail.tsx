@@ -42,7 +42,6 @@ const ProductDetail = (props: ProductDetailProps): JSX.Element => {
             src={props.fields.BannerUrl.value.href}
             type="video/mp4"
           />
-
         </video>
         <div className="text-primary-foreground absolute top-8 left-8 z-10 ">
           <Link href="/products" className="flex items-center gap-2 hover:underline mb-6">
@@ -90,7 +89,9 @@ const ProductDetail = (props: ProductDetailProps): JSX.Element => {
         </div>
       </section>
 
-      <Placeholder rendering={props.rendering} name="product-detail-cta" />
+      <div className="mb-8">
+        <Placeholder rendering={props.rendering} name="product-detail-cta" />
+      </div>
     </>
   );
 };
