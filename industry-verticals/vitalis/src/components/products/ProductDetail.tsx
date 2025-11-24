@@ -70,10 +70,19 @@ const ProductDetail = (props: ProductDetailProps): JSX.Element => {
             <h3 className="text-xl font-bold mb-6">Business Benefits</h3>
             <ul className="space-y-4">
               {props.fields.Features.map((feature, index) => (
-                <li key={index} className="flex gap-3">
-                  <Image field={feature.fields.Icon} className="w-16 h-16" />
-                  <span className="text-muted-foreground"><Text field={feature.fields.Title} /></span>
-                  <span className="text-muted-foreground"><Text field={feature.fields.Description} /></span>
+                <li key={index} className="flex gap-4 items-start">
+                  <div className="w-16 flex-none">
+                    <Image field={feature.fields.Icon} className="w-16 h-16" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="font-semibold text-primary">
+                      <Text field={feature.fields.Title} />
+                    </span>
+
+                    <span className="text-muted-foreground">
+                      <Text field={feature.fields.Description} />
+                    </span>
+                  </div>
                 </li>
               ))}
             </ul>
