@@ -49,7 +49,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
 
-  const fullUrl = `https://skywings.dev${relativeUrl}`;
+  const fullUrl = `https://vitalis-cd7a41d1v-trayeks-projects.vercel.app${relativeUrl}`;
 
   return (
     <>

@@ -10,7 +10,7 @@ import * as TabsPrimitive from '@radix-ui/react-tabs';
 import { cn } from 'components/lib/utils';
 import * as SeparatorPrimitive from '@radix-ui/react-separator';
 import * as SelectPrimitive from '@radix-ui/react-select';
-import { CheckIcon, ChevronDownIcon, ChevronUpIcon, ChevronLeftIcon, ChevronRightIcon, Search, BriefcaseMedical, ClipboardCheck, FilePlus, GraduationCap, Hospital, Microscope, MonitorCheck, Users, Menu, X, ChevronRight, ArrowRight, ChevronLeft, ArrowLeft } from 'lucide-react';
+import { CheckIcon, ChevronDownIcon, ChevronUpIcon, ChevronLeftIcon, ChevronRightIcon, Search, ArrowLeft, BriefcaseMedical, ClipboardCheck, FilePlus, GraduationCap, Hospital, Microscope, MonitorCheck, Users, Menu, X, ChevronRight, ArrowRight, ChevronLeft } from 'lucide-react';
 import * as PopoverPrimitive from '@radix-ui/react-popover';
 import { DayPicker, getDefaultClassNames } from 'react-day-picker';
 import { Button, buttonVariants } from 'components/ui/button';
@@ -37,7 +37,7 @@ import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
 import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
-import { withDatasourceCheck, Text, Placeholder, Link as Link_8a80e63291fea86e0744df19113dc44bec187216, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, useSitecore, DateField } from '@sitecore-content-sdk/nextjs';
+import { withDatasourceCheck, Text, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, Placeholder, Link as Link_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, useSitecore, DateField } from '@sitecore-content-sdk/nextjs';
 import { Input } from '@/components/ui/input';
 import { Select as Select_74a315bf8f39737a75c686fc0a3118c1056b2a17, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button as Button_68caa79812567088b20baa54d6b10a9ef0e1581e } from '@/components/ui/button';
@@ -98,6 +98,7 @@ const importMap = [
       { name: 'ChevronLeftIcon', value: ChevronLeftIcon },
       { name: 'ChevronRightIcon', value: ChevronRightIcon },
       { name: 'Search', value: Search },
+      { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'BriefcaseMedical', value: BriefcaseMedical },
       { name: 'ClipboardCheck', value: ClipboardCheck },
       { name: 'FilePlus', value: FilePlus },
@@ -111,7 +112,6 @@ const importMap = [
       { name: 'ChevronRight', value: ChevronRight },
       { name: 'ArrowRight', value: ArrowRight },
       { name: 'ChevronLeft', value: ChevronLeft },
-      { name: 'ArrowLeft', value: ArrowLeft },
     ]
   },
   {
@@ -309,10 +309,10 @@ const importMap = [
     exports: [
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'Text', value: Text },
-      { name: 'Placeholder', value: Placeholder },
-      { name: 'Link', value: Link_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'RichText', value: RichText },
       { name: 'Image', value: Image_8a80e63291fea86e0744df19113dc44bec187216 },
+      { name: 'Placeholder', value: Placeholder },
+      { name: 'Link', value: Link_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'useSitecore', value: useSitecore },
       { name: 'DateField', value: DateField },

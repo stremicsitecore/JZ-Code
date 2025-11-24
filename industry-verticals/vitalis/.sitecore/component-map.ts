@@ -32,6 +32,7 @@ import * as CardViewSwitcher from 'src/components/search/CardViewSwitcher';
 import * as BlogSearch from 'src/components/search/BlogSearch';
 import * as ArticleHorizontalCard from 'src/components/search/ArticleHorizontalCard';
 import * as ArticleCard from 'src/components/search/ArticleCard';
+import * as ProductDetail from 'src/components/products/ProductDetail';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as Stats from 'src/components/page-content/Stats';
 import * as Promo from 'src/components/page-content/Promo';
@@ -77,6 +78,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BlogSearch', { ...BlogSearch }],
   ['ArticleHorizontalCard', { ...ArticleHorizontalCard }],
   ['ArticleCard', { ...ArticleCard }],
+  ['ProductDetail', { ...ProductDetail }],
   ['PartialDesignDynamicPlaceholder', { ...PartialDesignDynamicPlaceholder }],
   ['Stats', { ...Stats }],
   ['Promo', { ...Promo }],
