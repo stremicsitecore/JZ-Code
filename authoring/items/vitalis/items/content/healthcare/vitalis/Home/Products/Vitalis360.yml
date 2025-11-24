@@ -53,7 +53,7 @@ Languages:
       Value: Vitalis360
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49870cd4-0cb5-4d13-abff-33664f897d86"
+      Value: "09c59db9-76df-4628-a554-e25af5cb221b"
     - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
       Hint: Content
       Value: |
@@ -64,6 +64,10 @@ Languages:
       Hint: BannerUrl
       Value: |
         <link linktype="external" url="https://www.inovalon.com/wp-content/uploads/2023/12/AdobeStock_459967674-1.mp4" anchor="" target="" />
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/25b86deaf55545f69924b1e88e85e5c5?v=718830b0" dam-id="PhsMcke5SbOjnMFdI43xAw" width="350" height="350" alt="healthcare-analytics-dashboard-with-charts-and-dat-E6wpr4DIy8E8KMuInJkxGGM7op5dpf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74522/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -73,7 +77,7 @@ Languages:
       Value: "Vitalis360 is a cloud-based healthcare quality platform that automates HEDIS, Stars, and digital quality measure workflows. It unifies data ingestion, streamlines chart retrieval, supports FHIR and ECDS reporting, and provides real-time quality performance insights. The platform reduces administrative burden, improves accuracy, and helps health plans act earlier to close care gaps and improve Star ratings."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T143246Z
+      Value: 20251124T212629Z
     - ID: "e4472b49-1510-4105-9aff-4ecd8a682bed"
       Hint: BannerDescription
       Value: "Empowering data-driven healthcare with data and solutions."
