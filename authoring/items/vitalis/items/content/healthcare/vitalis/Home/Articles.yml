@@ -40,19 +40,35 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251113T201956Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: Vitalis articles, healthcare insights, Stars improvement content, HEDIS articles, payer quality resources, digital quality measure insights, healthcare data trends
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Vitalis Insights & Articles | Healthcare Quality, Data, and Performance Trends
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: News
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: Explore the Vitalis article library featuring insights on Stars improvement, HEDIS automation, digital quality measures, interoperability, and emerging healthcare data trends.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "53896906-3830-4873-8c4b-e9fd8454aaf3"
+      Value: "6547953a-106e-4991-af60-5bd60b6ab5da"
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f720ea1294c34e0daad911d55afeb6e7?v=beb882b2" dam-id="nvjSJbupTASYLxlJrP3_qA" width="350" height="350" alt="GettyImages-1340755880.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41698/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: The Vitalis Articles Overview page contains educational content on healthcare quality improvement, Stars performance, HEDIS reporting, digital measures, and data automation. It provides articles and insights designed for payers, providers, and healthcare leaders.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T204243Z
+      Value: 20251124T163110Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: News

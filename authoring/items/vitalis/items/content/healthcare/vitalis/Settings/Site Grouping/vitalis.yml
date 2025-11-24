@@ -16,22 +16,22 @@ SharedFields:
   Value: 
 - ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
   Hint: Language Embedding
-  Value: 0
+  Value: 
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "{FB0BB285-6812-4B16-82B3-826460D3809A}"
 - ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
   Hint: FieldLanguageFallback
-  Value: 0
+  Value: 
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: Vitalis
 - ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
   Hint: ItemLanguageFallback
-  Value: 0
+  Value: 
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: *
+  Value: "vitalis-trayeks-projects.vercel.app"
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: en=vitalis
@@ -43,7 +43,10 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7b6b4cde-211c-4a46-a564-95a84937ddf5"
+  Value: "41eca0a9-9d4e-4f0d-832f-bcfebd9ca210"
+- ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
+  Hint: TargetHostName
+  Value: "vitalis-trayeks-projects.vercel.app"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: vitalis
@@ -68,11 +71,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d40c7c19-47af-4220-aecd-ea120bae2c1c"
+      Value: "c2bc87da-c304-4a5c-8b93-3df6c066071a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251113T201109Z
+      Value: 20251124T181756Z

@@ -31,6 +31,7 @@ export const HIGHLIGHTED_ARTICLES_CONTENT_TYPE = 'Blog';
 export const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No Image';
 
 // Sym stuff
-export const PREVIEW_WIDGET_ID = 'skywings_preview_search';
-export const SEARCH_WIDGET_ID = 'skywings_search_results';
-export const HOMEHIGHLIGHTED_WIDGET_ID = 'skywings_home_highlight';
+export const PREVIEW_WIDGET_ID = 'vitalis_preview_search';
+export const SEARCH_WIDGET_ID = 'vitalis_search_results';
+export const HOMEHIGHLIGHTED_WIDGET_ID = 'vitalis_home_highlight';
+export const BASE_URL = "https://vitalis-cd7a41d1v-trayeks-projects.vercel.app/"

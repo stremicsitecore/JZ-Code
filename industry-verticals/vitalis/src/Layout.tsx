@@ -7,6 +7,7 @@ import { ImageField, Placeholder, Field, DesignLibrary, Page } from '@sitecore-c
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 import { usePathname, useSearchParams } from 'next/navigation';
+import { BASE_URL } from './_data/customizations';
 
 interface LayoutProps {
   page: Page;
@@ -42,15 +43,13 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
   const articleCategory = fields?.ArticleCategory?.fields?.Name?.value?.toString() || 'website_content';
-
   const pathname = usePathname();
   const searchParams = useSearchParams();
-
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
+  const fullUrl = `${BASE_URL}${relativeUrl}`;
 
-  const fullUrl = `https://vitalis-cd7a41d1v-trayeks-projects.vercel.app${relativeUrl}`;
-
+  console.log(fullUrl);
   return (
     <>
       <Scripts />
@@ -65,7 +64,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
         <meta property="og:url" content={fullUrl.replace('_site_skywings', '')} key="og:url" />
-        <meta property="destination_category" content={articleCategory} key="destination_category" />
+        <meta property="article_category" content={articleCategory} key="article_category" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}

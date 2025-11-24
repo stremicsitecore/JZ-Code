@@ -5,6 +5,7 @@ import {
   Search, Menu, X,
 } from "lucide-react"
 import PreviewSearch from '../search/PreviewSearch';
+import { PREVIEW_WIDGET_ID } from '@/_data/customizations';
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -65,7 +66,7 @@ export const Header = (props: HeaderProps): JSX.Element => {
             <div className="mx-auto max-w-7xl px-4 py-4">
               <div className="flex items-center gap-2">
                 <PreviewSearch
-                  rfkId="skywings_preview_search"
+                  rfkId={PREVIEW_WIDGET_ID}
                   isOpen={isSearchOpen}
                   setIsSearchOpen={setIsSearchOpen}
                 />

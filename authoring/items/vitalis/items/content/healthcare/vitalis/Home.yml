@@ -60,9 +60,18 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251113T183657Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: Vitalis, healthcare data platform, Stars improvement, HEDIS automation, digital quality measures, healthcare analytics, payer technology, healthcare interoperability, FHIR data solutions
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Vitalis | Healthcare Data, Quality, and Performance Intelligence Platform
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: vitalis
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: "Vitalis delivers cloud-based data, analytics, and quality performance solutions that help health plans improve Stars scores, automate HEDIS reporting, and streamline clinical data workflows. Explore how Vitalis unifies healthcare intelligence."
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -73,14 +82,21 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "268f3958-b518-4824-9a9f-72cb7a97f90a"
+      Value: "eb2c4fc1-8726-44d2-8e9b-fddce47f26e7"
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9bb8a8278169427786c4a55b7c16f2bd?v=c7e19d16" dam-id="HPxrbTO3Tk60tuF1ZKJ15Q" width="350" height="350" alt="V1.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74657/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: Vitalis is a healthcare data and quality performance platform that helps health plans improve Stars results, automate HEDIS reporting, and streamline complex data workflows. The homepage provides an overview of Vitalis solutions, including analytics, automation, digital quality measures, and interoperable data tools.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T155114Z
+      Value: 20251124T163022Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: vitalis

@@ -1,7 +1,7 @@
 import React, { JSX } from 'react';
 import { ComponentProps } from 'lib/component-props';
 import HighlightedWidget from './HomeHighlighted';
-import { HIGHLIGHTED_ARTICLES_RFKID } from '@/_data/customizations';
+import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
 
 export const dynamic = 'force-dynamic';
 export const fetchCache = 'force-no-store';
@@ -15,7 +15,7 @@ export const HighlightedArticles = (props: HighlightedArticlesProps): JSX.Elemen
 
   return (
     <div className={`${sxaStyles}`}>
-      <HighlightedWidget rfkId={HIGHLIGHTED_ARTICLES_RFKID} />
+      <HighlightedWidget rfkId={HOMEHIGHLIGHTED_WIDGET_ID} />
     </div>
   );
 };
