@@ -16,7 +16,8 @@ export const HomeHighlightedComponent = (): JSX.Element => {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Destination'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', 'Product'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', 'Article'));
 
       if (SEARCH_CONFIG.source !== '') {
         const sources = SEARCH_CONFIG.source.split('|');
@@ -37,7 +38,7 @@ export const HomeHighlightedComponent = (): JSX.Element => {
       <div className="my-12 text-center">
         <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">Get Inspired</h2>
         <p className="text-xl text-gray-600">
-          Discover amazing products and articles from our latest stories
+          Discover our amazing products and articles from our latest stories
         </p>
       </div>
 

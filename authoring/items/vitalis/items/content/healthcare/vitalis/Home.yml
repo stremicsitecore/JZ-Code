@@ -35,8 +35,14 @@ Languages:
               s:par="CSSStyles&amp;FieldNames=%7B6BDBB2D8-95E4-46C8-B06C-791115631ED9%7D"
               s:ph="headless-main" />
             <r
-              uid="{2E79AC43-524F-46A2-9372-A9E548B5403E}"
+              uid="{42C77C9D-2360-41D5-B9C7-74D23F8181F4}"
               p:after="r[@uid='{719A6262-8C6C-4BB8-91AE-4BD1144CF794}']"
+              s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{2E79AC43-524F-46A2-9372-A9E548B5403E}"
+              p:after="r[@uid='{42C77C9D-2360-41D5-B9C7-74D23F8181F4}']"
               s:ds="fb7b27d6-9d85-403f-a3ed-3a1d00c0e7ba"
               s:id="{41A33C8C-997E-4A2D-BC17-A61F2397ECCD}"
               s:par="CSSStyles"
@@ -82,7 +88,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb2c4fc1-8726-44d2-8e9b-fddce47f26e7"
+      Value: "e26570a1-64bf-418f-a1bd-365b85629588"
     - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
       Hint: ogImage
       Value: |
@@ -96,7 +102,7 @@ Languages:
       Value: Vitalis is a healthcare data and quality performance platform that helps health plans improve Stars results, automate HEDIS reporting, and streamline complex data workflows. The homepage provides an overview of Vitalis solutions, including analytics, automation, digital quality measures, and interoperable data tools.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T163022Z
+      Value: 20251124T201841Z
     - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
       Hint: Title
       Value: vitalis

@@ -21,7 +21,7 @@ interface RouteFields {
   metadataDescription?: Field;
   pageSummary?: Field;
   ogImage?: ImageField;
-  ArticleCategory?: {
+  Category?: {
     fields: {
       Name?: Field;
     }
@@ -42,14 +42,13 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogImage = fields?.ogImage?.value?.src;
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
-  const articleCategory = fields?.ArticleCategory?.fields?.Name?.value?.toString() || 'website_content';
+  const articleCategory = fields?.Category?.fields?.Name?.value?.toString() || 'website_content';
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
   const fullUrl = `${BASE_URL}${relativeUrl}`;
 
-  console.log(fullUrl);
   return (
     <>
       <Scripts />

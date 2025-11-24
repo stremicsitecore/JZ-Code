@@ -43,6 +43,11 @@ const nextConfig = {
         hostname: 'starter-*.**',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'placehold.co**',
+        port: '',
+      },
     ],
   },
 
