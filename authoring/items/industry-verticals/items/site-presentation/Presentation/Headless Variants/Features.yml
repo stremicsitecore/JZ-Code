@@ -4,7 +4,7 @@ Parent: "eae27667-a14a-4d6b-97d5-00a484faa22d"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
 Path: "/sitecore/content/retail/forma-lux/Presentation/Headless Variants/Features"
 Languages:
-- Language: "de-CH"
+- Language: "de-ch"
   Versions:
   - Version: 1
     Fields:

@@ -15,7 +15,7 @@ SharedFields:
   Hint: __Originator
   Value: "{63F9B1F7-5D78-4053-8480-70874BAF0DC4}"
 Languages:
-- Language: "de-CH"
+- Language: "de-ch"
   Versions:
   - Version: 1
     Fields:

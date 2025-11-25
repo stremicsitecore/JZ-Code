@@ -31,8 +31,15 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{FC59C943-73E1-4C01-9DC2-97DA103DD8B9}"
+              p:before="*"
               s:id="{E27D06DE-F68D-45EE-81F6-CEB651A53589}"
               s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{F0C1B3C3-84E3-4E74-A9A4-B205A0AB01F9}"
+              p:after="*[1=2]"
+              s:id="{62DD1639-9F28-4040-8738-C886480B2127}"
+              s:par="FormId=563c1311de184aa3b7bfa2d33e743fd2-use&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="headless-main" />
           </d>
         </r>
@@ -49,11 +56,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2d18f054-8d58-48a2-853e-0f5d8c21f657"
+      Value: "476020e8-f777-43d1-ab1b-35baf3f1cc89"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T150040Z
+      Value: 20251125T172739Z

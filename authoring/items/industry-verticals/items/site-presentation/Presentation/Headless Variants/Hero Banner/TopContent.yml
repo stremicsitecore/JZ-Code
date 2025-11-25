@@ -4,7 +4,7 @@ Parent: "d752545a-f014-47f1-9b76-4512b42a92fe"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
 Path: "/sitecore/content/retail/forma-lux/Presentation/Headless Variants/Hero Banner/TopContent"
 Languages:
-- Language: "de-CH"
+- Language: "de-ch"
   Versions:
   - Version: 1
     Fields:
