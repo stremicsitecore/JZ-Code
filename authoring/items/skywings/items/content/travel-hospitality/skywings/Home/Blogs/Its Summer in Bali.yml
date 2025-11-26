@@ -34,7 +34,38 @@ Languages:
               s:ds="7d2c3223-f93d-4887-a6b4-ffbbd843b61c"
               s:id="{4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}"
               s:par="GridParameters&amp;FieldNames=%7B2328AD5E-FE66-47D9-B3B8-D797DEE1F9F8%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="/headless-main/sxa-blog-content/blog-detail-{AB5F3358-6F03-42A2-B118-88B5077F02E1}-0" />
+              s:ph="/headless-main/sxa-blog-content/blog-detail-{AB5F3358-6F03-42A2-B118-88B5077F02E1}-0">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{AE426E88-9332-4D91-ACF4-DE240AEDABC0}"
+                    s:name="75190a9a3a814d8ebe15341fb9edc8a6">
+                    <conditions>
+                      <condition
+                        uid="3C9026AE6AD248BC8D8C037D8A179B4B"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="75190a9a3a814d8ebe15341fb9edc8a6" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{E976CDD4-9EFA-4459-A2AE-B1EF2D044FB4}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="711a3b84-2420-446e-b1a0-7ed36c552d41" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E499D3C9F682450B955B4838E2C77A10"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -61,7 +92,7 @@ Languages:
       Value: Its Summer In Bali
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "debd3291-d4d0-432c-b8f2-ea52c52485c4"
+      Value: "690d720c-d035-4585-bd4d-553458cafc78"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Its Summer In Bali
@@ -109,7 +140,7 @@ Languages:
       Value: Explore the diverse splendor of Bali, from lush jungles and iconic rice terraces to pristine beaches and vibrant cultural experiences. Discover the island's enchanting beauty and unforgettable sights.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251111T183907Z
+      Value: 20251126T204447Z
     - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
       Hint: ogImage
       Value: |
