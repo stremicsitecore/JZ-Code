@@ -11,7 +11,7 @@ SharedFields:
   Hint: __Shared revision
   Value: "6cc0d06d-4632-44f1-9d10-9938773f89a5"
 Languages:
-- Language: "de-ch"
+- Language: "de-CH"
   Versions:
   - Version: 1
     Fields:

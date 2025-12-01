@@ -4,7 +4,7 @@ Parent: "eb54a633-e852-4848-8ec7-dde2e418f682"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
 Path: "/sitecore/content/retail/forma-lux/Presentation/Headless Variants/Features/ImageCardGrid"
 Languages:
-- Language: "de-ch"
+- Language: "de-CH"
   Versions:
   - Version: 1
     Fields:

@@ -40,7 +40,7 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20250728T140916Z
-- Language: "it-ch"
+- Language: "it-CH"
   Versions:
   - Version: 1
     Fields:
@@ -65,7 +65,7 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251031T025540Z
-- Language: "ja-jp"
+- Language: "ja-JP"
   Versions:
   - Version: 1
     Fields:
