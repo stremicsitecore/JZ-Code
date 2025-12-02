@@ -4,6 +4,16 @@
     "items": {
         "includes": [
             {
+                "name": "ccl.templates",
+                "path": "/sitecore/templates/Project/click-click-launch",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ccl.templates.branches",
+                "path": "/sitecore/templates/Branches/Project/click-click-launch",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
                 "name": "ccl.modules",
                 "path": "/sitecore/system/settings/Project/click-click-launch",
                 "allowedPushOperations": "CreateUpdateAndDelete"
