@@ -7,6 +7,7 @@ import { ChevronDown } from 'lucide-react';
 import HamburgerIcon from '@/components/non-sitecore/HamburgerIcon';
 import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
+import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import {
   getLinkContent,
   getLinkField,
@@ -149,7 +150,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
 export const Default = ({ params, fields }: NavigationProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { page } = useSitecore();
-  const { styles, RenderingIdentifier: id, SimpleLayout: simpleLayout } = params;
+  const { styles, RenderingIdentifier: id, Logo: logoImage, SimpleLayout: simpleLayout } = params;
 
   useStopResponsiveTransition();
 
@@ -171,8 +172,9 @@ export const Default = ({ params, fields }: NavigationProps) => {
   const isSimpleLayout = isParamEnabled(simpleLayout);
   const preparedFields = prepareFields(fields, !isSimpleLayout);
   const rootItem = Object.values(preparedFields).find((item) => isNavRootItem(item));
-  const logoSrc =
-    'https://starter-verticals.sitecoresandbox.cloud/api/public/content/14088da5e4fe42399a187c592774014f?v=c7b982cd'; // hardcoded to get from CH
+  const logoSrc = extractMediaUrl(logoImage);
+  //const logoSrc =
+  //  'https://starter-verticals.sitecoresandbox.cloud/api/public/content/14088da5e4fe42399a187c592774014f?v=c7b982cd'; // hardcoded to get from CH
   const hasLogoRootItem = rootItem && logoSrc;
 
   const navigationItems = Object.values(preparedFields)
