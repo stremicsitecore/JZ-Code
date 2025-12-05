@@ -1,0 +1,65 @@
+﻿---
+ID: "6579feda-ca1b-4d71-b75e-8b630a1c4f31"
+Parent: "58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+Template: "33724dcb-6159-4d19-9ba7-04b604fc05b6"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Blogs/Perfect Summer Getaways"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{57CC7DCE-E6B1-4564-9581-0E5850B8BDF2}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3D20FE66-FE18-43B2-8862-FA8430BF339F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "390e8900-8ef4-4b69-b09b-5df15e4c1de0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: summer travel, Skywings summer destinations, Bali summer getaway, Barcelona travel, Patagonia trip, island vacations, coastal travel, warm weather destinations, summer holiday ideas
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251203T145709Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "This article highlights top summer destinations across the Skywings network, including coastal islands, cultural cities, and scenic outdoor regions. Travelers can explore warm-weather locations that offer a mix of relaxation, adventure, and cultural experiences."
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{57CC7DCE-E6B1-4564-9581-0E5850B8BDF2}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Perfect Summer Getaways
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "Carry-On My Wayward Sun: Perfect Summer Getaways | Skywings Blog"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d749b6f-d554-4408-84b8-6fd863c2f9b1"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: "Carry-On My Wayward Sun: Perfect Summer Getaways"
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="273" data-end="692">Summer travel comes with a certain kind of optimism—longer days, warmer evenings, and the unmistakable pull to explore somewhere new. Whether you’re looking for cultural immersion, coastal calm, or wide-open landscapes, your next unforgettable getaway might be just a carry-on away. Here are some standout summer destinations across the Skywings network, each offering its own brand of sunlight, scenery, and adventure.</p><h2 data-start="694" data-end="746"><strong data-start="697" data-end="746">Bali: Where Sunlight Meets Spiritual Serenity</strong></h2><p data-start="747" data-end="1235">Bali is a destination that feels made for summer. Beaches glow at golden hour, traditional ceremonies fill the air with music and color, and cliffside temples overlook turquoise waves. Travelers can start their mornings at peaceful coastal shrines, spend afternoons exploring vibrant markets, and end evenings with serene sunset views in Uluwatu or Tanah Lot. For those seeking a blend of culture and coastal beauty, Bali’s rhythm fits perfectly with the season’s slower, sun-soaked pace.</p><h2 data-start="1237" data-end="1285"><strong data-start="1240" data-end="1285">Barcelona: A Mediterranean Summer on Foot</strong></h2><p data-start="1286" data-end="1730">Few cities embrace summer like Barcelona. Sunlight spills into Gothic alleys, beaches fill with easygoing energy, and plazas buzz late into the warm evenings. Travelers can enjoy Gaudí’s modernist masterpieces, stroll along Barceloneta’s waterfront, or linger over tapas in outdoor cafés. Summer here is as much about atmosphere as activities—Barcelona rewards slower exploration, spontaneous detours, and the simple pleasure of being outdoors.</p><h2 data-start="1732" data-end="1801"><strong data-start="1735" data-end="1801">Patagonia (Local Summer Season): The Wild Side of Warm Weather</strong></h2><p data-start="1802" data-end="2271">For travelers seeking something more remote, Patagonia’s summer season (Dec–Feb in the Southern Hemisphere) is ideal. Snow recedes from mountain passes, trails open across dramatic landscapes, and wildlife becomes active across forests and lakes. Whether trekking beneath the peaks of Fitz Roy, kayaking glacier-fed waters, or simply absorbing the stillness of vast open terrain, Patagonia offers a version of summer that’s rugged, refreshing, and powerfully grounding.</p><h2 data-start="2273" data-end="2317"><strong data-start="2276" data-end="2317">Phuket: Beach-to-Table Summer Comfort</strong></h2><p data-start="2318" data-end="2658">Phuket brings together clear water, sandy coastlines, and lively street markets—plus a culinary scene that shines brightest in warm weather. Travelers can explore island viewpoints, lounge by the sea, or take day trips to nearby marine parks. Summer here feels casual and carefree, with an easy mix of food, culture, and coastal relaxation.</p><h2 data-start="2660" data-end="2712"><strong data-start="2663" data-end="2712">Seychelles: The Quiet Luxury of Sunlit Escape</strong></h2><p data-start="2713" data-end="3054">If your ideal summer getaway leans tranquil and remote, Seychelles offers a breathtaking alternative. With private coves, granite-lined beaches, and crystal lagoons, the islands provide a peaceful environment for slowing down. Snorkeling, sailing, and sunset walks are a natural part of the rhythm here—summer distilled into its purest form.</p><h2 data-start="3056" data-end="3115"><strong data-start="3059" data-end="3115">Cape Town: Culture, Coastlines, and Summer Adventure</strong></h2><p data-start="3116" data-end="3464">Cape Town thrives in summer. Table Mountain frames the skyline, beaches stretch along the Atlantic and False Bay, and neighborhoods offer a blend of food, music, and art. Travelers can hike in the morning, relax at scenic lookouts in the afternoon, and enjoy panoramic ocean views by evening. Cape Town’s summer energy is bold, colorful, and alive.</p><h2 data-start="3466" data-end="3506"><strong data-start="3469" data-end="3506">Finding Your Perfect Summer Match</strong></h2><p data-start="3507" data-end="3766">Whether you're chasing beach days, cultural depth, or mountain air, the perfect summer destination depends on the experience you want to bring home with you. Skywings connects travelers to destinations where sunlight isn’t just weather—it’s part of the story.</p><p data-start="3768" data-end="3848">So pack light, follow the sun, and let your next journey begin with possibility.</p></div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Explore top summer travel destinations across the Skywings network, from cultural cities and island escapes to scenic outdoor adventures. Discover inspiring getaways for your next sun-filled journey."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251203T150817Z
