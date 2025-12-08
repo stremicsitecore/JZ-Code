@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Family Medicine"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d2f8d1767bb24eae9f1c43d311e82d0e?v=d18be8d5" dam-id="-2qgWXOAQ4aBnr8Ij5W2IQ" width="350" height="350" alt="GettyImages-97853396_conversion1.jpg" dam-content-type="Other" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48594/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{9E126BAF-21B7-48B2-9A04-CCABC904AA0C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "91deef6f-4aba-48dd-9073-c5340aee799b"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: family medicine, primary care, wellness care, chronic condition management, family doctor
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251117T080008Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Family Medicine | Primary Care for All Ages | Nova Health
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Family Medicine
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Family Medicine
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Family Medicine offers comprehensive primary care for individuals and families at every stage of life. Our providers build long-term relationships with patients, focusing on preventive care, chronic condition management, and wellness support. From annual checkups to guidance on everyday health concerns, we’re here to help you stay well.</p>
+        <p>Our family medicine clinics offer same-day appointments, onsite lab services, and seamless referrals to specialists when needed. We treat common conditions such as infections, minor injuries, allergies, hypertension, diabetes, and mental health concerns. With a holistic, patient-centered approach, our providers tailor care plans to your lifestyle and goals.</p>
+        <p>At Nova Health, we believe your primary care provider should be your trusted partner in lifelong wellness. Our team supports patients through major milestones, health transitions, and ongoing care needs—all within a welcoming, accessible environment designed to keep you healthy.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Comprehensive primary care including checkups, chronic condition management, and same-day services. Family Medicine at Nova Health supports patients of all ages."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "99b7ac8b-5976-42d3-bb1b-cd83fcc15468"
+      Value: "ec02fe10-075b-445a-838b-e7fdcdee8cee"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Family Medicine
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Family Medicine provides preventive care, chronic disease management, and same-day support for patients of all ages. Our providers build long-term relationships with individuals and families, offering personalized, accessible primary care. With onsite services and seamless referrals, patients receive coordinated, continuous care."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T080008Z
+      Value: 20251208T222113Z

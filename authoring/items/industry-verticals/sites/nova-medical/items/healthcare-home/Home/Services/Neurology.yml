@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Neurology"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6a602a18b1e54d4991c499085e76e8af?v=ca1dc1b2" dam-id="7aAYHSPbRKSW1_9AHTEd1g" width="350" height="350" alt="GettyImages-482142523_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48595/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{6AF47F40-A2AF-4D7B-A4CC-FF1E649F6BDF}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "789d6b3c-064b-4e42-90f4-3bb8b5f7e632"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: neurology, neurologist, migraine care, neuropathy treatment, epilepsy care, neurological conditions
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213339Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Neurology | Brain & Nerve Care | Nova Health
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Neurology
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Neurology
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Neurology specializes in diagnosing and treating conditions of the brain, spine, and nervous system. Our neurologists provide expert care for migraines, epilepsy, movement disorders, stroke recovery, neuropathy, multiple sclerosis, and other complex neurological conditions. We combine advanced technology with compassionate clinical expertise.</p>
+        <p>Neurological symptoms can be confusing and disruptive. That’s why our team focuses on comprehensive evaluation, clear communication, and individualized care planning. Patients have access to state-of-the-art imaging, neurodiagnostics, and multidisciplinary care involving rehabilitation, mental health support, and specialist consultation.</p>
+        <p>At Nova Health, our goal is to help patients improve function, manage symptoms, and maintain independence. With collaborative care models and both in-person and virtual visit options, we make neurological care accessible, coordinated, and continuous.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Expert neurological care for migraines, epilepsy, neuropathy, stroke, MS, and more. Advanced diagnostics and personalized treatment plans at Nova Health.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1f3e83f-0af4-4d95-88a2-56deb3621057"
+      Value: "05502965-1ad5-4176-9a03-b4f2f9304554"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Neurology
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Neurology provides diagnosis and treatment for conditions affecting the brain, spine, and nervous system. Our team treats migraines, epilepsy, neuropathy, stroke-related complications, MS, and movement disorders using advanced imaging and multidisciplinary care. Patients receive personalized treatment to improve function and quality of life."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214431Z
+      Value: 20251208T222250Z

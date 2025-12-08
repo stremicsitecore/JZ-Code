@@ -33,14 +33,11 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "16b779b6-5c7b-47d2-a568-b1486e8bd9eb"
+      Value: "d25dfb7f-021b-498a-a79e-8eb2215bbf41"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: $name
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T073845Z
+      Value: 20251208T214431Z

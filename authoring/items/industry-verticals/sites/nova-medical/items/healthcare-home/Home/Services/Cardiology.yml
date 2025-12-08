@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Cardiology"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/2aeddf2dcaca447caff0cfe60a95c45a?v=c863e023" dam-id="L9-ef1cZRiq8qMXHC1XDnQ" width="350" height="350" alt="doctor-holding-heart-1200x630.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74879/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{7895C48C-22B4-4416-BC9F-0E99CD7F6B00}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "12714eb5-8c5a-4248-9c50-f934dc43c846"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: cardiology, heart care, cardiac specialist, arrhythmia care, heart disease treatment, cardiac clinic
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213331Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Cardiology | Heart Care & Cardiac Specialists | Nova Health
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Cardiology
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Cardiology
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Cardiology provides comprehensive heart care for patients seeking prevention, diagnosis, and advanced treatment of cardiovascular conditions. Our team of cardiologists, electrophysiologists, and heart care specialists use the latest evidence-based therapies and technologies to deliver personalized care tailored to each patient’s needs. From routine heart screenings to complex cardiac conditions, we’re here to support long-term heart health.</p>
+        <p>We offer care for hypertension, arrhythmias, coronary artery disease, heart failure, structural heart disorders, and more. With access to state-of-the-art imaging, stress testing, and minimally invasive procedures, our patients receive timely and accurate diagnoses that guide effective treatment planning. Our collaborative approach ensures seamless coordination with primary care and other specialty teams.</p>
+        <p>At Nova Health, we believe heart care should be accessible, clear, and centered around your life. Whether you need ongoing management, emergency consultation, or lifestyle guidance, our cardiology team is committed to helping you protect your heart health today and well into the future.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Expert heart care for hypertension, arrhythmias, heart disease, and cardiac conditions. Advanced diagnostics and personalized treatment at Nova Health.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ca533c60-c9f1-4ece-bb90-b2f3d764488a"
+      Value: "7c12f31c-4ed0-4916-affb-93c54c80b98f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Cardiology
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Cardiology delivers comprehensive diagnosis and treatment for heart conditions including hypertension, arrhythmias, coronary artery disease, and heart failure. Our specialists use advanced imaging, minimally invasive treatments, and coordinated care plans to support long-term cardiovascular health. Patients receive personalized, evidence-based heart care designed to improve outcomes and quality of life."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214432Z
+      Value: 20251208T221818Z

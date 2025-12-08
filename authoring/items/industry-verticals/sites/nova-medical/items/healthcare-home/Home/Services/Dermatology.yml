@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Dermatology"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/26bddda4bbcf42f18b7c0efa5f6e8071?v=e5e0bbf3" dam-id="QTEDk2vUQbWcXfk7b4334w" width="350" height="350" alt="GettyImages-949098728_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48619/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{98664CD6-E335-47FD-A11D-AA1C7E24ACC1}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "43b7639f-968f-4d0f-9c27-70611f094cc1"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: dermatology, skin care, acne treatment, eczema, skin cancer screening, dermatologist
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213405Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Dermatology | Skin Care & Treatment Specialists | Nova Health
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Dermatology
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Dermatology
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Dermatology provides expert care for skin, hair, and nail conditions—from everyday concerns to complex dermatological issues. Our dermatologists diagnose and treat conditions such as acne, eczema, psoriasis, skin infections, and hair-loss disorders. We also offer comprehensive screenings for skin cancer and guidance on preventive skin health.</p>
+        <p>With advanced diagnostic tools and personalized treatment plans, our dermatology team ensures patients receive accurate evaluations and effective care. Whether you're managing a chronic skin condition or seeking cosmetic guidance, we help you feel confident and comfortable in your own skin. Our clinics offer both in-person visits and virtual follow-ups for added convenience.</p>
+        <p>Healthy skin plays a vital role in overall wellness. That’s why we take a holistic approach to dermatologic care, combining medical expertise, patient education, and ongoing support. At Nova Health, our goal is to help every patient achieve long-lasting skin health with compassionate, expert care.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Comprehensive dermatology services for acne, eczema, psoriasis, skin cancer screenings, and more. Expert skin care from Nova Health.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d9764826-78bb-4883-b439-c05724771e67"
+      Value: "b03a3c15-7ced-4b8e-a544-edb135ef58f3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Dermatology
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Dermatology provides diagnosis and treatment for skin, hair, and nail conditions including acne, eczema, rashes, psoriasis, and skin cancer concerns. Our specialists deliver personalized treatment plans using advanced tools and evidence-based practices. Patients receive convenient, expert care across both in-person and virtual dermatology services."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214432Z
+      Value: 20251208T221955Z

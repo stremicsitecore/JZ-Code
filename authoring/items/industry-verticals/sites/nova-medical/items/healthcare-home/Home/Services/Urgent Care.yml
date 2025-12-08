@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Urgent Care"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/e92178def76d43688b5f712171d0d286?v=4a147a5d" dam-id="8qxoRQgtSY-FlCUM8Q7I6g" width="350" height="350" alt="marek-studzinski-ak2r8jQDyVE-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49819/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{7771C7C9-EDDB-4B37-880C-AC8A61A371E3}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ceb51aa3-fa52-4e1d-b4e1-540d201d6275"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: "urgent care, walk-in clinic, immediate care, minor injuries, urgent treatment, same-day care"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213521Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: "Urgent Care | Walk-In Clinics & Immediate Treatment | Nova Health"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Urgent Care
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Urgent Care
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Urgent Care offers fast, convenient treatment for non-life-threatening illnesses and injuries—no appointment needed. Our clinics are designed for patients who need immediate attention but not an emergency room, providing shorter wait times and lower costs than hospital-based care. Whether you’re dealing with a fever, sprain, cut, infection, or sudden discomfort, our team is here to help you feel better quickly.</p>
+        <p>Staffed by experienced physicians, nurse practitioners, and clinicians, our urgent care centers deliver on-site testing, digital X-rays, minor procedures, and rapid diagnostics to support accurate, timely treatment. We share medical records across the Nova Health system so your primary care provider stays informed and your follow-up is seamless.</p>
+        <p>From evening hours to weekend availability, Nova Health Urgent Care is built around your schedule. Our goal is to make care effortless and accessible, so you can get the treatment you need and return to your day with confidence. When you need help fast, our team is ready.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Get fast, convenient treatment for non-emergency illnesses and injuries. Nova Health Urgent Care offers walk-in visits, on-site testing, X-rays, and extended hours."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "598d5381-91cd-4bd7-8b06-3d0c3a3635f7"
+      Value: "c998ce5c-a177-48b9-a02b-a6b90610d859"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Urgent Care
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Urgent Care provides walk-in treatment for non-emergency illnesses and injuries, including sprains, fevers, infections, cuts, and sudden discomfort. With on-site imaging, rapid tests, and extended hours, patients receive fast, accurate care without visiting the emergency room. Medical records integrate seamlessly across Nova Health, ensuring continuity of care and easy follow-up with primary or specialty providers."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214431Z
+      Value: 20251208T222648Z

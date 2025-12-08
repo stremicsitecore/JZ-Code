@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Pediatrics"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9984e6e6b30e4f5cb5959e665a59b545?v=43857df1" dam-id="RwmV5u06SWyd-FDe_46ufg" width="350" height="350" alt="GettyImages-1264714624_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48643/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{9E995F0C-E9E4-4B0E-AC0D-217B0C646BB3}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "69748c4d-381c-422d-82c8-26d459df81ac"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: pediatrics, children’s health, pediatric care, child wellness, pediatric clinic, immunizations, adolescent care
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213504Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Pediatrics | Nova Health Children’s Care
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Pediatrics
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Pediatrics
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Pediatrics is dedicated to caring for infants, children, and teens with compassion, expertise, and a focus on long-term well-being. Our pediatric specialists provide comprehensive care for everything from routine checkups and vaccinations to developmental concerns and complex medical conditions. We work closely with families to ensure every child receives age-appropriate, evidence-based care in a welcoming environment designed just for them.</p>
+        <p>Whether your child needs support managing asthma, allergies, minor injuries, or ongoing health conditions, our team is here to guide you through every stage of growth. We combine preventive care with early intervention to help children thrive physically, emotionally, and socially. Our clinics offer convenient hours, same-day appointments, and access to pediatric nurses who can answer your questions quickly.</p>
+        <p>At Nova Health, we understand that children’s health needs evolve as they grow. From newborn screenings and adolescent care to sports physicals and behavioral health support, our pediatric team partners with families to create care plans that meet each child’s unique needs. We’re committed to keeping kids healthy, active, and confident—today and for years to come.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Compassionate pediatric care for infants, children, and teens. Nova Health offers checkups, vaccinations, injury care, developmental support, and same-day appointments."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0f9781c-a330-4fb6-b6d8-547119db2a17"
+      Value: "5d3c61c7-0dbb-4c58-8c27-f537c70489dd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Pediatrics
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Pediatrics provides comprehensive medical care for infants, children, and teens, including preventive checkups, vaccinations, illness and injury care, and support for chronic or developmental conditions. Our pediatric specialists partner closely with families, offering age-appropriate care, same-day appointments, and guidance through every stage of childhood and adolescence. With a focus on safety, comfort, and long-term well-being, Nova Health is committed to helping kids grow healthy and strong."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214431Z
+      Value: 20251208T222550Z

@@ -4,10 +4,17 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Womens Health"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d86be6a4a7894de6bde54744218c090b?v=227fe9d3" dam-id="SiJZeZCdTJedp-t5A_G2qw" width="350" height="350" alt="GettyImages-1499945757.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/38401/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{3CEF1115-57E1-4047-B9AB-C0242783B742}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4f8105b9-3be8-436e-a9d3-9625f9e52f8a"
 Languages:
 - Language: en
   Fields:
@@ -23,30 +30,48 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: "women’s health, OB-GYN, reproductive care, prenatal care, postpartum care, gynecology, menopause support"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213534Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: "Women’s Health Services | OB-GYN & Reproductive Care | Nova Health"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Womans Health
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Women's Health
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Women’s Health delivers comprehensive care for every stage of life—from adolescence to pregnancy, menopause, and beyond. Our specialists provide preventive screenings, reproductive health services, prenatal and postpartum care, and support for complex gynecologic conditions. We prioritize compassionate, patient-centered care that empowers women to make informed decisions about their health.</p>
+        <p>Whether you’re managing menstrual concerns, planning a pregnancy, seeking guidance on contraception, or navigating changes such as perimenopause or menopause, our team is here to help. We offer evidence-based treatment options, advanced diagnostics, and coordinated care across obstetrics, gynecology, oncology, cardiology, and behavioral health.</p>
+        <p>Our Women’s Health services are designed to support the whole patient—physically, emotionally, and holistically. With personalized care plans, access to specialists, and both in-person and virtual visits, Nova Health makes it easier for women to receive comprehensive, connected care at every stage of life.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Comprehensive women’s health services including OB-GYN care, reproductive health, prenatal and postpartum support, screenings, and menopause care at Nova Health."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "463ba74c-a589-458a-bb4f-743a7f1dd79d"
+      Value: "07444bc5-3b4e-4c58-aff0-42d708384694"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Women's Health
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Women’s Health offers complete OB-GYN and reproductive care, including screenings, contraception counseling, prenatal and postpartum support, and treatment for gynecologic conditions. Our specialists provide compassionate, evidence-based care for every stage of life, supported by coordinated services across Nova Health’s broader system. With in-person and virtual visit options, women receive connected, personalized care that supports long-term health and well-being."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214432Z
+      Value: 20251208T222833Z

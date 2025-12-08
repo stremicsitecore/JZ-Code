@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Orthopedics"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/24b114c442cb4997916b09399fe751d0?v=45e8ae34" dam-id="CorwWXN0SZGjHMc6ZjPKDQ" width="350" height="350" alt="GettyImages-537601951.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/40588/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{953B50C6-646F-41A0-9B8D-DA8BCAE9E397}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "17761b6e-4584-4eb0-a820-64314e33edad"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: orthopedics, orthopedic care, joint pain treatment, sports injury, bone care, orthopedic surgery
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251208T213315Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Orthopedics | Bone, Joint & Sports Injury Care | Nova Health
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Orthopedics
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Orthopedics
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Orthopedics provides comprehensive care for bones, joints, muscles, and connective tissues—from everyday injuries to complex orthopedic conditions. Our specialists diagnose and treat fractures, sprains, arthritis, tendon and ligament injuries, and chronic joint pain. With expertise across sports medicine, surgical care, and rehabilitation, we help patients return to the activities they love.</p>
+        <p>Our clinics offer advanced imaging, nonsurgical treatments, joint preservation strategies, and minimally invasive surgical techniques. We work closely with physical therapists, pain specialists, and primary care providers to deliver coordinated, whole-person care. Whether you’re recovering from an injury or managing long-term orthopedic concerns, our team guides you through every step of your healing process.</p>
+        <p>At Nova Health, we believe movement is essential to quality of life. That’s why our orthopedic team focuses on patient education, early intervention, and personalized care plans that support strength, mobility, and long-term wellness.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Orthopedic care for fractures, sprains, joint pain, sports injuries, arthritis, and mobility concerns. Advanced imaging and personalized treatment at Nova Health.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1b46fc4-33b5-4ab5-abee-e546807f207c"
+      Value: "a02636e3-ce22-4abb-9a94-78fcddfa8cab"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Orthopedics
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Orthopedics treats bone, joint, and muscle conditions, including fractures, arthritis, ligament injuries, and sports-related concerns. With advanced diagnostics, nonsurgical care, and minimally invasive surgical options, our team supports healing, mobility, and long-term orthopedic health."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251208T214432Z
+      Value: 20251208T222425Z

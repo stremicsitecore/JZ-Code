@@ -4,39 +4,67 @@ Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
 Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Telehealth"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/9bb8a8278169427786c4a55b7c16f2bd?v=c7e19d16" dam-id="HPxrbTO3Tk60tuF1ZKJ15Q" width="350" height="350" alt="V1.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74657/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{6CBC531C-0562-486F-8316-9F4D9B146690}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e3010421-2456-47d3-bdd9-2e7dc14ecab0"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: telehealth, virtual care, online doctor visit, video appointment, remote care
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251117T080050Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Telehealth | Virtual Care Visits | Nova Health
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Telehealth
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
       Value: Telehealth
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Nova Health Telehealth makes it easy to access high-quality care from the comfort of your home. Our virtual visits connect you with primary care providers, specialists, and nurses through secure, HIPAA-compliant video appointments. Whether you need follow-up care, medication management, or guidance for minor illnesses, telehealth offers a convenient, flexible way to get the support you need.</p>
+        <p>Telehealth services cover a wide range of concerns including cold and flu symptoms, chronic condition management, dermatology reviews, behavioral health support, and general medical questions. Providers can review test results, refill prescriptions, and coordinate follow-up care seamlessly across the Nova Health system.</p>
+        <p>Designed for busy lifestyles, mobility challenges, and quick access needs, Nova Health Telehealth prioritizes privacy, convenience, and continuity. Our goal is to make care accessible wherever you are—at home, at work, or on the go.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Virtual visits for primary care, follow-ups, minor illnesses, medication management, and more. Secure, convenient telehealth services from Nova Health."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "219c0297-6c9f-4c3c-b50a-a06dc8626770"
+      Value: "d95daf65-d98f-4a9d-a6e4-f1abc2bd18c7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
-    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
-      Hint: Title
-      Value: Telehealth
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Nova Health Telehealth provides secure virtual visits for primary care, follow-up appointments, chronic condition support, and minor illness treatment. Patients can meet with providers through HIPAA-compliant video calls, access prescriptions, receive test reviews, and coordinate ongoing care without visiting a clinic. Telehealth offers fast, convenient access to high-quality medical care."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T080050Z
+      Value: 20251208T222611Z
