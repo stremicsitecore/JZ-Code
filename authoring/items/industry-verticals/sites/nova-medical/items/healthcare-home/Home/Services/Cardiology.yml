@@ -1,0 +1,42 @@
+﻿---
+ID: "1615f78f-ea69-495f-9e45-14bcb1f30fba"
+Parent: "2d977608-7371-4d73-b6d3-47ddd725013f"
+Template: "c0274e9d-2974-4766-a29a-0c4f9faf8c86"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Services/Cardiology"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7895C48C-22B4-4416-BC9F-0E99CD7F6B00}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251208T213331Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cardiology
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca533c60-c9f1-4ece-bb90-b2f3d764488a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c676100c-bb5a-4ad0-a2e9-e73fd0168708"
+      Hint: Title
+      Value: Cardiology
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251208T214432Z

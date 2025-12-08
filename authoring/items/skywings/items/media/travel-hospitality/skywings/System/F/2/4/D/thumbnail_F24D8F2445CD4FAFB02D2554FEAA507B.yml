@@ -1,0 +1,31 @@
+﻿---
+ID: "af2ea5d4-4cdf-4f10-95d6-1465ac5a4426"
+Parent: "836d2abf-b27a-49a7-bbb4-629f2f974090"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/travel-hospitality/skywings/System/F/2/4/D/thumbnail_F24D8F2445CD4FAFB02D2554FEAA507B"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251208T193243Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\pLbxELcK3oTQblIWfcsuKskjz5oAMEK2
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\pLbxELcK3oTQblIWfcsuKskjz5oAMEK2
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "635ff5d9-6913-4fb9-8407-1971a2131d4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\pLbxELcK3oTQblIWfcsuKskjz5oAMEK2
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251208T193243Z
