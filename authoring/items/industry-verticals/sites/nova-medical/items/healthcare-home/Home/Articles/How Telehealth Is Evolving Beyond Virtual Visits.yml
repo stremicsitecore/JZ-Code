@@ -1,0 +1,72 @@
+﻿---
+ID: "6f2aefe8-1f8d-47b2-b974-afcd79aaeb00"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/How Telehealth Is Evolving Beyond Virtual Visits"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251009T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EAABA5A2-E0A8-482C-B0B1-FA30E70AD9A9}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "34860782-f69c-4c93-875a-c327af440f1a"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: telehealth innovation, remote patient monitoring, digital health
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T004524Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Future of Telehealth | Nova Health Innovation
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How Telehealth Is Evolving Beyond Virtual Visits
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: How Telehealth Is Evolving Beyond Virtual Visits
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Telehealth has expanded far beyond simple video appointments. Today’s solutions incorporate remote monitoring, digital therapeutics, AI-driven triage, and integrated care coordination. These innovations allow providers to deliver high-quality care regardless of location.</p>
+        <p>Remote monitoring tools help clinicians track chronic conditions in real-time, improving safety and reducing unnecessary hospital visits. Telehealth platforms also enhance collaboration between specialists, primary care, and behavioral health teams.</p>
+        <p>Nova Health continues adopting emerging telehealth technologies to provide flexible, accessible care options. These advancements strengthen patient engagement and extend care beyond traditional clinic walls.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn how telehealth is evolving with remote monitoring and advanced digital tools.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explore how telehealth is expanding beyond video visits through remote monitoring and digital care tools.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6819f12-2f8a-4e0b-86b9-fad6d9c67d04"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article examines the evolution of telehealth, including remote monitoring, digital therapeutics, and enhanced care coordination.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T004600Z

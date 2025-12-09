@@ -40,7 +40,7 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
         <div class="ck-content"><p>Working at home doesn’t mean working from a couch anymore. Define your zone with a quality desk that offers both workspace and style—a wood top with slender metal legs, or a compact modular unit. Choose an ergonomic chair with clean lines so it looks as good as it works. Keep storage streamlined: floating shelves, closed-cabinets to hide clutter, and minimal desk accessories. Lighting matters: natural if possible, supplemented by a modern floor or task lamp. Add a few personal touches—artwork, a plant, a textured rug—but keep the feel calm and uncluttered. The result: a home office that looks modern and keeps you focused.</p></div>
@@ -53,14 +53,11 @@ Languages:
       Value: Create a productive, stylish workspace with furniture that blends comfort, function and aesthetic.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fc4d7a5f-0323-4005-a325-98cddc4018e8"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
+      Value: "f6cc3335-1554-4aec-8779-13492e565356"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084212Z
+      Value: 20251209T005308Z

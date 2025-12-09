@@ -1,0 +1,72 @@
+﻿---
+ID: "8b412a2a-7b92-4946-8fed-ff295e1de39b"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Managing Stress Through Better Sleep"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251104T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{55256C23-0321-4493-9DD0-86A40D256E88}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fe574c5f-d34c-4dac-a204-74c418c40f7a"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: sleep habits, stress management, wellness tips, mental health
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T003232Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Better Sleep for Stress Relief | Nova Health Wellness
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Managing Stress Through Better Sleep
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Managing Stress Through Better Sleep
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Sleep plays a powerful role in regulating mood, cognitive performance, and stress levels. Poor sleep can increase irritability, reduce focus, and intensify feelings of anxiety. Building consistent sleep routines helps restore balance and supports overall emotional well-being.</p>
+        <p>Establishing a calming bedtime routine, limiting screen time, and creating a comfortable sleep environment can greatly improve sleep quality. Many patients benefit from mindfulness practices, light stretching, or breathing exercises before bed. Identifying caffeine and alcohol habits that disrupt sleep also contributes to long-term improvement.</p>
+        <p>Nova Health encourages patients to view sleep as a foundational part of wellness. Our behavioral health specialists offer guidance on sleep hygiene, stress management, and techniques that support restorative rest.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Discover how improving sleep can help reduce stress and enhance emotional well-being."
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Learn how sleep habits impact stress and explore strategies for improving nightly rest.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e1556a5-01f7-4cf4-a732-a00cd730e11d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article explains how better sleep reduces stress and offers practical tips for establishing healthy nighttime routines.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T003309Z

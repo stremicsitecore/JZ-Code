@@ -1,0 +1,72 @@
+﻿---
+ID: "aa5c767b-3cf8-4d9b-934a-f97d30a676a8"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Understanding Pediatric Asthma Symptoms and Treatments"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20250827T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6D680198-6074-48AB-B026-9AD1C7F0F2FD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "764c44ff-8862-497b-9e9d-fd572e4ae3e9"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: pediatric asthma, childhood asthma, asthma symptoms, inhaler use, pediatric care
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T002900Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Pediatric Asthma Symptoms & Treatment | Nova Health Pediatrics
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Understanding Pediatric Asthma Symptoms and Treatments
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "Understanding Pediatric Asthma: Symptoms and Treatments"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Pediatric asthma is one of the most common chronic conditions in children, affecting daily activities, sleep, and overall quality of life. Symptoms may include wheezing, coughing, chest tightness, and shortness of breath—particularly during exercise or illness. Early diagnosis helps families proactively manage flare-ups.</p>
+        <p>Treatment plans often include inhalers, allergy management, and preventive medications tailored to the child’s age and triggers. Parents play an essential role in monitoring symptoms and ensuring proper use of asthma equipment. Pediatricians work closely with families to adjust treatment as children grow and their needs evolve.</p>
+        <p>Nova Health Pediatrics provides comprehensive asthma care, including pulmonary testing, medication guidance, and education. Our goal is to help children stay active and healthy with fewer interruptions from asthma symptoms.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn the symptoms, causes, and treatment options for pediatric asthma.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Understand childhood asthma symptoms, triggers, and treatment options guided by Nova Health pediatric specialists.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80e74036-8591-4618-a14a-4a5b5af878c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "This article covers pediatric asthma symptoms, triggers, and treatment options, emphasizing early diagnosis and personalized care to improve long-term respiratory health."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T002948Z

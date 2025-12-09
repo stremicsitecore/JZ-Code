@@ -1,0 +1,72 @@
+﻿---
+ID: "5b4a59c3-627b-4cff-bacb-522617d5b583"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/When Should You See a Specialist for Wrist Pain"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20250922T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4C150AC4-7E68-48A1-8F1F-2D216637D2E0}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ec9ef0d1-9625-4a8f-9abe-70a791e78ebb"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: wrist pain, wrist injury, orthopedic care, hand specialist, sports injury, tendonitis, sprain
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T002514Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: When to See a Specialist for Wrist Pain | Nova Health
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: When Should You See a Specialist for Wrist Pain
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "When Should You See a Specialist for Wrist Pain?"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Wrist pain is a common issue—often caused by overuse, sprains, or mild injuries—but it can also be a sign of a more serious condition that requires specialist care. Understanding when to seek help from an orthopedic or sports medicine expert can prevent long-term damage and help you return to your routine sooner. Many patients initially dismiss early symptoms, only to find that delayed treatment leads to extended recovery times.</p>
+        <p>You should consider seeing a specialist if your wrist pain persists for more than a few days, interferes with daily activities, or is accompanied by swelling, numbness, or limited movement. These symptoms may indicate ligament injuries, tendon inflammation, or fractures that require diagnostic imaging and guided treatment. Early evaluation helps prevent chronic instability or worsening symptoms.</p>
+        <p>Specialists offer a range of treatment options, from bracing and physical therapy to minimally invasive procedures. With proper diagnosis and a personalized treatment plan, most patients experience significant improvement and avoid long-term complications. Seeking care early is essential—especially for active individuals like athletes, parents, and anyone who relies on hand and wrist strength.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Learn when wrist pain requires specialist care and how early diagnosis can prevent long-term complications."
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Find out when wrist pain requires an orthopedic or sports medicine specialist. Learn symptoms, treatment options, and recovery tips.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dfc88583-1f2e-4502-9dab-04dc2b88f89c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article explains when wrist pain should be evaluated by an orthopedic or sports medicine specialist, highlights common symptoms that signal a more serious injury, and outlines treatment options that support safe, timely recovery.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T002620Z

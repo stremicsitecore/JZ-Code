@@ -1,0 +1,72 @@
+﻿---
+ID: "98ef7360-f6d2-4db0-9ca2-88383d334e97"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Finding Relief After Years of Chronic Skin Irritation"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251104T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C3D1B924-546E-4EB2-8E83-38ED1AE289B0}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6f016245-c1c2-4a94-be36-c7a75b14a7c0"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{6185230D-1B24-4B67-9501-46B4F8C6ADA0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: eczema story, dermatology success, skin care, patient experience
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T003647Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Dermatology Patient Success Story | Nova Health
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Finding Relief After Years of Chronic Skin Irritation
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Finding Relief After Years of Chronic Skin Irritation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>For years, Jordan struggled with recurring skin irritation that affected confidence and daily comfort. Over-the-counter treatments offered temporary relief, but symptoms always returned. A friend recommended Nova Health Dermatology, where Jordan finally found answers.</p>
+        <p>Through a comprehensive skin evaluation and allergy testing, Jordan was diagnosed with chronic eczema triggered by environmental factors. A customized treatment plan—including medicated creams, moisturizers, and lifestyle adjustments—provided lasting improvement.</p>
+        <p>Jordan now enjoys clearer skin, reduced flare-ups, and a better understanding of long-term management. This story shows how specialized dermatology care can transform daily life.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Jordan found lasting relief from chronic eczema through personalized dermatology care.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Learn how Nova Health dermatologists helped a patient manage chronic eczema through personalized treatment.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9053efb-a257-47b0-882d-c303a071e4d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "This article highlights how personalized dermatology evaluation helped a patient achieve relief from chronic eczema and improve long-term skin health."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T003723Z

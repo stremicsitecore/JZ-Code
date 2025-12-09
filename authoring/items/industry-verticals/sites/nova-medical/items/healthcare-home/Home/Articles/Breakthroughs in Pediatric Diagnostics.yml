@@ -1,0 +1,72 @@
+﻿---
+ID: "0a9279ca-3ab3-44f8-902e-230b8f9646cf"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Breakthroughs in Pediatric Diagnostics"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251117T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{38BCC36F-4A0D-424A-8EFC-419E48D78E28}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0c169ee7-24c2-4210-b473-db214c75835e"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: pediatric diagnostics, child health innovation, early detection
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T004445Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Pediatric Diagnostic Innovations | Nova Health
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Breakthroughs in Pediatric Diagnostics
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Breakthroughs in Pediatric Diagnostics
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Advancements in pediatric diagnostics are enabling earlier detection of conditions that once went unnoticed until adolescence or adulthood. New imaging methods, genetic testing, and child-specific screening tools help clinicians understand health concerns sooner and more accurately.</p>
+        <p>Early diagnosis means families can begin treatment or preventive strategies before symptoms worsen. Innovations such as non-invasive imaging and rapid lab testing reduce stress for both children and parents, making medical visits more comfortable.</p>
+        <p>Nova Health Pediatrics integrates emerging diagnostic technologies into everyday care, ensuring children receive timely, accurate evaluations that support lifelong health.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Discover new diagnostic tools improving early detection in pediatric medicine.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Learn about advancements in pediatric diagnostics that improve early detection and treatment planning.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec42c772-2ea2-491f-a368-a9b5722ce3a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "This article explores new pediatric diagnostic technologies and how they enhance early detection, comfort, and long-term health outcomes."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T004516Z

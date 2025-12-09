@@ -40,10 +40,6 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
-      Hint: Content
-      Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends.</span></span></p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -55,14 +51,11 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f74696d2-508f-457e-a7c1-6f3fb57573be"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
+      Value: "abf7b74d-83f2-4775-9546-901c0973c83f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T090624Z
+      Value: 20251209T001134Z

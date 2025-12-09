@@ -40,10 +40,6 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
-      Hint: Content
-      Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Minimal design doesn’t mean flat. Texture can bring depth, warmth and intrigue. Start with a base material – say, a walnut dining table – and layer in contrast: a brushed steel base, a wool throw, a leather accent chair. Each material tells a story and adds richness. Think about tactile qualities too – the softness of upholstery, coolness of metal, natural irregularity of stone. The goal: a palette of feeling as much as appearance. Keep the overall color scheme restrained so the textures shine through rather than compete. The result is a modern space that invites touch, not just looks slick.</span></span></p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -55,14 +51,11 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f074fb6d-fcb8-4287-9fac-bc98a158b179"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "Play With Texture: Why Material Mixes Make Modern Furniture Pop"
+      Value: "20e84f32-68d8-4418-b73c-b2b5b37cbb34"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T092803Z
+      Value: 20251209T001132Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "3b8da663-7090-46c9-9e5e-0cd0370287e7"
+Parent: "2b3c50d1-cb8c-456a-b463-85075fd3ffc2"
+Template: "3c4eae73-7e7f-4648-a863-bd250d76ccf8"
+Path: "/sitecore/content/industry-verticals/nova-medical/Data/Article Categories/Conditions Treatments"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250912T081102Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sanduni.galagoda@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d808398e-7d0c-4ed3-86c9-63873726714e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T002028Z
+    - ID: "f9fd853f-2691-40b4-81d1-00ccf1a6cc06"
+      Hint: Category
+      Value: Conditions & Treatments

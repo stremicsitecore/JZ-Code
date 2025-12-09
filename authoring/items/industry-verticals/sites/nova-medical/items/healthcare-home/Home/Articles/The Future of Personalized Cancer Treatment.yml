@@ -1,0 +1,72 @@
+﻿---
+ID: "8bda0734-b238-4250-b378-b75e664ceac6"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/The Future of Personalized Cancer Treatment"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251014T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0A5014B1-CDA1-49B0-89CF-E0D8E5837AD8}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "18738861-9b16-4358-8483-45a98941a54d"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: personalized cancer treatment, oncology innovation, targeted therapy, immunotherapy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T004607Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Personalized Cancer Treatment Advances | Nova Health
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Future of Personalized Cancer Treatment
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: The Future of Personalized Cancer Treatment
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Cancer treatment is becoming increasingly personalized, with therapies tailored to each patient’s genetic profile and tumor characteristics. Advances in molecular testing, immunotherapy, and targeted drugs allow oncologists to deliver more effective care with fewer side effects.</p>
+        <p>Personalized medicine improves treatment outcomes by identifying therapies most likely to work for each individual. As research evolves, more cancers can be treated with precision-based approaches, giving patients access to options not available a decade ago.</p>
+        <p>Nova Health Oncology invests in cutting-edge diagnostic tools and clinical trials that bring emerging treatments directly to patients. This commitment ensures access to the future of cancer care today.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Explore how personalized cancer treatments are transforming oncology care.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Learn how genetics, immunotherapy, and targeted therapies are shaping the future of personalized cancer treatment.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1497be8c-8a22-482d-b094-41b60c1ccb1d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article highlights advancements in personalized cancer treatment, including genetic testing, targeted therapies, and immunotherapy.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T004642Z

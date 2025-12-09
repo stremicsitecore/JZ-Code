@@ -65,14 +65,14 @@ Languages:
         sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "404908e4-d462-49a3-8b06-54f157e77ceb"
+      Value: "797263bf-163c-4066-be8d-c7c409a68b2f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251203T220655Z
+      Value: 20251209T001132Z
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -100,7 +100,7 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
         <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p></div>
@@ -115,17 +115,14 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "818d20d6-dd09-4c11-8513-79d0af1919a3"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: Handmade pieces that took time to make
+      Value: "7f1231d5-8f17-4f4a-82c6-0cada1b27b39"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T155322Z
+      Value: 20251209T004928Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -143,17 +140,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bfeb8574-e430-4acb-9072-2f4a1cefe5ad"
+      Value: "18b6afc4-4ab9-4353-8bf8-f5eb1b71393d"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: 
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251007T081024Z
+      Value: 20251209T001132Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -171,11 +168,11 @@ Languages:
         sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8c8c8332-b011-4d62-b851-842ee8fd83cb"
+      Value: "6c46f772-f5b6-41c2-913c-ffe02b8804d4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251203T220655Z
+      Value: 20251209T001132Z

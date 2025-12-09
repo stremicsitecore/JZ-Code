@@ -1,0 +1,72 @@
+﻿---
+ID: "5ba736e0-ac9c-4757-836e-ade7cb76338b"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/What Dermatologists Want You to Know About Sunscreen"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20250925T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D4A1E908-7369-42B5-85A5-A16BBEBA3159}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "12ba305a-39b7-48d4-b62c-47d5cef0de71"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{FCBA00D3-AE8E-4178-AD81-C48FCD33224C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: sunscreen tips, dermatology advice, skin cancer prevention
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T004042Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Dermatologist Sunscreen Guide | Nova Health
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: What Dermatologists Want You to Know About Sunscreen
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: What Dermatologists Want You to Know About Sunscreen
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Sunscreen is one of the most effective tools for preventing skin cancer and maintaining healthy skin, yet many people use it incorrectly. Dermatologists recommend choosing broad-spectrum formulas with SPF 30 or higher to protect against UVA and UVB rays. Daily use—not just in summer—offers the greatest benefit.</p>
+        <p>Applying enough sunscreen is just as important as choosing the right formula. Most adults need a full ounce to cover exposed skin adequately. Reapplying every two hours, especially during outdoor activities, ensures ongoing protection. Dermatologists also encourage complementary habits like wearing hats and seeking shade.</p>
+        <p>Nova Health Dermatology provides personalized skincare guidance, including sun protection strategies tailored to each patient’s needs. Proper sunscreen use helps reduce skin cancer risk and supports long-term skin health.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Dermatologists share essential tips for choosing and applying sunscreen correctly.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Learn dermatologist-approved advice for choosing, applying, and reapplying sunscreen to protect your skin."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6e720b4-0ccc-46d3-bc66-f5329aa6dfd8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article offers dermatologist insights on correct sunscreen selection and application to prevent skin damage and reduce cancer risk.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T004121Z

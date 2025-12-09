@@ -40,7 +40,7 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
         <div class="ck-content"><p>More consumers are choosing furniture that not only looks good, but does good. Look for pieces made from responsibly-sourced wood, low-VOC finishes, recycled metal, and textiles certified for sustainability. Modern design is an ideal match: its emphasis on material honesty and simplicity fits sustainably‐made furniture beautifully. Choose solid construction — high-quality joinery, durable materials — so your investment lasts. When you buy less, buy well, you reduce waste. The result: a home that reflects your values and your style, both at once.</p></div>
@@ -53,14 +53,11 @@ Languages:
       Value: "Green design doesn’t mean compromising look—explore eco-friendly materials and methods."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f2f95503-2c40-4de5-8e96-8f5b9dfaab88"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
+      Value: "493654bc-4312-49bf-a4d5-60294197da51"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084156Z
+      Value: 20251209T005128Z

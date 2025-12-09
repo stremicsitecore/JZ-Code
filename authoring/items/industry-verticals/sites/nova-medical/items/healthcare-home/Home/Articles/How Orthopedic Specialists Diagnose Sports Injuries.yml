@@ -1,0 +1,72 @@
+﻿---
+ID: "1147946a-ed6a-423c-a54b-1506e346fc73"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/How Orthopedic Specialists Diagnose Sports Injuries"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251209T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{63FAD16C-D5A7-44C4-82E3-C82F166632F2}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cde73286-788a-4051-875a-25591f12196a"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{FCBA00D3-AE8E-4178-AD81-C48FCD33224C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: sports injury diagnosis, orthopedic evaluation, injury assessment
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T003858Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: How Orthopedic Specialists Diagnose Injuries | Nova Health
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How Orthopedic Specialists Diagnose Sports Injuries
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: How Orthopedic Specialists Diagnose Sports Injuries
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Orthopedic specialists play a key role in diagnosing sports injuries and determining the right treatment path. Their evaluation begins with a detailed medical history, including how the injury occurred and what symptoms the patient is experiencing. This helps clinicians understand the root cause and severity.</p>
+        <p>Diagnostic imaging such as X-rays, ultrasound, or MRI may be used to assess soft tissue injuries, fractures, or joint instability. These tools allow specialists to create accurate treatment plans that support long-term recovery. Many sports injuries benefit from early intervention to prevent further damage.</p>
+        <p>Nova Health’s orthopedic team emphasizes patient education, helping individuals understand their diagnosis and treatment options. Through personalized care plans, specialists guide patients back to activity safely and confidently.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn how orthopedic specialists diagnose and treat sports injuries effectively.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Discover the diagnostic process orthopedic experts use to evaluate sports injuries and guide treatment planning.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70c3e2f5-20e9-4c41-b414-cf3c290b371b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article explains how orthopedic specialists diagnose sports injuries through clinical exams, imaging, and personalized treatment planning.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T003943Z

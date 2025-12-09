@@ -65,14 +65,14 @@ Languages:
         sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "07b1759c-9d96-49b1-a5b0-51b216b13bd8"
+      Value: "b20bfc2b-4cf1-47a4-98f0-30834c58f17b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251203T220655Z
+      Value: 20251209T001134Z
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -100,7 +100,7 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
         <div class="ck-content"><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p></div>
@@ -117,17 +117,14 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d39a8d1c-b887-428f-8e15-ca09f6e6c7da"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "The Heart of the Room: Fireplace"
+      Value: "c9a0bbac-add8-423f-a7e8-0cd15e2feea1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251008T155309Z
+      Value: 20251209T005256Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -148,20 +145,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "809801e3-e6d6-4c11-b135-1371a7ce7a71"
+      Value: "d71a2109-d626-494c-a97b-4972178b7905"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: 
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: The Heart of the Room
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251007T081242Z
+      Value: 20251209T001134Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -179,11 +173,11 @@ Languages:
         sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75637304-5cef-4621-a02f-2f970417785e"
+      Value: "637a1b72-2a47-428f-9aa6-0b338e576019"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\VpddC7f7hNXqQRixgnBSJBvWSAFjK5nv
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251203T220655Z
+      Value: 20251209T001133Z

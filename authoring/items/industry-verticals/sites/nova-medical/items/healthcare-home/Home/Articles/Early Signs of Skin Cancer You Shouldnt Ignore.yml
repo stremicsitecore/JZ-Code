@@ -1,0 +1,72 @@
+﻿---
+ID: "557c9c37-15d8-4e56-8e8e-8833b994f3b3"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Early Signs of Skin Cancer You Shouldnt Ignore"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251110T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C65C571A-7777-4E3D-9CDE-B1FCA75CACD3}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b97a162c-af02-473c-a8d3-87e701e93e86"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: skin cancer, dermatology, mole check, melanoma signs, skin screening
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T002802Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Early Signs of Skin Cancer | Nova Health Dermatology
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Early Signs of Skin Cancer You Shouldnt Ignore
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Early Signs of Skin Cancer You Shouldn’t Ignore
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Skin cancer is highly treatable when detected early, making awareness of early warning signs essential. Changes in moles, new skin growths, and lesions that fail to heal can indicate potential issues. Dermatologists use standardized tools like the “ABCDE” rule—Asymmetry, Border, Color, Diameter, Evolving—to evaluate suspicious spots.</p>
+        <p>Although many skin changes are harmless, those that continue to grow, bleed, or feel painful should be examined by a dermatologist as soon as possible. Risk factors include significant sun exposure, fair skin, family history, and tanning-bed use. Early detection significantly increases treatment success and reduces the likelihood of invasive procedures.</p>
+        <p>Nova Health Dermatology offers full-body skin exams, advanced imaging, and biopsy services to diagnose concerns quickly and accurately. Routine screenings empower patients to stay ahead of potential issues and maintain long-term skin health.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Recognize early skin cancer warning signs and learn when to visit a dermatologist.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Learn the early warning signs of skin cancer and when to seek a dermatologist’s evaluation at Nova Health.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f019f3c-5cce-474f-8f3f-2d3df9dfcfb9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: This article explains common early signs of skin cancer, when to seek dermatologic evaluation, and why regular screenings improve early detection and outcomes.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T002853Z

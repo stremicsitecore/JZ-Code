@@ -11,7 +11,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{FE6431FB-88E5-47A2-A259-FB20B880E15D}" />
+    <image mediaid="{AFD10B07-4067-48FE-BA9F-D6662D73AE1E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "ee5a2065-ad1a-4f24-879c-ec7b4bc8ae9c"
@@ -40,10 +40,6 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\angela.gustafson@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
-      Hint: Content
-      Value: |
-        <div class="ck-content"><p>If “modern” conjures only black/white/grey, it might be time to rethink. A well-placed bold color—a teal accent chair, a burnt orange sofa, a chartreuse ottoman—can instantly elevate a neutral palette. The secret is anchoring: start with 60% neutrals (walls, large furniture), 30% mid-tone accents, and 10% bold pops. Repeat the accent color in small touches (pillows, vases, art) to tie the look together. Don’t force too many bright colors; choose one or two and pair them with calming neutrals. And remember light: deeper bolds work in low light, while fresher tones thrive in bright spaces. Embrace color wisely, and your modern furniture will feel energized—not overdone.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -53,14 +49,11 @@ Languages:
       Value: Move beyond beige—infuse your space with modern color decisions that feel fresh and intentional.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c2c53f14-792d-4834-ba5f-7c54deef413c"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "Color Confidence: How to Use Bold Hues in Modern Furniture Without Going Overboard"
+      Value: "99b51205-6725-40f8-bffa-04b42ffd7f28"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251027T164433Z
+      Value: 20251209T001134Z

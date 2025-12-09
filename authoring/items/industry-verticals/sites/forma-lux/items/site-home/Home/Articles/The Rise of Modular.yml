@@ -40,7 +40,7 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
         <div class="ck-content"><p>Modern homes demand flexibility. Modular furniture lets you adapt – move, reconfigure, add pieces as you grow or change. A modular sectional can transform from cozy three-seater to expansive lounge; storage units can evolve with your needs. When selecting, pay attention to connectors, compatibility, and finish options so your pieces remain cohesive. Modular doesn’t mean generic—look for well-designed elements with clean lines, thoughtful proportions and high-quality materials. Ultimately, modular systems give you freedom without compromise: style that lives with you, not around you.</p></div>
@@ -53,14 +53,11 @@ Languages:
       Value: Discover how modular sofas, sectionals and storage systems keep pace with your evolving lifestyle.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6d596f87-d842-42da-904a-eb0f52b60755"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "The Rise of Modular: Adaptable Furniture for Modern Living"
+      Value: "d2872cbb-f698-4728-a258-94a2faeb6a1f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084205Z
+      Value: 20251209T005239Z

@@ -1,0 +1,75 @@
+﻿---
+ID: "19f04b21-bd1e-493d-91ad-60ae3e07761d"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Vaccines Every Adult Should Consider"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{E954A0ED-5342-4FD3-B060-1008B02F7A4C}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251023T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1E0AA3A5-86CA-4B94-9C0A-BD9122CCCEFF}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "dce24bc4-4a45-4b67-93dd-b276d4146034"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: adult vaccines, immunizations, preventive care, family medicine
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T003318Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Adult Vaccines Guide | Nova Health Preventive Care
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Vaccines Every Adult Should Consider
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Vaccines Every Adult Should Consider
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Vaccinations aren’t just for children—adults also benefit from immunizations that prevent serious illnesses. Staying up-to-date protects individuals and their communities, especially those with weakened immune systems. Common adult vaccines include influenza, COVID-19 boosters, Tdap, shingles, and pneumococcal vaccines.</p>
+        <p>Your age, health conditions, lifestyle, and travel plans can influence which vaccines are recommended. Primary care providers help patients understand when boosters are due and how vaccines support long-term wellness. Preventive care appointments are an excellent opportunity to review immunization history.</p>
+        <p>Nova Health Family Medicine offers comprehensive vaccination support, including counseling, reminders, and convenient scheduling. Our goal is to keep adults healthy through proactive prevention.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn which vaccines adults should receive and why staying current is essential.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Find out which vaccines adults need for long-term health and disease prevention."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "084e94a1-08be-43c1-bfdc-6bab24b3d9be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "This article highlights essential adult vaccines, explaining their benefits and the importance of staying up-to-date with preventive immunization schedules."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T003401Z

@@ -33,10 +33,16 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>In the pursuit of tranquil spaces that echo sophistication, the couch remains a cornerstone, harmonizing style with purpose. At Forma Lux, we believe that selecting the ideal couch is an embodiment of elegance and functionality, seamlessly blending aesthetic appeal and practical ease. Our philosophy is rooted in creating pieces that embody modern European design, craftsmanship, and minimalism, capturing the essence of refined living.</p><p>The journey to choosing the perfect couch begins with a thoughtful reflection on your space's soul and substance. As purveyors of quiet luxury, we advocate for designs that inspire calm, redefining the traditional notion of luxury with timeless artistry and simplicity. Consider the dialogue between form and function, where bold sculptural elements meet the graceful curves of artisanal craftsmanship.</p><p>Pivotal to our ethos is the commitment to sustainability and integrity. Opt for couches crafted with natural materials and ethical production practices, ensuring that each piece not only resonates with your values but also stands the test of time. Whether you align with the 'Conscious Minimalist' who cherishes clean lines and natural textures, or the 'Urban Visionary' who seeks modular designs, our collection caters to diverse personas.</p><p>Incorporating Forma Lux's timeless pieces into your living environment elevates the art of living beautifully. The couch becomes more than just a piece of furniture; it evolves into a canvas of self-expression, blending elegance with everyday livability. As you explore the perfect piece, remember that true luxury transcends fleeting trends and focuses on enduring beauty and functionality.</p><p>Let your home reflect your unique taste and tranquil sensibility, with couches that echo the principles of refined modern design. At Forma Lux, we invite you to shape your space with soul and substance, nurturing an atmosphere where elegance and functionality coexist harmoniously.</p></div>
+        <div class="ck-content">
+        <p>In the pursuit of tranquil spaces that echo sophistication, the couch remains a cornerstone, harmonizing style with purpose. At Forma Lux, we believe that selecting the ideal couch is an embodiment of elegance and functionality, seamlessly blending aesthetic appeal and practical ease. Our philosophy is rooted in creating pieces that embody modern European design, craftsmanship, and minimalism, capturing the essence of refined living.</p>
+        <p>The journey to choosing the perfect couch begins with a thoughtful reflection on your space's soul and substance. As purveyors of quiet luxury, we advocate for designs that inspire calm, redefining the traditional notion of luxury with timeless artistry and simplicity. Consider the dialogue between form and function, where bold sculptural elements meet the graceful curves of artisanal craftsmanship.</p>
+        <p>Pivotal to our ethos is the commitment to sustainability and integrity. Opt for couches crafted with natural materials and ethical production practices, ensuring that each piece not only resonates with your values but also stands the test of time. Whether you align with the 'Conscious Minimalist' who cherishes clean lines and natural textures, or the 'Urban Visionary' who seeks modular designs, our collection caters to diverse personas.</p>
+        <p>Incorporating Forma Lux's timeless pieces into your living environment elevates the art of living beautifully. The couch becomes more than just a piece of furniture; it evolves into a canvas of self-expression, blending elegance with everyday livability. As you explore the perfect piece, remember that true luxury transcends fleeting trends and focuses on enduring beauty and functionality.</p>
+        <p>Let your home reflect your unique taste and tranquil sensibility, with couches that echo the principles of refined modern design. At Forma Lux, we invite you to shape your space with soul and substance, nurturing an atmosphere where elegance and functionality coexist harmoniously.</p>
+        </div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -46,14 +52,11 @@ Languages:
       Value: "Choosing the Perfect Couch: A Reflection of Elegance and Functionality"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a604d975-4d07-47fe-8d03-1ff8b79e5172"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: Selecting the perfect couch
+      Value: "93466774-1552-4e3d-a017-be4b1d987bae"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084111Z
+      Value: 20251209T005055Z

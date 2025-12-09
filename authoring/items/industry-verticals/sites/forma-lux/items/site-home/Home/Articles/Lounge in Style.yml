@@ -40,10 +40,12 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">The sofa anchors the living space—so get it right. Begin with size: allow at least 30”-36” behind if it’s against a wall, and clear pathways around it. Decide on configuration: single sofa, two sofas facing, sectional... whichever suits your lifestyle. Fabric selection is key—performance fabrics for families, full grain leather for timelessness. Modern style favors low profile, clean arms, and exposed base or legs. Then layer: a few pillows in contrasting texture, a throw for warmth, a low coffee table to complete the region. With thoughtful choices, your sofa becomes not just seating—but the design hero.</span></span></p></div>
+        <div class="ck-content">
+        <p><span>The sofa anchors the living space&mdash;so get it right. Begin with size: allow at least 30&rdquo;-36&rdquo; behind if it&rsquo;s against a wall, and clear pathways around it. Decide on configuration: single sofa, two sofas facing, sectional... whichever suits your lifestyle. Fabric selection is key&mdash;performance fabrics for families, full grain leather for timelessness. Modern style favors low profile, clean arms, and exposed base or legs. Then layer: a few pillows in contrasting texture, a throw for warmth, a low coffee table to complete the region. With thoughtful choices, your sofa becomes not just seating&mdash;but the design hero.</span></p>
+        </div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -55,14 +57,11 @@ Languages:
         
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "693a2489-8294-4ff4-b38e-9088c4783513"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
+      Value: "61f115c5-8a5d-4dba-bc90-260a671aadd4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T092400Z
+      Value: 20251209T005040Z

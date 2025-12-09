@@ -40,7 +40,7 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
-    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
         <div class="ck-content"><p>When your space is modest, every inch counts. Choose furniture that serves more than one purpose—a sleeper sofa for guests, a coffee table with hidden storage, or nesting tables that tuck away when you don’t need them. Opt for pieces with light visual weight: open legs, transparent surfaces, slimmer profiles. Keep your color palette consistent so the eye flows easily. Vertical accents draw attention upward and create a sense of height: consider tall shelving, floor lamps, or hung artwork. Don’t cram—leave breathing room around key pieces so your space still feels spacious. With smart selections, even the smallest home can feel luxurious and modern.</p></div>
@@ -53,14 +53,11 @@ Languages:
       Value: "Make the most of limited square footage with multi-functional, thoughtfully scaled furniture."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "08ab9c0f-cddd-4bb2-b609-2946a40a0c68"
-    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
-      Hint: Title
-      Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
+      Value: "9cef1922-e6a9-4067-a479-40b5f742c58b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T084137Z
+      Value: 20251209T005110Z

@@ -1,0 +1,72 @@
+﻿---
+ID: "e0eb9f1a-be0f-4a07-a663-e426facf2760"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/The Importance of Heart-Healthy Eating"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251205T000000Z
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FE1EF03A-BD65-42F5-9B21-7623F7B3476F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2e00f6eb-4b68-4023-865c-295b5800cc6b"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: "heart-healthy diet, nutrition tips, cardiology wellness, healthy eating"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T003146Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: "Heart-Healthy Eating Tips | Nova Health Nutrition"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "The Importance of Heart-Healthy Eating"
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "The Importance of Heart-Healthy Eating"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>A heart-healthy diet plays a critical role in preventing cardiovascular disease and improving long-term wellness. Foods rich in fiber, healthy fats, and antioxidants support heart function and reduce inflammation. Simple changes—like incorporating more fruits, vegetables, lean proteins, and whole grains—can make a significant impact.</p>
+        <p>Limiting sodium, added sugars, and saturated fats helps maintain healthy blood pressure and cholesterol levels. Many individuals find success by building balanced meal plans and focusing on portion control. Staying hydrated and choosing nutrient-dense snacks can further support heart health.</p>
+        <p>Nova Health’s cardiology team encourages patients to adopt sustainable dietary habits rather than short-term diets. With personalized nutrition counseling, patients can make choices that support both heart health and lifestyle goals.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Explore dietary habits that support heart health and help prevent cardiovascular disease.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Learn how balanced nutrition, healthy fats, and low-sodium meals support long-term heart health."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e08f8c0d-9d06-44c9-8da3-e208d01b7209"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "This article outlines dietary strategies that support cardiovascular health, including nutrient-rich foods, sodium reduction, and sustainable eating habits."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T003224Z
