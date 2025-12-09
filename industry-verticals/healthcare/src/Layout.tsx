@@ -36,6 +36,9 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
 
+  console.log(fields);
+  console.log(`{metadata title is: ${ogTitle}}`)
+
   return (
     <>
       <Scripts />
