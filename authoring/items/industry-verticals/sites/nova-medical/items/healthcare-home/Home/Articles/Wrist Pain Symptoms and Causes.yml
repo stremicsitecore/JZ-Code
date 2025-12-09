@@ -1,0 +1,89 @@
+﻿---
+ID: "2751673b-71da-429f-acc5-712c6b5c3089"
+Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Wrist Pain Symptoms and Causes"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20251029T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/07c9e8cce5ec4714a26ddd9e94dc6d9c?v=a79ac2a5" dam-id="TfbZMzzSRrmD8d5GUbRy1g" width="1536" height="1024" alt="wrist-pain.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75629/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{93C13880-12CE-412E-B04F-69E55627AA56}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "322b7889-03ad-4fe7-a717-d1d9e4843da4"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a4e2afce-cdb6-4622-b6d2-6ba6ccedcbe7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Wrist Pain - Symptoms and Causes"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: wrist pain, wrist symptoms, wrist injury causes, orthopedic wrist care, tendonitis, carpal tunnel, wrist sprain
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251209T141224Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: "Wrist Pain: Symptoms & Causes | Nova Health Orthopedics"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Wrist Pain - Symptoms and Causes"
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: "Wrist Pain - Symptoms and Causes"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
+      Hint: Content
+      Value: |
+        <p>Wrist pain is a common issue that can affect people of all ages, especially those who engage in repetitive motions, sports activities, or tasks that place strain on the hands and wrists. Pain may develop suddenly after an injury or gradually over time. Symptoms often include aching, swelling, stiffness, weakness, numbness, or difficulty gripping objects. The location and type of pain can offer important clues about the underlying cause.</p>
+        <p>Many cases of wrist pain are linked to injuries such as sprains, tendonitis, or fractures. Overuse conditions—including repetitive strain injuries, carpal tunnel syndrome, or inflammation of surrounding ligaments—can also contribute to chronic discomfort. In some cases, arthritis or underlying medical conditions may cause persistent pain that does not resolve on its own. Without proper evaluation, even minor symptoms can worsen with continued activity.</p>
+        <p>Understanding what triggers your wrist pain is essential for effective treatment. Early diagnosis helps prevent long-term complications such as limited mobility or chronic instability. Nova Health’s orthopedic and sports medicine specialists offer advanced imaging, expert evaluation, and personalized treatment plans designed to restore strength, reduce pain, and help patients return to daily activities with confidence.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn the common symptoms and causes of wrist pain, from injuries to overuse conditions, and understand when to seek specialized care.
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Discover common symptoms and causes of wrist pain, including injuries, overuse conditions, and arthritis. Learn when to seek orthopedic care at Nova Health.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed6de926-dc94-408c-affd-2708725076d6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "This article explains the most common symptoms and causes of wrist pain, including injuries, overuse conditions, and arthritis. It highlights when symptoms may require evaluation by an orthopedic specialist and emphasizes the importance of early diagnosis to prevent long-term complications."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251209T150227Z
