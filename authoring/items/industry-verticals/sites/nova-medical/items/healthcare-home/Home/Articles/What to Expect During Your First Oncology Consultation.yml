@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/What to Expect During Your First Oncology Consultation"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{7DB1713B-FCA4-408E-9BB5-26E2E4CD9349}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dbde3b49-6f7e-49d7-9d23-64572afe4606"
+  Value: "c3c07ceb-71c5-4b8c-9f00-7aa9cf9d71cc"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
@@ -70,17 +73,17 @@ Languages:
       Value: Understand what happens during a first oncology consultation, including evaluation, treatment discussions, and next steps.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb4cb3c4-82b9-4c6c-802c-e16d27d68ee3"
+      Value: "678dbd61-0f60-4d67-80d4-8ce3bb4c4a05"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Oncology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article explains what patients can expect during an initial oncology consultation, including evaluation, treatment planning, and available support resources.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T223304Z
+      Value: 20251210T021804Z

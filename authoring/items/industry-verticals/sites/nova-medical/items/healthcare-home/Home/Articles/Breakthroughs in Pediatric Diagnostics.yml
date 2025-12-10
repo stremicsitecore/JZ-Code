@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Breakthroughs in Pediatric Diagnostics"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{38BCC36F-4A0D-424A-8EFC-419E48D78E28}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4df6e00d-1934-4e0c-a3e2-b870cb6c33b6"
+  Value: "9b34d199-c62b-4180-a6bb-c6a0443f6d87"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
@@ -70,17 +73,17 @@ Languages:
       Value: Learn about advancements in pediatric diagnostics that improve early detection and treatment planning.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "159226aa-93d3-4e71-850d-c8b31f7bd441"
+      Value: "8bf25219-bb4c-44f9-96b7-2a44cdc69a03"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Pediatrics
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article explores new pediatric diagnostic technologies and how they enhance early detection, comfort, and long-term health outcomes."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T220752Z
+      Value: 20251210T021707Z

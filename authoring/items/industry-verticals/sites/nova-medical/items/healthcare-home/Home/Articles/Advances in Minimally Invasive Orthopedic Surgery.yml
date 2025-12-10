@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Advances in Minimally Invasive Orthopedic Surgery"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{DB30596D-1D25-4EB4-9EB9-5ECC6BEFB12A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7468a6ee-bae3-428e-a7bc-6b14b654976a"
+  Value: "83b9320d-5143-4335-9d61-5985c3955d1f"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
@@ -70,17 +73,17 @@ Languages:
       Value: Explore how minimally invasive techniques treat orthopedic injuries with faster recovery and reduced pain.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4e19c76-a3ee-470f-9b28-cc6a317b02fe"
+      Value: "2b96f468-3673-4e7f-93a7-56723d5ceae6"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Orthopedics
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article highlights advancements in minimally invasive orthopedic surgery and explains how these techniques support faster recovery and better outcomes.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T220524Z
+      Value: 20251210T021659Z

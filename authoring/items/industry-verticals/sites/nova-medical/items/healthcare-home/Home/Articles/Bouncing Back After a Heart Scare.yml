@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Bouncing Back After a Heart Scare"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{786BA51B-0609-46E9-8900-19206935E66D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "81279a17-ca49-4881-b700-d14fbeece331"
+  Value: "f6b0010b-062b-44cc-87b9-91ee680f4966"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{6185230D-1B24-4B67-9501-46B4F8C6ADA0}"
@@ -70,17 +73,17 @@ Languages:
       Value: Read how early detection and cardiology care helped Kevin prevent further heart complications.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4a709148-1287-43c8-ae23-a99b5217a9e4"
+      Value: "8fae274b-d0df-4c9e-9f92-d787d15d7d6c"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Cardiology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article shares a cardiology success story, showing how early detection and lifestyle intervention helped a patient prevent worsening heart disease.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T220640Z
+      Value: 20251210T021703Z

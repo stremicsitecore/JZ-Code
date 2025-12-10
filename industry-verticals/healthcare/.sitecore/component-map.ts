@@ -54,6 +54,7 @@ import * as ContentSection from 'src/components/content-section/ContentSection';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
+import * as ArticleLister from 'src/components/articles/ArticleLister';
 import * as ArticleDetails from 'src/components/articles/ArticleDetails';
 import * as ArticleCarousel from 'src/components/articles/ArticleCarousel';
 
@@ -111,6 +112,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
+  ['ArticleLister', { ...ArticleLister }],
   ['ArticleDetails', { ...ArticleDetails }],
   ['ArticleCarousel', { ...ArticleCarousel }],
 ]);

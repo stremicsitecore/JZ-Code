@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Wrist Pain Symptoms and Causes"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: 
@@ -24,7 +27,7 @@ SharedFields:
     <image mediaid="{93C13880-12CE-412E-B04F-69E55627AA56}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cf5f9a3d-fd8e-4dba-a2f3-194f7b0cd0e8"
+  Value: "fd1efb71-7372-47a0-8d12-d79dcca3975f"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
@@ -80,7 +83,7 @@ Languages:
       Value: Discover common symptoms and causes of wrist pain, including injuries, overuse conditions, and arthritis. Learn when to seek orthopedic care at Nova Health.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1fd7555b-60bb-4632-8d63-9a3cb4111578"
+      Value: "ec113dae-2c10-4b3c-b035-74493097a23b"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Orthopedics
@@ -93,4 +96,4 @@ Languages:
       Value: "This article explains the most common symptoms and causes of wrist pain, including injuries, overuse conditions, and arthritis. It highlights when symptoms may require evaluation by an orthopedic specialist and emphasizes the importance of early diagnosis to prevent long-term complications."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T215149Z
+      Value: 20251210T021814Z

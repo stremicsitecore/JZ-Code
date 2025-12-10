@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Finding Relief After Years of Chronic Skin Irritation"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{C3D1B924-546E-4EB2-8E83-38ED1AE289B0}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "75eba886-7362-4c5d-ad3d-f334ce5f3953"
+  Value: "b187d120-9e9b-428c-823c-b7dc5163c274"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{6185230D-1B24-4B67-9501-46B4F8C6ADA0}"
@@ -70,17 +73,17 @@ Languages:
       Value: Learn how Nova Health dermatologists helped a patient manage chronic eczema through personalized treatment.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "020f1706-10a6-4e61-926a-d8d9704f718c"
+      Value: "ea2924e5-e798-4a1f-9294-76fb97e4d989"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Dermatology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article highlights how personalized dermatology evaluation helped a patient achieve relief from chronic eczema and improve long-term skin health."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T221013Z
+      Value: 20251210T021715Z

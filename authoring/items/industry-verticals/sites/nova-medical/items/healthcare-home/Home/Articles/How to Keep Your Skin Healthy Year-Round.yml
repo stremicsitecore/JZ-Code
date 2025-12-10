@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/How to Keep Your Skin Healthy Year-Round"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{C770C595-2058-4A4B-AAB3-0A4C78C1DB1C}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "22a7119f-e762-4643-849f-497112333ca4"
+  Value: "ef87d0e5-a3f0-4d54-8581-39369f8a9324"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
@@ -70,17 +73,17 @@ Languages:
       Value: "Discover how seasonal changes impact skin and learn expert tips for keeping it healthy year-round."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7951a3c1-1d21-4a83-a614-1566c7bb1cbc"
+      Value: "cab6afbc-eb40-460c-95e9-eb0557c0c698"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Dermatology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article offers dermatologist-approved tips for maintaining healthy skin throughout the year, including routine care, product recommendations, and preventive steps."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T221742Z
+      Value: 20251210T021737Z

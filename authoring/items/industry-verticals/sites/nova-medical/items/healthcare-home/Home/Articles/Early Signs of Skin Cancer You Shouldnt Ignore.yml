@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Early Signs of Skin Cancer You Shouldnt Ignore"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{C65C571A-7777-4E3D-9CDE-B1FCA75CACD3}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d5a062e2-dd37-4fb5-92a1-d4fec601c9de"
+  Value: "706b53b6-c1cb-4810-adf8-d154b01e1277"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
@@ -70,17 +73,17 @@ Languages:
       Value: Learn the early warning signs of skin cancer and when to seek a dermatologist’s evaluation at Nova Health.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4eb7c9a-5d42-4a66-b6ee-7c70d299932b"
+      Value: "2e61b20d-0cf5-493d-9dbe-25f10d36e73f"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Dermatology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article explains common early signs of skin cancer, when to seek dermatologic evaluation, and why regular screenings improve early detection and outcomes.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T220912Z
+      Value: 20251210T021711Z

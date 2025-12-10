@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/A Cardiologists Guide to Reducing Heart Disease Risk"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{EF6FE942-C92B-4897-9C20-ABB37A2C6283}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2fd82aa2-521c-426a-8d26-3228f011182b"
+  Value: "1bc7a569-6fcf-4823-a82b-e397bf1b3c41"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{FCBA00D3-AE8E-4178-AD81-C48FCD33224C}"
@@ -70,17 +73,17 @@ Languages:
       Value: "Learn cardiologist-recommended strategies for reducing heart disease risk through lifestyle changes and preventive care."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a4af4ee-8d7c-4df1-a6a3-9b8dcb59e284"
+      Value: "24916370-8d27-4529-ad1a-9772881ca6f6"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Cardiology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article highlights cardiologist-recommended steps to reduce heart disease risk, including lifestyle changes, screenings, and long-term monitoring."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T220201Z
+      Value: 20251210T021653Z

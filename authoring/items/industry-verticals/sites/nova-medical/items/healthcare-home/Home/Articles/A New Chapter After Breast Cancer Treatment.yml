@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/A New Chapter After Breast Cancer Treatment"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{A783886A-6000-4BC6-8F9F-9AE77897B227}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "839436a7-53f4-4d54-ac19-c78c3cd5d1de"
+  Value: "bc16c8a5-ba8f-4dc8-9296-e03a2c648b3d"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{6185230D-1B24-4B67-9501-46B4F8C6ADA0}"
@@ -70,17 +73,17 @@ Languages:
       Value: Read how Maria navigated diagnosis, treatment, and recovery with the help of Nova Health’s oncology team.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b9c679c-d297-4b3a-9333-68833acbafe0"
+      Value: "6bb69fc4-52ea-489a-8644-20094f96f193"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Oncology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article shares a breast cancer survivor’s journey, highlighting the value of early detection and coordinated, compassionate oncology care.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T220410Z
+      Value: 20251210T021656Z

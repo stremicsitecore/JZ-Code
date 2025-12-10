@@ -4,6 +4,9 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/When Should You See a Specialist for Wrist Pain"
 SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{54CABACF-F075-4DAB-9113-407825F5CDFF}"
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
   Value: |
@@ -21,7 +24,7 @@ SharedFields:
     <image mediaid="{4C150AC4-7E68-48A1-8F1F-2D216637D2E0}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "74209a6b-507b-46c0-a67e-8115800bdc81"
+  Value: "2977e142-f0e2-49a7-aa68-b1f830458fb8"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
@@ -70,17 +73,17 @@ Languages:
       Value: Find out when wrist pain requires an orthopedic or sports medicine specialist. Learn symptoms, treatment options, and recovery tips.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d606da50-c6f9-4149-9e36-b4f664e625cb"
+      Value: "865720b6-ab00-4dc8-94d7-4a4ca4c5a4bc"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Orthopedics
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\david.berkovits@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article explains when wrist pain should be evaluated by an orthopedic or sports medicine specialist, highlights common symptoms that signal a more serious injury, and outlines treatment options that support safe, timely recovery.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T223356Z
+      Value: 20251210T021807Z
