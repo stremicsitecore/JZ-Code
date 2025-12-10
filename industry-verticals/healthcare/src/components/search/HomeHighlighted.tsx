@@ -28,8 +28,8 @@ export const HomeHighlightedComponent = ({ type = 'Article', source, widget }: H
   const articlesToShow = articles.slice(0, 4);
   const { handleSearch } = useSearchTracking();
 
-  var title = "Content for You";
-  var text = "Read more articles and patient stories";
+  let title = "Content for You";
+  let text = "Read more articles and patient stories";
   if (type == "Doctor") {
     title = "Meet the Team";
     text = "Read more about our doctors";
