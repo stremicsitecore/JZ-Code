@@ -102,8 +102,14 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{93E7F46E-AADA-428C-877B-8F95A1D16E5A}"
+              uid="{CC35BCA0-C4C1-4FE4-B273-BF35DFE1546D}"
               p:after="r[@uid='{C84E205E-3C04-4D5C-A623-5990755BD957}']"
+              s:id="{62DD1639-9F28-4040-8738-C886480B2127}"
+              s:par="FormId=a9d9926e0ffa4b3882931cef294eb3ea-use&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{93E7F46E-AADA-428C-877B-8F95A1D16E5A}"
+              p:after="r[@uid='{CC35BCA0-C4C1-4FE4-B273-BF35DFE1546D}']"
               s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
               s:par="CSSStyles&amp;Type=Article&amp;Widget=novamedical_search_highlighted_articles&amp;Source=1193468"
               s:ph="headless-main" />
@@ -149,14 +155,14 @@ Languages:
       Value: "Nova Health delivers compassionate, modern healthcare with access to expert specialists, primary care, same-day services, and virtual care options. From preventive wellness to advanced treatments, we provide connected, patient-centered care supported by leading medical technology and seamless digital tools that help you find the right care quickly and confidently."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba99b92d-5155-49dc-ad59-33fc46258a32"
+      Value: "253bc2d0-7b60-45a4-8f04-338635bee6b2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "Nova Health is a modern healthcare system offering comprehensive medical services, including primary care, specialty care, urgent care, telehealth, and advanced treatment programs. Our mission is to provide a connected, easy-to-navigate patient experience supported by expert clinicians, accessible locations, and digital tools that guide patients to the right care at the right time."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T154359Z
+      Value: 20251210T175611Z
