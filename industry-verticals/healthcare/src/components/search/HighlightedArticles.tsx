@@ -21,12 +21,8 @@ export const HighlightedArticles = (props: HighlightedArticlesProps): JSX.Elemen
   const source = props.params?.Source ? props.params?.Source : SEARCH_CONFIG.source;
   const widget = props.params?.Widget ? props.params?.Widget : HOMEHIGHLIGHTED_WIDGET_ID;
 
-  console.log(`{Type: ${type}}`);
-  console.log(`{Source: ${source}}`);
-  console.log(`{WidgetID: ${widget}}`);
-
   return (
-    <div className={`${sxaStyles}`}>
+    <div className={`col-12 ${sxaStyles}`}>
       <HighlightedWidget rfkId={widget} type={type} source={source} widget={widget} />
     </div>
   );
