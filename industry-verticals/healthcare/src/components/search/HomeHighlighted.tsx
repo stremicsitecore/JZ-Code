@@ -2,43 +2,45 @@ import { JSX } from 'react';
 import { FilterEqual, WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
 import ArticleCard from './ArticleCard';
 import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
-import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
 
-const SEARCH_CONFIG = {
-  source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
+type HomeHighlightedProps = {
+  type: string;
+  source: string;
+  widget: string;
 };
 
-export const HomeHighlightedComponent = (): JSX.Element => {
-  console.log(`using ${HOMEHIGHLIGHTED_WIDGET_ID}`);
-  console.log(`source: ${SEARCH_CONFIG.source}`);
-
+export const HomeHighlightedComponent = ({ type = 'Article', source, widget }: HomeHighlightedProps): JSX.Element => {
   const {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Product'));
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Article'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', type));
 
-      if (SEARCH_CONFIG.source !== '') {
-        const sources = SEARCH_CONFIG.source.split('|');
-        sources.forEach((source) => {
-          query.getRequest().addSource(source.trim());
+      if (source !== '') {
+        const sources = source.split('|');
+        sources.forEach((s) => {
+          query.getRequest().addSource(s.trim());
         });
       }
     },
   });
 
-  console.log(`found: ${articles}`)
-
   const articlesToShow = articles.slice(0, 4);
   const { handleSearch } = useSearchTracking();
+
+  var title = "Content for You";
+  var text = "Read more articles and patient stories";
+  if (type == "Doctor") {
+    title = "Meet the Team";
+    text = "Read more about our doctors";
+  }
 
   return (
     <div className="container mx-auto px-4">
       <div className="my-12 text-center">
-        <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">Get Inspired</h2>
+        <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">{title}</h2>
         <p className="text-xl text-gray-600">
-          Discover our amazing products and articles from our latest stories
+          {text}
         </p>
       </div>
 
@@ -52,7 +54,7 @@ export const HomeHighlightedComponent = (): JSX.Element => {
               onItemClick={(e) =>
                 handleSearch(e, {
                   url: a.url,
-                  widgetId: HOMEHIGHLIGHTED_WIDGET_ID,
+                  widgetId: widget,
                   entityType: 'content',
                   events: ['EntityPageView', 'SearchClickEvent'] as Events[],
                   entityId: a.id,

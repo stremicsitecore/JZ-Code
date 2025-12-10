@@ -6,16 +6,28 @@ import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
 export const dynamic = 'force-dynamic';
 export const fetchCache = 'force-no-store';
 
+const SEARCH_CONFIG = {
+  source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
+};
+
+
 export type HighlightedArticlesProps = ComponentProps & {
   params: { [key: string]: string };
 };
 
 export const HighlightedArticles = (props: HighlightedArticlesProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
+  const type = props.params?.Type;
+  const source = props.params?.Source ? props.params?.Source : SEARCH_CONFIG.source;
+  const widget = props.params?.Widget ? props.params?.Widget : HOMEHIGHLIGHTED_WIDGET_ID;
+
+  console.log(`{Type: ${type}}`);
+  console.log(`{Source: ${source}}`);
+  console.log(`{WidgetID: ${widget}}`);
 
   return (
     <div className={`${sxaStyles}`}>
-      <HighlightedWidget rfkId={HOMEHIGHLIGHTED_WIDGET_ID} />
+      <HighlightedWidget rfkId={widget} type={type} source={source} widget={widget} />
     </div>
   );
 };

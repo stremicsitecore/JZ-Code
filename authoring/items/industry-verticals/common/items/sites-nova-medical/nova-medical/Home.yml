@@ -96,7 +96,31 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{93E7F46E-AADA-428C-877B-8F95A1D16E5A}"
+              p:after="r[@uid='{C84E205E-3C04-4D5C-A623-5990755BD957}']"
+              s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
+              s:par="CSSStyles&amp;Type=Article&amp;Widget=novamedical_search_highlighted_articles&amp;Source=1193468"
+              s:ph="headless-main" />
+            <r
+              uid="{CF35A1C0-D1FD-4240-B9AC-CB3D2765F14F}"
+              p:after="r[@uid='{93E7F46E-AADA-428C-877B-8F95A1D16E5A}']"
+              s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
+              s:par="Type=Doctor&amp;Source=1193468&amp;Widget=novamedical_search_highlighted_doctors&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{61AA29B5-3148-4B14-9AA2-625F32E9CB1C}"
+              p:after="r[@uid='{A5C61CBF-AA2F-4977-8E8D-28C744FCD6AE}']"
+              s:id="{62DD1639-9F28-4040-8738-C886480B2127}"
+              s:par="FormId=ac7ef017fdb14bb68eec68cc7f6fa6cc-use&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: Nova Health, healthcare system, medical care, primary care, specialists, virtual care, urgent care, orthopedics, cardiology, dermatology, neurology, oncology, pediatrics, women’s health, patient care, hospital services, modern healthcare
@@ -125,7 +149,7 @@ Languages:
       Value: "Nova Health delivers compassionate, modern healthcare with access to expert specialists, primary care, same-day services, and virtual care options. From preventive wellness to advanced treatments, we provide connected, patient-centered care supported by leading medical technology and seamless digital tools that help you find the right care quickly and confidently."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f7a0506-4f77-4c2d-b77a-e2a68f7a2831"
+      Value: "ba99b92d-5155-49dc-ad59-33fc46258a32"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -135,4 +159,4 @@ Languages:
       Value: "Nova Health is a modern healthcare system offering comprehensive medical services, including primary care, specialty care, urgent care, telehealth, and advanced treatment programs. Our mission is to provide a connected, easy-to-navigate patient experience supported by expert clinicians, accessible locations, and digital tools that guide patients to the right care at the right time."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T193306Z
+      Value: 20251210T154359Z
