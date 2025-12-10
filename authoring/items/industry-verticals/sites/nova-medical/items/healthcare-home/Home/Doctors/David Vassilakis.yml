@@ -22,12 +22,22 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17f193f8-30f6-46f1-b96d-52ff7d1e980a"
+      Hint: pageSummary
+      Value: Dr. David Vassilakis specializes in complex brain and spine surgery, combining precise surgical skill with clear communication and personalized care. He is committed to advancing neurosurgical outcomes through innovation and research.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251114T112122Z
+    - ID: "32ed8c8c-8ce4-4047-bbd3-b7b1141b1ef0"
+      Hint: ogImage
+      Value: |
+        <image mediaid="8561a305-0d73-4b41-81ff-0cfb9164bd1e" />
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
       Value: "<p>Dr. David Vassilakis is a highly skilled neurosurgeon recognized for his expertise in complex brain and spine procedures. He is committed to combining advanced surgical techniques with a patient-centered approach, ensuring every individual receives care tailored to their unique needs. Known for his precision in the operating room, Dr. Vassilakis also places great emphasis on communication, guiding patients and families with clarity and compassion throughout the treatment journey. His dedication extends beyond clinical practice, as he actively engages in research and education aimed at advancing neurosurgical methods and improving patient outcomes. By blending innovation with empathy, Dr. Vassilakis remains devoted to enhancing quality of life and providing the highest standard of neurological care.</p>"
+    - ID: "3d5c2024-49b4-4918-bfff-5911d8b60b29"
+      Hint: metadataDescription
+      Value: Learn about Dr. David Vassilakis, a highly skilled neurosurgeon delivering advanced brain and spine care at Nova Health through precise surgical techniques and compassionate patient support.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: David Vassilakis
@@ -47,14 +57,23 @@ Languages:
       Value: David Vassilakis
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1992511-2161-4ccc-912c-513fc4cf6ea7"
+      Value: "027174ed-395e-453a-a5cb-55fd03d73183"
+    - ID: "ac2316d8-aafc-4c4f-8226-d1b16d34aff2"
+      Hint: Specialty
+      Value: Neurology
+    - ID: "b6c4de28-a3f5-40a7-9e67-ffb12c9c44ad"
+      Hint: metadataTitle
+      Value: Dr. David Vassilakis | Neurosurgeon | Nova Health
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d845cc62-7249-4609-a4d2-3a85eabf4951"
+      Hint: metadataKeywords
+      Value: neurosurgeon, Dr. David Vassilakis, brain surgeon, spine surgery specialist, neurological care
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T113435Z
+      Value: 20251209T214514Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |

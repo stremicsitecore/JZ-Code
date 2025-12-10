@@ -4,16 +4,24 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/What Dermatologists Want You to Know About Sunscreen"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76156-HomePageHero-2000x800?v=a77926ae" dam-id="r0lWtQz8TIij65Aw-LJokQ" width="2000" height="800" alt="NCN21.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76156/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20250925T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/76156-HomePageHero-2000x800?v=a77926ae" dam-id="r0lWtQz8TIij65Aw-LJokQ" width="2000" height="800" alt="NCN21.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76156/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{D4A1E908-7369-42B5-85A5-A16BBEBA3159}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "12ba305a-39b7-48d4-b62c-47d5cef0de71"
+  Value: "a5bd4e09-7777-454c-aa0e-9879c57eecf8"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{FCBA00D3-AE8E-4178-AD81-C48FCD33224C}"
@@ -22,6 +30,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: sunscreen tips, dermatology advice, skin cancer prevention
@@ -59,14 +70,17 @@ Languages:
       Value: "Learn dermatologist-approved advice for choosing, applying, and reapplying sunscreen to protect your skin."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6e720b4-0ccc-46d3-bc66-f5329aa6dfd8"
+      Value: "95125135-df9e-4fe9-a03c-c9bb95288470"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Dermatology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article offers dermatologist insights on correct sunscreen selection and application to prevent skin damage and reduce cancer risk.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T004121Z
+      Value: 20251209T223228Z

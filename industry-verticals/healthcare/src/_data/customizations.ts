@@ -31,7 +31,8 @@ export const HIGHLIGHTED_ARTICLES_CONTENT_TYPE = 'Blog';
 export const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No Image';
 
 // Sym stuff
-export const PREVIEW_WIDGET_ID = 'vitalis_preview_search';
-export const SEARCH_WIDGET_ID = 'vitalis_search_results';
-export const HOMEHIGHLIGHTED_WIDGET_ID = 'vitalis_search_home_highlight_articles';
-export const BASE_URL = "https://vitalis-trayeks-projects.vercel.app/"
+export const PREVIEW_WIDGET_ID = 'novamedical_preview_search';
+export const SEARCH_WIDGET_ID = 'novamedical_search_results';
+export const HOMEHIGHLIGHTED_WIDGET_ID = 'novamedical_search_highlighted_articles';
+export const HOMEHIGHLIGHTED_DOC_WIDGET_ID = 'novamedical_search_highlighted_doctors';
+export const BASE_URL = "https://nova-health-tawny.vercel.app/"

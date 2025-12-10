@@ -4,16 +4,24 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/Finding Relief After Years of Chronic Skin Irritation"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75817-LandingPageHero-2000x600?v=c566a3fc" dam-id="fFsz1KhUTjyza2nT4JuKoQ" width="2000" height="600" alt="NCN8.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75817/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20251104T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75817-HomePageHero-2000x800?v=64da4b86" dam-id="fFsz1KhUTjyza2nT4JuKoQ" width="2000" height="800" alt="NCN8.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75817/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C3D1B924-546E-4EB2-8E83-38ED1AE289B0}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6f016245-c1c2-4a94-be36-c7a75b14a7c0"
+  Value: "75eba886-7362-4c5d-ad3d-f334ce5f3953"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{6185230D-1B24-4B67-9501-46B4F8C6ADA0}"
@@ -22,6 +30,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: eczema story, dermatology success, skin care, patient experience
@@ -59,14 +70,17 @@ Languages:
       Value: Learn how Nova Health dermatologists helped a patient manage chronic eczema through personalized treatment.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a9053efb-a257-47b0-882d-c303a071e4d0"
+      Value: "020f1706-10a6-4e61-926a-d8d9704f718c"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Dermatology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article highlights how personalized dermatology evaluation helped a patient achieve relief from chronic eczema and improve long-term skin health."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T003723Z
+      Value: 20251209T221013Z

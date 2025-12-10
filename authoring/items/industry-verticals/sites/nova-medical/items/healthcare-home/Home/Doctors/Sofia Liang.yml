@@ -22,12 +22,22 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17f193f8-30f6-46f1-b96d-52ff7d1e980a"
+      Hint: pageSummary
+      Value: "Dr. Sofia Liang delivers expert endocrine care with a focus on individualized treatment plans for hormonal and metabolic conditions. Her patient-centered approach emphasizes education, long-term health, and collaborative management."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251114T112447Z
+    - ID: "32ed8c8c-8ce4-4047-bbd3-b7b1141b1ef0"
+      Hint: ogImage
+      Value: |
+        <image mediaid="f2c63112-6f2f-4d1c-8764-85a15977d80c" />
     - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
       Hint: Bio
       Value: "<p>Guided by a commitment to patient well-being, Dr. Sofia Liang helps individuals manage complex hormonal and metabolic conditions. She tailors treatment plans with both clinical expertise and compassion, empowering patients to achieve healthier, balanced lives. Her work emphasizes the importance of understanding each patient’s unique journey, ensuring they feel supported throughout the process of diagnosis, treatment, and long-term care. Dr. Liang is passionate about educating patients on their conditions, fostering collaboration and trust in the management of their health. She also remains actively engaged in the evolving field of endocrinology, continuously seeking new approaches that can enhance outcomes and improve quality of life for those she serves.</p>"
+    - ID: "3d5c2024-49b4-4918-bfff-5911d8b60b29"
+      Hint: metadataDescription
+      Value: "Meet Dr. Sofia Liang, an endocrinologist at Nova Health specializing in hormonal and metabolic conditions. She provides compassionate, personalized care that supports long-term balance and improved quality of life."
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Sofia Liang
@@ -47,14 +57,23 @@ Languages:
       Value: Sofia Liang
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6204922-6d53-4831-9ac0-618bc6e597e2"
+      Value: "29b52360-cfb4-46b9-8c9b-0f3cfd6760ce"
+    - ID: "ac2316d8-aafc-4c4f-8226-d1b16d34aff2"
+      Hint: Specialty
+      Value: Women's Health
+    - ID: "b6c4de28-a3f5-40a7-9e67-ffb12c9c44ad"
+      Hint: metadataTitle
+      Value: Dr. Sofia Liang | Endocrinologist | Nova Health
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d845cc62-7249-4609-a4d2-3a85eabf4951"
+      Hint: metadataKeywords
+      Value: endocrinologist, Dr. Sofia Liang, hormone specialist, metabolic care, endocrine disorders
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251114T113511Z
+      Value: 20251209T214432Z
     - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
       Hint: Photo
       Value: |

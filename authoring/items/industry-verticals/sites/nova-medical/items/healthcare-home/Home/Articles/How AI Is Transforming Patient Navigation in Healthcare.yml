@@ -4,16 +4,24 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/How AI Is Transforming Patient Navigation in Healthcare"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75818-HomepagePromoCTAs-1100x740?v=f05f40fa" dam-id="Tr2gFuR8S5StQswGzK-oUg" width="1100" height="740" alt="NCN9.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75818/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20251119T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75818-HomepagePromoCTAs-1100x740?v=f05f40fa" dam-id="Tr2gFuR8S5StQswGzK-oUg" width="1100" height="740" alt="NCN9.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75818/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{FDA2248F-F1D3-48DC-9628-546434AC8AF8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4fcbc3ef-6eb7-465c-b030-35573c201220"
+  Value: "3f1ef6a8-384b-4c1a-a78c-4cfe3e4be172"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F2D9B026-E046-4D62-AE89-52E3806CEE47}"
@@ -22,6 +30,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: AI in healthcare, patient navigation, digital triage, healthcare innovation
@@ -59,14 +70,14 @@ Languages:
       Value: Discover how artificial intelligence tools improve patient navigation, triage, and care access.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f11294a3-5513-4b14-9c57-e345b5e23880"
+      Value: "b66f9a2d-098c-4d3f-a72a-5cb47575f042"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article explains how AI improves patient navigation through personalized guidance, symptom assessment, and smarter care routing.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T004340Z
+      Value: 20251209T221241Z

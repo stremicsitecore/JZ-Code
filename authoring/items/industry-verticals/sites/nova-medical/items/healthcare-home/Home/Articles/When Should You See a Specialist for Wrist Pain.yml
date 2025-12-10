@@ -4,16 +4,24 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/When Should You See a Specialist for Wrist Pain"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75897-HomepagePromoCTAs-1100x740?v=552f3e17" dam-id="melF-zRtRJaVufc6n2adHg" width="1100" height="740" alt="NCN23.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75897/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20250922T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75897-HomepagePromoCTAs-1100x740?v=552f3e17" dam-id="melF-zRtRJaVufc6n2adHg" width="1100" height="740" alt="NCN23.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75897/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{4C150AC4-7E68-48A1-8F1F-2D216637D2E0}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ec9ef0d1-9625-4a8f-9abe-70a791e78ebb"
+  Value: "74209a6b-507b-46c0-a67e-8115800bdc81"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{3B8DA663-7090-46C9-9E5E-0CD0370287E7}"
@@ -22,6 +30,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: wrist pain, wrist injury, orthopedic care, hand specialist, sports injury, tendonitis, sprain
@@ -59,14 +70,17 @@ Languages:
       Value: Find out when wrist pain requires an orthopedic or sports medicine specialist. Learn symptoms, treatment options, and recovery tips.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dfc88583-1f2e-4502-9dab-04dc2b88f89c"
+      Value: "d606da50-c6f9-4149-9e36-b4f664e625cb"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Orthopedics
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article explains when wrist pain should be evaluated by an orthopedic or sports medicine specialist, highlights common symptoms that signal a more serious injury, and outlines treatment options that support safe, timely recovery.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T002620Z
+      Value: 20251209T223356Z

@@ -4,16 +4,24 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/The Importance of Heart-Healthy Eating"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75866-HomePageHero-2000x800?v=acbef547" dam-id="D8kvYHcjSMWgRHO9MsVTLw" width="2000" height="800" alt="NCN17.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75866/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20251205T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75866-HomePageHero-2000x800?v=acbef547" dam-id="D8kvYHcjSMWgRHO9MsVTLw" width="2000" height="800" alt="NCN17.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75866/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{FE1EF03A-BD65-42F5-9B21-7623F7B3476F}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2e00f6eb-4b68-4023-865c-295b5800cc6b"
+  Value: "cc229375-95cc-40d2-8c8e-7f3532bf7097"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
@@ -22,6 +30,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: "heart-healthy diet, nutrition tips, cardiology wellness, healthy eating"
@@ -59,14 +70,17 @@ Languages:
       Value: "Learn how balanced nutrition, healthy fats, and low-sodium meals support long-term heart health."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e08f8c0d-9d06-44c9-8da3-e208d01b7209"
+      Value: "f4a91bb1-26f0-4584-9be8-6da4e38fda3f"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Cardiology
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article outlines dietary strategies that support cardiovascular health, including nutrient-rich foods, sodium reduction, and sustainable eating habits."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T003224Z
+      Value: 20251209T222443Z

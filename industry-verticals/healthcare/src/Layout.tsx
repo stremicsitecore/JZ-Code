@@ -20,6 +20,12 @@ interface RouteFields {
   metadataDescription?: Field;
   pageSummary?: Field;
   ogImage?: ImageField;
+  Specialty?: Field;
+  Category?: {
+    fields: {
+      Category: Field;
+    };
+  }
 }
 
 const Layout = ({ page }: LayoutProps): JSX.Element => {
@@ -35,9 +41,8 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const ogImage = fields?.ogImage?.value?.src;
   const ogDescription =
     fields?.metadataDescription?.value?.toString() || fields?.pageSummary?.value?.toString() || '';
-
-  console.log(fields);
-  console.log(`{metadata title is: ${ogTitle}}`)
+  const specialty = fields?.Specialty?.value?.toString() || '';
+  const articleCategory = fields?.Category?.fields?.Category?.value?.toString() || '';
 
   return (
     <>
@@ -52,6 +57,8 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
+        {specialty && <meta property="specialty" content={specialty} />}
+        {articleCategory && <meta property="article_category" content={articleCategory} />}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}

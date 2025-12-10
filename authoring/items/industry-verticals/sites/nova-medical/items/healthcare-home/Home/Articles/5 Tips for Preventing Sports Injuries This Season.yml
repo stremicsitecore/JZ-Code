@@ -4,20 +4,24 @@ Parent: "81178545-5d5a-4926-9965-56e697fc6bf4"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
 Path: "/sitecore/content/industry-verticals/nova-medical/Home/Articles/5 Tips for Preventing Sports Injuries This Season"
 SharedFields:
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75803-HomepagePromoCTAs-1100x740?v=e50f92ca" dam-id="5B9uftr_RnquTetc0JfkoA" width="1100" height="740" alt="NCN1.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75803/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20251009T000000Z
 - ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
   Hint: Image
   Value: |
-    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/3a90a3c89d9844d1843b448cef67284e?v=205f5b21" dam-id="FK9bjOaDQ8i9oBhqTrV4BQ" width="4256" height="2832" alt="mountain-biking-3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/73967/thumbnail" />
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75803-HomepagePromoCTAs-1100x740?v=e50f92ca" dam-id="5B9uftr_RnquTetc0JfkoA" width="1100" height="740" alt="NCN1.jpeg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75803/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{8E13A363-F9A1-43A6-8C1C-C0FCC697C0FF}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9a22ba41-5c28-4405-9f37-352e63455245"
+  Value: "9dc319a5-c315-40db-9ce8-079f01f29d19"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
@@ -69,14 +73,17 @@ Languages:
       Value: "Discover expert advice for preventing sports injuries, including conditioning, warm-ups, and safe training habits."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "791cf4b8-fc76-40eb-8bde-ff33ceda560c"
+      Value: "47a66258-0ca1-4655-aa0d-de532ae65b0c"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Orthopedics
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: This article offers practical strategies to prevent sports injuries, including conditioning, stretching, equipment guidance, and early symptom awareness.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T011402Z
+      Value: 20251209T220049Z

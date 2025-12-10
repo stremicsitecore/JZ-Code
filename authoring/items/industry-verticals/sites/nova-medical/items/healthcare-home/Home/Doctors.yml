@@ -40,9 +40,15 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
+      Hint: metadataKeywords
+      Value: find a doctor, Nova Health doctors, medical providers, healthcare specialists, physician directory, specialist search
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251114T111611Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Find a Doctor | Nova Health Physicians & Specialists
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Doctors
@@ -57,13 +63,19 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Search Nova Health’s network of physicians, specialists, and advanced practice providers. Filter by specialty, location, or appointment availability to find trusted experts committed to delivering personalized, compassionate care.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7b3c8549-7290-42d9-b88d-85edba1af445"
+      Value: "6cc6e4b1-485b-4f7b-9817-534f7c1ae5bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "The Doctors Overview page helps patients find physicians and specialists across Nova Health, offering filtering tools by specialty, location, and availability. Each provider is committed to delivering personalized, high-quality care with a focus on patient comfort and clarity."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251117T114007Z
+      Value: 20251209T213655Z

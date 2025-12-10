@@ -7,16 +7,24 @@ SharedFields:
 - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
   Hint: Author
   Value: "{E954A0ED-5342-4FD3-B060-1008B02F7A4C}"
+- ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75892-HomepagePromoCTAs-1100x740?v=217ac697" dam-id="h6jcVzilRCCfY5LyVL3zkw" width="1100" height="740" alt="NCN20.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75892/thumbnail" />
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20251023T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/75892-HomepagePromoCTAs-1100x740?v=217ac697" dam-id="h6jcVzilRCCfY5LyVL3zkw" width="1100" height="740" alt="NCN20.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/75892/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{1E0AA3A5-86CA-4B94-9C0A-BD9122CCCEFF}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dce24bc4-4a45-4b67-93dd-b276d4146034"
+  Value: "4da50ae5-b531-4c54-9466-72158aad0918"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{F3917932-22C0-43CD-9F4D-58701D8AAB8E}"
@@ -25,6 +33,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
       Value: adult vaccines, immunizations, preventive care, family medicine
@@ -62,14 +73,17 @@ Languages:
       Value: "Find out which vaccines adults need for long-term health and disease prevention."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "084e94a1-08be-43c1-bfdc-6bab24b3d9be"
+      Value: "278859fb-1d24-4850-84d7-d400ba6476de"
+    - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
+      Hint: Specialty
+      Value: Primary Care
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\david.berkovits@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
       Value: "This article highlights essential adult vaccines, explaining their benefits and the importance of staying up-to-date with preventive immunization schedules."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251209T003401Z
+      Value: 20251209T222849Z
