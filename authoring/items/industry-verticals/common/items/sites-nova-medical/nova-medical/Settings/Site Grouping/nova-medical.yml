@@ -31,7 +31,7 @@ SharedFields:
   Value: 
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "https://nova-health-tawny.vercel.app/"
+  Value: "nova-health-tawny.vercel.app"
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: en=healthcare_1
@@ -43,10 +43,10 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "88123089-d97b-4f51-bc3f-4c8aa1d843e8"
+  Value: "749c36ff-8a77-4e75-8f2b-ae83ea76fb82"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
-  Value: "https://nova-health-tawny.vercel.app/"
+  Value: "nova-health-tawny.vercel.app"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: healthcare
@@ -71,11 +71,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "61ef9eac-65d6-4785-b8d6-4abd42037927"
+      Value: "702f7b6f-f28d-4f50-935e-d430057fc255"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T011447Z
+      Value: 20251210T014021Z
