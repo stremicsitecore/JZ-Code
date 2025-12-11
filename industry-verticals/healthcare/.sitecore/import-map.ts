@@ -14,7 +14,7 @@ import { CheckIcon, ChevronDownIcon, ChevronUpIcon, Search, ChevronLeft, Chevron
 import * as PopoverPrimitive from '@radix-ui/react-popover';
 import { Slot } from '@radix-ui/react-slot';
 import { cva } from 'class-variance-authority';
-import { Link, Text, useSitecore, withDatasourceCheck, Placeholder, RichText, NextImage, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
+import { Link, Text, useSitecore, RichText, Placeholder, withDatasourceCheck, NextImage, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
 import { useTheme } from 'next-themes';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -142,9 +142,9 @@ const importMap = [
       { name: 'Link', value: Link },
       { name: 'Text', value: Text },
       { name: 'useSitecore', value: useSitecore },
-      { name: 'withDatasourceCheck', value: withDatasourceCheck },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
+      { name: 'Placeholder', value: Placeholder },
+      { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'NextImage', value: NextImage },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'DateField', value: DateField },

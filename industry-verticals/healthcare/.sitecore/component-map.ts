@@ -15,6 +15,7 @@ import * as badge from 'src/components/ui/badge';
 import * as Title from 'src/components/title/Title';
 import * as ThemeSwitcher from 'src/components/theme-switcher/ThemeSwitcher';
 import * as SocialFollow from 'src/components/social-follow/SocialFollow';
+import * as ServiceDetails from 'src/components/services/ServiceDetails';
 import * as SuggestionBlock from 'src/components/search/SuggestionBlock';
 import * as Spinner from 'src/components/search/Spinner';
 import * as SortOrder from 'src/components/search/SortOrder';
@@ -73,6 +74,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Title', { ...Title }],
   ['ThemeSwitcher', { ...ThemeSwitcher }],
   ['SocialFollow', { ...SocialFollow }],
+  ['ServiceDetails', { ...ServiceDetails }],
   ['SuggestionBlock', { ...SuggestionBlock }],
   ['Spinner', { ...Spinner }],
   ['SortOrder', { ...SortOrder }],
