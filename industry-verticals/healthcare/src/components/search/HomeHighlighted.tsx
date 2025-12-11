@@ -44,7 +44,7 @@ export const HomeHighlightedComponent = ({ type = 'Article', source, widget }: H
         </p>
       </div>
 
-      <div className="my-10 flex w-full justify-around text-gray-900 dark:text-gray-200">
+      <div className="my-10 w-full justify-around text-gray-900 dark:text-gray-200">
         <div className="grid grid-cols-4 gap-x-5 gap-y-3">
           {articlesToShow.map((a, index) => (
             <ArticleCard
