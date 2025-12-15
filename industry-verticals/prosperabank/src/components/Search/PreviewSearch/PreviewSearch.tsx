@@ -4,12 +4,15 @@ import type { ChangeEvent } from 'react';
 import { useCallback } from 'react';
 
 import type { PreviewSearchInitialState } from '@sitecore-search/react';
-import { FilterEqual, WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
+import { WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
 import { ArticleCard, Presence, PreviewSearch } from '@sitecore-search/ui';
 import { PageController } from '@sitecore-search/react';
 import Spinner from '../components/Spinner/Spinner';
 import { useSitecore } from '@sitecore-content-sdk/nextjs';
 
+const SEARCH_CONFIG = {
+  source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
+};
 const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No%20Image';
 export type ArticleModel = {
   id: string;
@@ -62,7 +65,12 @@ export const PreviewSearchComponent = ({
   } = usePreviewSearch<ArticleModel, InitialState>({
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     query: (query): any => {
-      query.getRequest().setSearchFilter(new FilterEqual('tags', page.siteName));
+      if (SEARCH_CONFIG.source !== '') {
+        const sources = SEARCH_CONFIG.source.split('|');
+        sources.forEach((source) => {
+          query.getRequest().addSource(source.trim());
+        });
+      }
     },
     state: {
       itemsPerPage: defaultItemsPerPage,
