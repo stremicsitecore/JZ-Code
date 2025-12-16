@@ -16,6 +16,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Value: |
@@ -25,9 +28,15 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{FCC9DB49-C38D-4234-A6FB-99D52461BC8F}"
-              s:ds=""
+              p:before="*"
               s:id="{28175FBB-C12A-4C14-A8C3-4CFB44CF83D9}"
               s:par="GridParameters&amp;RFKID=rfkid_7&amp;Source&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{DA5FC39A-6500-4BAE-AF27-44ED7345EB1B}"
+              p:after="*[1=2]"
+              s:id="{C2403065-BDD1-4A4E-9C84-5A486CC964CB}"
+              s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
         </r>
@@ -39,14 +48,14 @@ Languages:
       Value: Search
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "af2d9461-2f95-497c-893f-1276b0cdfb1b"
+      Value: "50b2aec1-b41a-4669-a161-1a1af3be5fe7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T022053Z
+      Value: 20251216T175509Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Search

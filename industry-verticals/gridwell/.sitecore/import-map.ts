@@ -14,7 +14,7 @@ import * as ProgressPrimitive from '@radix-ui/react-progress';
 import { cn } from 'components/lib/utils';
 import { Slot } from '@radix-ui/react-slot';
 import { cva } from 'class-variance-authority';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon } from '@radix-ui/react-icons';
@@ -98,6 +98,7 @@ const importMap = [
     module: 'next/navigation',
     exports: [
       { name: 'useRouter', value: useRouter },
+      { name: 'useSearchParams', value: useSearchParams },
     ]
   },
   {

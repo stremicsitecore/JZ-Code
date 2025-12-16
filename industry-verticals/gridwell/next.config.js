@@ -48,6 +48,11 @@ const nextConfig = {
         hostname: 'picsum*.**',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'placehold*.**',
+        port: '',
+      },
     ],
     dangerouslyAllowSVG: true,
   },
