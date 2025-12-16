@@ -16,6 +16,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: Energy equity plays a critical role in ensuring that communities have access to affordable and reliable electricity. This article examines how hydropower generation, balanced local markets, and energy storage systems work together to manage supply and demand, protect consumers from volatility, and support fair energy access across the grid.
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Dr Michael Chang
@@ -25,23 +28,29 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250924T154444Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f1bb42ab000d4d6a924db67d462adf15?v=964ad77d" dam-id="ekt6MJjqRICj5fUp9DtcdQ" width="200" height="200" alt="bill-reynolds-at-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70156/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Energy Equity in Local Grids
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <image mediaid="e8138baa-8881-4361-a4e5-a5723885706a" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/cc85c07252e04159b9550d10bc84cb91?v=2d1903da" dam-id="ekt6MJjqRICj5fUp9DtcdQ" width="1536" height="1024" alt="bill-reynolds-at-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70156/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: Hydropower plants remain cornerstones of renewable energy generation worldwide. Local markets balance supply and demand, keeping costs fair for consumers. Energy storage systems provide backup power when demand surges or supply falters.
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>Hydropower plants remain cornerstones of renewable energy generation worldwide. Local markets balance supply and demand, keeping costs fair for consumers. Energy storage systems provide backup power when demand surges or supply falters.</p></div>
+        <div class="ck-content">
+        <p>Hydropower plants remain cornerstones of renewable energy generation worldwide. Local markets balance supply and demand, keeping costs fair for consumers. Energy storage systems provide backup power when demand surges or supply falters.</p>
+        </div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34e7bbd6-7258-498b-947e-1da3eb877864"
+      Value: "f054ff1d-1492-4f7b-b44a-76c14a240942"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -49,9 +58,18 @@ Languages:
     - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
       Hint: Category
       Value: "{EDAF5824-9764-49B7-AE93-767B45C2118A}"
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: energy equity, local grids, hydropower, energy storage, electricity markets, grid affordability, Gridwell market analysis
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T164537Z
+      Value: 20251216T023614Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Energy Equity in Local Grids
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: Energy Equity in Local Grids
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Energy Equity in Local Grids

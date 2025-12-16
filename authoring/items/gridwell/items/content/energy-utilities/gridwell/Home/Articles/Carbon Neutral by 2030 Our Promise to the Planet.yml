@@ -25,7 +25,13 @@ Languages:
       Value: <r />
     - ID: "09658d47-362f-410e-b105-3e209c699032"
       Hint: pageSummary
-      Value: Gridwell is committed to becoming carbon neutral by 2030 through renewable energy innovation, smart operations, and sustainable partnerships.
+      Value: "Gridwell is working toward carbon neutrality by 2030 through a combination of renewable energy generation, energy-efficient operations, and partnerships focused on sustainability. This article explains how Gridwell is reducing emissions, investing in clean technology, and leading the transition toward a more sustainable and reliable power grid for future generations."
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Maria Rodriguez
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20251207T000000Z
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T201328Z
@@ -51,26 +57,32 @@ Languages:
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-start="5188" data-end="5440">At Gridwell, we’re not waiting for change—we’re making it happen. Our goal is to achieve full carbon neutrality by 2030 through a combination of renewable energy generation, carbon capture innovation, and energy-efficient operations.</p><p data-start="5442" data-end="5804">This commitment is more than a target; it’s a reflection of our values. We’re partnering with local suppliers who share our vision, investing in next-generation clean tech, and helping customers reduce emissions through smarter energy use. Every milestone brings us closer to a world powered entirely by sustainable energy—and we’re proud to lead that journey.</p></div>
+        <div class="ck-content">
+        <p>At Gridwell, we&rsquo;re not waiting for change&mdash;we&rsquo;re making it happen. Our goal is to achieve full carbon neutrality by 2030 through a combination of renewable energy generation, carbon capture innovation, and energy-efficient operations.</p>
+        <p>This commitment is more than a target; it&rsquo;s a reflection of our values. We&rsquo;re partnering with local suppliers who share our vision, investing in next-generation clean tech, and helping customers reduce emissions through smarter energy use. Every milestone brings us closer to a world powered entirely by sustainable energy&mdash;and we&rsquo;re proud to lead that journey.</p>
+        </div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "39e8c595-3789-411e-8743-f6f2913c00c3"
+      Value: "a3b8c1d8-0c1f-4ded-863a-562046e78365"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{86DBA63C-586F-4760-BD9D-0FF42C8E9E6D}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
-      Value: carbon neutral company, corporate sustainability goals, clean energy pledge, zero emissions future
+      Value: Gridwell sustainability, carbon neutral grid, renewable energy innovation, clean energy operations, carbon reduction, sustainable energy, grid modernization
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T201533Z
+      Value: 20251216T022650Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
-      Value: A bold goal. A clear plan. A better future for all.
+      Value: Gridwell’s Path to Carbon Neutrality by 2030
     - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
       Hint: metadataDescription
-      Value: Gridwell is committed to becoming carbon neutral by 2030 through renewable energy innovation, smart operations, and sustainable partnerships.
+      Value: "Gridwell is committed to achieving carbon neutrality by 2030 through renewable energy innovation, smart grid operations, and sustainable partnerships. This article outlines Gridwell’s long-term vision, the technologies driving change, and how operational excellence supports a cleaner, more resilient energy future."
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Gridwell is committed to becoming carbon neutral by 2030 through renewable energy innovation, smart operations, and sustainable partnerships.A bold goal. A clear plan. A better future for all.

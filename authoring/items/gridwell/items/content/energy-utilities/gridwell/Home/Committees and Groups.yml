@@ -13,22 +13,41 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: This page outlines the committees and working groups that help guide Gridwell’s operations and governance. It highlights how collaboration and stakeholder input contribute to transparency, accountability, and reliable grid management.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250919T211153Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a383d42c0afa4d8e9ac95014784e4629?v=5c482b4d" dam-id="BVS_XkbsQXKx5KbiG0TWFw" width="200" height="200" alt="lineworker-bucket-truck.png" dam-content-type="Other" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70186/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Committees and Groups
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "52f289b2-b62a-402f-8b4c-6bc5b526faff"
+      Value: "fa482ce2-cbac-4c95-a82c-e84384cd33e4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: Gridwell committees, governance, energy working groups, grid oversight, market committees
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T211153Z
+      Value: 20251216T024135Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Committees & Working Groups | Gridwell Governance
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: "Gridwell’s committees and working groups support transparent decision-making, collaboration, and oversight across grid operations and market activities. This page provides information on committee roles, participation, and governance responsibilities."
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Committees and Groups

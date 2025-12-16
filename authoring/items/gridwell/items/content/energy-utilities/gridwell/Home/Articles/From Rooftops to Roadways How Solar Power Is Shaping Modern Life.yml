@@ -26,6 +26,12 @@ Languages:
     - ID: "09658d47-362f-410e-b105-3e209c699032"
       Hint: pageSummary
       Value: Learn how Gridwell is harnessing solar technology—from rooftops to roadways—to bring affordable, renewable power to homes and communities.
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Lisa Park
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20251209T000000Z
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T194803Z
@@ -51,20 +57,28 @@ Languages:
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-start="2101" data-end="2449">Every sunrise brings new opportunities to capture clean energy, and Gridwell is helping make that vision a reality. Today’s solar technology is more powerful and efficient than ever before. Homeowners are lowering their bills and carbon footprints, while businesses are tapping into renewable energy to meet sustainability goals.</p><p data-start="2451" data-end="2746">&nbsp;</p><p data-start="2451" data-end="2746">But solar’s impact goes beyond rooftops. Gridwell is exploring solar roadways, portable panels for emergency relief, and community solar programs that share the benefits of clean energy with everyone. Together, we’re transforming sunlight into a source of strength, innovation, and connection.</p></div>
+        <div class="ck-content">
+              <p>Every sunrise brings new opportunities to capture clean energy, and Gridwell is helping make that vision a reality. Today’s solar technology is more powerful and efficient than ever before. Homeowners are lowering their bills and carbon footprints, while businesses are tapping into renewable energy to meet sustainability goals.</p>
+              <p> </p>
+              <p>But solar’s impact goes beyond rooftops. Gridwell is exploring solar roadways, portable panels for emergency relief, and community solar programs that share the benefits of clean energy with everyone. Together, we’re transforming sunlight into a source of strength, innovation, and connection.</p>
+            </div>
+        
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c2e47ffe-5241-4f30-972f-a230c660b719"
+      Value: "93486048-01f9-407d-aadf-7eda7dc3001d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
       Value: solar energy benefits, solar technology innovations, renewable power systems, community solar programs
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T195159Z
+      Value: 20251216T022628Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: The Power of Solar Energy | Gridwell Innovations in Renewable Tech

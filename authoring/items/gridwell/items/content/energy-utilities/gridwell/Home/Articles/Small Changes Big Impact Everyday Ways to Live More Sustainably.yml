@@ -26,6 +26,9 @@ Languages:
     - ID: "09658d47-362f-410e-b105-3e209c699032"
       Hint: pageSummary
       Value: Discover simple, everyday steps to live more sustainably. Gridwell shares easy ways to save energy, cut waste, and make greener choices at home.
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Dr James Wilson
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T195352Z
@@ -54,17 +57,20 @@ Languages:
         <div class="ck-content"><p data-start="2832" data-end="2925">You don’t have to change everything to make a difference—just start somewhere.</p><p data-start="2832" data-end="2925"><br />At Gridwell, we believe sustainability starts at home. Every small change adds up, whether it’s switching to LED lights, reducing single-use plastics, or unplugging devices that waste energy.</p><p data-start="3139" data-end="3514">Our team is passionate about helping individuals and families make meaningful choices that protect the planet without sacrificing comfort. Try participating in Gridwell’s Green Challenge—each month, we share simple steps for greener living and reward participants for their progress. Together, we can build habits that last a lifetime and make sustainability second nature.</p></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "14a1ba61-06cf-47a2-b3f2-9b0a60c24e36"
+      Value: "4b49ede5-c16b-44bb-875b-3ad3ba784cc6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
       Value: "sustainable living tips, how to save energy at home, eco-friendly lifestyle, reduce carbon footprint"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T195815Z
+      Value: 20251216T022605Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: "Small Changes, Big Impact: Everyday Ways to Live More Sustainably"

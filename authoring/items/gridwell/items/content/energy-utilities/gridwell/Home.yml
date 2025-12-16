@@ -74,9 +74,16 @@ Languages:
               s:ph="headless-main" />
           </d>
         </r>
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: Gridwell is the trusted operator of Texas’s power grid, responsible for balancing electricity supply and demand, maintaining system reliability, and communicating clearly with the public during normal operations and grid emergencies. Through timely alerts, energy conservation guidance, and transparent data, Gridwell helps Texans understand grid conditions, take informed action during extreme weather, and stay confident in the reliability of their energy system.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250919T193401Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/97db38d49a62459f83191e735886ae2a?v=9fe039a8" dam-id="ZqjOxS9TRFaV-4ngXBArtg" width="200" height="200" alt="Screenshot 2025-10-28 140143.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70010/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: gridwell
@@ -90,14 +97,23 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3d730d51-62ca-4b62-ad4d-4bf33cc096ae"
+      Value: "9b75ba76-e5cb-419e-ac3b-049752da7be1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: Gridwell, Texas power grid, energy reliability, grid operations, energy alerts, TXANS, energy emergency alerts, power conservation, electricity market, grid transparency, energy preparedness, Texas energy
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251216T010758Z
+      Value: 20251216T022822Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Gridwell | Reliable, Transparent Energy for Texas Communities
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: "Gridwell ensures the reliable flow of electricity across Texas through real-time grid coordination, clear public communication, and innovative energy solutions. By combining advanced technology with transparency and preparedness, Gridwell empowers residents, businesses, and market participants to stay informed, conserve energy during critical periods, and trust the systems that keep their communities powered."
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: gridwell

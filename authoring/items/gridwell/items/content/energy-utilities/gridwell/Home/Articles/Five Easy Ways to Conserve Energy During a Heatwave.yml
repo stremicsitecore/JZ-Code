@@ -19,6 +19,9 @@ Languages:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Value: 
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: Heatwaves drive sharp increases in electricity demand, largely due to cooling systems and household appliances. This article explains five easy ways Texans can conserve energy during extreme heat, reduce household costs, and support grid reliability by shifting usage, adjusting thermostats, and making small changes that add up across millions of homes.
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Lisa Park
@@ -28,13 +31,17 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T155128Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/50bee663abec4ad6bab5318b8ad9e84d?v=39f4ccb7" dam-id="9kvntgm5SYCwdMGUycIzgQ" width="200" height="200" alt="gridwell-line-worker-big-transformer.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70165/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Five Easy Ways to Conserve Energy During a Heatwave
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <image mediaid="cec9f8e9-20b3-4ba5-9495-7b54260d6d87" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/18a0c7804ffa4fbcb58e0c6c2ec41e1b?v=075678ec" dam-id="9kvntgm5SYCwdMGUycIzgQ" width="1536" height="1024" alt="gridwell-line-worker-big-transformer.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70165/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: Heatwaves put a tremendous strain on Texas’s power grid, especially during peak hours when demand is at its highest. Simple actions at home can help lower demand while also keeping utility bills in check. Many households are surprised to learn how small changes can have such a big impact when multiplied across millions of Texans. This article highlights five easy, practical tips you can use today.
@@ -43,10 +50,10 @@ Languages:
       Value: |
         <p>Heatwaves cause electricity usage to surge, particularly due to air conditioning and other cooling appliances. By making small adjustments, Texans can reduce this surge and help keep the grid reliable. For example, raising the thermostat by just two or three degrees reduces strain on both the grid and the household system without sacrificing much comfort.</p>
         <p>In addition to thermostat adjustments, delaying heavy appliance use until after 8 p.m. makes a measurable difference. Dishwashers, washing machines, and dryers are among the most power-hungry devices in the home. By shifting their use, Texans help flatten demand during the most critical hours. Closing blinds and using fans strategically also helps keep indoor temperatures comfortable without extra electricity.</p>
-        <p>These small steps don’t just help Gridwell manage demand—they save families money. Energy conservation during peak demand periods lowers household costs and improves community resilience. When combined across millions of homes, these individual actions can be the difference between smooth operation and rolling outages.</p>
+        <p>These small steps don&rsquo;t just help Gridwell manage demand&mdash;they save families money. Energy conservation during peak demand periods lowers household costs and improves community resilience. When combined across millions of homes, these individual actions can be the difference between smooth operation and rolling outages.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be4af20c-dff4-4a0d-a53c-83fe8dc563b6"
+      Value: "a023c753-1af7-42a6-a4e7-f6302b20ff81"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -54,9 +61,18 @@ Languages:
     - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
       Hint: Category
       Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: energy conservation, heatwave energy tips, reduce electricity use, peak demand, Gridwell energy tips, summer energy savings
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T004808Z
+      Value: 20251216T023732Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Five Easy Ways to Conserve Energy During a Heatwave
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: Five Easy Ways to Conserve Energy During a Heatwave
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Five Easy Ways to Conserve Energy During a Heatwave

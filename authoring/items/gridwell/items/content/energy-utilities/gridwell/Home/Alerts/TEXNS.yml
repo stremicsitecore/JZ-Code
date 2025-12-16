@@ -30,22 +30,38 @@ Languages:
               s:ph="headless-main" />
           </d>
         </r>
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: TXANS alerts are early advisory notifications issued by Gridwell to help Texans prepare for potential grid stress. This page explains how TXANS works, how it differs from emergency alerts, and why early awareness plays a critical role in grid reliability.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250920T231038Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/33be51d20ce04828ac138ec67276050c?v=22a06e2d" dam-id="aQ4_54xRQw2o_n1WAhAMgg" width="200" height="200" alt="electric-house-icon.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70155/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: TEXNS
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5adc3fc8-09de-4126-9bdc-98b3a06bfb82"
+      Value: "462e10ae-100c-4b56-8102-45bd2978ef66"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: The Texas Advisory Notification System (TXANS) provides early warnings when grid conditions may become stressed. TXANS alerts help Texans prepare ahead of time by offering guidance on conservation and awareness before an emergency develops.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T165958Z
+      Value: 20251216T023239Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: TXANS Alerts | Early Grid Advisory Notifications
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: The Texas Advisory Notification System (TXANS) provides early warnings when grid conditions may become stressed. TXANS alerts help Texans prepare ahead of time by offering guidance on conservation and awareness before an emergency develops.
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: TEXNS

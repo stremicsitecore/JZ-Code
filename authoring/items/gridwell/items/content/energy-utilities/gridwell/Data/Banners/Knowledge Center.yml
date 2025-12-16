@@ -31,14 +31,14 @@ Languages:
     - ID: "78db0dbe-17fc-467d-b86d-e94598fb1931"
       Hint: Image
       Value: |
-        <image mediaid="812c7935-3271-4805-8fd6-71d253798d51" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ba628945a6c642178a0050df926adb5e?v=d6df8df3" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="8368" height="5584" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0ff5d9d-4263-464c-b0b8-7b2bb728244a"
+      Value: "5c738996-9efd-4c60-bc25-12ad28bf36ad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T135852Z
+      Value: 20251216T023147Z

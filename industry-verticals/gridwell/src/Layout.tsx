@@ -20,6 +20,11 @@ interface RouteFields {
   metadataDescription?: Field;
   pageSummary?: Field;
   ogImage?: ImageField;
+  Category?: {
+    fields: {
+      Title: Field;
+    };
+  }
 }
 
 const Layout = ({ page }: LayoutProps): JSX.Element => {
@@ -42,8 +47,8 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
 
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
-
-  const fullUrl = `https://gridwell.dev${relativeUrl}`;
+  const articleCategory = fields?.Category?.fields?.Category?.value?.toString() || '';
+  { articleCategory && <meta property="article_category" content={articleCategory} /> }
 
   return (
     <>
@@ -58,7 +63,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogTitle && <meta property="og:title" content={ogTitle} />}
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
-        <meta property="og:url" content={fullUrl.replace('_site_gridwell', '')} key="og:url" />
+        <meta property="og:url" content={relativeUrl.replace('_site_gridwell', '')} key="og:url" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}

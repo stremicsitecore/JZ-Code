@@ -61,6 +61,9 @@ Languages:
             </r>
           </d>
         </r>
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: When Gridwell issues an Energy Emergency Alert, immediate action is needed to protect grid reliability. This article outlines what an EEA is, why it is issued, and the practical steps households and businesses can take—such as reducing electricity use and avoiding heavy appliances—to help prevent rolling outages and support system stability.
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Dr Amanda Foster
@@ -70,13 +73,17 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T155308Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ae7e2a37ee8e4afa9740148c2da2f09a?v=fe93b1f8" dam-id="cSCIPYbASGGlGp7t14XuUA" width="350" height="350" alt="ehmitrich-ZGY5Pp8Xxaw-unsplash.jpg" dam-content-type="Other" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70032/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: What to Do When an Energy Emergency Alert Is Issued
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <image mediaid="2a658609-50f5-4a9e-8a40-6747e97fe392" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/089ec3da372f44b89ae312b105a66739?v=18d83cbd" dam-id="cSCIPYbASGGlGp7t14XuUA" width="6000" height="4000" alt="ehmitrich-ZGY5Pp8Xxaw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70032/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: An Energy Emergency Alert (EEA) signals that the Texas grid is in critical condition and requires immediate conservation. Many residents are unsure of what steps to take when these alerts are issued, leading to panic or inaction. By following simple guidance, Texans can help prevent controlled outages and protect their communities. This article outlines the exact steps to follow during an EEA.
@@ -88,7 +95,7 @@ Languages:
         <p>By responding to an EEA quickly and decisively, communities can help prevent rolling outages. The collective effort of Texans plays a huge role in reliability. Signing up for both TXANS and EEA notifications ensures that households are always ready and equipped with the right information.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e36af75f-6a68-4043-beb6-c9be7d556e66"
+      Value: "d9c54a34-7dcf-47a2-9bf7-3716022cbff6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -96,9 +103,18 @@ Languages:
     - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
       Hint: Category
       Value: "{1B6F5294-2AA1-4238-9D7B-7D42DB329371}"
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: Energy Emergency Alert, EEA, grid emergency, conserve energy, Gridwell alerts, rolling outages, emergency energy guidance
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T004822Z
+      Value: 20251216T024058Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: What to Do When an Energy Emergency Alert Is Issued
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: An Energy Emergency Alert (EEA) is issued when the power grid is under critical stress and immediate conservation is required. This article explains what an EEA means, how it differs from advisory alerts, and the specific steps Texans should take to help stabilize the grid and prevent outages.
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: What to Do When an Energy Emergency Alert Is Issued

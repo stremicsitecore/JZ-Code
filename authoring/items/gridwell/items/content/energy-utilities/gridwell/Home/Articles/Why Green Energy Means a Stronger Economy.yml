@@ -26,6 +26,12 @@ Languages:
     - ID: "09658d47-362f-410e-b105-3e209c699032"
       Hint: pageSummary
       Value: See how Gridwell’s green energy initiatives are fueling job creation, local investment, and sustainable growth for a stronger, cleaner economy.
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Sarah Thompson
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20251120T000000Z
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T192843Z
@@ -54,17 +60,20 @@ Languages:
         <div class="ck-content"><p data-start="1255" data-end="1610">For decades, fossil fuels have driven economies around the world—but at a cost we can no longer ignore. Gridwell believes that transitioning to green energy isn’t just good for the planet—it’s good for people and progress. Renewable energy industries are creating thousands of new jobs, from solar technicians to wind turbine engineers.</p><p data-start="1612" data-end="1948">By investing in sustainable energy, we’re not only protecting the environment but also building resilient local economies. Cleaner air, lower energy bills, and energy independence all lead to stronger, more vibrant communities. At Gridwell, we’re powering a future where economic growth and environmental responsibility work together.</p></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "63b4b228-7db6-4234-a8d0-7dad9c3536f0"
+      Value: "0bdbcb79-b065-4a45-99cc-af95256d3bd1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
       Value: green energy economy, renewable jobs, sustainable business growth, clean energy benefits
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T193425Z
+      Value: 20251216T022526Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: How Green Energy Boosts the Economy | Gridwell Sustainability Insights

@@ -22,6 +22,9 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: TXANS is Gridwell’s early advisory alert system designed to inform Texans when the power grid may experience stress. This article explains what TXANS alerts are, how they differ from Energy Emergency Alerts, and how subscribing helps households prepare early, conserve energy, and reduce pressure on the grid before conditions become critical.
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Maria Rodriguez
@@ -31,25 +34,29 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T154459Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b9000899f286421d997e81563084ff0a?v=4f2a4c25" dam-id="CRevQ9ORQ2CHtU3TV5gzSw" width="200" height="200" alt="call-center-rep.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70157/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Understanding the TXANS Alert System
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <image mediaid="8360aa06-d837-443b-92bf-e21876f04aa3" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c9df9e4e4c5f46999cf4f338fdf529f1?v=4916261f" dam-id="CRevQ9ORQ2CHtU3TV5gzSw" width="1024" height="1024" alt="call-center-rep.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70157/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: The Texas Advisory Notification System, or TXANS, is designed to keep Texans informed when the power grid could be under stress. While it is not a direct signal of an emergency, it gives households the chance to prepare early. Many residents still don’t know how TXANS fits into Gridwell’s communication process, which leads to unnecessary confusion during peak weather conditions. This article explains what TXANS is, how it differs from other alerts, and why subscribing is so important.
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <p>The Texas Advisory Notification System (TXANS) provides early awareness of potential grid stress conditions. Unlike Energy Emergency Alerts (EEAs), which are triggered only when the grid is already in critical need of conservation, TXANS serves as an advisory. It’s Gridwell’s way of preparing Texans ahead of time, giving them the knowledge they need to conserve energy and reduce stress on the grid.</p>
+        <p>The Texas Advisory Notification System (TXANS) provides early awareness of potential grid stress conditions. Unlike Energy Emergency Alerts (EEAs), which are triggered only when the grid is already in critical need of conservation, TXANS serves as an advisory. It&rsquo;s Gridwell&rsquo;s way of preparing Texans ahead of time, giving them the knowledge they need to conserve energy and reduce stress on the grid.</p>
         <p>By subscribing to TXANS alerts, residents receive timely updates directly to their phone or email. These updates might include conservation suggestions, grid condition summaries, or information about potential stress periods coming in the next few days. This early notification ensures that families can take voluntary action before the situation becomes urgent.</p>
-        <p>Understanding TXANS is an essential step in building confidence and trust in Gridwell’s communication. When Texans know the difference between TXANS and EEA alerts, they are better equipped to respond calmly and effectively. It also helps reduce misinformation and allows communities to feel reassured that their grid operator is being transparent and proactive.</p>
+        <p>Understanding TXANS is an essential step in building confidence and trust in Gridwell&rsquo;s communication. When Texans know the difference between TXANS and EEA alerts, they are better equipped to respond calmly and effectively. It also helps reduce misinformation and allows communities to feel reassured that their grid operator is being transparent and proactive.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "67bd5f6f-fe17-4506-924e-9bfc7d8d393d"
+      Value: "92ce69c6-2222-4240-912f-012def548c52"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -57,9 +64,18 @@ Languages:
     - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
       Hint: Category
       Value: "{7BADD789-E599-4ED6-AD7C-5519473E780A}"
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: TXANS, Texas Advisory Notification System, Gridwell alerts, energy notifications, grid advisory alerts, energy conservation, grid reliability
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T181622Z
+      Value: 20251216T024004Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Understanding the TXANS Alert System
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: The Texas Advisory Notification System (TXANS) helps Texans prepare for potential grid stress before an emergency occurs. This article explains how TXANS works, how it differs from Energy Emergency Alerts, and why early awareness and voluntary conservation play a critical role in grid reliability.
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Understanding the TXANS Alert System

@@ -13,22 +13,41 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: "The Gridwell newsletter keeps subscribers informed about grid operations, conservation guidance, and major energy updates. By subscribing, Texans receive reliable, easy-to-understand information that helps them stay prepared and engaged throughout the year."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250920T231046Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/8e93bc241aba4e0681016385954d3a23?v=92e01931" dam-id="FczZZT2ETVCgOaa142v0cw" width="350" height="350" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Newsletter
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "62f2007a-4fbb-47fc-a4d1-59343ff7e9c9"
+      Value: "77449a66-2df4-4e73-aede-81e7fec69b8a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: Gridwell newsletter, energy updates, grid news, power grid information, Texas energy updates
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T231046Z
+      Value: 20251216T023019Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Subscribe to Gridwell Updates & Energy News
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: Subscribe to Gridwell’s newsletter to receive updates on grid conditions, energy conservation tips, market insights, and upcoming initiatives. Subscribers stay informed with clear, reliable information designed to help households and businesses prepare for changing energy conditions.
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Newsletter

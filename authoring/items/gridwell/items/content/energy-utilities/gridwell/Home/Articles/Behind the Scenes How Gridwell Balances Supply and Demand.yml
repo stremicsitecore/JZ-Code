@@ -41,6 +41,9 @@ Languages:
               s:ph="/headless-main/article-detail-{B91A1458-E2CF-4E95-9AA3-7753D4335EAB}-0" />
           </d>
         </r>
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: "Balancing supply and demand is one of Gridwell’s most critical responsibilities. This article explains how Gridwell’s operators use forecasting, real-time tools, and coordination with generation resources to maintain grid stability, integrate renewable energy, and prevent outages—keeping electricity flowing reliably to millions of homes and businesses."
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Sarah Thompson
@@ -50,25 +53,29 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250922T155842Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/43a2e3838bb04bbdbffcfca55d10f043?v=2c35bf2d" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="350" height="350" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Behind the Scenes How Gridwell Balances Supply and Demand
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <image mediaid="6b132b37-077e-4ddf-a801-675d3266dbb9" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/057441ed854040538a6707800e1549ee?v=24605f6f" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="1024" height="1024" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: "Every second, Texas’s electric grid is in constant motion, balancing the power that’s generated with the power that’s consumed. This delicate process requires advanced tools, real-time monitoring, and quick decision-making. While most Texans only notice when something goes wrong, the reality is that a vast amount of work happens behind the scenes to keep things running smoothly. This article takes you inside the control room."
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <p>Balancing supply and demand is Gridwell’s most critical responsibility. Electricity cannot be stored at large scale, which means power plants and renewable resources must match demand instantly. Operators constantly monitor conditions and adjust the system to maintain stability.</p>
+        <p>Balancing supply and demand is Gridwell&rsquo;s most critical responsibility. Electricity cannot be stored at large scale, which means power plants and renewable resources must match demand instantly. Operators constantly monitor conditions and adjust the system to maintain stability.</p>
         <p>Advanced forecasting helps predict demand hours and days ahead, while real-time tools ensure that supply can flex as conditions change. Renewable energy introduces new challenges because wind and solar output can vary significantly. Still, Gridwell integrates these resources carefully to maximize efficiency and sustainability.</p>
         <p>The public rarely sees these operations, but they are essential. Without constant monitoring and rapid adjustments, even small mismatches between supply and demand could cascade into large-scale outages. The control room is where science, technology, and people come together to keep electricity flowing reliably to millions of homes and businesses.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e618b82-139c-4dbf-b0ea-c08c291f04e8"
+      Value: "d6926c49-7de7-49a8-8352-76512d700fd5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -76,9 +83,18 @@ Languages:
     - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
       Hint: Category
       Value: "{86DBA63C-586F-4760-BD9D-0FF42C8E9E6D}"
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: Gridwell grid operations, supply and demand balancing, electricity grid management, power grid reliability, grid control room, energy forecasting, renewable integration
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T003631Z
+      Value: 20251216T023411Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: "Behind the Scenes: How Gridwell Balances Supply and Demand"
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: "Gridwell continuously balances electricity supply and demand to keep the power grid stable and reliable. Using advanced forecasting, real-time monitoring, and expert operators, Gridwell ensures that generation resources match demand every second—integrating renewables while preventing outages across Texas."
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: "Behind the Scenes: How Gridwell Balances Supply and Demand"

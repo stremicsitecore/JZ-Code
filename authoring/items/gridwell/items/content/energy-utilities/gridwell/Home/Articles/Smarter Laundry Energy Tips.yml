@@ -38,6 +38,9 @@ Languages:
               s:ph="/headless-main/article-detail-{B91A1458-E2CF-4E95-9AA3-7753D4335EAB}-0" />
           </d>
         </r>
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: "Washing and drying clothes can consume significant amounts of electricity, especially during peak demand hours. This article explains how Texans can reduce energy use through smarter laundry habits—such as washing during off-peak hours, using cold water, maintaining appliances, and air-drying—helping keep the grid reliable while lowering household energy costs."
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Sarah Thompson
@@ -47,23 +50,51 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250924T164725Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/cc4163eb06f84ecf81950d7487893b98?v=a5f4e13f" dam-id="8Bi4xBi1S8GwzDJdNKJggA" width="200" height="200" alt="elementary-kids-touring-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70161/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Smarter Laundry Energy Tips
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <image mediaid="d9ac54b6-6fcd-45d3-85ae-c6dd8521d403" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5f41567c83dc48bf9f1e0dc39fa94045?v=4585570d" dam-id="8Bi4xBi1S8GwzDJdNKJggA" width="1536" height="1024" alt="elementary-kids-touring-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70161/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: "At the Gridwell, we know that Texans love fresh laundry—but your washer and dryer are some of the most energy-hungry appliances in the home. With just a few smart changes, you can keep your clothes clean and help keep the grid running smoothly"
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <div class="ck-content"><p data-start="125" data-end="444">At the Gridwell, we know that Texans love fresh laundry—but your washer and dryer are some of the most energy-hungry appliances in the home. With just a few smart changes, you can keep your clothes clean <strong data-start="344" data-end="351">and</strong> help keep the grid running smoothly. Here are some of our favorite “Smarter Laundry” tips:</p><h3 data-start="446" data-end="481">1. Wash During Off-Peak Hours</h3><p data-start="482" data-end="722">Just like rush hour traffic, electricity demand surges at certain times of day. Running your washer and dryer in the early morning or late evening can reduce strain on the grid and may even lower your bill if you’re on a time-of-use plan.</p><h3 data-start="724" data-end="753">2. Switch to Cold Water</h3><p data-start="754" data-end="946">Up to 90% of the energy used in washing clothes goes into heating water. Cold water cycles are gentler on fabrics and just as effective for most loads, while dramatically cutting energy use.</p><h3 data-start="948" data-end="978">3. Clean the Lint Filter</h3><p data-start="979" data-end="1147">A clogged lint screen makes your dryer work harder, using more energy and extending drying times. A quick swipe after each load keeps air flowing and efficiency high.</p><h3 data-start="1149" data-end="1185">4. Don’t Overload—Or Underload</h3><p data-start="1186" data-end="1344">Stuffing the washer full means clothes won’t clean properly, while running tiny loads wastes water and energy. Aim for a “happy medium” with balanced loads.</p><h3 data-start="1346" data-end="1377">5. Hang Dry When Possible</h3><p data-start="1378" data-end="1565">Texas sunshine is one of the most powerful (and free!) drying tools around. Even air-drying just a portion of your laundry—like towels or delicates—reduces dryer time and energy demand.</p><h3 data-start="1567" data-end="1610">6. Upgrade to ENERGY STAR® Appliances</h3><p data-start="1611" data-end="1791">Modern, high-efficiency washers and dryers can use 25–45% less energy than older models. If your laundry set is more than a decade old, upgrading could pay for itself in savings.</p><hr /><p data-start="1798" data-end="1991"><strong data-start="1798" data-end="1832">Every load makes a difference.</strong><br />When households across Texas make small changes in how and when they run laundry, it helps keep energy affordable, reliable, and sustainable for everyone.</p><p data-start="1993" data-end="2066"><em data-start="1993" data-end="2064"><em>Gridwell: Powering smart choices for a stronger Texas.</em></em></p></div>
+        <div class="ck-content">
+        <p>At the Gridwell, we know that Texans love fresh laundry&mdash;but your washer and dryer are some of the most energy-hungry appliances in the home. With just a few smart changes, you can keep your clothes clean <strong>and</strong> help keep the grid running smoothly. Here are some of our favorite &ldquo;Smarter Laundry&rdquo; tips:</p>
+        <h3>1. Wash During Off-Peak Hours</h3>
+        <p>Just like rush hour traffic, electricity demand surges at certain times of day. Running your washer and dryer in the early morning or late evening can reduce strain on the grid and may even lower your bill if you&rsquo;re on a time-of-use plan.</p>
+        <h3>2. Switch to Cold Water</h3>
+        <p>Up to 90% of the energy used in washing clothes goes into heating water. Cold water cycles are gentler on fabrics and just as effective for most loads, while dramatically cutting energy use.</p>
+        <h3>3. Clean the Lint Filter</h3>
+        <p>A clogged lint screen makes your dryer work harder, using more energy and extending drying times. A quick swipe after each load keeps air flowing and efficiency high.</p>
+        <h3>4. Don&rsquo;t Overload&mdash;Or Underload</h3>
+        <p>Stuffing the washer full means clothes won&rsquo;t clean properly, while running tiny loads wastes water and energy. Aim for a &ldquo;happy medium&rdquo; with balanced loads.</p>
+        <h3>5. Hang Dry When Possible</h3>
+        <p>Texas sunshine is one of the most powerful (and free!) drying tools around. Even air-drying just a portion of your laundry&mdash;like towels or delicates&mdash;reduces dryer time and energy demand.</p>
+        <h3>6. Upgrade to ENERGY STAR&reg; Appliances</h3>
+        <p>Modern, high-efficiency washers and dryers can use 25&ndash;45% less energy than older models. If your laundry set is more than a decade old, upgrading could pay for itself in savings.</p>
+        <hr />
+        <p>
+        <strong>Every load makes a difference.</strong>
+        <br />
+        When households across Texas make small changes in how and when they run laundry, it helps keep energy affordable, reliable, and sustainable for everyone.</p>
+        <p>
+        <em>
+        <em>Gridwell: Powering smart choices for a stronger Texas.</em>
+        </em>
+        </p>
+        </div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "83fa5967-6ab9-4f83-94cf-36b16f48e6a5"
+      Value: "43cb2bba-75c9-4feb-a957-d58174882463"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -71,9 +102,18 @@ Languages:
     - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
       Hint: Category
       Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: "laundry energy tips, reduce energy use, washer dryer efficiency, off-peak energy, Gridwell energy tips, home energy savings"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250924T165512Z
+      Value: 20251216T023859Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Smarter Laundry Energy Tips
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: "Laundry appliances are among the most energy-intensive in the home, but small changes can make a big difference. This article shares practical, easy-to-follow laundry tips from Gridwell to help Texans reduce energy use, save money, and support grid reliability."
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Smarter Laundry Energy Tips

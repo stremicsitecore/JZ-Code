@@ -13,22 +13,41 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: "This page helps Texans understand Energy Emergency Alerts and their role in protecting grid reliability. It outlines when EEAs are issued, what actions to take immediately, and how individual conservation efforts can help prevent outages during high-demand events."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250920T231027Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a9ce85cefe564c918df9cf6528f4fe12?v=29ae141e" dam-id="jCRhGRlhR_WqVJtwSXsHHQ" width="350" height="350" alt="david-vives-TZdh8NdfIfs-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70048/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: EEA
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "27ba2a58-0744-4468-ad29-2f8ac38dd082"
+      Value: "78b040d0-809a-42f1-b67a-9c74cad47f29"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: EEA, Energy Emergency Alert, grid emergency, rolling outages, energy conservation, Gridwell emergency alerts
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T231027Z
+      Value: 20251216T022946Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: Energy Emergency Alerts (EEA) | What to Do During Grid Emergencies
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: Energy Emergency Alerts (EEAs) are issued when the power grid is under critical stress and immediate conservation is required. This page explains what an EEA means, how it differs from advisory notifications, and the specific actions Texans should take to help stabilize the grid and prevent outages.
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: EEA

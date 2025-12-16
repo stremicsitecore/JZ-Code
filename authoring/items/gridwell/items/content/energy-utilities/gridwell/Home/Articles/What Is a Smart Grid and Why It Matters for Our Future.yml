@@ -26,6 +26,12 @@ Languages:
     - ID: "09658d47-362f-410e-b105-3e209c699032"
       Hint: pageSummary
       Value: Find out how Gridwell’s smart grid technology is reshaping energy delivery—making power cleaner, more reliable, and more efficient than ever.
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Dr Amanda Foster
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20251028T000000Z
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T195846Z
@@ -54,17 +60,20 @@ Languages:
         <div class="ck-content"><p data-start="3680" data-end="3955">Energy grids are evolving, and Gridwell is driving that transformation. A “smart grid” uses digital technology to monitor, predict, and optimize energy use in real time. The result? Less waste, fewer outages, and more efficient delivery of renewable power.</p><p data-start="3680" data-end="3955">&nbsp;</p><p data-start="3957" data-end="4283">By modernizing the grid, Gridwell ensures that clean energy gets where it’s needed most—without overloading the system or relying on outdated infrastructure. Smart grids also give customers more control, allowing them to track usage and reduce costs. It’s innovation that benefits everyone, from homeowners to entire cities.</p></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "198970dc-01b1-418b-8d16-dc78333ec41c"
+      Value: "d8dc8a58-8c57-477d-a050-b1143d433c0b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{86DBA63C-586F-4760-BD9D-0FF42C8E9E6D}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
       Value: what is a smart grid, smart energy systems, future of electricity, renewable energy infrastructure
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T201017Z
+      Value: 20251216T022544Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: Understanding Smart Grids | Gridwell’s Vision for Clean Energy Infrastructure

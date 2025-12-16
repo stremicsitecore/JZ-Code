@@ -26,6 +26,12 @@ Languages:
     - ID: "09658d47-362f-410e-b105-3e209c699032"
       Hint: pageSummary
       Value: Gridwell partners with local organizations to expand access to renewable power, creating sustainable, inclusive energy solutions for all.
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Lisa Park
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20251111T000000Z
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T201056Z
@@ -54,17 +60,20 @@ Languages:
         <div class="ck-content"><p data-start="4420" data-end="4680">Gridwell believes clean energy should be for everyone—not just those who can afford to install panels or turbines. That’s why we’re working with local governments and nonprofits to bring renewable energy solutions to underserved communities.</p><p data-start="4682" data-end="5050">Through education, job training, and access to affordable solar programs, we’re helping families lower costs and create local opportunity. Sustainability shouldn’t be a privilege—it should be a shared pathway to a better, fairer future. With every community project, Gridwell is proving that green power can change more than just the environment—it can change lives.</p></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "501feaa7-3d11-4759-bc48-a95e5441fda0"
+      Value: "ad94050e-08b1-4976-8396-05c9dc5c300f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{86DBA63C-586F-4760-BD9D-0FF42C8E9E6D}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
       Value: community renewable energy, clean energy access, sustainability equity, renewable programs for communities
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T201312Z
+      Value: 20251216T022646Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: Empowering Communities Through Clean Energy

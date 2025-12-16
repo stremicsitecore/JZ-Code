@@ -23,6 +23,15 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: Renewable energy is transforming how electricity is generated and delivered, and Gridwell is at the forefront of that change. This article explains how Gridwell integrates wind and solar resources into the grid, balances sustainability with reliability, and helps communities transition toward a cleaner, greener energy future.
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Dr Michael Chang
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20251105T000000Z
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251028T191055Z
@@ -48,26 +57,33 @@ Languages:
     - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>Clean energy isn’t just an idea—it’s a movement. And Gridwell is leading the charge.</p><p>&nbsp;</p><p>The world is shifting toward cleaner, more responsible energy sources, and Gridwell is proud to be at the forefront. Our mission is simple: make renewable energy reliable, affordable, and accessible for everyone. From wind farms that harness nature’s power to solar panels that capture every ray of sunshine, Gridwell is transforming how communities power their homes and businesses.</p></div>
+        <div class="ck-content">
+        <p>Clean energy isn&rsquo;t just an idea&mdash;it&rsquo;s a movement. And Gridwell is leading the charge.</p>
+        <p>&nbsp;</p>
+        <p>The world is shifting toward cleaner, more responsible energy sources, and Gridwell is proud to be at the forefront. Our mission is simple: make renewable energy reliable, affordable, and accessible for everyone. From wind farms that harness nature&rsquo;s power to solar panels that capture every ray of sunshine, Gridwell is transforming how communities power their homes and businesses.</p>
+        </div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "149a0684-c1d6-444f-9072-5ee7c2c0a5ce"
+      Value: "6fe1cbfa-c986-419b-a83b-216cfc46fd41"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\angela.gustafson@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{86DBA63C-586F-4760-BD9D-0FF42C8E9E6D}"
     - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
       Hint: metadataKeywords
-      Value: renewable energy future, sustainable energy solutions, green power company, Gridwell clean energy
+      Value: renewable energy, clean energy, wind power, solar energy, sustainable grid, Gridwell renewables, green energy future
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251028T192821Z
+      Value: 20251216T022248Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: "The Future Is Renewable: How Gridwell Is Powering a Greener Tomorrow"
     - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
       Hint: metadataDescription
-      Value: Discover how Gridwell is driving the renewable energy revolution with innovative solutions that make clean power reliable, affordable, and accessible.
+      Value: Gridwell is leading the transition to renewable energy by making clean power reliable, affordable, and accessible. This article explores how wind, solar, and innovative grid operations are helping Gridwell power communities while building a more sustainable energy future.
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: "The Future Is Renewable: How Gridwell Is Powering a Greener Tomorrow"
