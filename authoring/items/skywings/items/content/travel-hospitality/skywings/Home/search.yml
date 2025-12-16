@@ -33,7 +33,8 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{A277A027-CA4D-4383-8E75-CE325E17E23E}"
-              s:id="{7920AA2E-8DBC-4E41-9474-217CE0DD424B}"
+              s:ds=""
+              s:id="{C2403065-BDD1-4A4E-9C84-5A486CC964CB}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -46,7 +47,7 @@ Languages:
       Value: Search
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b2e06f6c-0f4f-4abe-b668-8df55c7cc5ef"
+      Value: "11288948-8132-462b-a955-c915788c5f35"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: Search
@@ -56,4 +57,4 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251102T225443Z
+      Value: 20251216T194338Z
