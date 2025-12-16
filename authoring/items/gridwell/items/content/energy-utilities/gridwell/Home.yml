@@ -41,8 +41,14 @@ Languages:
               s:par="CSSStyles"
               s:ph="headless-main" />
             <r
-              uid="{2163BE0E-6D05-4483-8E19-C95E4AAAEAFA}"
+              uid="{F16D74B8-0693-4842-9DB3-D049B6655413}"
               p:after="r[@uid='{FAD4D947-202A-4533-831C-9FE720CBD786}']"
+              s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
+              s:par="Type=article&amp;Source=1170797&amp;Widget=gridwell_search_home_highlight_articles&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{2163BE0E-6D05-4483-8E19-C95E4AAAEAFA}"
+              p:after="r[@uid='{F16D74B8-0693-4842-9DB3-D049B6655413}']"
               s:id="{B4B074A4-67CB-4994-BC75-B77B227052D7}"
               s:par="CSSStyles"
               s:ph="headless-main" />
@@ -84,14 +90,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d25696f3-c526-42be-a228-771767756f5b"
+      Value: "3d730d51-62ca-4b62-ad4d-4bf33cc096ae"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250926T202225Z
+      Value: 20251216T010758Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: gridwell

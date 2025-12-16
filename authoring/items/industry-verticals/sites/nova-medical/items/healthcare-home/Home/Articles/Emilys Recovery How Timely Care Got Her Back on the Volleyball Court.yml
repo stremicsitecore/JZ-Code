@@ -10,13 +10,17 @@ SharedFields:
 - ID: "5f90c361-338c-4896-b022-11dafa5c2241"
   Hint: PublishedDate
   Value: 20251212T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/73791-LandingPageHero-2000x600?v=f078549b" dam-id="hTVHjS8NQ9a0M4BhGeDyYA" width="2000" height="600" alt="clubs with bag 3.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/73791/thumbnail" />
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{B3FE8184-C173-4728-B3CB-B709FB777979}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b9160520-f3c0-42a3-ad29-cef890611258"
+  Value: "60a986af-9148-4b6b-84bd-7f7691dde29a"
 - ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
   Hint: Category
   Value: "{6185230D-1B24-4B67-9501-46B4F8C6ADA0}"
@@ -65,7 +69,7 @@ Languages:
       Value: Read how Emily recovered from wrist pain and returned to volleyball with Nova Health’s orthopedic specialists.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5c7ecb9-f907-4ff5-90be-c4b275c4911b"
+      Value: "7eecffee-b797-44d1-af6e-f3686d28581a"
     - ID: "94309007-1110-4d7a-b59e-b1c286bc34ed"
       Hint: Specialty
       Value: Orthopedics
@@ -78,4 +82,4 @@ Languages:
       Value: This article shares Emily’s recovery journey from wrist pain to returning to volleyball, demonstrating how timely orthopedic evaluation and personalized treatment lead to successful outcomes.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251211T010827Z
+      Value: 20251211T163324Z

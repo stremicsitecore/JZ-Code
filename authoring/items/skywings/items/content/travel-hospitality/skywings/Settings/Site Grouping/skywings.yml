@@ -43,7 +43,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0e7270c6-3048-4fd9-aab1-d402fcbf731b"
+  Value: "e4413775-1a4a-4d32-8a3d-924125e5f50f"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
   Value: skywings.dev
@@ -71,14 +71,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66c67d5f-50eb-4664-9dc9-b299e90a114f"
+      Value: "1817f60d-0097-4d16-b63b-ca90900a786e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251203T145412Z
+      Value: 20251212T211718Z
 - Language: "it-CH"
   Versions:
   - Version: 1

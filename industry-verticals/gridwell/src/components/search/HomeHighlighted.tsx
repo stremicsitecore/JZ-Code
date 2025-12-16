@@ -2,21 +2,22 @@ import { JSX } from 'react';
 import { FilterEqual, WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
 import ArticleCard from './ArticleCard';
 import { useSearchTracking, type Events } from '../../hooks/useSearchTracking';
-import { HOMEHIGHLIGHTED_WIDGET_ID } from '@/_data/customizations';
 
-const SEARCH_CONFIG = {
-  source: process.env.NEXT_PUBLIC_SEARCH_SOURCE as string,
+type HomeHighlightedProps = {
+  type: string;
+  source: string;
+  widget: string;
 };
 
-export const HomeHighlightedComponent = (): JSX.Element => {
+export const HomeHighlightedComponent = ({ type = 'Article', source, widget }: HomeHighlightedProps): JSX.Element => {
   const {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Destinations'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', type));
 
-      if (SEARCH_CONFIG.source !== '') {
-        const sources = SEARCH_CONFIG.source.split('|');
+      if (source !== '') {
+        const sources = source.split('|');
         sources.forEach((source) => {
           query.getRequest().addSource(source.trim());
         });
@@ -46,7 +47,7 @@ export const HomeHighlightedComponent = (): JSX.Element => {
               onItemClick={(e) =>
                 handleSearch(e, {
                   url: a.url,
-                  widgetId: HOMEHIGHLIGHTED_WIDGET_ID,
+                  widgetId: widget,
                   entityType: 'content',
                   events: ['EntityPageView', 'SearchClickEvent'] as Events[],
                   entityId: a.id,
