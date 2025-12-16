@@ -51,7 +51,7 @@ export function useSearchTracking() {
         }
       });
 
-      router.push(url);
+      router.push(url.replace('https://skywings.dev/', 'https://skywings-ebon.vercel.app/'));
     },
     [router]
   );
