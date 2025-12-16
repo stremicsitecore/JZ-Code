@@ -34,7 +34,7 @@ const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemC
         </div>
       )}
       <div className="grow flex-col pl-4">
-        <a className="focus:outline-indigo-500" href={article.url}>
+        <a className="focus:outline-indigo-500" href={article.url.replace('https://skywings.dev/', 'https://skywings-ebon.vercel.app/')}>
           <span aria-hidden="true" className="absolute inset-0"></span>
           <ArticleCard.Title className="mb-2 text-lg font-semibold text-gray-900">
             {article.name || article.title}
