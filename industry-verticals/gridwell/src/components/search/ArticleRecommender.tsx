@@ -43,7 +43,6 @@ const ArticleRecommender = (props: ArticleRecommenderProps): JSX.Element => {
     fetchData();
   }, [props.params]);
 
-  console.log(products);
   return (
     <div className={`${sxaStyles}`}>
       Products here:

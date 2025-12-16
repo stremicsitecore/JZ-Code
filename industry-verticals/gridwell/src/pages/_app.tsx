@@ -24,10 +24,6 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     PageController.getContext().setLocaleCountry(lang.split('-')[1]);
   }
 
-  console.log(`Env: ${SEARCH_CONFIG.env}`);
-  console.log(`key: ${SEARCH_CONFIG.customerKey}`);
-  console.log(`api: ${SEARCH_CONFIG.apiKey}`);
-
   return (
     <>
       <Bootstrap {...pageProps} />

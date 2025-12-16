@@ -1,6 +1,3 @@
-/**
- * This Layout is needed for Starter Kit.
- */
 import React, { JSX } from 'react';
 import Head from 'next/head';
 import { Placeholder, Field, DesignLibrary, Page, ImageField } from '@sitecore-content-sdk/nextjs';
@@ -48,7 +45,6 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
   const articleCategory = fields?.Category?.fields?.Title?.value?.toString() || '';
-  { articleCategory && <meta property="article_category" content={articleCategory} /> }
 
   return (
     <>
@@ -64,6 +60,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
         {ogDescription && <meta property="og:description " content={ogDescription} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
         <meta property="og:url" content={relativeUrl.replace('_site_gridwell', '')} key="og:url" />
+        {articleCategory && <meta property="article_category" content={articleCategory} />}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
