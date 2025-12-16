@@ -188,7 +188,7 @@ export const SearchResultsComponent = ({
           </React.Fragment>
         )}
 
-        {totalItems <= 0 && !isFetching && <HomeHighlighted rfkId={HIGHLIGHTED_ARTICLES_RFKID} />}
+        {totalItems <= 0 && !isFetching && <HomeHighlighted rfkId={HIGHLIGHTED_ARTICLES_RFKID} widget={HIGHLIGHTED_ARTICLES_RFKID} source={SEARCH_CONFIG.source} type={"Article"} />}
       </div>
     </div>
   );
