@@ -47,7 +47,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
 
   const queryString = searchParams.toString();
   const relativeUrl = queryString ? `${pathname}?${queryString}` : pathname;
-  const articleCategory = fields?.Category?.fields?.Category?.value?.toString() || '';
+  const articleCategory = fields?.Category?.fields?.Title?.value?.toString() || '';
   { articleCategory && <meta property="article_category" content={articleCategory} /> }
 
   return (
