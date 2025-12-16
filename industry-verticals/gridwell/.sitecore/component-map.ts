@@ -16,6 +16,7 @@ import * as SearchResults from 'src/components/search/SearchResults';
 import * as SearchPagination from 'src/components/search/SearchPagination';
 import * as SearchFacets from 'src/components/search/SearchFacets';
 import * as ResultsPerPage from 'src/components/search/ResultsPerPage';
+import * as QuestionsAnswers from 'src/components/search/QuestionsAnswers';
 import * as QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as HomeHighlighted from 'src/components/search/HomeHighlighted';
@@ -59,6 +60,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SearchPagination', { ...SearchPagination }],
   ['SearchFacets', { ...SearchFacets }],
   ['ResultsPerPage', { ...ResultsPerPage }],
+  ['QuestionsAnswers', { ...QuestionsAnswers }],
   ['QueryResultsSummary', { ...QueryResultsSummary }],
   ['PreviewSearch', { ...PreviewSearch }],
   ['HomeHighlighted', { ...HomeHighlighted }],

@@ -15,9 +15,9 @@ import { cn } from 'components/lib/utils';
 import { Slot } from '@radix-ui/react-slot';
 import { cva } from 'class-variance-authority';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
+import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
-import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon } from '@radix-ui/react-icons';
+import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
 import { HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DEFAULT_IMG_URL } from '@/_data/customizations';
 import HomeHighlighted from 'src/components/search/HomeHighlighted';
 import Spinner from 'src/components/search/Spinner';
@@ -31,10 +31,13 @@ import QueryResultsSummary from 'src/components/search/QueryResultsSummary';
 import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
 import { useSearchTracking } from 'src/hooks/useSearchTracking';
 import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
+import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
+import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accordion';
 import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
 import { Context, getWidgetData, SearchWidgetItem, WidgetRequestData } from '@sitecore-cloudsdk/search/browser';
 import Link from 'next/link';
+import { useSearchTracking as useSearchTracking_28742e7434a136289865b7be7dae68a0db3267e1 } from '@/hooks/useSearchTracking';
 import { Placeholder, Text, withDatasourceCheck, Link as Link_8a80e63291fea86e0744df19113dc44bec187216, RichText, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, useSitecore, DateField } from '@sitecore-content-sdk/nextjs';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card';
 import { Bell, Zap, Facebook, Twitter, Instagram, Linkedin, Youtube, Thermometer, Activity, TrendingUp, TrendingDown, ArrowRight, Calendar, User, Share2, ChevronLeft, Bookmark } from 'lucide-react';
@@ -109,6 +112,7 @@ const importMap = [
       { name: 'WidgetDataType', value: WidgetDataType },
       { name: 'useSearchResults', value: useSearchResults },
       { name: 'widget', value: widget },
+      { name: 'useQuestions', value: useQuestions },
       { name: 'usePreviewSearch', value: usePreviewSearch },
       { name: 'FilterEqual', value: FilterEqual },
       { name: 'useSearchResultsSelectedFilters', value: useSearchResultsSelectedFilters },
@@ -138,6 +142,7 @@ const importMap = [
       { name: 'ArrowLeftIcon', value: ArrowLeftIcon },
       { name: 'ArrowRightIcon', value: ArrowRightIcon },
       { name: 'CheckIcon', value: CheckIcon },
+      { name: 'ChevronDownIcon', value: ChevronDownIcon },
     ]
   },
   {
@@ -223,6 +228,22 @@ const importMap = [
     ]
   },
   {
+    module: 'src/components/search/QuestionsAnswers',
+    exports: [
+      { name: 'default', value: QuestionsAnswers },
+    ]
+  },
+  {
+    module: '@radix-ui/react-accordion',
+    exports: [
+      { name: 'Accordion', value: Accordion },
+      { name: 'Content', value: Content },
+      { name: 'Header', value: Header },
+      { name: 'Item', value: Item },
+      { name: 'Trigger', value: Trigger },
+    ]
+  },
+  {
     module: 'next/image',
     exports: [
       { name: 'default', value: Image },
@@ -247,6 +268,12 @@ const importMap = [
     module: 'next/link',
     exports: [
       { name: 'default', value: Link },
+    ]
+  },
+  {
+    module: '@/hooks/useSearchTracking',
+    exports: [
+      { name: 'useSearchTracking', value: useSearchTracking_28742e7434a136289865b7be7dae68a0db3267e1 },
     ]
   },
   {
