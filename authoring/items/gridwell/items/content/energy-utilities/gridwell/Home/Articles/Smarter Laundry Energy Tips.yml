@@ -53,14 +53,14 @@ Languages:
     - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
       Hint: ogImage
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/cc4163eb06f84ecf81950d7487893b98?v=a5f4e13f" dam-id="8Bi4xBi1S8GwzDJdNKJggA" width="200" height="200" alt="elementary-kids-touring-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70161/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c510ffa1fc1740649a17f29da81eb03a?v=e9ed9575" dam-id="mH_gzRwqTwugnt2b_x2URg" width="350" height="350" alt="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49674/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Smarter Laundry Energy Tips
     - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5f41567c83dc48bf9f1e0dc39fa94045?v=4585570d" dam-id="8Bi4xBi1S8GwzDJdNKJggA" width="1536" height="1024" alt="elementary-kids-touring-substation.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70161/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c88e7f51cafe4026a1936a9ffbc269ae?v=9ab38e64" dam-id="mH_gzRwqTwugnt2b_x2URg" width="6000" height="4000" alt="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/49674/thumbnail" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: "At the Gridwell, we know that Texans love fresh laundry—but your washer and dryer are some of the most energy-hungry appliances in the home. With just a few smart changes, you can keep your clothes clean and help keep the grid running smoothly"
@@ -94,7 +94,7 @@ Languages:
         </div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43cb2bba-75c9-4feb-a957-d58174882463"
+      Value: "7f0b4fab-b8e7-4239-8b26-5c190bcb7e0f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -107,7 +107,7 @@ Languages:
       Value: "laundry energy tips, reduce energy use, washer dryer efficiency, off-peak energy, Gridwell energy tips, home energy savings"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251216T023859Z
+      Value: 20251217T144952Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: Smarter Laundry Energy Tips

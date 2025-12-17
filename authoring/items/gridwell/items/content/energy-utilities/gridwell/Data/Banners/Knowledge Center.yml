@@ -31,14 +31,14 @@ Languages:
     - ID: "78db0dbe-17fc-467d-b86d-e94598fb1931"
       Hint: Image
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ba628945a6c642178a0050df926adb5e?v=d6df8df3" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="8368" height="5584" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4dba4dd883d543ada4760b70f80b9f8f?v=ad8e0649" dam-id="OOtx41rpRA6_5tSlbA7GCg" width="751" height="260" alt="knowledge center banner.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76845/thumbnail" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c738996-9efd-4c60-bc25-12ad28bf36ad"
+      Value: "935881d6-08cb-4e7f-aa19-c71d3cedcffa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251216T023147Z
+      Value: 20251217T144716Z

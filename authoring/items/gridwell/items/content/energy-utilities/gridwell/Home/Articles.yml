@@ -64,13 +64,13 @@ Languages:
     - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
       Hint: ogImage
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c909ec8d9ce64939b48efe7834896bb6?v=0693ec67" dam-id="ELkvWp28Q4iDw5TccBFzlg" width="350" height="350" alt="dominik-ferl-8A8D6I3OQS4-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70029/thumbnail" />
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/040d8df067394821b06a0f164b9651cb?v=9ca7ea03" dam-id="OOtx41rpRA6_5tSlbA7GCg" width="200" height="200" alt="knowledge center banner.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76845/thumbnail" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa1e48de-4121-4f1a-aefe-e2265949acb6"
+      Value: "f22426db-1b13-4938-bba8-0d5ac81adc65"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -80,7 +80,7 @@ Languages:
       Value: Gridwell articles, energy insights, grid operations, conservation tips, energy education, power grid news
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251216T145540Z
+      Value: 20251217T144806Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: Gridwell Insights & Energy Articles

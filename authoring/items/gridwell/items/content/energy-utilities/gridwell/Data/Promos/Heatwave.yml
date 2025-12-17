@@ -1,0 +1,54 @@
+﻿---
+ID: "73ab6a7f-362e-4057-8470-e5bf9aacbebf"
+Parent: "debe7c6f-ceb1-4a16-b071-03607d787d75"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Promos/Heatwave"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: |
+        <div class="ck-content"><p>Make sure you’re fully prepared. During a heatwave, Gridwell may issue advisory alerts to help Texans prepare early and reduce strain on the grid.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251217T145057Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <div class="ck-content"><p data-start="1907" data-end="1949"><strong data-start="1907" data-end="1949">Heatwave Advisory: What You Can Do Now</strong></p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4121021e-e5b1-4f7d-b429-66870eac856c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
+      Hint: PromoText3
+      Value: |
+        <div class="ck-content"><p data-start="2591" data-end="2626"><strong data-start="2591" data-end="2626">Stay One Step Ahead of the Heat</strong></p></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251217T145414Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="internal" id="31e5d56492854a17a7b0f12751715d7a" anchor="" querystring="" target="" class="" text="Stay Informed" title=""/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/ceffbd4a69ba4ea0a1bf042d07f5598f?v=bd5e80a3" dam-id="4qJd-qX7SjStyCY7b6b28Q" width="1024" height="1024" alt="smartphone-showing-txans-alert-notification-interf.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/76850/thumbnail" />
