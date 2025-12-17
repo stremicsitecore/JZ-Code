@@ -5,7 +5,7 @@ type SpinnerProps = {
 const Spinner = ({ loading = false }: SpinnerProps) => {
   if (loading) {
     return (
-      <div className="text-center absolute left-0 right-0 h-full block top-1/2 items-center w-full">
+      <div className="absolute top-1/2 right-0 left-0 block h-full w-full items-center text-center">
         <div role="status">
           <svg
             aria-busy={loading}
@@ -13,7 +13,7 @@ const Spinner = ({ loading = false }: SpinnerProps) => {
             focusable="false"
             role="progressbar"
             viewBox="0 0 20 20"
-            className="inline animate-spin w-10 text-slate-900"
+            className="inline w-10 animate-spin text-slate-900"
           >
             <path d="M7.229 1.173a9.25 9.25 0 1 0 11.655 11.412 1.25 1.25 0 1 0-2.4-.698 6.75 6.75 0 1 1-8.506-8.329 1.25 1.25 0 1 0-.75-2.385z" />
           </svg>

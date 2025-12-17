@@ -11,19 +11,19 @@ const SortOrder = ({ options, selected }: SortOrderProps) => {
   const { onSortChange } = useSearchResultsActions();
   return (
     <SortSelect.Root defaultValue={options[selectedSortIndex]?.name} onValueChange={onSortChange}>
-      <SortSelect.Trigger className="cursor-pointer inline-flex items-center bg-transparent h-10 gap-1 py-1 px-4 border-0 focus:outline-gray-700">
+      <SortSelect.Trigger className="inline-flex h-10 cursor-pointer items-center gap-1 border-0 bg-transparent px-4 py-1 focus:outline-gray-700">
         <SortSelect.SelectValue>
           {selectedSortIndex > -1 ? options[selectedSortIndex].label : ''}
         </SortSelect.SelectValue>
         <SortSelect.Icon />
       </SortSelect.Trigger>
-      <SortSelect.Content className="bg-gray-100 dark:bg-gray-700 shadow-[2px_2px_4px_#CFCFCF] z-[100] absolute top-8 focus-within:border-gray-700 min-w-[150px] rounded-md">
-        <SortSelect.Viewport className="p-1 z-[50000]">
+      <SortSelect.Content className="absolute top-8 z-[100] min-w-[150px] rounded-md bg-gray-100 shadow-[2px_2px_4px_#CFCFCF] focus-within:border-gray-700 dark:bg-gray-700">
+        <SortSelect.Viewport className="z-[50000] p-1">
           {options.map((option: any) => (
             <SortSelect.Option
               value={option}
               key={option.name}
-              className="flex rounded-sm items-center p-1 m-1 leading-none cursor-pointer select-none whitespace-no-wrap h-6 px-1 hover:bg-gray-700 dark:hover:bg-gray-100 hover:text-gray-100 dark:hover:text-gray-700 data-[state=checked]:text-gray-700 data-[state=checked]:bg-white focus:outline-gray-700"
+              className="whitespace-no-wrap m-1 flex h-6 cursor-pointer items-center rounded-sm p-1 px-1 leading-none select-none hover:bg-gray-700 hover:text-gray-100 focus:outline-gray-700 data-[state=checked]:bg-white data-[state=checked]:text-gray-700 dark:hover:bg-gray-100 dark:hover:text-gray-700"
             >
               <SortSelect.OptionText>{option.label}</SortSelect.OptionText>
             </SortSelect.Option>
