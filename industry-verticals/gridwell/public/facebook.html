@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Facebook – Feed (Mock)</title>
+    <style>
+        :root {
+            --fb-blue: #1877F2;
+            --bg: #F0F2F5;
+            --card: #ffffff;
+            --text: #050505;
+            --muted: #65676B;
+            --line: #E4E6EB;
+            --shadow: 0 1px 2px rgba(0, 0, 0, .08), 0 2px 8px rgba(0, 0, 0, .06);
+            --radius: 12px;
+            --font: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        /* Top bar (3-zone layout to keep center truly centered) */
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            height: 56px;
+            background: #fff;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+            padding: 0 14px;
+
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .top-left,
+        .top-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 360px;
+            /* ensures left & right occupy predictable space */
+        }
+
+        .top-left {
+            justify-content: flex-start;
+        }
+
+        .top-right {
+            justify-content: flex-end;
+        }
+
+        .top-center {
+            flex: 1;
+            /* takes remaining width */
+            display: flex;
+            justify-content: center;
+            /* centers nav cluster in the viewport */
+            align-items: center;
+        }
+
+        .fb-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--fb-blue);
+            display: grid;
+            place-items: center;
+            color: #fff;
+            font-weight: 800;
+            font-size: 26px;
+            line-height: 1;
+            user-select: none;
+            flex: 0 0 auto;
+        }
+
+        .search {
+            flex: 1;
+            max-width: 520px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--bg);
+            border-radius: 999px;
+            padding: 10px 14px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .search input {
+            border: none;
+            outline: none;
+            background: transparent;
+            width: 100%;
+            font-size: 14px;
+            color: var(--text);
+        }
+
+        .center-nav {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .navtab {
+            width: 112px;
+            height: 48px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+            color: var(--muted);
+            position: relative;
+        }
+
+        .navtab:hover {
+            background: rgba(0, 0, 0, .04);
+        }
+
+        .navtab.active {
+            color: var(--fb-blue);
+        }
+
+        .navtab.active::after {
+            content: "";
+            position: absolute;
+            left: 14px;
+            right: 14px;
+            bottom: 0;
+            height: 3px;
+            background: var(--fb-blue);
+            border-radius: 999px;
+        }
+
+        .navtab svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .icon-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--bg);
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #D8DADF;
+            overflow: hidden;
+            display: grid;
+            place-items: center;
+            font-weight: 700;
+            color: #2b2b2b;
+        }
+
+        /* Layout */
+        .wrap {
+            display: grid;
+            grid-template-columns: 320px minmax(0, 680px) 320px;
+            gap: 16px;
+            padding: 16px;
+            max-width: 1400px;
+            margin: 0 auto;
+            align-items: start;
+        }
+
+        @media (max-width: 1200px) {
+            .wrap {
+                grid-template-columns: 280px minmax(0, 680px) 280px;
+            }
+
+            .top-left,
+            .top-right {
+                min-width: 300px;
+            }
+
+            .navtab {
+                width: 96px;
+            }
+        }
+
+        @media (max-width: 980px) {
+            .wrap {
+                grid-template-columns: 1fr;
+            }
+
+            .left,
+            .right {
+                display: none;
+            }
+
+            .search {
+                max-width: none;
+            }
+
+            .top-left,
+            .top-right {
+                min-width: auto;
+            }
+
+            .navtab {
+                width: 70px;
+            }
+        }
+
+        /* Side rails */
+        .rail-card {
+            background: transparent;
+            padding: 8px 4px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: var(--text);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .nav-item:hover {
+            background: rgba(0, 0, 0, .05);
+        }
+
+        .nav-ico {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+            display: grid;
+            place-items: center;
+            color: var(--fb-blue);
+            font-weight: 900;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--muted);
+            padding: 8px 10px;
+        }
+
+        /* Feed cards */
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .composer {
+            padding: 12px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .composer .pill {
+            flex: 1;
+            background: var(--bg);
+            border-radius: 999px;
+            padding: 10px 14px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .divider {
+            height: 1px;
+            background: var(--line);
+            margin: 12px 0;
+        }
+
+        .quick-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .qa {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 0;
+            border-radius: 10px;
+            font-weight: 700;
+            color: var(--muted);
+            cursor: pointer;
+        }
+
+        .qa:hover {
+            background: rgba(0, 0, 0, .04);
+        }
+
+        /* Post */
+        .post {
+            margin-top: 14px;
+        }
+
+        .post-head {
+            padding: 12px 12px 8px 12px;
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .post-meta {
+            flex: 1;
+        }
+
+        .name-line {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            font-weight: 800;
+        }
+
+        .sub-line {
+            margin-top: 2px;
+            font-size: 12px;
+            color: var(--muted);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 3px;
+            height: 3px;
+            background: var(--muted);
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .kebab {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+            color: var(--muted);
+        }
+
+        .kebab:hover {
+            background: rgba(0, 0, 0, .05);
+        }
+
+        .post-text {
+            padding: 0 12px 10px 12px;
+            font-size: 15px;
+            line-height: 1.35;
+            white-space: pre-wrap;
+        }
+
+        .sponsored {
+            font-weight: 700;
+            color: var(--muted);
+        }
+
+        /* Image blocks inside posts */
+        .media {
+            width: 100%;
+            display: block;
+            border-top: 1px solid var(--line);
+            border-bottom: 1px solid var(--line);
+            background: #fff;
+        }
+
+        .media img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Link preview */
+        .link-preview {
+            border-top: 1px solid var(--line);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            background: #fff;
+        }
+
+        .preview-img {
+            height: 320px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .preview-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .preview-meta {
+            padding: 10px 12px 12px 12px;
+            background: #fff;
+        }
+
+        .domain {
+            font-size: 12px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: .02em;
+            margin-bottom: 4px;
+        }
+
+        .headline {
+            font-size: 16px;
+            font-weight: 900;
+            margin: 0 0 4px 0;
+        }
+
+        .desc {
+            font-size: 13px;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.35;
+        }
+
+        /* Actions row */
+        .post-actions {
+            border-top: 1px solid var(--line);
+            padding: 6px 10px;
+            display: flex;
+            gap: 4px;
+            background: #fff;
+        }
+
+        .act {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 0;
+            border-radius: 10px;
+            font-weight: 800;
+            color: var(--muted);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .act:hover {
+            background: rgba(0, 0, 0, .04);
+        }
+
+        .act svg {
+            width: 18px;
+            height: 18px;
+            opacity: .85;
+        }
+
+        /* Right rail */
+        .mini-ad {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+
+        .mini-ad .title {
+            font-weight: 900;
+            margin: 0 0 6px 0;
+            font-size: 14px;
+        }
+
+        .mini-ad .body {
+            margin: 0;
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.35;
+        }
+
+        /* Demo helper */
+        .demo-note {
+            font-size: 12px;
+            color: var(--muted);
+            padding: 10px 12px;
+            background: rgba(255, 255, 255, .65);
+            border: 1px dashed rgba(0, 0, 0, .15);
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+
+        .sr-only {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="topbar" role="banner" aria-label="Top navigation">
+        <!-- LEFT -->
+        <div class="top-left">
+            <div class="fb-logo" aria-label="Facebook">f</div>
+            <div class="search" role="search">
+                <span aria-hidden="true">🔎</span>
+                <label class="sr-only" for="fbsearch">Search</label>
+                <input id="fbsearch" placeholder="Search Facebook" />
+            </div>
+        </div>
+
+        <!-- CENTER (now properly centered) -->
+        <div class="top-center" aria-label="Primary navigation">
+            <div class="center-nav">
+                <div class="navtab active" title="Home" aria-label="Home">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5Z"
+                            stroke-width="1.8" />
+                    </svg>
+                </div>
+                <div class="navtab" title="Watch" aria-label="Watch">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M4 7a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Z"
+                            stroke-width="1.8" />
+                        <path d="M17 10.5 21 8v8l-4-2.5v-3Z" stroke-width="1.8" />
+                    </svg>
+                </div>
+                <div class="navtab" title="Marketplace" aria-label="Marketplace">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M4 8h16l-1.5 12H5.5L4 8Z" stroke-width="1.8" />
+                        <path d="M8 8a4 4 0 0 1 8 0" stroke-width="1.8" />
+                    </svg>
+                </div>
+                <div class="navtab" title="Groups" aria-label="Groups">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M7 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3Z" stroke-width="1.8" />
+                        <path d="M17 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3Z" stroke-width="1.8" />
+                        <path d="M2.5 20a5 5 0 0 1 9 0" stroke-width="1.8" />
+                        <path d="M12.5 20a5 5 0 0 1 9 0" stroke-width="1.8" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="top-right" aria-label="Top actions">
+            <div class="icon-btn" title="Menu" aria-label="Menu">☰</div>
+            <div class="icon-btn" title="Messenger" aria-label="Messenger">💬</div>
+            <div class="icon-btn" title="Notifications" aria-label="Notifications">🔔</div>
+            <div class="avatar" title="Profile" aria-label="Profile">MG</div>
+        </div>
+    </header>
+
+    <main class="wrap" role="main">
+        <!-- Left rail -->
+        <aside class="left rail-card" aria-label="Left navigation">
+            <div class="nav-item">
+                <div class="nav-ico">🏠</div>Home
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">👥</div>Friends
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">🧭</div>Groups
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">📅</div>Events
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">📰</div>News
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">🎥</div>Watch
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">🛒</div>Marketplace
+            </div>
+
+            <div class="section-title">Shortcuts</div>
+            <div class="nav-item">
+                <div class="nav-ico">🏡</div>Central Texas Neighbors
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">☀️</div>Weather & Safety
+            </div>
+            <div class="nav-item">
+                <div class="nav-ico">⚡</div>Energy Tips
+            </div>
+        </aside>
+
+        <!-- Center feed -->
+        <section class="center" aria-label="Feed">
+            <div class="demo-note">
+                Demo mock: Facebook-like feed layout. Sponsored post links to Gridwell with campaign tracking:
+                <strong>https://gridwell-seven.vercel.app/?campaign=heatwave</strong>
+            </div>
+
+            <!-- Composer -->
+            <div class="card composer" aria-label="Create post">
+                <div class="row">
+                    <div class="avatar" aria-hidden="true">MG</div>
+                    <div class="pill">What’s on your mind, Maria?</div>
+                </div>
+                <div class="divider"></div>
+                <div class="quick-actions" aria-label="Quick actions">
+                    <div class="qa">📹 Live video</div>
+                    <div class="qa">🖼️ Photo/video</div>
+                    <div class="qa">😊 Feeling/activity</div>
+                </div>
+            </div>
+
+            <!-- Organic post with image -->
+            <article class="card post" aria-label="Post from Central Texas Neighbors">
+                <div class="post-head">
+                    <div class="avatar" aria-hidden="true">CT</div>
+                    <div class="post-meta">
+                        <div class="name-line">Central Texas Neighbors</div>
+                        <div class="sub-line">
+                            <span>Today at 9:12 AM</span><span class="dot"></span><span>Public</span>
+                        </div>
+                    </div>
+                    <div class="kebab" aria-label="More">⋯</div>
+                </div>
+
+                <div class="post-text">
+                    Heat advisory in effect this week. If you’re running errands, plan for the hottest hours (3–7pm).
+                    Stay hydrated and check on neighbors.
+                </div>
+
+                <div class="media">
+                    <img alt="Heat advisory graphic" src="data:image/svg+xml;utf8,
+              <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'>
+                <defs>
+                  <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                    <stop offset='0' stop-color='%23ffb703'/>
+                    <stop offset='1' stop-color='%23fb8500'/>
+                  </linearGradient>
+                </defs>
+                <rect width='1200' height='630' fill='url(%23g)'/>
+                <circle cx='980' cy='140' r='90' fill='%23ffd166' opacity='0.95'/>
+                <g opacity='0.85'>
+                  <rect x='120' y='160' width='120' height='320' rx='60' fill='%23ffffff'/>
+                  <rect x='150' y='200' width='60' height='240' rx='30' fill='%23ef4444'/>
+                  <circle cx='180' cy='470' r='48' fill='%23ef4444'/>
+                </g>
+                <text x='120' y='120' font-family='Arial' font-size='54' font-weight='800' fill='%23050505'>HEAT ADVISORY</text>
+                <text x='120' y='185' font-family='Arial' font-size='28' fill='%23050505'>Plan for peak heat (3–7pm). Hydrate and check on neighbors.</text>
+                <text x='120' y='560' font-family='Arial' font-size='22' fill='%23050505' opacity='0.9'>Community reminder • Demo image</text>
+              </svg>" />
+                </div>
+
+                <div class="post-actions" aria-label="Post actions">
+                    <div class="act" role="button" tabindex="0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path
+                                d="M7 10v12H3V10h4Zm14 1c0-1.1-.9-2-2-2h-6l1-4V3c0-.6-.4-1-1-1h-1L7 9v13h10c.8 0 1.5-.5 1.8-1.2l2-6c.1-.2.2-.5.2-.8v-3Z"
+                                stroke-width="1.6" />
+                        </svg>
+                        Like
+                    </div>
+                    <div class="act" role="button" tabindex="0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z"
+                                stroke-width="1.6" />
+                        </svg>
+                        Comment
+                    </div>
+                    <div class="act" role="button" tabindex="0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v14"
+                                stroke-width="1.6" />
+                        </svg>
+                        Share
+                    </div>
+                </div>
+            </article>
+
+            <!-- SPONSORED AD with stronger creative image -->
+            <article class="card post" aria-label="Sponsored post from Gridwell Energy">
+                <div class="post-head">
+                    <div class="avatar" aria-hidden="true" title="Gridwell">GW</div>
+                    <div class="post-meta">
+                        <div class="name-line">
+                            Gridwell Energy
+                            <span class="sponsored">· Sponsored</span>
+                        </div>
+                        <div class="sub-line">
+                            <span>Today</span><span class="dot"></span><span>Paid partnership</span><span
+                                class="dot"></span><span>Public</span>
+                        </div>
+                    </div>
+                    <div class="kebab" aria-label="More">⋯</div>
+                </div>
+
+                <div class="post-text">
+                    <strong>Not all energy alerts mean an emergency.</strong>
+
+                    During a heatwave, advisory notifications help Texans prepare early and reduce strain on the grid.
+                    Learn what each alert means, what you can do at home, and how to stay informed as conditions change.
+                </div>
+
+                <a class="link-preview" href="https://gridwell-seven.vercel.app/?campaign=heatwave" target="_blank"
+                    rel="noopener noreferrer" aria-label="Open Gridwell heatwave campaign page">
+                    <div class="preview-img" role="img" aria-label="Gridwell ad creative">
+                        <img alt="Gridwell heatwave readiness ad creative" src="data:image/svg+xml;utf8,
+                <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'>
+                  <defs>
+                    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%230b2a4a'/>
+                      <stop offset='1' stop-color='%230a1b2f'/>
+                    </linearGradient>
+                    <linearGradient id='sun' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%23FFD166'/>
+                      <stop offset='1' stop-color='%23FFB703'/>
+                    </linearGradient>
+                  </defs>
+
+                  <rect width='1200' height='800' fill='url(%23bg)'/>
+                  <circle cx='1020' cy='170' r='120' fill='url(%23sun)' opacity='0.95'/>
+                  <g opacity='0.25'>
+                    <path d='M0 520 C 180 460, 360 580, 540 520 S 900 520, 1200 520' fill='none' stroke='%231877F2' stroke-width='10'/>
+                    <path d='M0 610 C 180 550, 360 670, 540 610 S 900 610, 1200 610' fill='none' stroke='%2300BFA6' stroke-width='10'/>
+                  </g>
+
+                  <!-- “Grid” motif -->
+                  <g opacity='0.18' stroke='%23ffffff' stroke-width='2'>
+                    <path d='M80 160 H1120'/>
+                    <path d='M80 240 H1120'/>
+                    <path d='M80 320 H1120'/>
+                    <path d='M80 400 H1120'/>
+                    <path d='M200 120 V680'/>
+                    <path d='M360 120 V680'/>
+                    <path d='M520 120 V680'/>
+                    <path d='M680 120 V680'/>
+                    <path d='M840 120 V680'/>
+                    <path d='M1000 120 V680'/>
+                  </g>
+
+                  <!-- Card -->
+                  <rect x='90' y='160' width='720' height='420' rx='28' fill='%23ffffff' opacity='0.96'/>
+                  <rect x='90' y='160' width='720' height='84' rx='28' fill='%231877F2' opacity='0.95'/>
+                  <text x='132' y='215' font-family='Arial' font-size='34' font-weight='800' fill='%23ffffff'>HEATWAVE READINESS</text>
+
+                  <text x='132' y='300' font-family='Arial' font-size='46' font-weight='900' fill='%23050505'>Understand alerts.</text>
+                  <text x='132' y='356' font-family='Arial' font-size='46' font-weight='900' fill='%23050505'>Conserve early.</text>
+                  <text x='132' y='412' font-family='Arial' font-size='46' font-weight='900' fill='%23050505'>Stay informed.</text>
+
+                  <text x='132' y='474' font-family='Arial' font-size='26' fill='%2365676B'>Official guidance, TXANS info, and grid status from Gridwell.</text>
+
+                  <!-- CTA button -->
+                  <rect x='132' y='510' width='260' height='56' rx='18' fill='%2300BFA6'/>
+                  <text x='162' y='548' font-family='Arial' font-size='26' font-weight='800' fill='%23050505'>Learn more</text>
+
+                  <!-- Small logo -->
+                  <rect x='870' y='560' width='240' height='90' rx='18' fill='%23ffffff' opacity='0.92'/>
+                  <text x='910' y='617' font-family='Arial' font-size='36' font-weight='900' fill='%230054A6'>Gridwell</text>
+                  <text x='910' y='646' font-family='Arial' font-size='18' fill='%2365676B'>Reliable energy. Clear updates.</text>
+                </svg>" />
+                    </div>
+                    <div class="preview-meta">
+                        <div class="domain">gridwell-seven.vercel.app</div>
+                        <p class="headline">Heatwave Advisory: Tips, Alerts, and Grid Status</p>
+                        <p class="desc">Get practical conservation steps, understand TXANS vs. emergency alerts, and see
+                            current grid conditions in one place.</p>
+                    </div>
+                </a>
+
+                <div class="post-actions" aria-label="Post actions">
+                    <div class="act" role="button" tabindex="0" onclick="toast('Liked')">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path
+                                d="M7 10v12H3V10h4Zm14 1c0-1.1-.9-2-2-2h-6l1-4V3c0-.6-.4-1-1-1h-1L7 9v13h10c.8 0 1.5-.5 1.8-1.2l2-6c.1-.2.2-.5.2-.8v-3Z"
+                                stroke-width="1.6" />
+                        </svg>
+                        Like
+                    </div>
+                    <div class="act" role="button" tabindex="0" onclick="toast('Comment')">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z"
+                                stroke-width="1.6" />
+                        </svg>
+                        Comment
+                    </div>
+                    <div class="act" role="button" tabindex="0" onclick="toast('Shared')">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v14"
+                                stroke-width="1.6" />
+                        </svg>
+                        Share
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Right rail -->
+        <aside class="right" aria-label="Right sidebar">
+            <div class="mini-ad">
+                <p class="title">Sponsored</p>
+                <p class="body">Stay informed during extreme weather. Visit Gridwell for official alerts, grid status,
+                    and conservation tips.</p>
+            </div>
+
+            <div class="mini-ad">
+                <p class="title">Suggested for you</p>
+                <p class="body">Central Texas Weather Updates · Local Emergency Preparedness · Home Energy Efficiency
+                </p>
+            </div>
+
+            <div class="mini-ad">
+                <p class="title">Your shortcuts</p>
+                <p class="body">Central Texas Neighbors · Weather & Safety · Energy Tips</p>
+            </div>
+        </aside>
+    </main>
+
+    <script>
+        function toast(msg) {
+            const el = document.createElement('div');
+            el.textContent = msg;
+            el.style.position = 'fixed';
+            el.style.bottom = '18px';
+            el.style.left = '50%';
+            el.style.transform = 'translateX(-50%)';
+            el.style.background = 'rgba(0,0,0,.82)';
+            el.style.color = '#fff';
+            el.style.padding = '10px 14px';
+            el.style.borderRadius = '999px';
+            el.style.fontWeight = '700';
+            el.style.zIndex = '9999';
+            el.style.boxShadow = '0 10px 30px rgba(0,0,0,.25)';
+            document.body.appendChild(el);
+            setTimeout(() => { el.style.opacity = '0'; el.style.transition = 'opacity .25s'; }, 900);
+            setTimeout(() => { el.remove(); }, 1200);
+        }
+    </script>
+</body>
+
+</html>

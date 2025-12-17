@@ -44,7 +44,7 @@ Languages:
               uid="{F16D74B8-0693-4842-9DB3-D049B6655413}"
               p:after="r[@uid='{FAD4D947-202A-4533-831C-9FE720CBD786}']"
               s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
-              s:par="Type=Article&amp;Source=1194948&amp;Widget=novamedical_search_highlighted_articles&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:par="Type=Article&amp;Source=1194948&amp;Widget=gridwell_search_home_highlight_articles&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="headless-main" />
             <r
               uid="{2163BE0E-6D05-4483-8E19-C95E4AAAEAFA}"
@@ -97,7 +97,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11382db4-9050-4863-8850-bf93f13f1aeb"
+      Value: "b2954cda-ff74-46a5-a543-f2f8484877b9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -107,7 +107,7 @@ Languages:
       Value: Gridwell, Texas power grid, energy reliability, grid operations, energy alerts, TXANS, energy emergency alerts, power conservation, electricity market, grid transparency, energy preparedness, Texas energy
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251216T214911Z
+      Value: 20251217T012323Z
     - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
       Hint: metadataTitle
       Value: Gridwell | Reliable, Transparent Energy for Texas Communities
