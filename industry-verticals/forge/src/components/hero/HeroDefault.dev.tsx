@@ -1,17 +1,17 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Text } from '@sitecore-content-sdk/nextjs';
 import { NoDataFallback } from '@/utils/NoDataFallback';
-import { ButtonBase } from '@/components/button-component/ButtonComponent';
 import { Default as ImageWrapper } from '@/components/image/ImageWrapper.dev';
 import { Default as AnimatedSection } from '@/components/animated-section/AnimatedSection.dev';
-import { Default as ZipcodeSearchForm } from '@/components/forms/zipcode/ZipcodeSearchForm.dev';
-import { HeroProps } from './hero.props';
-import { USER_ZIPCODE } from '@/lib/constants';
+import { ButtonBase } from '@/components/button-component/ButtonComponent';
+import type { HeroProps } from './hero.props';
 
 export const HeroDefault: React.FC<HeroProps> = (props) => {
   const { fields, isPageEditing } = props;
-  const { title, description, bannerText, bannerCTA, image, dictionary, searchLink } = fields || {};
+  const { title, description, image, bannerCTA } = fields || {};
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   useEffect(() => {
@@ -20,128 +20,74 @@ export const HeroDefault: React.FC<HeroProps> = (props) => {
   }, []);
 
   if (fields) {
-    const needsBanner: boolean = isPageEditing
-      ? true
-      : bannerText?.value !== '' || bannerCTA?.value?.href !== ''
-        ? true
-        : false;
-
-    const hasPagesPositionStyles: boolean = props?.params?.styles
-      ? props?.params?.styles.includes('position-')
-      : false;
-
     return (
       <section
         data-component="Hero"
         className="@container/herowrapper bg-background text-foreground relative w-full overflow-hidden"
       >
-        <div
-          data-class-change
-          className={cn(
-            '@lg/herowrapper:grid @lg/herowrapper:gap-0 @lg/herowrapper:my-36 @lg/herowrapper:max-w-[1216px] @lg/herowrapper:mx-10 @xl/herowrapper:mx-auto @lg/herowrapper:grid-cols-[33%_11%_23%_33%] @lg/herowrapper:grid-rows-[52px_auto_2px_auto_auto] group',
-            {
-              'position-left': !hasPagesPositionStyles,
-              [props?.params?.styles]: props?.params?.styles,
-            }
-          )}
-        >
-          {/* Title */}
-          <AnimatedSection
-            direction="up"
-            className="@lg/herowrapper:row-start-1 @lg/herowrapper:row-end-3 @lg/herowrapper:col-start-1 @lg/herowrapper:col-end-4 relative z-20"
-            isPageEditing={isPageEditing}
-            reducedMotion={prefersReducedMotion}
-          >
-            <Text
-              tag="h1"
-              field={title}
-              className="font-heading @md/herowrapper:text-[clamp(4.5rem,9cqi,8rem)] text-box-trim-top @lg/herowrapper:p-0 text-shadow @lg/herowrapper:text-shadow-blur-3xl @lg/herowrapper:drop-shadow-[0_35px_35px_rgba(0,0,0,0.4)] relative -ml-[2px] text-balance px-4 pt-8 text-5xl font-light leading-tight"
-            />
-          </AnimatedSection>
+        <div className="relative">
+          {/* Background Image */}
+          <ImageWrapper
+            image={image}
+            wrapperClass="absolute w-full inset-0"
+            className="h-full w-full object-cover"
+            priority={true}
+          />
 
-          {/* Line */}
-          <div className="@lg/herowrapper:block @lg/herowrapper:row-start-3 @lg/herowrapper:row-end-4 @lg/herowrapper:col-start-1 @lg/herowrapper:col-end-5 hidden">
-            <div className="bg-foreground absolute left-0 right-0 h-[2px] w-[100vw]"></div>
-          </div>
+          {/* Dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/30"></div>
 
-          {/* Description & Form */}
-          <div className="form @lg/herowrapper:p-0 @lg/herowrapper:col-start-1 @lg/herowrapper:col-end-2 @lg/herowrapper:row-start-4 @lg/herowrapper:row-end-5 @lg/herowrapper:self-end @lg/herowrapper:mt-6 mt-6 px-4 pb-8 [&>*+*]:mt-6">
+          {/* Content - Centered */}
+          <div className="relative z-10 mx-auto flex min-h-[60vh] max-w-[1240px] flex-col items-center justify-center px-5 py-20 text-center @md/herowrapper:min-h-[70vh] @md/herowrapper:px-10 @lg/herowrapper:px-24">
+            {/* Title */}
+            <AnimatedSection
+              direction="up"
+              className="relative z-20"
+              isPageEditing={isPageEditing}
+              reducedMotion={prefersReducedMotion}
+            >
+              <Text
+                tag="h1"
+                field={title}
+                className="font-heading text-white text-[clamp(2rem,5vw,3.5rem)] font-light leading-tight tracking-[0.15em]"
+              />
+            </AnimatedSection>
+
+            {/* Description */}
             <AnimatedSection
               direction="up"
               isPageEditing={isPageEditing}
               reducedMotion={prefersReducedMotion}
               delay={200}
+              className="mt-6"
             >
               {description && (
                 <Text
-                  tag="div"
-                  className="@sm/herowrapper:text-xl @lg/herowrapper:p-0 mt-0 text-pretty leading-tight"
+                  tag="p"
+                  className="text-white mx-auto max-w-[50ch] text-pretty text-lg leading-relaxed @md/herowrapper:text-xl"
                   field={description}
                 />
               )}
             </AnimatedSection>
 
-            {/* Form */}
-            <AnimatedSection
-              direction="up"
-              isPageEditing={isPageEditing}
-              reducedMotion={prefersReducedMotion}
-              delay={400}
-            >
-              <ZipcodeSearchForm
-                placeholder={dictionary.ZipPlaceholder || ''}
-                buttonText={dictionary?.SubmitCTALabel || ''}
-                onSubmit={(values) => {
-                  sessionStorage.setItem(USER_ZIPCODE, values.zipcode);
-                  if (searchLink?.value?.href) {
-                    window.location.href = `${searchLink.value.href}`;
-                  }
-                }}
-              />
-            </AnimatedSection>
+            {/* CTA Button */}
+            {bannerCTA && (
+              <AnimatedSection
+                direction="up"
+                isPageEditing={isPageEditing}
+                reducedMotion={prefersReducedMotion}
+                delay={400}
+                className="mt-8"
+              >
+                <ButtonBase
+                  buttonLink={bannerCTA}
+                  variant="outline"
+                  isPageEditing={isPageEditing}
+                  className="border-white text-white bg-transparent"
+                />
+              </AnimatedSection>
+            )}
           </div>
-
-          {/* Hero image */}
-          <ImageWrapper
-            image={image}
-            wrapperClass="@lg/herowrapper:col-start-3 @lg/herowrapper:col-end-5 @lg/herowrapper:row-start-2 @lg/herowrapper:row-end-5 before:hidden @lg/herowrapper:before:block @lg/herowrapper:before:w-full @lg/herowrapper:before:aspect-[674/600] @lg/herowrapper:relative w-full"
-            className="@lg/herowrapper:h-full @lg/herowrapper:aspect-auto @lg/herowrapper:absolute @lg/herowrapper:inset-0 relative z-10 aspect-video w-full object-cover"
-            priority={true}
-          />
-
-          {/* Banner */}
-          {needsBanner && (
-            <div className="bg-primary text-primary-foreground @lg/herowrapper:col-start-3 @lg/herowrapper:col-end-5 @lg/herowrapper:row-start-5 @lg/herowrapper:row-end-6 @md/herowrapper:flex @md/herowrapper:gap-10 @md/herowrapper:items-center @md/herowrapper:justify-between @md/herowrapper:p-5 p-4">
-              {bannerText && (
-                <AnimatedSection
-                  direction="up"
-                  isPageEditing={isPageEditing}
-                  reducedMotion={prefersReducedMotion}
-                >
-                  <Text
-                    tag="p"
-                    className="@md/herowrapper:text-lg font-heading text-pretty font-light leading-tight"
-                    field={bannerText}
-                  />
-                </AnimatedSection>
-              )}
-              {bannerCTA && (
-                <AnimatedSection
-                  direction="up"
-                  className="@md/herowrapper:mt-0 mt-4 first:mt-0"
-                  isPageEditing={isPageEditing}
-                  reducedMotion={prefersReducedMotion}
-                  delay={200}
-                >
-                  <ButtonBase
-                    buttonLink={bannerCTA}
-                    variant="secondary"
-                    isPageEditing={isPageEditing}
-                  />
-                </AnimatedSection>
-              )}
-            </div>
-          )}
         </div>
       </section>
     );

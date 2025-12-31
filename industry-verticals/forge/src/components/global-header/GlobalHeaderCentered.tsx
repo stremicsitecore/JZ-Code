@@ -21,7 +21,7 @@ import { AnimatedHoverNav } from '@/components/ui/animated-hover-nav';
 
 export const GlobalHeaderCentered: React.FC<GlobalHeaderProps> = (props) => {
   const { fields, isPageEditing } = props ?? {};
-  const { logo, primaryNavigationLinks, headerContact } = fields?.data?.item ?? {};
+  const { logo, primaryNavigationLinks } = fields?.data?.item ?? {};
   const [isOpen, setIsOpen] = useState(false);
   const [sheetAnimationComplete, setSheetAnimationComplete] = useState(false);
   const [visible, setVisible] = useState(true);
@@ -114,14 +114,6 @@ export const GlobalHeaderCentered: React.FC<GlobalHeaderProps> = (props) => {
               />
             )}
           </div>
-          {/* Desktop CTA */}
-          {headerContact?.jsonValue?.value && (
-            <div className="@lg:flex @lg:items-center @lg:justify-end @lg:flex-1 z-10 hidden">
-              <Button asChild className="font-heading text-base font-medium">
-                <ContentSdkLink field={headerContact.jsonValue} prefetch={false} />
-              </Button>
-            </div>
-          )}
           {/* Mobile Navigation */}
           <div className="@lg:hidden z-10 flex flex-1 justify-end">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -182,23 +174,6 @@ export const GlobalHeaderCentered: React.FC<GlobalHeaderProps> = (props) => {
                               </Button>
                             </motion.div>
                           ))}
-                        {headerContact?.jsonValue?.value && (
-                          <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{
-                              delay: primaryNavigationLinks?.targetItems?.length
-                                ? 0.05 * primaryNavigationLinks.targetItems.length
-                                : 0,
-                              duration: isReducedMotion ? 0 : 0.3,
-                            }}
-                            className="flex justify-center"
-                          >
-                            <Button asChild onClick={() => setIsOpen(false)}>
-                              <ContentSdkLink field={headerContact.jsonValue} prefetch={false} />
-                            </Button>
-                          </motion.div>
-                        )}
                       </motion.nav>
                     )}
                   </AnimatePresence>

@@ -17,31 +17,12 @@ export const PromoImageDefault: React.FC<PromoImageProps> = (props) => {
     return (
       <section
         data-component="Promo Image"
-        className="@container border-b-2 border-t-2 [.border-b-2+&]:border-t-0"
+        className="@container border-b border-neutral-200"
       >
-        <div className="@md:min-h-[760px] relative max-h-[759px] min-h-[450px] w-full overflow-hidden ">
-          {image && (
-            <div className="absolute inset-0 h-full w-full">
-              <ImageWrapper
-                image={image}
-                className="h-full w-full object-cover"
-                wrapperClass="w-full h-full"
-                priority={true}
-              />
-              {/* Vignette effect overlay */}
-              <div
-                className="pointer-events-none absolute inset-0"
-                style={{
-                  boxShadow: 'inset 0 0 100px rgba(0,0,0,0.8)',
-                  background:
-                    'linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%)',
-                }}
-              ></div>
-            </div>
-          )}
-
-          <div className="@xs:pl-8 @sm:pl-12 @md:pl-16 @lg:pl-[118px] @xs:pr-6 @sm:pr-12 @md:py-16 relative z-10 mx-auto flex h-full w-full max-w-screen-xl flex-col justify-center px-4 py-24">
-            <div className="@xs:max-w-[90%] @sm:max-w-[80%] @md:max-w-[60%] @lg:max-w-[50%]">
+        <div className="@lg:grid-cols-2 grid min-h-[600px]">
+          {/* Content Column */}
+          <div className="@lg:py-20 @xl:px-28 @lg:px-16 bg-neutral-50 flex flex-col justify-center overflow-visible px-8 py-16">
+            <div className="max-w-[540px] pb-8">
               {heading && (
                 <AnimatedSection
                   direction="right"
@@ -50,7 +31,7 @@ export const PromoImageDefault: React.FC<PromoImageProps> = (props) => {
                 >
                   <Text
                     tag="h2"
-                    className="font-heading @xs:text-3xl @sm:text-4xl @lg:text-5xl text-primary-foreground text-pretty text-2xl"
+                    className="font-heading @lg:text-4xl @xl:text-5xl text-foreground mb-8 text-pretty text-3xl font-light leading-tight tracking-tight"
                     field={heading}
                   />
                 </AnimatedSection>
@@ -64,11 +45,18 @@ export const PromoImageDefault: React.FC<PromoImageProps> = (props) => {
                   delay={600}
                 >
                   <RichText
-                    className="text-body text-primary-foreground @xs:text-lg @md:text-xl mt-6 max-w-[51.5ch] font-normal tracking-tight antialiased"
+                    className="text-foreground @lg:text-base mb-8 max-w-prose text-sm leading-relaxed"
                     field={description}
                   />
                 </AnimatedSection>
               )}
+
+              {/* Status badge */}
+              <div className="mb-6">
+                <span className="inline-block text-xs font-semibold uppercase tracking-wider">
+                  RESORT NOW OPEN
+                </span>
+              </div>
 
               {hasLink && (
                 <AnimatedSection
@@ -77,13 +65,27 @@ export const PromoImageDefault: React.FC<PromoImageProps> = (props) => {
                   reducedMotion={prefersReducedMotion}
                   delay={1200}
                 >
-                  <div className="mt-8">
-                    <Button buttonLink={link} isPageEditing={isPageEditing}></Button>
-                  </div>
+                  <Button 
+                    buttonLink={link} 
+                    isPageEditing={isPageEditing}
+                    className="border-foreground text-foreground hover:bg-foreground hover:text-background border bg-transparent px-8 py-3 transition-colors duration-200"
+                  />
                 </AnimatedSection>
               )}
             </div>
           </div>
+
+          {/* Image Column */}
+          {image && (
+            <div className="@lg:block relative hidden min-h-[600px]">
+              <ImageWrapper
+                image={image}
+                className="h-full w-full object-cover"
+                wrapperClass="w-full h-full"
+                priority={true}
+              />
+            </div>
+          )}
         </div>
       </section>
     );

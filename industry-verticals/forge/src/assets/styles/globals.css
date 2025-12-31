@@ -1,3 +1,6 @@
+/* 🔤 Import Google Fonts - One&Only Inspired */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
 @theme {
   --blur-none: 0;
   --blur-sm: 0.25rem;
@@ -10,12 +13,12 @@
 
   --border-radius-none: 0;
   --border-radius-sm: 0.125rem;
-  --border-radius-default: 0.125rem;
-  --border-radius-md: 0.375rem;
-  --border-radius-lg: 0.5rem;
-  --border-radius-xl: 0.75rem;
-  --border-radius-2xl: 1rem;
-  --border-radius-3xl: 1.5rem;
+  --border-radius-default: 0;
+  --border-radius-md: 0.25rem;
+  --border-radius-lg: 0.375rem;
+  --border-radius-xl: 0.5rem;
+  --border-radius-2xl: 0.75rem;
+  --border-radius-3xl: 1rem;
   --border-radius-full: 624.9375rem;
 
   --border-width-0: 0;
@@ -24,53 +27,53 @@
   --border-width-4: 0.25rem;
   --border-width-8: 0.5rem;
 
-  /* ⬇️ COLOR PALETTE UPDATED */
-  --color-background: hsl(0, 0%, 12%);
-  --color-foreground: hsl(0, 0%, 96%);
-  --color-card: hsl(0, 0%, 18%);
-  --color-card-foreground: hsl(0, 0%, 96%);
-  --color-popover: hsl(0, 0%, 18%);
-  --color-popover-foreground: hsl(0, 0%, 96%);
+  /* ✨ LUXURY COLOR PALETTE - One&Only Inspired */
+  --color-background: hsl(40, 15%, 97%);
+  --color-foreground: hsl(30, 8%, 15%);
+  --color-card: hsl(0, 0%, 100%);
+  --color-card-foreground: hsl(30, 8%, 15%);
+  --color-popover: hsl(0, 0%, 100%);
+  --color-popover-foreground: hsl(30, 8%, 15%);
 
-  /* 🔥 Primary red palette */
-  --color-primary: hsl(0, 82%, 45%);
-  --color-primary-foreground: #ffffff;
-  --color-primary-hover: hsl(0, 80%, 38%);
+  /* 🌟 Primary gold/champagne palette */
+  --color-primary: hsl(42, 45%, 55%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  --color-primary-hover: hsl(42, 50%, 48%);
 
-  /* 🪶 Secondary cool grays */
-  --color-secondary: hsl(0, 0%, 25%);
-  --color-secondary-foreground: hsl(0, 0%, 96%);
-  --color-secondary-hover: hsl(0, 0%, 85% / 0.7);
+  /* 🎨 Secondary warm neutrals */
+  --color-secondary: hsl(30, 12%, 88%);
+  --color-secondary-foreground: hsl(30, 8%, 20%);
+  --color-secondary-hover: hsl(30, 15%, 80%);
 
-  --color-muted: hsl(0, 0%, 22%);
-  --color-muted-foreground: hsl(0, 0%, 60%);
+  --color-muted: hsl(30, 15%, 92%);
+  --color-muted-foreground: hsl(30, 5%, 45%);
 
-  /* Accent — slightly brighter red highlight */
-  --color-accent: hsl(0, 90%, 50%);
-  --color-accent-foreground: hsl(0, 0%, 98%);
+  /* Accent — refined gold highlight */
+  --color-accent: hsl(45, 55%, 60%);
+  --color-accent-foreground: hsl(30, 8%, 15%);
 
-  /* Destructive — deep crimson */
-  --color-destructive: hsl(0, 75%, 46%);
-  --color-destructive-hover: hsl(0, 74%, 38%);
+  /* Destructive — subtle warning */
+  --color-destructive: hsl(0, 50%, 50%);
+  --color-destructive-hover: hsl(0, 55%, 45%);
   --color-destructive-foreground: hsl(0, 0%, 100%);
 
-  --color-border: hsl(0, 0%, 30%);
-  --color-input: hsl(0, 0%, 70%);
-  --color-ring: hsl(0, 90%, 50%);
+  --color-border: hsl(30, 15%, 85%);
+  --color-input: hsl(30, 12%, 88%);
+  --color-ring: hsl(42, 45%, 55%);
 
-  /* Foregrounds for tertiary and dark UI areas */
-  --color-tertiary-foreground: hsl(0, 0%, 70%);
-  --color-tertiary-hover: hsl(0, 0%, 85% / 0.7);
-  --color-tertiary: hsl(0, 0%, 20%);
+  /* Tertiary and utility colors */
+  --color-tertiary-foreground: hsl(30, 8%, 35%);
+  --color-tertiary-hover: hsl(30, 12%, 90%);
+  --color-tertiary: hsl(30, 15%, 94%);
 
-  --color-dark-foreground: hsl(0, 0%, 70%);
-  --color-dark-hover: hsl(0, 0%, 85% / 0.7);
-  --color-dark: hsl(0, 0%, 20%);
+  --color-dark-foreground: hsl(40, 15%, 92%);
+  --color-dark-hover: hsl(30, 8%, 25%);
+  --color-dark: hsl(30, 8%, 18%);
 
-  --color-light: hsl(0, 0%, 92%);
-  --color-light-hover: hsl(0, 0%, 96% / 0.7);
-  --color-light-foreground: hsl(0, 0%, 15%);
-  --color-overlay: hsl(0, 0%, 10% / 0.85);
+  --color-light: hsl(40, 20%, 98%);
+  --color-light-hover: hsl(40, 18%, 95%);
+  --color-light-foreground: hsl(30, 8%, 20%);
+  --color-overlay: hsl(30, 8%, 15% / 0.75);
 
   --disabled: [object Object];
 
@@ -79,10 +82,10 @@
   --figma-automations-navigation: Style 3;
   --figma-automations-multipromo: Multi 3;
 
-  /* Fonts */
-  --font-family-heading: Sora;
-  --font-family-body: Roboto;
-  --font-family-accent: IBM Plex Mono;
+  /* 🔤 Fonts - One&Only Luxury Editorial Style */
+  --font-family-heading: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif;
+  --font-family-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-family-accent: 'Cormorant Garamond', 'Georgia', serif;
 
   --font-size-xs: 12px;
   --font-size-sm: 14px;
@@ -111,7 +114,7 @@
   --font-weight-extrabold: 800;
   --font-weight-black: 900;
 
-  /* Spacing, size, line-height, etc. remain unchanged for design consistency */
+  /* Spacing, size, line-height */
   --height-0: 0;
   --height-1: 0.25rem;
   --height-2: 0.5rem;
@@ -148,12 +151,14 @@
   --height-3-5: 0.875rem;
   --height-px: 0.0625rem;
 
+  /* One&Only Letter Spacing */
   --letter-spacing-tighter: -0.05rem;
   --letter-spacing-tight: -0.025rem;
   --letter-spacing-normal: 0;
   --letter-spacing-wide: 0.025rem;
   --letter-spacing-wider: 0.05rem;
-  --letter-spacing-widest: 0.1rem;
+  --letter-spacing-widest: 0.15rem; /* Increased for One&Only style */
+  --letter-spacing-luxury: 0.2rem; /* Extra wide for hero text */
 
   --line-height-3: 0.75rem;
   --line-height-4: 1rem;
@@ -164,6 +169,8 @@
   --line-height-9: 2.25rem;
   --line-height-10: 2.5rem;
   --line-height-none: 1;
+  --line-height-tight: 1.15;
+  --line-height-snug: 1.3;
 
   --margin-mt-1-5: 0.375rem;
   --margin-mt-4: 1rem;
@@ -322,5 +329,156 @@
   --width-3-5: 0.875rem;
   --width-px: 0.0625rem;
 
-  --radius: var(--border-radius-default, 0.25rem);
+  --radius: var(--border-radius-default, 0);
+}
+
+/* 🎨 Additional luxury styling enhancements */
+:root {
+  /* Smooth transitions for luxury feel */
+  --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Subtle shadows for depth */
+  --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-strong: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Typography refinements - One&Only Style */
+body {
+  font-family: var(--font-family-body);
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* Heading styles with Cormorant Garamond serif */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--letter-spacing-widest);
+  line-height: var(--line-height-tight);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: var(--font-size-6xl);
+  letter-spacing: var(--letter-spacing-luxury);
+  font-weight: 300;
+}
+
+h2 {
+  font-size: var(--font-size-4xl);
+  letter-spacing: var(--letter-spacing-widest);
+  font-weight: 300;
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+  letter-spacing: var(--letter-spacing-widest);
+  font-weight: 400;
+}
+
+/* Body text with Inter */
+p {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: var(--line-height-7);
+}
+
+/* Navigation text styling */
+nav a, 
+.nav-link {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-widest);
+  transition: var(--transition-base);
+}
+
+/* Luxury button styling */
+.btn-primary {
+  font-family: var(--font-family-body);
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  border: 1px solid var(--color-primary);
+  transition: var(--transition-base);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-widest);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-dark);
+  color: white;
+  border-color: var(--color-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Transparent button variant (for hero CTAs) */
+.btn-transparent {
+  font-family: var(--font-family-body);
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: var(--transition-base);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-widest);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn-transparent:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: white;
+}
+
+/* Elegant link styling */
+a {
+  color: var(--color-foreground);
+  text-decoration: none;
+  transition: var(--transition-base);
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-bottom-color: var(--color-foreground);
+}
+
+/* Card refinement */
+.card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-base);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+/* Hero text specific styling */
+.hero-title {
+  font-family: var(--font-family-heading);
+  font-weight: 300;
+  letter-spacing: var(--letter-spacing-luxury);
+  text-transform: uppercase;
+  line-height: var(--line-height-tight);
+}
+
+.hero-description {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: var(--line-height-7);
 }
