@@ -11,7 +11,7 @@ import type { HeroProps } from './hero.props';
 // Default image for development/preview
 const defaultImage: ImageField = {
   value: {
-    src: '/hero-image-bottom-lifestyle.webp',
+    src: 'https://starter-verticals.sitecoresandbox.cloud/api/public/content/3308fd2668244979b3e94c707a208ac0?v=059ed610',
     alt: 'Woman wearing sunglasses relaxing in open-top car on adventure',
     width: 1920,
     height: 1080,
@@ -53,7 +53,7 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
           <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-amber-400/60 to-transparent pointer-events-none"></div>
 
           {/* Content - Compact checkout-style hero */}
-          <div className="relative z-10 mx-auto flex min-h-[40vh] max-w-[1240px] flex-col items-start justify-end px-5 pb-12 pt-20 text-left @md/herowrapper:min-h-[45vh] @md/herowrapper:px-10 @md/herowrapper:pb-16 @lg/herowrapper:px-24">
+          <div className="relative z-10 flex min-h-[40vh] flex-col items-start justify-end px-5 pb-12 pt-20 text-left @md/herowrapper:min-h-[45vh] @md/herowrapper:px-8 @md/herowrapper:pb-16 @lg/herowrapper:px-12">
             {/* Title - Refined typography */}
             <AnimatedSection
               direction="up"
@@ -64,7 +64,7 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
               <Text
                 tag="h1"
                 field={title}
-                className="font-heading text-white text-[clamp(1.75rem,4vw,2.75rem)] font-extralight uppercase leading-tight tracking-[0.2em]"
+                className="font-heading text-white text-[clamp(0.875rem,2vw,1.125rem)] font-extralight uppercase leading-tight tracking-[0.2em]"
               />
             </AnimatedSection>
 

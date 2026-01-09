@@ -69,7 +69,7 @@ export const Default: React.FC<ImageWrapperProps> = (props) => {
           key={image?.value?.src}
           loader={isPicsumImage ? placeholderImageLoader : undefined}
           src={imageSrc}
-          alt={image?.value?.alt || ''}
+          alt={(image?.value?.alt as string) || ''}
           fill
           className={cn(className, 'object-cover')}
           unoptimized={isUnoptimized}
