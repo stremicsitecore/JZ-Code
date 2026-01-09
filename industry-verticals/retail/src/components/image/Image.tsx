@@ -1,7 +1,7 @@
 import {
   Field,
   ImageField,
-  NextImage as ContentSdkImage,
+  Image as ContentSdkImage,
   Link as ContentSdkLink,
   LinkField,
   Text,

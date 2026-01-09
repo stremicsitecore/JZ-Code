@@ -44,11 +44,14 @@ export const Default: React.FC<ImageWrapperProps> = (props) => {
 
   const isPicsumImage = imageSrc.includes('picsum.photos');
 
+  // Check if image has explicit dimensions
+  const hasExplicitDimensions = image?.value?.width && image?.value?.height;
+
   return (
-    <div className={cn('image-container', wrapperClass)}>
+    <div className={cn('image-container relative', wrapperClass)}>
       {isEditing || isPreview || isSvg ? (
         <ContentSdkImage field={image} className={className} />
-      ) : (
+      ) : hasExplicitDimensions ? (
         <NextImage
           key={image?.value?.src}
           loader={isPicsumImage ? placeholderImageLoader : undefined}
@@ -56,11 +59,22 @@ export const Default: React.FC<ImageWrapperProps> = (props) => {
           className={className}
           unoptimized={isUnoptimized}
           priority={inView ? true : false}
-          sizes={isSvg ? sizes : undefined}
+          sizes={sizes}
           blurDataURL={image?.value?.src}
           placeholder="blur"
-          //if image is an svg and no width is provide, set a default to avoid error, this will be overwritten by css
-          {...(!image?.value?.width && isSvg ? { width: 16, height: 16 } : {})}
+          {...rest}
+        />
+      ) : (
+        <NextImage
+          key={image?.value?.src}
+          loader={isPicsumImage ? placeholderImageLoader : undefined}
+          src={imageSrc}
+          alt={image?.value?.alt || ''}
+          fill
+          className={cn(className, 'object-cover')}
+          unoptimized={isUnoptimized}
+          priority={inView ? true : false}
+          sizes={sizes || '100vw'}
           {...rest}
         />
       )}

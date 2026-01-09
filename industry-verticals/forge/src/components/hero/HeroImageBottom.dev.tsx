@@ -47,10 +47,10 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
           />
 
           {/* Gradient overlay - sophisticated dark-to-transparent for luxury feel */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/20 pointer-events-none"></div>
 
           {/* Decorative accent line */}
-          <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-amber-400/60 to-transparent"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-amber-400/60 to-transparent pointer-events-none"></div>
 
           {/* Content - Compact checkout-style hero */}
           <div className="relative z-10 mx-auto flex min-h-[40vh] max-w-[1240px] flex-col items-start justify-end px-5 pb-12 pt-20 text-left @md/herowrapper:min-h-[45vh] @md/herowrapper:px-10 @md/herowrapper:pb-16 @lg/herowrapper:px-24">
