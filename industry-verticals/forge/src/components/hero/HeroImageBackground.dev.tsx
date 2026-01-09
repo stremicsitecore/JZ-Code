@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Text } from '@sitecore-content-sdk/nextjs';
 import { NoDataFallback } from '@/utils/NoDataFallback';
 import { Default as ImageWrapper } from '@/components/image/ImageWrapper.dev';
@@ -12,11 +12,19 @@ export const HeroImageBackground: React.FC<HeroProps> = (props) => {
   const { fields, isPageEditing } = props;
   const { title, description, image, bannerCTA } = fields || {};
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
     setPrefersReducedMotion(mediaQuery.matches);
   }, []);
+
+  const handleVideoEnded = () => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play();
+    }
+  };
 
   if (fields) {
     return (
@@ -28,10 +36,12 @@ export const HeroImageBackground: React.FC<HeroProps> = (props) => {
           {/* Video Background */}
           <div className="absolute inset-0 w-full h-full z-10">
             <video
+              ref={videoRef}
               autoPlay
               muted
               loop
               playsInline
+              onEnded={handleVideoEnded}
               className="h-full w-full object-cover"
             >
               <source
