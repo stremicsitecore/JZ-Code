@@ -1,6 +1,5 @@
-import React, { type JSX } from 'react';
+import React, { type JSX, useEffect } from 'react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
-import * as Events from '@sitecore-cloudsdk/events/browser';
 import '@sitecore/components/context';
 import dynamic from 'next/dynamic';
 import config from 'sitecore.config';
@@ -26,14 +25,35 @@ import './index.hybrid';
 const BYOCInit = (): JSX.Element | null => {
   const { page } = React.useContext(SitecoreProviderReactContext);
   const { pageState } = page.layout.sitecore.context;
-  // Set context properties to be available within BYOC components
-  FEAAS.setContextProperties({
-    sitecoreEdgeUrl: config.api.edge?.edgeUrl,
-    sitecoreEdgeContextId: config.api.edge?.contextId,
-    pageState: pageState || LayoutServicePageState.Normal,
-    siteName: page.siteName || config.defaultSite,
-    eventsSDK: Events,
-  });
+
+  // Set context properties and dynamically load events SDK after CloudSDK initialization
+  useEffect(() => {
+    const setupContextProperties = async () => {
+      // First set properties without events SDK
+      FEAAS.setContextProperties({
+        sitecoreEdgeUrl: config.api.edge?.edgeUrl,
+        sitecoreEdgeContextId: config.api.edge?.contextId,
+        pageState: pageState || LayoutServicePageState.Normal,
+        siteName: page.siteName || config.defaultSite,
+      });
+
+      // Then try to load events SDK (CloudSDK should be initialized by Bootstrap at this point)
+      try {
+        const Events = await import('@sitecore-cloudsdk/events/browser');
+        FEAAS.setContextProperties({
+          sitecoreEdgeUrl: config.api.edge?.edgeUrl,
+          sitecoreEdgeContextId: config.api.edge?.contextId,
+          pageState: pageState || LayoutServicePageState.Normal,
+          siteName: page.siteName || config.defaultSite,
+          eventsSDK: Events,
+        });
+      } catch (e) {
+        console.debug('Events SDK not available:', e);
+      }
+    };
+
+    setupContextProperties();
+  }, [page.siteName, pageState]);
 
   return <FEAAS.ExternalComponentBundle />;
 };

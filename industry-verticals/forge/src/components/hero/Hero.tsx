@@ -6,6 +6,7 @@ import { HeroImageBottom } from './HeroImageBottom.dev';
 import { HeroImageBottomInset } from './HeroImageBottomInset.dev';
 import { HeroImageBackground } from './HeroImageBackground.dev';
 import { HeroImageRight } from './HeroImageRight.dev';
+import { HeroCheckout } from './HeroCheckout.dev';
 import { useI18n } from 'next-localization';
 import { dictionaryKeys } from '@/variables/dictionary';
 // Data source checks are done in the child components
@@ -84,4 +85,18 @@ export const ImageRight: React.FC<HeroProps> = (props) => {
     props.fields.dictionary = dictionary;
   }
   return <HeroImageRight {...props} isPageEditing={isEditing} />;
+};
+
+export const Checkout: React.FC<HeroProps> = (props) => {
+  const { page } = useSitecore();
+  const { isEditing } = page.mode;
+  const { t } = useI18n();
+  const dictionary = {
+    SubmitCTALabel: t(dictionaryKeys.HERO_SubmitCTALabel) || '',
+    ZipPlaceholder: t(dictionaryKeys.HERO_ZipPlaceholder) || '',
+  };
+  if (props.fields) {
+    props.fields.dictionary = dictionary;
+  }
+  return <HeroCheckout {...props} isPageEditing={isEditing} />;
 };

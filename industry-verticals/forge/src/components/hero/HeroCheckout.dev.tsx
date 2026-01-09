@@ -1,30 +1,17 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Text, ImageField } from '@sitecore-content-sdk/nextjs';
+import { Text } from '@sitecore-content-sdk/nextjs';
 import { NoDataFallback } from '@/utils/NoDataFallback';
 import { Default as ImageWrapper } from '@/components/image/ImageWrapper.dev';
 import { Default as AnimatedSection } from '@/components/animated-section/AnimatedSection.dev';
 import { ButtonBase } from '@/components/button-component/ButtonComponent';
 import type { HeroProps } from './hero.props';
 
-// Default image for development/preview
-const defaultImage: ImageField = {
-  value: {
-    src: '/hero-image-bottom-lifestyle.webp',
-    alt: 'Woman wearing sunglasses relaxing in open-top car on adventure',
-    width: 1920,
-    height: 1080,
-  },
-};
-
-export const HeroImageBottom: React.FC<HeroProps> = (props) => {
+export const HeroCheckout: React.FC<HeroProps> = (props) => {
   const { fields, isPageEditing } = props;
   const { title, description, image, bannerCTA } = fields || {};
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-
-  // Use default image if no Sitecore image is provided
-  const heroImage = image?.value?.src ? image : defaultImage;
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -34,13 +21,13 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
   if (fields) {
     return (
       <section
-        data-component="HeroImageBottom"
+        data-component="HeroCheckout"
         className="@container/herowrapper bg-background text-foreground relative w-full overflow-hidden"
       >
         <div className="relative">
           {/* Background Image - Elegant resort-style presentation */}
           <ImageWrapper
-            image={heroImage}
+            image={image}
             wrapperClass="absolute w-full inset-0"
             className="h-full w-full object-cover object-center"
             priority={true}
@@ -53,7 +40,7 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
           <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-amber-400/60 to-transparent"></div>
 
           {/* Content - Compact checkout-style hero */}
-          <div className="relative z-10 mx-auto flex min-h-[40vh] max-w-[1240px] flex-col items-start justify-end px-5 pb-12 pt-20 text-left @md/herowrapper:min-h-[45vh] @md/herowrapper:px-10 @md/herowrapper:pb-16 @lg/herowrapper:px-24">
+          <div className="relative z-10 mx-auto flex min-h-[40vh] max-w-[1240px] flex-col items-center justify-end px-5 pb-12 pt-20 text-center @md/herowrapper:min-h-[45vh] @md/herowrapper:px-10 @md/herowrapper:pb-16 @lg/herowrapper:px-24">
             {/* Title - Refined typography */}
             <AnimatedSection
               direction="up"
@@ -90,7 +77,7 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
               {description && (
                 <Text
                   tag="p"
-                  className="text-white/90 max-w-[45ch] text-pretty text-base font-light leading-relaxed tracking-wide @md/herowrapper:text-lg"
+                  className="text-white/90 mx-auto max-w-[45ch] text-pretty text-base font-light leading-relaxed tracking-wide @md/herowrapper:text-lg"
                   field={description}
                 />
               )}
@@ -119,6 +106,6 @@ export const HeroImageBottom: React.FC<HeroProps> = (props) => {
     );
   }
 
-  return <NoDataFallback componentName="HeroImageBottom" />;
+  return <NoDataFallback componentName="HeroCheckout" />;
 };
 

@@ -2,111 +2,164 @@ import { useRef } from 'react';
 import { Text } from '@sitecore-content-sdk/nextjs';
 import { GlobalFooterProps } from '@/components/global-footer/global-footer.props';
 import { NoDataFallback } from '@/utils/NoDataFallback';
-import { cn } from '@/lib/utils';
 import { Default as EmailSignupForm } from '@/components/forms/email/EmailSignupForm.dev';
-import { Default as FooterNavigationColumn } from './FooterNavigationColumn.dev';
-import { EditableButton } from '@/components/button-component/ButtonComponent';
-import { AnimatedHoverNav } from '@/components/ui/animated-hover-nav';
+
+// Static navigation structure matching One&Only Resorts footer
+const navigationColumns = [
+  {
+    header: 'ABOUT US',
+    links: [
+      { label: 'About One&Only', href: '#' },
+      { label: 'Our Resorts', href: '#' },
+      { label: 'Private Homes', href: '#' },
+    ],
+  },
+  {
+    header: 'NEWS AND AWARDS',
+    links: [
+      { label: 'Media Centre', href: '#' },
+      { label: 'Awards', href: '#' },
+      { label: 'Newsletter Signup', href: '#' },
+    ],
+  },
+  {
+    header: 'TERMS & CONDITIONS',
+    links: [
+      { label: 'Privacy Policy', href: '#' },
+      { label: 'Website Terms', href: '#' },
+      { label: 'Sitemap', href: '#' },
+    ],
+  },
+  {
+    header: 'CONTACT',
+    links: [{ label: 'Contact Us', href: '#' }],
+  },
+  {
+    header: 'KERZNER',
+    links: [
+      { label: 'Atlantis', href: '#' },
+      { label: 'SIRO', href: '#' },
+      { label: 'Rare Finds', href: '#' },
+      { label: 'Careers', href: '#' },
+    ],
+  },
+];
 
 export const GlobalFooterDefault: React.FC<GlobalFooterProps> = (props) => {
-  const { fields, isPageEditing } = props;
+  const { fields } = props;
   const { dictionary } = fields;
-  const { footerNavLinks, footerCopyright, socialLinks, tagline, emailSubscriptionTitle } =
-    fields.data.datasource ?? {};
+  const { footerCopyright, tagline, emailSubscriptionTitle } = fields.data.datasource ?? {};
 
   const footerRef = useRef<HTMLDivElement>(null);
 
   if (fields) {
     return (
-      <footer
-        className="@container bg-primary text-primary-foreground border-foreground relative w-full overflow-hidden border-b-2"
-        ref={footerRef}
-      >
-        {/* Main footer content */}
-        <div className="border-foreground border-b-2 px-4 py-16">
-          <div className="@xl:px-8 relative z-10 mx-auto max-w-screen-2xl">
-            <div className="@lg:grid-cols-[2fr,1fr] grid grid-cols-1 items-end justify-end gap-8">
-              {/* Left section with heading */}
-              <div>
-                <Text
-                  tag="h2"
-                  field={tagline?.jsonValue}
-                  className="font-heading mb-8 text-pretty text-5xl font-light antialiased"
-                />
-                {/* Navigation links */}
-                <FooterNavigationColumn
-                  items={footerNavLinks?.results}
-                  isPageEditing={isPageEditing}
-                  parentRef={footerRef}
-                />
-              </div>
+      <footer className="@container w-full" ref={footerRef}>
+        {/* Newsletter Section - with palm leaf pattern */}
+        <div className="relative overflow-hidden bg-[#1a1a1a] px-4 py-20">
+          {/* Palm leaf decorative pattern - CSS background */}
+          <div
+            className="pointer-events-none absolute inset-0 opacity-20"
+            aria-hidden="true"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 0 C30 20, 20 40, 25 50 C30 60, 45 55, 50 50 C55 55, 70 60, 75 50 C80 40, 70 20, 50 0' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3Cpath d='M0 50 C20 30, 40 20, 50 25 C60 30, 55 45, 50 50 C55 55, 60 70, 50 75 C40 80, 20 70, 0 50' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3C/svg%3E")`,
+              backgroundSize: '200px 200px',
+            }}
+          />
 
-              {/* Right section with subscription form */}
-              <div className="@md:max-w-[400px] ms-auto flex w-full flex-col gap-4">
-                <Text
-                  className="font-body mb-4 text-xl font-medium"
-                  field={emailSubscriptionTitle?.jsonValue}
-                />
-                <div className="@sm:flex-row flex flex-col gap-2">
-                  <EmailSignupForm
-                    fields={{
-                      buttonVariant: 'secondary',
-                      emailPlaceholder: {
-                        value: dictionary?.FOOTER_EmailPlaceholder,
-                      },
-                      emailSubmitLabel: {
-                        value: dictionary?.FOOTER_EmailSubmitLabel,
-                      },
-                      emailErrorMessage: {
-                        value: dictionary?.FOOTER_EmailErrorMessage,
-                      },
-                      emailSuccessMessage: {
-                        value: dictionary?.FOOTER_EmailSuccessMessage,
-                      },
-                    }}
-                  />
-                </div>
-              </div>
+          <div className="relative z-10 mx-auto max-w-screen-xl text-center">
+            {/* STAY CONNECTED */}
+            <Text
+              tag="h2"
+              field={tagline?.jsonValue}
+              className="mb-4 text-sm font-light tracking-[0.3em] text-white"
+            />
+
+            {/* SIGN UP TO OUR NEWSLETTER */}
+            <Text
+              tag="p"
+              field={emailSubscriptionTitle?.jsonValue}
+              className="mb-10 text-lg font-light tracking-[0.2em] text-white"
+            />
+
+            {/* Sign Up Button */}
+            <div className="flex justify-center">
+              <EmailSignupForm
+                fields={{
+                  buttonVariant: 'outline',
+                  emailPlaceholder: {
+                    value: dictionary?.FOOTER_EmailPlaceholder,
+                  },
+                  emailSubmitLabel: {
+                    value: dictionary?.FOOTER_EmailSubmitLabel || 'SIGN UP',
+                  },
+                  emailErrorMessage: {
+                    value: dictionary?.FOOTER_EmailErrorMessage,
+                  },
+                  emailSuccessMessage: {
+                    value: dictionary?.FOOTER_EmailSuccessMessage,
+                  },
+                }}
+              />
             </div>
           </div>
         </div>
 
-        {/* Background logo - semi-transparent */}
-        <div className="-z-1 pointer-events-none absolute inset-0 opacity-90" aria-hidden="true">
-          <div className="flex h-full w-full items-end justify-center leading-none">
-            <div className="bg-primary-gradient text-fill-transparent text-50-clamp -mb-14 bg-clip-text font-bold leading-none text-transparent">
-              Forge
-            </div>
-          </div>
-        </div>
+        {/* Main Footer Navigation */}
+        <div className="bg-[#0d0d0d] px-4 py-16">
+          <div className="@xl:px-8 mx-auto max-w-screen-xl">
+            <div className="@lg:grid-cols-[1fr_3fr] grid grid-cols-1 gap-12">
+              {/* Logo Section */}
+              <div className="@lg:text-left text-center">
+                <span
+                  className="text-3xl text-white"
+                  style={{
+                    fontFamily: "'Playfair Display', 'Times New Roman', serif",
+                    fontStyle: 'italic',
+                    fontWeight: 400,
+                  }}
+                >
+                  One&amp;Only
+                </span>
+              </div>
 
-        {/* Bottom footer with social icons and copyright */}
-        <div className="@md:min-h-[430px] relative z-0 mx-auto mt-8 flex max-w-screen-2xl flex-col justify-end px-4 py-8">
-          <div className="@sm:flex-row flex flex-col items-center justify-between">
-            {/* Social media icons */}
-            <AnimatedHoverNav
-              parentRef={footerRef}
-              mobileBreakpoint={null}
-              indicatorClassName="h-0-5 bg-secondary rounded-default bottom-0"
-            >
-              <ul className="@sm:mb-0 mb-0 flex list-none gap-6">
-                {socialLinks?.results?.map((socialLink, index) => (
-                  <li key={index}>
-                    <EditableButton
-                      buttonLink={socialLink?.link?.jsonValue}
-                      className={cn('relative hover:bg-transparent')}
-                      variant="ghost"
-                      size={isPageEditing ? 'default' : 'icon'}
-                      isPageEditing={isPageEditing}
-                      icon={socialLink?.socialIcon?.jsonValue}
-                      asIconLink={true}
-                    />
-                  </li>
+              {/* Navigation Columns */}
+              <div className="@lg:grid-cols-5 @md:grid-cols-3 @sm:grid-cols-2 grid grid-cols-1 gap-8">
+                {navigationColumns.map((column, colIndex) => (
+                  <div key={colIndex}>
+                    {/* Column Header */}
+                    <h3 className="mb-6 text-xs font-medium uppercase tracking-[0.15em] text-white">
+                      {column.header}
+                    </h3>
+
+                    {/* Column Links */}
+                    <ul className="space-y-3">
+                      {column.links.map((link, linkIndex) => (
+                        <li key={linkIndex}>
+                          <a
+                            href={link.href}
+                            className="text-sm font-light text-white transition-opacity hover:opacity-70"
+                          >
+                            {link.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 ))}
-              </ul>
-            </AnimatedHoverNav>
-            {/* Copyright text */}
-            <Text field={footerCopyright?.jsonValue} encode={false} />
+              </div>
+            </div>
+
+            {/* Bottom copyright */}
+            {footerCopyright?.jsonValue?.value && (
+              <div className="mt-16 border-t border-white/10 pt-8 text-center">
+                <Text
+                  field={footerCopyright?.jsonValue}
+                  encode={false}
+                  className="text-xs text-white"
+                />
+              </div>
+            )}
           </div>
         </div>
       </footer>

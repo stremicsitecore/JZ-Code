@@ -21,7 +21,7 @@ import { isMobile } from '@/utils/isMobile';
 import { extractVideoId } from '@/utils/video';
 import { NoDataFallback } from '@/utils/NoDataFallback';
 import { cn, getYouTubeThumbnail } from '@/lib/utils';
-import { Text, useSitecore, Link, Placeholder, RichText, NextImage, withDatasourceCheck, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
+import { Text, RichText, Link, useSitecore, Placeholder, NextImage as NextImage_8a80e63291fea86e0744df19113dc44bec187216, withDatasourceCheck, Image, CdpHelper, DateField } from '@sitecore-content-sdk/nextjs';
 import { Default as Default_86213dc9d44683259b98a62fc55d1fe1127767c5 } from '@/components/image/ImageWrapper.dev';
 import { ButtonBase } from '@/components/button-component/ButtonComponent';
 import * as TooltipPrimitive from '@radix-ui/react-tooltip';
@@ -32,7 +32,7 @@ import { toggleVariants } from '@/components/ui/toggle';
 import { useToast } from '@/hooks/use-toast';
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from '@/components/ui/toast';
 import * as ToastPrimitives from '@radix-ui/react-toast';
-import { X, PanelLeft, Check, ChevronDown, ChevronUp, GripVertical, Circle, ChevronLeft, ChevronRight, MoreHorizontal, Dot, Search, ArrowLeft, ArrowRight, Menu, Pause, Play, Facebook, Linkedin, Twitter, Link as Link_6b289e2de0a07a8bed65fcf19e83723e986797b2, Mail, Calendar, Share2, User, Bookmark } from 'lucide-react';
+import { X, PanelLeft, Check, ChevronDown, ChevronUp, GripVertical, Circle, ChevronLeft, ChevronRight, MoreHorizontal, Dot, Search, ArrowLeft, ArrowRight, Menu, Play, Pause, Facebook, Linkedin, Twitter, Link as Link_6b289e2de0a07a8bed65fcf19e83723e986797b2, Mail, Calendar, Share2, User, Bookmark } from 'lucide-react';
 import * as TabsPrimitive from '@radix-ui/react-tabs';
 import * as SwitchPrimitives from '@radix-ui/react-switch';
 import { useTheme } from 'next-themes';
@@ -80,6 +80,7 @@ import { Accordion, Content, Header, Item, Trigger } from '@radix-ui/react-accor
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { Meteors } from '@/components/magicui/meteors';
 import { TopicItem } from 'src/components/topic-listing/TopicItem.dev';
+import NextImage from 'next/image';
 import { TextBannerDefault } from 'src/components/text-banner/TextBannerDefault.dev';
 import { TextBannerTextTop } from 'src/components/text-banner/TextBannerTextTop.dev';
 import { TextBannerBlueTitleRight } from 'src/components/text-banner/TextBannerBlueTitleRight.dev';
@@ -111,7 +112,6 @@ import CardViewSwitcher from 'src/components/search/CardViewSwitcher';
 import { useSearchTracking } from 'src/hooks/useSearchTracking';
 import SearchResultsWidget from 'src/components/search/SearchResultsComponent';
 import QuestionsAnswers from 'src/components/search/QuestionsAnswers';
-import Image from 'next/image';
 import SuggestionBlock from 'src/components/search/SuggestionBlock';
 import { Select as Select_74a315bf8f39737a75c686fc0a3118c1056b2a17, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { PromoImageDefault } from 'src/components/promo-image/PromoImageDefault.dev';
@@ -160,6 +160,7 @@ import { HeroImageBottom } from 'src/components/hero/HeroImageBottom.dev';
 import { HeroImageBottomInset } from 'src/components/hero/HeroImageBottomInset.dev';
 import { HeroImageBackground } from 'src/components/hero/HeroImageBackground.dev';
 import { HeroImageRight } from 'src/components/hero/HeroImageRight.dev';
+import { HeroCheckout } from 'src/components/hero/HeroCheckout.dev';
 import { useI18n } from 'next-localization';
 import { dictionaryKeys } from '@/variables/dictionary';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '@/components/ui/navigation-menu';
@@ -294,13 +295,13 @@ const importMap = [
     module: '@sitecore-content-sdk/nextjs',
     exports: [
       { name: 'Text', value: Text },
-      { name: 'useSitecore', value: useSitecore },
-      { name: 'Link', value: Link },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'RichText', value: RichText },
-      { name: 'NextImage', value: NextImage },
+      { name: 'Link', value: Link },
+      { name: 'useSitecore', value: useSitecore },
+      { name: 'Placeholder', value: Placeholder },
+      { name: 'NextImage', value: NextImage_8a80e63291fea86e0744df19113dc44bec187216 },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
-      { name: 'Image', value: Image_8a80e63291fea86e0744df19113dc44bec187216 },
+      { name: 'Image', value: Image },
       { name: 'CdpHelper', value: CdpHelper },
       { name: 'DateField', value: DateField },
     ]
@@ -388,8 +389,8 @@ const importMap = [
       { name: 'ArrowLeft', value: ArrowLeft },
       { name: 'ArrowRight', value: ArrowRight },
       { name: 'Menu', value: Menu },
-      { name: 'Pause', value: Pause },
       { name: 'Play', value: Play },
+      { name: 'Pause', value: Pause },
       { name: 'Facebook', value: Facebook },
       { name: 'Linkedin', value: Linkedin },
       { name: 'Twitter', value: Twitter },
@@ -694,6 +695,12 @@ const importMap = [
     ]
   },
   {
+    module: 'next/image',
+    exports: [
+      { name: 'default', value: NextImage },
+    ]
+  },
+  {
     module: 'src/components/text-banner/TextBannerDefault.dev',
     exports: [
       { name: 'TextBannerDefault', value: TextBannerDefault },
@@ -913,12 +920,6 @@ const importMap = [
     module: 'src/components/search/QuestionsAnswers',
     exports: [
       { name: 'default', value: QuestionsAnswers },
-    ]
-  },
-  {
-    module: 'next/image',
-    exports: [
-      { name: 'default', value: Image },
     ]
   },
   {
@@ -1216,6 +1217,12 @@ const importMap = [
     module: 'src/components/hero/HeroImageRight.dev',
     exports: [
       { name: 'HeroImageRight', value: HeroImageRight },
+    ]
+  },
+  {
+    module: 'src/components/hero/HeroCheckout.dev',
+    exports: [
+      { name: 'HeroCheckout', value: HeroCheckout },
     ]
   },
   {
